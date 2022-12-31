@@ -1,0 +1,136 @@
+[13-Dec-2019 12:08:17 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_no' in 'where clause' in /home/mohiuddincom/public_html/Administration/Data/delete.php:12
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/delete.php(12): PDO->query('DELETE FROM `lo...')
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(13): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/delete.php on line 12
+[13-Dec-2019 12:08:35 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_no' in 'where clause' in /home/mohiuddincom/public_html/Administration/Data/delete.php:12
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/delete.php(12): PDO->query('DELETE FROM `lo...')
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(13): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/delete.php on line 12
+[13-Dec-2019 12:08:41 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_no' in 'where clause' in /home/mohiuddincom/public_html/Administration/Data/delete.php:12
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/delete.php(12): PDO->query('DELETE FROM `lo...')
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(13): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/delete.php on line 12
+[13-Dec-2019 12:09:07 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_no' in 'where clause' in /home/mohiuddincom/public_html/Administration/Data/delete.php:12
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/delete.php(12): PDO->query('DELETE FROM `lo...')
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(13): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/delete.php on line 12
+[13-Dec-2019 12:09:17 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_no' in 'where clause' in /home/mohiuddincom/public_html/Administration/Data/delete.php:12
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/delete.php(12): PDO->query('DELETE FROM `lo...')
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(13): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/delete.php on line 12
+[13-Dec-2019 12:10:14 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_no' in 'where clause' in /home/mohiuddincom/public_html/Administration/Data/delete.php:12
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/delete.php(12): PDO->query('DELETE FROM `lo...')
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(13): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/delete.php on line 12
+[13-Dec-2019 12:27:01 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:27:02 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:27:08 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:27:09 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:30:37 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:30:37 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:30:40 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:30:41 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:30:43 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:30:44 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:30:54 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:30:54 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:31:05 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:31:06 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:31:07 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 12:31:08 Asia/Dhaka] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/mohiuddincom/public_html/Administration/Data/personal_information.php on line 29
+[13-Dec-2019 15:34:03 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:34:18 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:35:33 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:36:36 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:37:26 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:37:50 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:38:39 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:38:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:39:18 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:39:56 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:40:27 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[13-Dec-2019 15:40:45 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[24-Jan-2020 12:21:27 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39
+[24-Jan-2020 12:22:18 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'publishid' at row 1 in /home/mohiuddincom/public_html/Administration/Data/insert_data.php:39
+Stack trace:
+#0 /home/mohiuddincom/public_html/Administration/Data/insert_data.php(39): PDOStatement->execute()
+#1 /home/mohiuddincom/public_html/Administration/Data/index.php(11): include('/home/mohiuddin...')
+#2 {main}
+  thrown in /home/mohiuddincom/public_html/Administration/Data/insert_data.php on line 39

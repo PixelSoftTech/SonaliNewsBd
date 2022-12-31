@@ -1,0 +1,112 @@
+[01-Aug-2022 10:04:10 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'paper_name_bn' in 'field list' in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php:51
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php(51): PDO->prepare('INSERT INTO  `m...')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(11): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php on line 51
+[01-Aug-2022 09:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/magiclan/public_html/newdemo/Administration/Data/News_create.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/magiclan/public_html/newdemo/Administration/Data/News_create.php on line 212
+[02-Aug-2022 10:50:05 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'start_time' in 'field list' in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php:110
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php(110): PDO->prepare('INSERT INTO  `n...')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(11): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php on line 110
+[02-Aug-2022 11:48:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deleted_at' in 'where clause' in /home/magiclan/public_html/newdemo/Administration/Data/Advertisement.php:65
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/Administration/Data/Advertisement.php(65): PDO->query('SELECT *  FROM ...')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(120): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/Administration/Data/Advertisement.php on line 65
+[02-Aug-2022 11:48:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deleted_at' in 'where clause' in /home/magiclan/public_html/newdemo/Administration/Data/Advertisement.php:65
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/Administration/Data/Advertisement.php(65): PDO->query('SELECT *  FROM ...')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(120): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/Administration/Data/Advertisement.php on line 65
+[02-Aug-2022 13:02:03 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'company_name' in 'field list' in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php:51
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php(51): PDO->prepare('INSERT INTO  `p...')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(11): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php on line 51
+[02-Aug-2022 13:03:51 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token' in 'field list' in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php:51
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php(51): PDO->prepare('INSERT INTO  `a...')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(11): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php on line 51
+[02-Aug-2022 13:05:20 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photo' in 'field list' in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php:51
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php(51): PDO->prepare('INSERT INTO  `a...')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(11): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/Administration/Data/insert_data.php on line 51
+[02-Aug-2022 16:18:20 Asia/Dhaka] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Y-m-d h:iA) at position 1 (-): Unexpected character in /home/magiclan/public_html/newdemo/DBhandelar.php:11
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/DBhandelar.php(11): DateTime->__construct('Y-m-d h:iA')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(4): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/DBhandelar.php on line 11
+[02-Aug-2022 16:18:44 Asia/Dhaka] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Y-m-dh:iA) at position 1 (-): Unexpected character in /home/magiclan/public_html/newdemo/DBhandelar.php:11
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/DBhandelar.php(11): DateTime->__construct('Y-m-dh:iA')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(4): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/DBhandelar.php on line 11
+[02-Aug-2022 16:19:07 Asia/Dhaka] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (YmdhiA) at position 0 (Y): The timezone could not be found in the database in /home/magiclan/public_html/newdemo/DBhandelar.php:11
+Stack trace:
+#0 /home/magiclan/public_html/newdemo/DBhandelar.php(11): DateTime->__construct('YmdhiA')
+#1 /home/magiclan/public_html/newdemo/Administration/Data/index.php(4): include('/home/magiclan/...')
+#2 {main}
+  thrown in /home/magiclan/public_html/newdemo/DBhandelar.php on line 11
+[09-Aug-2022 20:32:09 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '2022-08-09 08:32:09pm' for column 'updated_at' at row 1 in /home/dawatulislam24/public_html/Administration/Data/edit_data.php:385
+Stack trace:
+#0 /home/dawatulislam24/public_html/Administration/Data/edit_data.php(385): PDOStatement->execute()
+#1 /home/dawatulislam24/public_html/Administration/Data/index.php(12): include('/home/dawatulis...')
+#2 {main}
+  thrown in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 385
+[09-Aug-2022 20:32:19 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '2022-08-09 08:32:19pm' for column 'updated_at' at row 1 in /home/dawatulislam24/public_html/Administration/Data/edit_data.php:385
+Stack trace:
+#0 /home/dawatulislam24/public_html/Administration/Data/edit_data.php(385): PDOStatement->execute()
+#1 /home/dawatulislam24/public_html/Administration/Data/index.php(12): include('/home/dawatulis...')
+#2 {main}
+  thrown in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 385
+[09-Aug-2022 20:40:00 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '2022-08-09 08:40:00pm' for column 'updated_at' at row 1 in /home/dawatulislam24/public_html/Administration/Data/edit_data.php:385
+Stack trace:
+#0 /home/dawatulislam24/public_html/Administration/Data/edit_data.php(385): PDOStatement->execute()
+#1 /home/dawatulislam24/public_html/Administration/Data/index.php(12): include('/home/dawatulis...')
+#2 {main}
+  thrown in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 385
+[02-Sep-2022 11:58:27 Asia/Dhaka] PHP Warning:  move_uploaded_file(../../NewsImage/ইসলামি বিশ্ব কি অতীত থেকে শিক্ষা নিতে পারে এবং বিজ্ঞান ও প্রযুক্তির নতুন চ্যালেঞ্জের সাথে খাপ খাইয়ে নিতে পারে1662098307.jpg): failed to open stream: File name too long in /home/dawatulislam24/public_html/Administration/Data/insert_data.php on line 77
+[02-Sep-2022 11:58:27 Asia/Dhaka] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpTUZrmM' to '../../NewsImage/ইসলামি বিশ্ব কি অতীত থেকে শিক্ষা নিতে পারে এবং বিজ্ঞান ও প্রযুক্তির নতুন চ্যালেঞ্জের সাথে খাপ খাইয়ে নিতে পারে1662098307.jpg' in /home/dawatulislam24/public_html/Administration/Data/insert_data.php on line 77
+[02-Sep-2022 11:59:05 Asia/Dhaka] PHP Warning:  move_uploaded_file(../../NewsImage/ইসলামি বিশ্ব কি অতীত থেকে শিক্ষা নিতে পারে এবং বিজ্ঞান ও প্রযুক্তির নতুন চ্যালেঞ্জের সাথে খাপ খাইয়ে নিতে পারে1662098345.jpg): failed to open stream: File name too long in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 215
+[02-Sep-2022 11:59:05 Asia/Dhaka] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php8Fkpzj' to '../../NewsImage/ইসলামি বিশ্ব কি অতীত থেকে শিক্ষা নিতে পারে এবং বিজ্ঞান ও প্রযুক্তির নতুন চ্যালেঞ্জের সাথে খাপ খাইয়ে নিতে পারে1662098345.jpg' in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 215
+[02-Sep-2022 12:03:09 Asia/Dhaka] PHP Warning:  move_uploaded_file(../../NewsImage/ইসলামি বিশ্ব কি অতীত থেকে শিক্ষা নিতে পারে এবং বিজ্ঞান ও প্রযুক্তির নতুন চ্যালেঞ্জের সাথে খাপ খাইয়ে নিতে পারে1662098590.jpg): failed to open stream: File name too long in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 215
+[02-Sep-2022 12:03:09 Asia/Dhaka] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpccwXq2' to '../../NewsImage/ইসলামি বিশ্ব কি অতীত থেকে শিক্ষা নিতে পারে এবং বিজ্ঞান ও প্রযুক্তির নতুন চ্যালেঞ্জের সাথে খাপ খাইয়ে নিতে পারে1662098590.jpg' in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 215
+[13-Sep-2022 17:40:36 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'হ' অক্ষর1663069237.jpg'  where id=4981' at line 1 in /home/dawatulislam24/public_html/Administration/Data/edit_data.php:217
+Stack trace:
+#0 /home/dawatulislam24/public_html/Administration/Data/edit_data.php(217): PDO->query('UPDATE `news` S...')
+#1 /home/dawatulislam24/public_html/Administration/Data/index.php(12): include('/home/dawatulis...')
+#2 {main}
+  thrown in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 217
+[13-Sep-2022 17:40:43 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'হ' অক্ষর1663069243.jpg'  where id=4981' at line 1 in /home/dawatulislam24/public_html/Administration/Data/edit_data.php:217
+Stack trace:
+#0 /home/dawatulislam24/public_html/Administration/Data/edit_data.php(217): PDO->query('UPDATE `news` S...')
+#1 /home/dawatulislam24/public_html/Administration/Data/index.php(12): include('/home/dawatulis...')
+#2 {main}
+  thrown in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 217
+[13-Sep-2022 17:40:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'হ' অক্ষর1663069247.jpg'  where id=4981' at line 1 in /home/dawatulislam24/public_html/Administration/Data/edit_data.php:217
+Stack trace:
+#0 /home/dawatulislam24/public_html/Administration/Data/edit_data.php(217): PDO->query('UPDATE `news` S...')
+#1 /home/dawatulislam24/public_html/Administration/Data/index.php(12): include('/home/dawatulis...')
+#2 {main}
+  thrown in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 217
+[13-Sep-2022 17:40:57 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'হ' অক্ষর1663069258.jpg'  where id=4981' at line 1 in /home/dawatulislam24/public_html/Administration/Data/edit_data.php:217
+Stack trace:
+#0 /home/dawatulislam24/public_html/Administration/Data/edit_data.php(217): PDO->query('UPDATE `news` S...')
+#1 /home/dawatulislam24/public_html/Administration/Data/index.php(12): include('/home/dawatulis...')
+#2 {main}
+  thrown in /home/dawatulislam24/public_html/Administration/Data/edit_data.php on line 217
