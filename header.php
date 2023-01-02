@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="bn">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>News Depend : Bangla News Portal</title>
+      <meta property="fb:app_id" content="3102640556528237" />
+      <meta property="fb:pages" content="100523345143327" />
+      <meta name="theme-color" content="#124B65">
+      <!-- <link rel="dns-prefetch" href="//www.google-analytics.com/">
+         <link rel="dns-prefetch" href="//s7.addthis.com">
+         <link rel="dns-prefetch" href="//m.addthis.com">
+         <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com">
+         <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+         <link rel="dns-prefetch" href="//connect.facebook.net">
+         <link rel="dns-prefetch" href="//adservice.google.com">
+         <link rel="dns-prefetch" href="https://www.dhakapost.com">
+         <link rel="dns-prefetch" href="//certify.alexametrics.com">
+         <link rel="dns-prefetch" href="//cdn.dhakapost.com">
+         <link rel="dns-prefetch" href="//assets.dhakapost.com">
+         <link rel="preconnect" href="//stackpath.bootstrapcdn.com">
+         <link rel="preconnect" href="//cdn.dhakapost.com">
+         <link rel="preconnect" href="//assets.dhakapost.com"> -->
+      <link rel="manifest" href="manifest.json" />
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#124B65">
+      <meta name="apple-mobile-web-app-title" content="News Depend">
+      <link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://cdn.dhakapost.com/config/icons/apple-icon-precomposed.png">
+      <link rel="apple-touch-icon" sizes="57x57" href="https://cdn.dhakapost.com/config/icons/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.dhakapost.com/config/icons/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.dhakapost.com/config/icons/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.dhakapost.com/config/icons/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.dhakapost.com/config/icons/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.dhakapost.com/config/icons/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="https://cdn.dhakapost.com/config/icons/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.dhakapost.com/config/icons/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.dhakapost.com/config/icons/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" href="assets/forAll/img/ND.png">
+      <meta name="description" content="Dhaka Post is a newly started online Bangla news portal to provide latest stories in several sections including Bangladesh, International, Sports, Entertainment, Features, Opinion, Tech & more.">
+      <meta property="og:type" content="website" />
+      <!-- <meta property="og:url" content="https://www.dhakapost.com" />
+         <meta property="og:title" content="Dhaka Post: Bangla News Portal" /> -->
+      <meta property="og:image" content="https://cdn.dhakapost.com/media/common/dhakapost-og-image.jpg" />
+      <meta property="og:description" content="News Depend is a newly started online Bangla news portal to provide latest stories in several sections including Bangladesh, International, Sports, Entertainment, Features, Opinion, Tech & more.">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@DPostOnline">
+      <meta name="twitter:title" content="News Depend: Bangla News Portal">
+      <meta name="twitter:description" content="News Depend is a newly started online Bangla news portal to provide latest stories in several sections including Bangladesh, International, Sports, Entertainment, Features, Opinion, Tech & more.">
+      <meta name="twitter:image" content="https://cdn.dhakapost.com/media/common/dhakapost-og-image.jpg">
+      <!-- <meta content="300" http-equiv="refresh"> -->
+      <meta name="robots" content="index,follow">
+      <link rel="canonical" href="https://www.dhakapost.com">
+      <meta name="keywords" content="Bangaldesh News, Bangla News, Bangla News Online, Online Bangla News, Bangladeshi News, Bangladeshi News Online, Bengali News, Bengali Online News, Dhaka Bangladesh News, Breaking News, World News, BD News">
+      <style>
+         .worldcup-title a img {
+         width: 100%;
+         }
+         .worldcup {
+         border: 2px solid #911a39;
+         background: #ccc;
+         }
+         .worldcup-box img {
+         width: 100%;
+         border-radius: 5px;
+         }
+      </style>
+      <script type="application/ld+json">
+         {
+         	"@context": "https://schema.org",
+         	"@type": "Organization",
+         	"url": "https://www.dhakapost.com/",
+         	"logo": "https://cdn.dhakapost.com/media/common/dhaka-post-logo.svg",
+         	"contactPoint" : [
+         		{
+         			"@type" : "ContactPoint",
+         			"telephone" : "+8809613678678, +8801313767742",
+         			"email" : "info@dhakapost.com",
+         			"contactType" : "customer service"
+         		}
+         	],
+         	"sameAs" : [
+         		"https://www.facebook.com/DPostOnline",
+         		"https://twitter.com/dpostonline",
+         		"https://www.youtube.com/c/DhakaPostOfficial"
+         	]
+         }
+         
+      </script>
+      <script type="application/ld+json">
+         {
+             "@context": "https://schema.org",
+             "@type": "WebSite",
+             "url": "https://www.dhakapost.com/",
+             "description": "Dhaka Post is a newly started online Bangla news portal to provide latest stories in several sections including Bangladesh, International, Sports, Entertainment, Features, Opinion, Tech & more.",
+             "publisher": "Dhaka Post: Bangla News Portal",
+             "creator": [],
+             "keywords": ["Bangaldesh News", "Bangla News", "Bangla News Online", "Online Bangla News", "Bangladeshi News", "Bangladeshi News Online", "Bengali News", "Bengali Online News", "Dhaka Bangladesh News", "Breaking News", "World News", "BD News"],
+             "potentialAction": {
+                 "@type": "SearchAction",
+                 "target": "https://www.dhakapost.com/search?q={search_term_string}",
+                 "query-input": "required name=search_term_string"
+             }
+         }
+         
+      </script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/forAll/css/style.css">
+      <link rel="stylesheet" type="text/css" href="https://cdn.dhakapost.com/assets/common/css/SolaimanLipi.css">
+      <!-- <script>(function (w, d, s, l, i) {
+         w[l] = w[l] || [];
+         w[l].push({
+             'gtm.start':
+                 new Date().getTime(), event: 'gtm.js'
+         });
+         var f = d.getElementsByTagName(s)[0],
+             j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+         j.async = true;
+         j.src =
+             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+         f.parentNode.insertBefore(j, f);
+         })(window, document, 'script', 'dataLayer', 'GTM-PMJ5N5H');</script>
+         <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> -->
+      <style>
+         body, .advertisement {
+         background: #f9f9f9;
+         }
+         nav, .navbar, .sticky-top {
+         z-index: 9999!important;
+         }
+         .genecy-floater-ad {
+         z-index: 2147483647!important;
+         }
+         @media  screen and (max-width: 1299px) and (min-width: 1200px) {
+         .container {
+         max-width: 100%;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <noscript>
+         <!-- <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMJ5N5H" height="0" width="0" style="display:none;visibility:hidden"></iframe> -->
+      </noscript>
+      <div class="body-items" style="background: #f9f9f9">
+         <div class="container d-none d-lg-flex py-3 navbar-root" id="section-down">
+            <div class="d-flex justify-content-between align-items-center w-100">
+               <a class="brand-logo-top" title="Dhaka Post" href="/">
+               <img style="max-width: 300px;" src="https://cdn.dhakapost.com/media/common/dhaka-post-logo.svg" alt="Dhaka Post" />
+               </a>
+               <p class="d-flex align-items-center">
+                  <span class="d-flex align-items-center mr-3">
+                     <svg class="mr-2" fill="black" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 24 24" width="18">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                     </svg>
+                     <span>ঢাকা</span>
+                  </span>
+                  <span class="d-flex align-items-center">
+                     <svg class="mr-2" fill="black" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 24 24" width="18">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z" />
+                     </svg>
+                     <span> রোববার, ১১ ডিসেম্বর ২০২২</span>
+                  </span>
+               </p>
+               <div class="d-flex align-items-center social-media-icons">
+                  <a href="https://www.facebook.com/DPostOnline/" aria-label="Facebook" target="_blank" class="pl-2" rel="nofollow noopener">
+                     <div class="social-icon facebook"><i class="fa fa-facebook"></i></div>
+                  </a>
+                  <a href="https://www.youtube.com/c/DhakaPostOfficial" aria-label="Youtube" target="_blank" class="pl-2" rel="nofollow noopener">
+                     <div class="social-icon youtube"><i class="fa fa-youtube-play"></i></div>
+                  </a>
+                  <a href="https://twitter.com/dpostonline" aria-label="Twitter" target="_blank" class="pl-2" rel="nofollow noopener">
+                     <div class="social-icon twitter"><i class="fa fa-twitter"></i></div>
+                  </a>
+                  <a href="https://www.instagram.com/dpostonline" aria-label="Instagram" target="_blank" class="pl-2" rel="nofollow noopener">
+                     <div class="social-icon instagram"><i class="fa fa-instagram"></i></div>
+                  </a>
+                  <a href="https://www.linkedin.com/company/dpostonline/" aria-label="Linkedin" target="_blank" class="pl-2" rel="nofollow noopener">
+                     <div class="social-icon linkedin"><i class="fa fa-linkedin"></i></div>
+                  </a>
+                  <a href="https://play.google.com/store/apps/details?id=com.dhakapost" aria-label="google play" target="_blank" class="pl-2" rel="nofollow noopener">
+                     <div class="social-icon googleplay" style="background: #00698e;">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google-play" class="svg-inline--fa fa-google-play fa-w-16" role="img" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                           <path fill="white" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"></path>
+                        </svg>
+                     </div>
+                  </a>
+                  <a href="https://pod.link/1562553969" aria-label="Dhaka Post Podcast" target="_blank" class="pl-2" rel="nofollow noopener">
+                     <div class="social-icon" style="background: #695296;"><i class="fa fa-podcast"></i></div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <nav class="navbar navbar-expand-lg sticky-top shadow-sm navigator-extra">
+            <div class="container">
+               <button class="navbar-toggler collapsed m-margin-reducer-left-14" type="button" data-toggle="collapse" data-target="#main-nav-1" aria-controls="main-nav-1" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="icon-bar top-bar"></span>
+               <span class="icon-bar middle-bar"></span>
+               <span class="icon-bar bottom-bar"></span>
+               <span class="sr-only">DP</span>
+               </button>
+               <div class="navbar-brand align-items-center d-flex d-lg-none mr-0">
+                  <a title="Dhaka Post" href="/">
+                  <img src="https://cdn.dhakapost.com/media/common/dhaka-post-logo.svg" alt="Dhaka Post" width="1345" height="192" />
+                  </a>
+               </div>
+               <button type="button" class="btn btn-link d-flex d-lg-none" data-target="slide-down-m" aria-label="Search" style="margin-right: -14px;">
+               <i class="fa fa-search" style="font-size: 20px;"></i>
+               </button>
+               <div class="navbar-collapse collapse" id="main-nav-1">
+                  <div style="width: 99%">
+                     <ul class="navbar-nav m-auto d-none d-lg-flex d-menu-items justify-content-center">
+                        <li class="nav-item">
+                           <a title="" href="https://www.dhakapost.com" class="nav-link">প্রচ্ছদ</a>
+                        </li>
+                        <li class="nav-item">
+                           <a title="" href="https://www.dhakapost.com/latest-news" class="nav-link">সর্বশেষ</a>
+                        </li>
+                        <li class="nav-item">
+                           <a title="" href="https://www.dhakapost.com/national" class="nav-link">জাতীয়</a>
+                        </li>
+                        <li class="nav-item">
+                           <a title="" href="https://www.dhakapost.com/politics" class="nav-link">রাজনীতি</a>
+                        </li>
+                        <li class="nav-item">
+                           <a title="" href="https://www.dhakapost.com/economy" class="nav-link">অর্থনীতি</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-toggle" style="display: flex; color: #FFF; align-items: center;">
+                           <a title="" href="https://www.dhakapost.com/country" class="nav-link">সারাদেশ</a>
+                           <div class="dropdown-menu single-dropdown s-dr-menu m-0" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="https://www.dhakapost.com/country-map" style="padding: 5px 0;">জেলার খবর</a>
+                           </div>
+                        </li>
+                        <li class="nav-item">
+                           <a title="" href="https://www.dhakapost.com/international" class="nav-link">আন্তর্জাতিক</a>
+                        </li>
+                        <li class="nav-item">
+                           <a title="" href="https://www.dhakapost.com/sports" class="nav-link">খেলা</a>
+                        </li>
+                        <li class="nav-item">
+                           <a title="" href="https://www.dhakapost.com/entertainment" class="nav-link">বিনোদন</a>
+                        </li>
+                        <li class="nav-item ">
+                           <a title="" href="https://www.dhakapost.com/health" class="nav-link">স্বাস্থ্য</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-toggle" style="display: flex; color: #FFF; align-items: center;">
+                           <a title="" href="#" class="nav-link">ফিচার</a>
+                           <div class="dropdown-menu single-dropdown s-dr-menu m-0" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="https://www.dhakapost.com/lifestyle" style="padding: 5px 0;">লাইফস্টাইল</a>
+                              <a class="dropdown-item" href="https://www.dhakapost.com/technology" style="padding: 5px 0;">তথ্যপ্রযুক্তি</a>
+                              <a class="dropdown-item" href="https://www.dhakapost.com/tourism" style="padding: 5px 0;">ট্যুরিজম</a>
+                              <a class="dropdown-item" href="https://www.dhakapost.com/study" style="padding: 5px 0;">পড়াশোনা</a>
+                           </div>
+                        </li>
+                        <li class="nav-item hidden-item-lowerend">
+                           <a title="" href="https://www.dhakapost.com/education" class="nav-link">শিক্ষা</a>
+                        </li>
+                        <li class="nav-item hidden-item-lowerend">
+                           <a title="" href="https://www.dhakapost.com/jobs-career" class="nav-link">জবস</a>
+                        </li>
+                        <li class="nav-item position-static d-flex">
+                           <button class="navbar-toggler collapsed nav-link d-flex align-items-center" aria-expanded="false" type="button" data-toggle="collapse" data-target="#nav-items-2">
+                              <div class="button-bars">
+                                 <span class="icon-bar top-bar"></span>
+                                 <span class="icon-bar middle-bar"></span>
+                                 <span class="icon-bar bottom-bar"></span>
+                              </div>
+                              <span class="button-label">অন্যান্য</span>
+                           </button>
+                           <div class="dropdown-menu w-100 top-auto shadow border-0 rounded-0 nav-collapse collapse m-0" id="nav-items-2">
+                              <div class="container">
+                                 <div class="row w-100 menu-items-others">
+                                    <div class="col-sm-2 d-none">
+                                       <a href="https://www.dhakapost.com/health">স্বাস্থ্য</a>
+                                    </div>
+                                    <div class="col-sm-2 show-higherend">
+                                       <a href="https://www.dhakapost.com/education">শিক্ষা</a>
+                                    </div>
+                                    <div class="col-sm-2 show-higherend">
+                                       <a href="https://www.dhakapost.com/jobs-career">জবস</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/probash">প্রবাস</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/opinion">মতামত</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/religion">ধর্ম</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/children-post">ছোটদের পোস্ট</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/campus">ক্যাম্পাস</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/law-courts">আইন-আদালত</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/podcasts">পডকাস্ট</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/agriculture-and-nature">কৃষি ও প্রকৃতি</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/aviation">এভিয়েশন</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/exclusive">এক্সক্লুসিভ</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/mass-media">গণমাধ্যম</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                       <a href="https://www.dhakapost.com/unicode-to-bijoy-converter">কনভার্টার</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="nav-item position-static d-flex">
+                           <button type="button" class="btn btn-link" data-target="slide-down" aria-label="Search"><i class="fa fa-search"></i>
+                           </button>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="d-flex d-lg-none" style="position: fixed; padding: 1rem; background: #f5f5f5; width: 100%; color: #FFF; justify-content:space-between">
+                     <button class="navbar-toggler m-margin-reducer-left-14 text-white" type="button" data-toggle="collapse" data-target="#main-nav-1" aria-controls="main-nav-1" aria-expanded="true" aria-label="Toggle navigation" style=" ">
+                     <span class="icon-bar top-bar"></span>
+                     <span class="icon-bar middle-bar"></span>
+                     <span class="icon-bar bottom-bar"></span>
+                     <span class="sr-only">DP</span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <form class="search-wrapper needs-validation" style="display: none;" data-target="slide-content" action="https://www.dhakapost.com/search" method="get">
+               <div class="container m-pl-0 m-pr-0">
+                  <div class="d-flex align-items-center justify-content-between w-100">
+                     <div class="input-group">
+                        <input type="text" name="q" class="form-control" autocomplete="off" placeholder="অনুসন্ধান করুন" required />
+                        <div class="input-group-append search-action">
+                           <button type="submit" class="btn btn-dark"><i style="color: white !important;" class="fa fa-search"></i></button>
+                           <button type="button" class="btn btn-light m-margin-reducer-right-14" data-target="slide-up">
+                           <i class="fa fa-times"></i></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </nav>
