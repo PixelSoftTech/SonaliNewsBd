@@ -111,7 +111,7 @@ include('../DBhandelar.php');
 					$password=$_POST['pass'];
 					
                 
-                  $stmt = $pdo->query("select * from  login_information where user_name='$email'");
+                  $stmt = $pdo->query("select * from  tbl_user where user_name='$email'");
 				  $userRow=$stmt->fetch(PDO::FETCH_ASSOC);
                 $count = $stmt->rowCount();  
 

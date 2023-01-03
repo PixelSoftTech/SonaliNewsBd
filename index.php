@@ -84,7 +84,7 @@
                            <div class="col-12 lead-news">
                               <a href="https://www.dhakapost.com/sports/football/159603" class="news-item news-item-lead">
                                  <div class="image-container">
-                                    <img src="assets/forAll/img/placeholder.png" data-src="assets/forAll/img/NewsDepend.png" alt="ইউরোপীয় দল সামনে এলেই চুপসে যাচ্ছে ব্রাজিল!" class="lazyload img-loader">
+                                    <img style="width: 620px; max-height: 350px; " src="assets/forAll/img/placeholder.png" data-src="assets/forAll/img/NewsDepend.png" alt="ইউরোপীয় দল সামনে এলেই চুপসে যাচ্ছে ব্রাজিল!" class="lazyload img-loader">
                                  </div>
                                  <h2 class="title" style="margin: 10px 0">ইউরোপীয় দল সামনে এলেই চুপসে যাচ্ছে ব্রাজিল!</h2>
                                  <span class="d-none d-sm-block">সর্বোচ্চ পাঁচ বারের চ্যাম্পিয়ন দলটি কি-না ২০০২ সালের পর আর ফাইনালেই খেলতে পারেনি!</span>
@@ -2049,6 +2049,6 @@
                </div>
             </div>
          </main>
-      </div>
+
 
 <?php include 'footer.php';?>

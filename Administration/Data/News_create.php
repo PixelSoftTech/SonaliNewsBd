@@ -89,9 +89,9 @@
         </div>
     </div> -->
 	   
-	   <div class="col-sm-6">
+	<div class="col-sm-6">
         <div class="form-group">
-            <label for="sironam_status">Sironam<span style="color:#F00;">*</span></label>
+            <label for="sironam_status">Trending<span style="color:#F00;">*</span></label>
             <select name="sironam_status" id="sironam_status" required class="form-control" >
             <option  value="">Select Sironam</option>
            
@@ -100,16 +100,114 @@
            
             </select>
                <script>
- $("#sironam_status").select2({
- allowClear:true,
- placeholder: 'Select Sironam'
- });
- </script>
+                    $("#sironam_status").select2({
+                    allowClear:true,
+                    placeholder: 'Select'
+                    });
+                </script>
         </div>
     </div>
-	     
+
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="highlight_status">Home Highlight<span style="color:#F00;">*</span></label>
+            <select name="highlight_status" id="highlight_status" required class="form-control" >
+            <option  value="">Select Highlight</option>
+           
+            <option >Yes</option>
+            <option selected>No</option>
+           
+            </select>
+               <script>
+                    $("#highlight_status").select2({
+                    allowClear:true,
+                    placeholder: 'Select'
+                    });
+                </script>
+        </div>
+    </div>
+	
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="district">Select District<span style="color:#F00;">*</span></label>
+            <select name="district" id="district" required class="form-control" >
+                <option selected value="">Select District</option>
+                <option data-value="barishal" value="3">বরিশাল</option>
+                <option data-value="barguna" value="2">বরগুনা</option>
+                <option data-value="bhola" value="4">ভোলা</option>
+                <option data-value="jhalokathi" value="5">ঝালকাঠি</option>
+                <option data-value="pirojpur" value="6">পিরোজপুর</option>
+                <option data-value="patuakhali" value="7">পটুয়াখালী</option>
+                <option data-value="chattogram" value="12">চট্টগ্রাম</option>
+                <option data-value="bandarban" value="8">বান্দরবান</option>
+                <option data-value="rangamati" value="9">রাঙামাটি</option>
+                <option data-value="khagrachari" value="10">খাগড়াছড়ি</option>
+                <option data-value="cox-s-bazar" value="11">কক্সবাজার</option>
+                <option data-value="feni" value="13">ফেনী</option>
+                <option data-value="noakhali" value="14">নোয়াখালী</option>
+                <option data-value="lakshmipur" value="15">লক্ষ্মীপুর</option>
+                <option data-value="cumilla" value="16">কুমিল্লা</option>
+                <option data-value="brahmanbaria" value="17">ব্রাহ্মণবাড়িয়া</option>
+                <option data-value="chandpur" value="18">চাঁদপুর</option>
+                <option data-value="dhaka" value="19">ঢাকা</option>
+                <option data-value="manikganj" value="20">মানিকগঞ্জ</option>
+                <option data-value="gazipur" value="21">গাজীপুর</option>
+                <option data-value="narayanganj" value="23">নারায়ণগঞ্জ</option>
+                <option data-value="tangail" value="24">টাঙ্গাইল</option>
+                <option data-value="madaripur" value="25">মাদারীপুর</option>
+                <option data-value="munsiganj" value="27">মুন্সিগঞ্জ</option>
+                <option data-value="gopalganj" value="28">গোপালগঞ্জ</option>
+                <option data-value="kishoreganj" value="30">কিশোরগঞ্জ</option>
+                <option data-value="narsingdi" value="31">নরসিংদী</option>
+                <option data-value="shariatpur" value="32">শরীয়তপুর</option>
+                <option data-value="rajbari" value="34">রাজবাড়ী</option>
+                <option data-value="faridpur" value="35">ফরিদপুর</option>
+                <option data-value="khulna" value="40">খুলনা</option>
+                <option data-value="bagerhat" value="36">বাগেরহাট</option>
+                <option data-value="chuadanga" value="37">চুয়াডাঙ্গা</option>
+                <option data-value="jashore" value="38">যশোর</option>
+                <option data-value="jhenaidah" value="39">ঝিনাইদহ</option>
+                <option data-value="kushtia" value="41">কুষ্টিয়া</option>
+                <option data-value="magura" value="42">মাগুরা</option>
+                <option data-value="meherpur" value="43">মেহেরপুর</option>
+                <option data-value="narail" value="44">নড়াইল</option>
+                <option data-value="satkhira" value="45">সাতক্ষীরা</option>
+                <option data-value="rajshahi" value="52">রাজশাহী</option>
+                <option data-value="bogura" value="46">বগুড়া</option>
+                <option data-value="jaipurhat" value="47">জয়পুরহাট</option>
+                <option data-value="naogaon" value="48">নওগাঁ</option>
+                <option data-value="natore" value="49">নাটোর</option>
+                <option data-value="pabna" value="51">পাবনা</option>
+                <option data-value="sirajganj" value="53">সিরাজগঞ্জ</option>
+                <option data-value="chapainawabganj" value="66">চাঁপাইনবাবগঞ্জ</option>
+                <option data-value="sylhet" value="65">সিলেট</option>
+                <option data-value="habiganj" value="62">হবিগঞ্জ</option>
+                <option data-value="moulvibazar" value="63">মৌলভীবাজার</option>
+                <option data-value="sunamganj" value="64">সুনামগঞ্জ</option>
+                <option data-value="rangpur" value="60">রংপুর</option>
+                <option data-value="dinajpur" value="54">দিনাজপুর</option>
+                <option data-value="gaibandha" value="55">গাইবান্ধা</option>
+                <option data-value="kurigram" value="56">কুড়িগ্রাম</option>
+                <option data-value="lalmonirhat" value="57">লালমনিরহাট</option>
+                <option data-value="nilphamari" value="58">নীলফামারী</option>
+                <option data-value="panchagarh" value="59">পঞ্চগড়</option>
+                <option data-value="thakurgaon" value="61">ঠাকুরগাঁও</option>
+                <option data-value="mymensingh" value="22">ময়মনসিংহ</option>
+                <option data-value="jamalpur" value="26">জামালপুর</option>
+                <option data-value="sherpur" value="29">শেরপুর</option>
+                <option data-value="netrokona" value="33">নেত্রকোনা</option>
+
+            </select>
+               <script>
+                    $("#district").select2({
+                    allowClear:true,
+                    placeholder: 'Select district'
+                    });
+                </script>
+        </div>
+    </div>
 	   
-     <div class="col-sm-6">
+    <div class="col-sm-6">
         <div class="form-group">
             <label for="category">Select Menu<span style="color:#F00;">*</span></label>
             <select name="category" id="category" required class="form-control" >
@@ -138,11 +236,11 @@
             
             </select>
                <script>
- $("#category").select2({
- allowClear:true,
- placeholder: 'Select Category'
- });
- </script>
+                    $("#category").select2({
+                    allowClear:true,
+                    placeholder: 'Select Category'
+                    });
+                </script>
         </div>
     </div>
 	   

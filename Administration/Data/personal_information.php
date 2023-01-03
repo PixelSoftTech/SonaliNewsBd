@@ -7,7 +7,7 @@ if(!empty($_GET['page_title'])){
 	}else{
 		$page_title="dashboard_info";
 		}
-	$personal = $pdo->query("select  * from  login_information where user_name='$user_name'");
+	$personal = $pdo->query("select  * from  tbl_user where user_name='$user_name'");
     $row = $personal->fetch();	
 
 		$user_name=$row['user_name'];

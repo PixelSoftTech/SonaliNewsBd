@@ -219,7 +219,7 @@
                            <a title="" href="https://www.dhakapost.com/latest-news" class="nav-link">সর্বশেষ</a>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="https://www.dhakapost.com/national" class="nav-link">জাতীয়</a>
+                           <a title="" href="National.php" class="nav-link">জাতীয়</a>
                         </li>
                         <li class="nav-item">
                            <a title="" href="https://www.dhakapost.com/politics" class="nav-link">রাজনীতি</a>
