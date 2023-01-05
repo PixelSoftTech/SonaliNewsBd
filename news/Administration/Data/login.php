@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#652B82">
+    <meta name="Description" content="Enter your description here" />
+    <script src="./assets/js/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/uikit.css">
+    <link rel="stylesheet" href="./assets/css/magic.css">
+    <script src="./assets/js/uikit.min.js"></script>
+    <script src="./assets/js/uikit-icons.js"></script>
+    <script src="./assets/js/index.js"></script>
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!-- welcome page -->
+    <div class="uk-height-viewport bg-purple" id="welcome-part">
+        <div class="uk-position-center">
+            <img src="./assets/images/Group.png" alt="logo">
+        </div>
+    </div>
+
+    <!-- login part -->
+    <div class="login-part uk-height-viewport uk-hidden">
+        <div class="logoPart">
+            <img src="./assets/images/pay_logo.png" style="height: 60px;width: auto;position: relative;left: 42%;top: 30%;" alt="logo">
+        </div>
+        <div class="login-box uk-box-shadow-xlarge p-4">
+            <h4 class="text-purple">Login to your PayStation Account</h4>
+
+            <!-- input for account number -->
+            <form action="">
+                <p class="text-purple">Account Number</p>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text pr-1 border-color right-border-radius-off" id="basic-addon1" style="background-color: #fff;"><span class="py-1 text-purple" uk-icon="icon: phone"></span></span>
+                    </div>
+                    <input type="tel" placeholder="01XXXXXXXXX" id="acc_number" maxlength="11" class="form-control border-color pl-0 pr-0" style="border-left: none;" required autocomplete="off">
+                </div>
+                <p class="uk-margin-remove-top uk-margin-remove-bottom text-purple" id="acc_number_error"></p>
+    
+                <!-- input for pin number -->
+                <p class="text-purple">Pin Number</p>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text pr-1 border-color right-border-radius-off" id="basic-addon1" style="background-color: #fff;"><span class="py-1 text-purple" uk-icon="icon: lock"></span></span>
+                    </div>
+                    <input type="password" placeholder="XXXXX" maxlength="5" id="pin_number" class="form-control border-color pl-0 pr-0" style="border-left: none;" required autocomplete="off">
+                </div>
+                <p class="uk-margin-remove-top uk-margin-remove-bottom text-purple" id="pin_number_error"></p>
+            </form>
+        </div>
+
+        <a href="/payStation-mobile-webView/home.html" class=""><button type="submit" class="uk-button fixed-bottom text-white py-3 w-100 bg-purple"> Go </button></a>
+    </div>
+
+</body>
+
+</html>

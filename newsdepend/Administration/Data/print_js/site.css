@@ -1,0 +1,160 @@
+﻿@font-face {
+
+    font-family: vrinda;
+
+    src: url('fonts/vrinda.ttf') format('truetype'),url('fonts/vrindab.ttf') format('truetype');
+
+}
+html, body {
+height:100%;
+}
+
+html {
+    background-color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 2px solid #1CC825;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif,vrinda;
+    margin: 0;
+    padding: 0;
+}
+#body {
+    background-color: #e2e2e2;
+}
+.masthead {
+    margin-top:0px;
+    /*padding-top:5px;*/
+}
+div#title .logo {
+    width: 85px;
+    padding: 2px 15px 2px 2px;
+    margin-top: 9px;
+}
+div#title {
+    text-align: left;
+}
+#app-title {
+    margin-top:5px;
+}
+nav>ul>li>a {
+    height:30px;
+}
+.mainContainer {
+    margin: 0 15px;
+margin-bottom:15px;
+}
+body>.container {
+background-color:#fff;
+min-height:76%;
+}
+.panel-body ul {
+    line-height:250%;
+}
+.container>header {
+    border-bottom:1px solid #09b212;
+    font-size:12px;
+background-color: #EAEFE3;
+margin-top:0;
+margin-bottom:5px;
+}
+footer > .container > .content-wrapper > ul {
+    float: left;
+    min-width: 200px;
+    list-style-type: none;
+    margin-right: 20px;
+    min-height: 85px;
+    text-decoration:none;
+}
+#header-title {
+    font-size:28px;
+    margin-top:10px;
+}
+#application-title {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+}
+.navigation {
+    margin-top:5px;
+}
+.masthead > nav {
+height:34px;
+}
+/* info and errors */
+.message-info {
+    border: 1px solid;
+    clear: both;
+    padding: 10px 20px;
+}
+
+.message-error {
+    clear: both;
+    color: #e80c4d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.message-success {
+    color: #7ac0da;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+body > footer {
+background-color: #000;
+min-height:150px;
+color:#e2e2e2;
+padding-top:20px;
+}
+footer > .container {
+background-color:none;
+
+}
+
+.error {
+    color: #e80c4d;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.field-required {
+    color:red;
+    padding: 3px;
+    font-weight:bold;
+    font-size:1em;
+}
+
