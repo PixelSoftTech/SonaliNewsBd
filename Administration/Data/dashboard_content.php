@@ -9,7 +9,7 @@ $bangDATE = array('১','২','৩','৪','৫','৬','৭','৮','৯','০','�
  ?>
 <section class="content-header">
       <h1>
-      Dawatul Islam
+      News Depend
         <small>Decision Support System</small>
           
       </h1>

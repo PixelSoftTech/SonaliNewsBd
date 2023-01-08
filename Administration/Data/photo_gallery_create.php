@@ -17,7 +17,7 @@
             </div>
    <p style="text-align:center; color:#F00;">***All * marked fields are required***</p>
             <div class="box-body">
-        <form method="POST" action="?menu=<?php echo $menu; ?>&page_title=<?php echo $page_form=substr($page_title,0,-7); ?>&main_menu=<?php echo $main_menu; ?>&database_table=photo_gallery&folder=PhotoGalleryImage" accept-charset="UTF-8" class="form" enctype="multipart/form-data"><input name="token" value="0vH3WmTMiPYUVHdlQx2yXKyXNPUbwjJw55Dl1JA6" type="hidden">
+        <form method="POST" action="?menu=<?php echo $menu; ?>&page_title=<?php echo $page_form=substr($page_title,0,-7); ?>&main_menu=<?php echo $main_menu; ?>&database_table=tbl_photo_gallery&folder=PhotoGalleryImage" accept-charset="UTF-8" class="form" enctype="multipart/form-data"><input name="token" value="0vH3WmTMiPYUVHdlQx2yXKyXNPUbwjJw55Dl1JA6" type="hidden">
 
 <script type="text/javascript">
 function validateImage() {

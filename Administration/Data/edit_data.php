@@ -22,7 +22,7 @@ if(isset($_GET['database_table'])){
 	 $menupermission=json_encode($bascic__info_value); 
 	 
 	 
-	 $sql = "UPDATE `login_information` SET `menupermission`=:menupermission WHERE id=$edit_id";
+	 $sql = "UPDATE `tbl_user` SET `menupermission`=:menupermission WHERE id=$edit_id";
             $insert_data= $pdo->prepare($sql);
 		    $insert_data->bindparam(":menupermission", $menupermission);
 										  	

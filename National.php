@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+
 <main role="main">
    <div class="py-3 category">
       <div class="container">
@@ -208,43 +209,43 @@
                      <div class="blk-list scaled">
                         <a href="https://www.dhakapost.com/jobs-career/162660" class="news-item news-item-regular py-2">
                            <div class="image-container">
-                              <img src="//cdn.dhakapost.com/media/common/placeholder.jpg" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dutch-bangla-bank-20221226074850.jpg?width=160&amp;height=90" width="130" height="90" alt="অভিজ্ঞতা ছাড়াই উপজেলা পর্যায়ে ডাচ বাংলা ব্যাংকে চাকরি, বেতন ২৮০০০" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dutch-bangla-bank-20221226074850.jpg?width=160&amp;height=90" width="130" height="90" alt="অভিজ্ঞতা ছাড়াই উপজেলা পর্যায়ে ডাচ বাংলা ব্যাংকে চাকরি, বেতন ২৮০০০" class="lazyload img-loader">
                            </div>
                            <h2 class="title">অভিজ্ঞতা ছাড়াই উপজেলা পর্যায়ে ডাচ বাংলা ব্যাংকে চাকরি, বেতন ২৮০০০</h2>
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/162889" class="news-item news-item-regular py-2">
                            <div class="image-container">
-                              <img src="//cdn.dhakapost.com/media/common/placeholder.jpg" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/ok-20221227095302.jpg?width=160&amp;height=90" width="130" height="90" alt="নেইমার থাকলে আমাকে ছাড়তে হবে, পিএসজিকে এমবাপের হুমকি" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/ok-20221227095302.jpg?width=160&amp;height=90" width="130" height="90" alt="নেইমার থাকলে আমাকে ছাড়তে হবে, পিএসজিকে এমবাপের হুমকি" class="lazyload img-loader">
                            </div>
                            <h2 class="title">নেইমার থাকলে আমাকে ছাড়তে হবে, পিএসজিকে এমবাপের হুমকি</h2>
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/162709" class="news-item news-item-regular py-2">
                            <div class="image-container">
-                              <img src="//cdn.dhakapost.com/media/common/placeholder.jpg" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/felipe-rodriguez-gentile-20221226122625.jpg?width=160&amp;height=90" width="130" height="90" alt="‘ব্রাজিলের’ গোলমেশিনকে কেড়ে নিচ্ছে আর্জেন্টিনা!" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/felipe-rodriguez-gentile-20221226122625.jpg?width=160&amp;height=90" width="130" height="90" alt="‘ব্রাজিলের’ গোলমেশিনকে কেড়ে নিচ্ছে আর্জেন্টিনা!" class="lazyload img-loader">
                            </div>
                            <h2 class="title">‘ব্রাজিলের’ গোলমেশিনকে কেড়ে নিচ্ছে আর্জেন্টিনা!</h2>
                         </a>
                         <a href="https://www.dhakapost.com/jobs-career/162886" class="news-item news-item-regular py-2">
                            <div class="image-container">
-                              <img src="//cdn.dhakapost.com/media/common/placeholder.jpg" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/brac-20221128074616-20221227093545.jpg?width=160&amp;height=90" width="130" height="90" alt="হেড অফিসে লোকবল নিচ্ছে ব্র্যাক, আগ্রহীরা দ্রুত আবেদন করুন" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/brac-20221128074616-20221227093545.jpg?width=160&amp;height=90" width="130" height="90" alt="হেড অফিসে লোকবল নিচ্ছে ব্র্যাক, আগ্রহীরা দ্রুত আবেদন করুন" class="lazyload img-loader">
                            </div>
                            <h2 class="title">হেড অফিসে লোকবল নিচ্ছে ব্র্যাক, আগ্রহীরা দ্রুত আবেদন করুন</h2>
                         </a>
                         <a href="https://www.dhakapost.com/jobs-career/162676" class="news-item news-item-regular py-2">
                            <div class="image-container">
-                              <img src="//cdn.dhakapost.com/media/common/placeholder.jpg" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/guardian-life-insurance-20221226094444.jpg?width=160&amp;height=90" width="130" height="90" alt="অভিজ্ঞতা ছাড়াই চাকরির সুযোগ, বেতন ৪০ হাজার" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/guardian-life-insurance-20221226094444.jpg?width=160&amp;height=90" width="130" height="90" alt="অভিজ্ঞতা ছাড়াই চাকরির সুযোগ, বেতন ৪০ হাজার" class="lazyload img-loader">
                            </div>
                            <h2 class="title">অভিজ্ঞতা ছাড়াই চাকরির সুযোগ, বেতন ৪০ হাজার</h2>
                         </a>
                         <a href="https://www.dhakapost.com/jobs-career/162891" class="news-item news-item-regular py-2">
                            <div class="image-container">
-                              <img src="//cdn.dhakapost.com/media/common/placeholder.jpg" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/red-cresent-20221227100412.jpg?width=160&amp;height=90" width="130" height="90" alt="এইচএসএসি পাসে রেড ক্রিসেন্টে চাকরির সুযোগ" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/red-cresent-20221227100412.jpg?width=160&amp;height=90" width="130" height="90" alt="এইচএসএসি পাসে রেড ক্রিসেন্টে চাকরির সুযোগ" class="lazyload img-loader">
                            </div>
                            <h2 class="title">এইচএসএসি পাসে রেড ক্রিসেন্টে চাকরির সুযোগ</h2>
                         </a>
                         <a href="https://www.dhakapost.com/jobs-career/162937" class="news-item news-item-regular py-2">
                            <div class="image-container">
-                              <img src="//cdn.dhakapost.com/media/common/placeholder.jpg" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobsss-private-20221227125637.jpg?width=160&amp;height=90" width="130" height="90" alt="টেন মিনিট স্কুলে চাকরির সুযোগ, সপ্তাহে ৫দিন কাজ" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobsss-private-20221227125637.jpg?width=160&amp;height=90" width="130" height="90" alt="টেন মিনিট স্কুলে চাকরির সুযোগ, সপ্তাহে ৫দিন কাজ" class="lazyload img-loader">
                            </div>
                            <h2 class="title">টেন মিনিট স্কুলে চাকরির সুযোগ, সপ্তাহে ৫দিন কাজ</h2>
                         </a>
@@ -256,4 +257,5 @@
       </div>
    </div>
 </main>
+
 <?php include 'footer.php';?>

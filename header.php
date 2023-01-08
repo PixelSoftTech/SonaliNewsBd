@@ -21,7 +21,7 @@
          <link rel="preconnect" href="//stackpath.bootstrapcdn.com">
          <link rel="preconnect" href="//cdn.dhakapost.com">
          <link rel="preconnect" href="//assets.dhakapost.com"> -->
-      <link rel="manifest" href="manifest.json" />
+      <link rel="manifest" href="assets/forAll/js/manifest.json" />
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="apple-mobile-web-app-capable" content="yes">
       <meta name="apple-mobile-web-app-status-bar-style" content="#124B65">
@@ -216,13 +216,13 @@
                            <a title="" href="https://www.dhakapost.com" class="nav-link">প্রচ্ছদ</a>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="https://www.dhakapost.com/latest-news" class="nav-link">সর্বশেষ</a>
+                           <a title="" href="Latest.php" class="nav-link">সর্বশেষ</a>
                         </li>
                         <li class="nav-item">
                            <a title="" href="National.php" class="nav-link">জাতীয়</a>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="https://www.dhakapost.com/politics" class="nav-link">রাজনীতি</a>
+                           <a title="" href="Politics.php" class="nav-link">রাজনীতি</a>
                         </li>
                         <li class="nav-item">
                            <a title="" href="https://www.dhakapost.com/economy" class="nav-link">অর্থনীতি</a>
@@ -328,7 +328,7 @@
                      </ul>
                   </div>
                   <div class="d-flex d-lg-none" style="position: fixed; padding: 1rem; background: #f5f5f5; width: 100%; color: #FFF; justify-content:space-between">
-                     <button class="navbar-toggler m-margin-reducer-left-14 text-white" type="button" data-toggle="collapse" data-target="#main-nav-1" aria-controls="main-nav-1" aria-expanded="true" aria-label="Toggle navigation" style=" ">
+                     <button class="navbar-toggler m-margin-reducer-left-14 text-white" type="button" data-toggle="collapse" data-target="#main-nav-1" aria-controls="main-nav-1" aria-expanded="true" aria-label="Toggle navigation" >
                      <span class="icon-bar top-bar"></span>
                      <span class="icon-bar middle-bar"></span>
                      <span class="icon-bar bottom-bar"></span>

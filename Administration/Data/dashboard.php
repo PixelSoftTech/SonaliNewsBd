@@ -2,9 +2,9 @@
     <!-- Logo -->
     <a href="index.php" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>DI</b></span>
+      <span class="logo-mini"><b>ND</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Dawatul Islam</b></span>
+      <span class="logo-lg"><b>News Depend</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -68,9 +68,9 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
              <?php if($image!=''){ ?>
-              <img src="../../Login/images/<?php echo $image; ?>" class="user-image" alt="<?php echo $name; ?>">
+              <img src="../../UserImages/<?php echo $image; ?>" class="user-image" alt="<?php echo $name; ?>">
               <?php }else{ ?>
-                 <img src="../../Login/images/logo.png" class="user-image" alt="<?php echo $name; ?>">
+                 <img src="../../UserImages/ND.png" class="user-image" alt="<?php echo $name; ?>">
                 <?php } ?>
               <span class="hidden-xs"><?php echo $name; ?></span>
             </a>
@@ -78,8 +78,8 @@
               <!-- User image -->
               <li class="user-header">
               <?php if($image!=''){ ?>
-                <img src="../../Login/images/<?php echo $image; ?>" class="img-circle" alt="<?php echo $name; ?>"><?php }else{ ?>
-                 <img src="../../Login/images/logo.jpg" class="img-circle" alt="<?php echo $name; ?>">
+                <img src="../../UserImages/<?php echo $image; ?>" class="img-circle" alt="<?php echo $name; ?>"><?php }else{ ?>
+                 <img src="../../UserImages/ND.png" class="img-circle" alt="<?php echo $name; ?>">
                 <?php } ?>
 
                 <p>

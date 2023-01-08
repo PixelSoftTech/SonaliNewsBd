@@ -64,7 +64,7 @@
                         <tbody aria-relevant="all" aria-live="polite" role="alert">
                         <?php
 				
-			$information = $pdo->query("SELECT *  FROM `menu_wise_information` where deleted_at is NULL order by id DESC limit 0,40");
+			$information = $pdo->query("SELECT *  FROM `tbl_menu_wise_information` where deleted_at is NULL order by id DESC limit 0,40");
 	
 				$i=1;
                  while ($rowdata = $information->fetch()){
@@ -81,7 +81,7 @@
                     <td text align="center"><?php echo $rowdata["title_en"]; ?></td>                  
                     <td text align="center">  <?php if(!empty($rowdata["photo"])){ ?>
                 <img src="../../<?php echo $folder; ?>/<?php echo $rowdata["photo"]; ?>" class="img-circle" style="width:230px; height:220px;" alt="No image available"><?php }else{ ?>
-                 <img src="../../Login/images/logo.png" class="img-circle" alt="No image available" style="width:95px; height:100px;">
+                 <img src="../../UserImages/logo.png" class="img-circle" alt="No image available" style="width:95px; height:100px;">
                 <?php } ?></td>
                  
                    

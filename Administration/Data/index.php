@@ -20,13 +20,13 @@ include('delete.php');
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Dawatul Islam || <?php echo $menu; ?></title>
+  <title>News Depend || <?php echo $menu; ?></title>
   <?php include('css_content.php'); ?>
   <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
   
 
   <!----------Print --------------> 
-        <link rel="icon" type="image/png" href="../../img/logo.png"/>
+        <link rel="icon" type="image/png" href="../../img/ND.png"/>
    
 
 <!--Print New-->
@@ -153,6 +153,7 @@ var editor = new Jodit("#area_editor2", {
   "spellcheck": false
 });
 </script>
+<script src="../vendor/div.js"></script>
 
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed

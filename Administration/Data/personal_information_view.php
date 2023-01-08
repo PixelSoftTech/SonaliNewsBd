@@ -10,7 +10,7 @@
                 <h3 class="box-title"><?php if(!empty($main_menu)){ echo $main_menu; echo "&nbsp;&nbsp;<i class='fa fa-angle-right' style='font-weight:bold;'></i>&nbsp;&nbsp;";} ?><?php echo $menu; ?></h3>
 
                 <div class="box-tools pull-right">
-                <a title="View Detail" class="btn btn-success" href="?menu=<?php echo $menu; ?>&page_title=personal_information_edit&edit_id=<?php echo $row["id"]; ?>&main_menu=<?php echo $main_menu; ?>&table=login_information" onClick="return confirm('Do You Want To Edit <?php echo $row["name"]; ?> Information?')"><i class="fa fa-edit" ></i>Edit</a>
+                <a title="View Detail" class="btn btn-success" href="?menu=<?php echo $menu; ?>&page_title=personal_information_edit&edit_id=<?php echo $row["id"]; ?>&main_menu=<?php echo $main_menu; ?>&table=tbl_user" onClick="return confirm('Do You Want To Edit <?php echo $row["name"]; ?> Information?')"><i class="fa fa-edit" ></i>Edit</a>
                     &nbsp;&nbsp;
                     <button type="button" class="btn btn-warning" onclick="history.back(-1)"><i class="fa fa-reply"></i> back</button>
                                        

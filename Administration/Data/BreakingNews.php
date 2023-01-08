@@ -48,7 +48,7 @@
                                 </th>
                                 
                                 <th>
-                                 Title English
+                                 Details
                                 </th>
                               
                                 <th>
@@ -64,21 +64,21 @@
                         <tbody aria-relevant="all" aria-live="polite" role="alert">
                         <?php
 				
-			$information = $pdo->query("SELECT *  FROM `news` where sironam_status='Yes' and deleted_at is NULL order by id DESC limit 0,500");
+			$information = $pdo->query("SELECT n.`id`, n.`title_bn`,n.detail_bn, n.`image`, c.`CatagoryNameBn` FROM `tbl_news` n inner join tbl_newscatagory c on n.categoryid=c.Id where n.highlight_status='Yes' and n.deleted_at is NULL order by n.id DESC limit 0,500;");
 	
 				$i=1;
                  while ($rowdata = $information->fetch()){
 					
-				$table='news';
+				$table='tbl_news';
 				$folder='NewsImage';
 				 $total=$i++;
 						?>
                         
                         <tr>
                     <td text align="center"><?php echo $total; ?></td> 
-							<td text align="center"><?php echo $rowdata["category"]; ?></td>
+							<td text align="center"><?php echo $rowdata["CatagoryNameBn"]; ?></td>
                     <td text align="center"><?php echo $rowdata["title_bn"]; ?></td>
-                    <td text align="center"><?php echo $rowdata["title_en"]; ?></td> 
+                    <td text align="center"><?php echo $rowdata["detail_bn"]; ?></td> 
                     
                     
                  
@@ -92,7 +92,7 @@
 				?>
                <a class="btn btn-success" href="download.php?path=../../<?php echo $folder; ?>/&download_file=<?php echo $rowdata["image"]; ?>">Download</a>
                 <?php }else{ ?>
-                 <img src="../../<?php echo $folder; ?>/<?php echo $rowdata["image"]; ?>"  class="img-circle" style="width:230px; height:220px;" alt="No image available"/>
+                 <img src="../../<?php echo $folder; ?>/<?php echo $rowdata["image"]; ?>"  style="max-width:130px; height:auto;" alt="No image available"/>
                 <?php	    
 					  
 				}
@@ -104,9 +104,9 @@
                    
                    
                     <td text align="center">
-                    <a title="View Detail" href="?menu=<?php echo $menu; ?>&page_title=News_edit&edit_id=<?php echo $rowdata["id"]; ?>&main_menu=<?php echo $main_menu; ?>&table=<?php echo $table; ?>&folder=<?php echo $folder; ?>" onClick="return confirm('Do You Want To Edit Information?')"><i class="fa fa-edit" style="font-size:24px"></i></a>
+                    <a title="View Detail" href="?menu=<?php echo $menu; ?>&page_title=News_edit&edit_id=<?php echo $rowdata["id"]; ?>&main_menu=<?php echo $main_menu; ?>&table=<?php echo $table; ?>&folder=<?php echo $folder; ?>" onClick="return confirm('Do You Want To Edit Information?')" style="padding: 4px;"><i class="fa fa-edit" style="font-size:24px"></i></a>
                     <?php if($user_type=='Admin'){ ?>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title="Delete Information" href="?del=<?php echo $rowdata["id"]; ?>&menu=<?php echo $menu; ?>&page_title=<?php echo $page_title; ?>&table=<?php echo $table; ?>&main_menu=<?php echo $main_menu; ?>" onClick="return confirm('Do You Want To Delete Information?')"><i class="fa fa-trash" style="font-size:24px"></i></a>
+                        <a title="Delete Information" href="?del=<?php echo $rowdata["id"]; ?>&menu=<?php echo $menu; ?>&page_title=<?php echo $page_title; ?>&table=<?php echo $table; ?>&main_menu=<?php echo $main_menu; ?>" onClick="return confirm('Do You Want To Delete Information?')" style="padding: 4px;"><i class="fa fa-trash" style="font-size:24px"></i></a>
                     <?php } ?>
                     </td>
                     

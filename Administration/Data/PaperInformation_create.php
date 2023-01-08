@@ -17,7 +17,7 @@
             </div>
    <p style="text-align:center; color:#F00;">***All * marked fields are required***</p>
             <div class="box-body">
-        <form method="POST" action="?menu=<?php echo $menu; ?>&page_title=<?php echo $page_form=substr($page_title,0,-7); ?>&main_menu=<?php echo $main_menu; ?>&database_table=paper_number&folder=ImageUploaded" accept-charset="UTF-8" class="form" enctype="multipart/form-data">
+        <form method="POST" action="?menu=<?php echo $menu; ?>&page_title=<?php echo $page_form=substr($page_title,0,-7); ?>&main_menu=<?php echo $main_menu; ?>&database_table=tbl_paper_number&folder=ImageUploaded" accept-charset="UTF-8" class="form" enctype="multipart/form-data">
 
 
     

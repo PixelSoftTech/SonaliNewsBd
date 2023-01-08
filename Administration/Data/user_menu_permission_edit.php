@@ -6,7 +6,7 @@ $edit_id=$_GET['edit_id'];
 $table=$_GET['table'];
 }
 $page_form=substr($page_title,0,-5);
-$editinformation = $pdo->query("SELECT * FROM `login_information`  where id=$edit_id");
+$editinformation = $pdo->query("SELECT * FROM `tbl_user`  where id=$edit_id");
 $editrowdata = $editinformation->fetch();
 $menupermission=$editrowdata["menupermission"];
 

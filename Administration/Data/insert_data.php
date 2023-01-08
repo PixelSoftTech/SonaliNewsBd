@@ -9,14 +9,14 @@ if(isset($_GET['database_table'])){
 		
 		// Array Insert Loop Start
 	
-	  if(!empty($_FILES['photo']['name'])){
+	  if(!empty($_FILES['image']['name'])){
 		  
 	  $folder_name=$_GET["folder"];	  
-	  $temp = explode(".", $_FILES['photo']['name']);
+	  $temp = explode(".", $_FILES['image']['name']);
       $newfilename = $temp["0"].round(microtime(true)) . '.' . end($temp);
-      $file_tmp= $_FILES['photo']['tmp_name'];
+      $file_tmp= $_FILES['image']['tmp_name'];
       move_uploaded_file($file_tmp, "../../".$folder_name."/" . $newfilename);
-	  $image_field_name=',`photo`';
+	  $image_field_name=',`image`';
 	  $image_value=",'".$newfilename."'";
 	  }else{
 		$image_field_name='';
@@ -104,7 +104,7 @@ if(isset($_GET['database_table'])){
       $copyArray=$_POST;
       $sliced = array_slice($copyArray, 0, -1);
       
-      if(!empty($database_table) && $database_table=='news'){
+      if(!empty($database_table) && $database_table=='tbl_news'){
           
          $publish_date=$_POST["publish_date"]; 
          $publish_time=$_POST["publish_time"]; 
@@ -115,13 +115,13 @@ $time_in_ms = $stamp;
 $news_live_time=number_format($time_in_ms, 0, '.', '');
 
          
-         
-      $sql="INSERT INTO  `$database_table` (`".implode( "`,`", array_keys( $sliced ) ) ."`,`editor`,`news_live_time`,`date`,`create_by`,`created_at`$image_field_name$image_field_name2) values (:".implode(",:",array_keys( $sliced ) ).",'$name','$news_live_time','$current_date','$personal_information_edit_id','$current_time'$image_value$image_value2);";
+     # $sql="INSERT INTO  `$database_table` (`".implode( "`,`", array_keys( $sliced ) ) ."`,`editor`,`news_live_time`,`date`,`create_by`,`created_at`$image_field_name$image_field_name2) values (:".implode(",:",array_keys( $sliced ) ).",'$name','$news_live_time','$current_date','$personal_information_edit_id','$current_time'$image_value$image_value2);"; 
+      $sql="INSERT INTO  `$database_table` (`".implode( "`,`", array_keys( $sliced ) ) ."`,`i_user`,`news_live_time`,`date`,`created_by`,`created_at`$image_field_name$image_field_name2) values (:".implode(",:",array_keys( $sliced ) ).",'$name','$news_live_time','$current_date','$personal_information_edit_id','$current_time'$image_value$image_value2);";
           
       }else{
           
-      $sql="INSERT INTO  `$database_table` (`".implode( "`,`", array_keys( $sliced ) ) ."`,`editor`,`date`,`create_by`,`created_at`$image_field_name$image_field_name2) values (:".implode(",:",array_keys( $sliced ) ).",'$name','$current_date','$personal_information_edit_id','$current_time'$image_value$image_value2);";    
-      }
+		$sql="INSERT INTO  `$database_table` (`".implode( "`,`", array_keys( $sliced ) ) ."`,`i_user`,`news_live_time`,`date`,`created_by`,`created_at`$image_field_name$image_field_name2) values (:".implode(",:",array_keys( $sliced ) ).",'$name','$news_live_time','$current_date','$personal_information_edit_id','$current_time'$image_value$image_value2);";
+	}
 
      foreach( $sliced as $field => $value ) $params[":{$field}"]=$value;
 
@@ -262,7 +262,67 @@ $news_live_time=number_format($time_in_ms, 0, '.', '');
 	
 	// User Information Create Start
 	
-      if(isset($_POST['user_information_create']))
+    //   if(isset($_POST['UserInsert']))
+	// 	{
+    //       $current_date_registration=date('d/m/Y');
+	// 	  $name=strip_tags($_POST['name']);
+	// 	  $user_name=strip_tags($_POST['user_name']);
+	// 	  $password=strip_tags($_POST['password']);
+	// 	  $designation=strip_tags($_POST['designation']);
+	// 	  $email_address=strip_tags($_POST['email_address']);
+	// 	  $mobile_number=strip_tags($_POST['mobile_number']);
+	// 	  $user_type=strip_tags($_POST['user_type']);
+	// 	  $detail=$_POST["detail"];
+	      
+	// 	  if(!empty($_FILES['image_upload']['name'])){
+	// 	  $temp = explode(".", $_FILES['image_upload']['name']);
+    //       $newfilename = round(microtime(true)) . '.' . end($temp);
+    //       $file_tmp= $_FILES['image_upload']['tmp_name'];
+    //       move_uploaded_file($file_tmp, "../../UserImages/" . $newfilename);
+	// 	  }else{
+	// 		$newfilename='';  
+	// 		  }
+	// 	  $new_password = password_hash($password, PASSWORD_DEFAULT);
+		  
+
+		
+	// 	  $logininformation ="SELECT * FROM `$database_table`";  
+	// 	  $insert_datacheck= $pdo->query($logininformation);
+    //       $countinformation = $insert_datacheck->rowCount(); 
+		 
+    //      if($countinformation==0){
+	
+    //       $sql = "INSERT INTO `$database_table`(`name`,`user_name`,`password`,`designation`,`detail`,`email_address`,`mobile_number`,`user_type`,`no_value`,`joining_date`,`image`,`create_by`, `created_at`) VALUES (:name,:user_name,:password,:designation,:detail,:email_address,:mobile_number,:user_type,:no_value,'$current_date_registration','$newfilename','$personal_information_edit_id','$current_time')";
+    //         $insert_data= $pdo->prepare($sql);
+	// 	    $insert_data->bindparam(":name", $name);
+	// 		$insert_data->bindparam(":user_name", $user_name);
+	// 		$insert_data->bindparam(":password", $new_password);
+	// 		$insert_data->bindparam(":designation", $designation);
+	// 		$insert_data->bindparam(":detail", $detail);
+	// 		$insert_data->bindparam(":email_address", $email_address);
+	// 		$insert_data->bindparam(":mobile_number", $mobile_number);
+	// 		$insert_data->bindparam(":user_type", $user_type);
+	// 		$insert_data->bindparam(":no_value", $password);
+	// 		$insert_data->bindparam(":joining_date", $current_date_registration);							  	
+	// 		$insert_data->execute();
+		  
+	// 	  echo "<script>alert('Thank you.Your $menu information Insert successfuly.')</script>";
+	//       echo "<script>window.open('?menu=$menu&page_title=$page_title&main_menu=$main_menu','_self')</script>";
+	 
+	// 			 }else{
+					 
+					 
+	// 				 echo "<script>alert('Your $menu Information Already Exist Our System. Please Input Another $menu Name')</script>";
+	// echo "<script>window.open('?menu=$menu&page_title=$page_title&main_menu=$main_menu','_self')</script>";
+	// 				 }
+
+	// 		}
+			
+	// User Information Create End
+
+		// User Information Create Start
+	
+		if(isset($_POST['user_information_create']))
 		{
           $current_date_registration=date('d/m/Y');
 		  $name=strip_tags($_POST['name']);
@@ -278,7 +338,7 @@ $news_live_time=number_format($time_in_ms, 0, '.', '');
 		  $temp = explode(".", $_FILES['image_upload']['name']);
           $newfilename = round(microtime(true)) . '.' . end($temp);
           $file_tmp= $_FILES['image_upload']['tmp_name'];
-          move_uploaded_file($file_tmp, "../../Login/images/" . $newfilename);
+          move_uploaded_file($file_tmp, "../../UserImages/" . $newfilename);
 		  }else{
 			$newfilename='';  
 			  }
@@ -318,11 +378,3 @@ $news_live_time=number_format($time_in_ms, 0, '.', '');
 			}
 			
 	// User Information Create End
-	
-	
-	
-		
-			
-	
-
-?>
