@@ -93,7 +93,7 @@ if(isset($_GET["Detail"])){
 	
 $Detail_id=$_GET["Detail"];
 	
-$informationlastoneshare = $pdo->query("select  * from  news where id='$Detail_id'");
+$informationlastoneshare = $pdo->query("select  * from  tbl_news where id='$Detail_id'");
         $rowdatatop_newsshare = $informationlastoneshare->fetch();
 	
 	

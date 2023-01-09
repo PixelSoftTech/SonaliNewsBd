@@ -1,3 +1,7 @@
+<?php 
+include('DBhandelar.php');
+
+ ?>
 <!DOCTYPE html>
 <html lang="bn">
    <head>
@@ -337,13 +341,13 @@
                   </div>
                </div>
             </div>
-            <form class="search-wrapper needs-validation" style="display: none;" data-target="slide-content" action="https://www.dhakapost.com/search" method="get">
+            <form class="search-wrapper needs-validation" style="display: none;" method="post" action="?menu=NewsSearch&menuName=সংবাদ" accept-charset="UTF-8"  enctype="multipart/form-data">
                <div class="container m-pl-0 m-pr-0">
                   <div class="d-flex align-items-center justify-content-between w-100">
                      <div class="input-group">
-                        <input type="text" name="q" class="form-control" autocomplete="off" placeholder="অনুসন্ধান করুন" required />
+                        <input type="text" name="searchdata" id="searchdata" class="form-control" autocomplete="off" placeholder="অনুসন্ধান করুন" required />
                         <div class="input-group-append search-action">
-                           <button type="submit" class="btn btn-dark"><i style="color: white !important;" class="fa fa-search"></i></button>
+                           <button name="Search" id="Search" type="submit" class="btn btn-dark"><i style="color: white !important;" class="fa fa-search"></i></button>
                            <button type="button" class="btn btn-light m-margin-reducer-right-14" data-target="slide-up">
                            <i class="fa fa-times"></i></button>
                         </div>
