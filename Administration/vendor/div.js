@@ -4,28 +4,26 @@ function divisionsList() {
 	var diviList = document.getElementById('divisions').value;
 
 	// set barishal division districts
-	if(diviList == 'বরিশাল'){		
-		var disctList = '<option disabled selected>Select District</option><option value="বরগুনা">বরগুনা</option><option value="বরিশাল">বরিশাল</option><option value="ভোলা">ভোলা</option><option value="ঝালকাঠি">ঝালকাঠি</option><option value="পটুয়াখালী">পটুয়াখালী</option><option value="পিরোজপুর">পিরোজপুর</option>';
+	if(diviList == 'ঢাকা') {
+		var disctList = '<option value="">Select One</option><option value="ফরিদপুর">ফরিদপুর</option><option value="ঢাকা">ঢাকা</option><option value="নরসিংদী">নরসিংদী</option><option value="গাজীপুর">গাজীপুর</option><option value="শরীয়তপুর">শরীয়তপুর</option><option value="নারায়ণগঞ্জ">নারায়ণগঞ্জ</option><option value="কিশোরগঞ্জ">কিশোরগঞ্জ</option><option value="মানিকগঞ্জ">মানিকগঞ্জ</option><option value="মুন্সিগঞ্জ">মুন্সিগঞ্জ</option><option value="গোপালগঞ্জ">গোপালগঞ্জ</option><option value="টাঙ্গাইল">টাঙ্গাইল</option><option value="রাজবাড়ী">রাজবাড়ী</option><option value="মাদারীপুর">মাদারীপুর</option>';
 	}
-	// set Chattogram division districts
+	else if(diviList == 'বরিশাল'){		
+		var disctList = '<option value="">Select One</option><option value="বরগুনা">বরগুনা</option><option value="বরিশাল">বরিশাল</option><option value="ভোলা">ভোলা</option><option value="ঝালকাঠি">ঝালকাঠি</option><option value="পটুয়াখালী">পটুয়াখালী</option><option value="পিরোজপুর">পিরোজপুর</option>';
+	}
+	else if(diviList == 'সিলেট') {
+		var disctList = '<option disabled selected>Select District</option><option value="মৌলভীবাজার">মৌলভীবাজার</option><option value="সিলেট">সিলেট</option><option value="হবিগঞ্জ">হবিগঞ্জ</option><option value="সুনামগঞ্জ">সুনামগঞ্জ</option>';
+	}
 	else if(diviList == 'চট্টগ্রাম') {
 		var disctList = '<option disabled selected>Select District</option><option value="কুমিল্লা">কুমিল্লা</option><option value="চট্টগ্রাম">চট্টগ্রাম</option><option value="ফেনী">ফেনী</option><option value="ব্রাহ্মণবাড়িয়া">ব্রাহ্মণবাড়িয়া</option><option value="রাঙ্গামাটি">রাঙ্গামাটি</option><option value="নোয়াখালী">নোয়াখালী</option><option value="চাঁদপুর">চাঁদপুর</option><option value="লক্ষ্মীপুর">লক্ষ্মীপুর</option><option value="কক্সবাজার">কক্সবাজার</option><option value="বান্দরবান">বান্দরবান</option><option value="খাগড়াছড়ি">খাগড়াছড়ি</option>';	
-	}
-	// set Dhaka division districts
-	else if(diviList == 'ঢাকা') {
-		var disctList = '<option disabled selected>Select District</option><option value="ফরিদপুর">ফরিদপুর</option><option value="ঢাকা">ঢাকা</option><option value="নরসিংদী">নরসিংদী</option><option value="গাজীপুর">গাজীপুর</option><option value="শরীয়তপুর">শরীয়তপুর</option><option value="নারায়ণগঞ্জ">নারায়ণগঞ্জ</option><option value="কিশোরগঞ্জ">কিশোরগঞ্জ</option><option value="মানিকগঞ্জ">মানিকগঞ্জ</option><option value="মুন্সিগঞ্জ">মুন্সিগঞ্জ</option><option value="গোপালগঞ্জ">গোপালগঞ্জ</option><option value="টাঙ্গাইল">টাঙ্গাইল</option><option value="রাজবাড়ী">রাজবাড়ী</option><option value="মাদারীপুর">মাদারীপুর</option>';
-	}
-	else if(diviList == 'খুলনা') {
-		var disctList = '<option disabled selected>Select District</option><option value="যশোর">যশোর</option><option value="খুলনা">খুলনা</option><option value="সাতক্ষীরা">সাতক্ষীরা</option><option value="মেহেরপুর">মেহেরপুর</option><option value="নড়াইল">নড়াইল</option><option value="চুয়াডাঙ্গা">চুয়াডাঙ্গা</option><option value="কুষ্টিয়া">কুষ্টিয়া</option><option value="মাগুরা">মাগুরা</option><option value="বাগেরহাট">বাগেরহাট</option><option value="ঝিনাইদহ">ঝিনাইদহ</option>';
 	}
 	else if(diviList == 'রাজশাহী') {
 		var disctList = '<option disabled selected>Select District</option><option value="বগুড়া">বগুড়া</option><option value="রাজশাহী">রাজশাহী</option><option value="পাবনা">পাবনা</option><option value="সিরাজগঞ্জ">সিরাজগঞ্জ</option><option value="নাটোর">নাটোর</option><option value="জয়পুরহাট">জয়পুরহাট</option><option value="নওগাঁ">নওগাঁ</option><option value="চাঁপাইনবাবগঞ্জ">চাঁপাইনবাবগঞ্জ</option>';
 	}
+	else if(diviList == 'খুলনা') {
+		var disctList = '<option disabled selected>Select District</option><option value="যশোর">যশোর</option><option value="খুলনা">খুলনা</option><option value="সাতক্ষীরা">সাতক্ষীরা</option><option value="মেহেরপুর">মেহেরপুর</option><option value="নড়াইল">নড়াইল</option><option value="চুয়াডাঙ্গা">চুয়াডাঙ্গা</option><option value="কুষ্টিয়া">কুষ্টিয়া</option><option value="মাগুরা">মাগুরা</option><option value="বাগেরহাট">বাগেরহাট</option><option value="ঝিনাইদহ">ঝিনাইদহ</option>';
+	}
 	else if(diviList == 'রংপুর') {
 		var disctList = '<option disabled selected>Select District</option><option value="দিনাজপুর">দিনাজপুর</option><option value="রংপুর">রংপুর</option><option value="পঞ্চগড়">পঞ্চগড়</option><option value="লালমনিরহাট">লালমনিরহাট</option><option value="নীলফামারী">নীলফামারী</option><option value="গাইবান্ধা">গাইবান্ধা</option><option value="কুড়িগ্রাম">কুড়িগ্রাম</option><option value="ঠাকুরগাঁও">ঠাকুরগাঁও</option>';
-	}
-	else if(diviList == 'সিলেট') {
-		var disctList = '<option disabled selected>Select District</option><option value="মৌলভীবাজার">মৌলভীবাজার</option><option value="সিলেট">সিলেট</option><option value="হবিগঞ্জ">হবিগঞ্জ</option><option value="সুনামগঞ্জ">সুনামগঞ্জ</option>';
 	}
 	else if(diviList == 'ময়মনসিংহ') {
 		var disctList = '<option disabled selected>Select District</option><option value="শেরপুর">শেরপুর</option><option value="ময়মনসিংহ">ময়মনসিংহ</option><option value="জামালপুর">জামালপুর</option><option value="নেত্রকোণা">নেত্রকোণা</option>';
@@ -159,76 +157,76 @@ function thanaList(){
 		var thanaList = '<option value="">Select One</option><option value="কালীগঞ্জ">কালীগঞ্জ</option><option value="ঝিনাইদহ সদর">ঝিনাইদহ সদর</option><option value="শৈলকুপা">শৈলকুপা</option><option value="হরিণাকুন্ডু">হরিণাকুন্ডু</option><option value="কোটচাঁদপুর">কোটচাঁদপুর</option><option value="মহেশপুর">মহেশপুর</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
 	if(DisList == 'রাজশাহী') {
-		var thanaList = '<option value="">Select One</option><option value="Atrai">Atrai</option><option value="Badalgachhi">Badalgachhi</option><option value="Dhamoirhat">Dhamoirhat</option><option value="Mahadebpur">Mahadebpur</option><option value="Manda">Manda</option><option value="Naogaon Sadar">Naogaon Sadar</option><option value="Niamatpur">Niamatpur</option><option value="Patnitala">Patnitala</option><option value="Porsha">Porsha</option><option value="Raninagar">Raninagar</option><option value="Sapahar">Sapahar</option><option value="Others">Others</option>';
+		var thanaList = '<option value="">Select One</option><option value="পবা">পবা</option><option value="দুর্গাপুর">দুর্গাপুর</option><option value="মোহনপুর">মোহনপুর</option><option value="চারঘাট">চারঘাট</option><option value="পুঠিয়া">পুঠিয়া</option><option value="বাঘা">বাঘা</option><option value="গোদাগাড়ী">গোদাগাড়ী</option><option value="তানোর">তানোর</option><option value="বাগমারা">বাগমারা</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
 	if(DisList == 'সিরাজগঞ্জ') {
-		var thanaList = '<option value="">Select One</option><option value="Kalia">Kalia</option><option value="Lohagara">Lohagara</option><option value="NarailSadar">NarailSadar</option><option value="Others">Others</option>';
+		var thanaList = '<option value="">Select One</option><option value="বেলকুচি">বেলকুচি</option><option value="সিরাজগঞ্জ সদর">সিরাজগঞ্জ সদর</option><option value="চৌহালি">চৌহালি</option><option value="কামারখন্দ">কামারখন্দ</option><option value="কাজীপুর">কাজীপুর</option><option value="রায়গঞ্জ">রায়গঞ্জ</option><option value="শাহজাদপুর">শাহজাদপুর</option><option value="তাড়াশ">তাড়াশ</option><option value="উল্লাপাড়া">উল্লাপাড়া</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
 	if(DisList == 'পাবনা') {
-		var thanaList = '<option value="">Select One</option><option value="Araihazar">Araihazar</option><option value="Bandar">Bandar</option><option value="Narayanganj Sadar">Narayanganj Sadar</option><option value="Rupganj">Rupganj</option><option value="Siddirganj">Siddirganj</option><option value="Sonargaon">Sonargaon</option><option value="Others">Others</option>';
+		var thanaList = '<option value="">Select One</option><option value="ঈশ্বরদী">ঈশ্বরদী</option><option value="পাবনা সদর">পাবনা সদর</option><option value="সুজানগর">সুজানগর</option><option value="ভাঙ্গুড়া">ভাঙ্গুড়া</option><option value="বেড়া">বেড়া</option><option value="আটঘরিয়া">আটঘরিয়া</option><option value="চাটমোহর">চাটমোহর</option><option value="সাঁথিয়া">সাঁথিয়া</option><option value="ফরিদপুর">ফরিদপুর</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
 	if(DisList == 'বগুড়া') {
-		var thanaList = '<option value="">Select One</option><option value="Belabo">Belabo</option><option value="Manohardi">Manohardi</option><option value="Narsingdi Sadar">Narsingdi Sadar</option><option value="Palash">Palash</option><option value="Roypura">Roypura</option><option value="Shibpur">Shibpur</option><option value="Others">Others</option>';
+		var thanaList = '<option value="">Select One</option><option value="কাহালু">কাহালু</option><option value="বগুড়া সদর">বগুড়া সদর</option><option value="সারিয়াকান্দি">সারিয়াকান্দি</option><option value="শাজাহানপুর">শাজাহানপুর</option><option value="দুপচাচিঁয়া">দুপচাচিঁয়া</option><option value="আদমদিঘি">আদমদিঘি</option><option value="নন্দিগ্রাম">নন্দিগ্রাম</option><option value="সোনাতলা">সোনাতলা</option><option value="ধুনট">ধুনট</option><option value="গাবতলী">গাবতলী</option><option value="শেরপুর">শেরপুর</option><option value="শিবগঞ্জ">শিবগঞ্জ</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
 	if(DisList == 'নাটোর') {
-		var thanaList = '<option value="">Select One</option><option value="Bagati Para">Bagati Para</option><option value="Baraigram">Baraigram</option><option value="Gurudaspur">Gurudaspur</option><option value="Lalpur">Lalpur</option><option value="Naldanga">Naldanga</option><option value="Natore Sadar">Natore Sadar</option><option value="Singra">Singra</option><option value="Others">Others</option>';
+		var thanaList = '<option value="">Select One</option><option value="সিংড়া">সিংড়া</option><option value="নাটোর সদর">নাটোর সদর</option><option value="বড়াইগ্রাম">বড়াইগ্রাম</option><option value="বাগাতিপাড়া">বাগাতিপাড়া</option><option value="লালপুর">লালপুর</option><option value="গুরুদাসপুর">গুরুদাসপুর</option><option value="নলডাঙ্গা">নলডাঙ্গা</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
 	if(DisList == 'জয়পুরহাট') {
-		var thanaList = '<option value="">Select One</option><option value="Atpara">Atpara</option><option value="Barhatta">Barhatta</option><option value="Durgapur">Durgapur</option><option value="Kalmakanda">Kalmakanda</option><option value="Kendua">Kendua</option><option value="Khaliajuri">Khaliajuri</option><option value="Madan">Madan</option><option value="Mohanganj">Mohanganj</option><option value="Netrokona Sadar">Netrokona Sadar</option><option value="Purbadhala">Purbadhala</option><option value="Others">Others</option>';
+		var thanaList = '<option value="">Select One</option><option value="আক্কেলপুর">আক্কেলপুর</option><option value="জয়পুরহাট সদর">জয়পুরহাট সদর</option><option value="কালাই">কালাই</option><option value="ক্ষেতলাল">ক্ষেতলাল</option><option value="পাঁচবিবি">পাঁচবিবি</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
 	if(DisList == 'চাঁপাইনবাবগঞ্জ') {
-		var thanaList = '<option value="">Select One</option><option value="Dimla">Dimla</option><option value="Domar">Domar</option><option value="Jaldhaka">Jaldhaka</option><option value="Kishoreganj ">Kishoreganj </option><option value="Nilphamari Sadar">Nilphamari Sadar</option><option value="Saidpur">Saidpur</option><option value="Others">Others</option>';
+		var thanaList = '<option value="">Select One</option><option value="ভোলাহাট">ভোলাহাট</option><option value="চাঁপাইনবাবগঞ্জ সদর">চাঁপাইনবাবগঞ্জ সদর</option><option value="গোমস্তাপুর">গোমস্তাপুর</option><option value="নাচোল">নাচোল</option><option value="শিবগঞ্জ">শিবগঞ্জ</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
 	if(DisList == 'নওগাঁ') {
-		var thanaList = '<option value="">Select One</option><option value="Begumganj">Begumganj</option><option value="Chatkhil">Chatkhil</option><option value="Companiganj">Companiganj</option><option value="Hatiya">Hatiya</option><option value="Kobirhat">Kobirhat</option><option value="Noakhali Sadar (Sudharam)">Noakhali Sadar (Sudharam)</option><option value="Senbagh">Senbagh</option><option value="Sonaimuri">Sonaimuri</option><option value="Subornachhar">Subornachhar</option><option value="Others">Others</option>';
+		var thanaList = '<option value="">Select One</option><option value="সাপাহার">সাপাহার</option><option value="নওগাঁ সদর">নওগাঁ সদর</option><option value="মহাদেবপুর">মহাদেবপুর</option><option value="বদলগাছী">বদলগাছী</option><option value="পত্নিতলা">পত্নিতলা</option><option value="ধামইরহাট">ধামইরহাট</option><option value="নিয়ামতপুর">নিয়ামতপুর</option><option value="মান্দা">মান্দা</option><option value="আত্রাই">আত্রাই</option><option value="রাণীনগর">রাণীনগর</option><option value="পোরশা">পোরশা</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Pabna') {
-		var thanaList = '<option value="">Select One</option><option value="Atgharia">Atgharia</option><option value="Bera">Bera</option><option value="Bhangura">Bhangura</option><option value="Chatmohar">Chatmohar</option><option value="Faridpur">Faridpur</option><option value="Ishwardi">Ishwardi</option><option value="Pabna Sadar">Pabna Sadar</option><option value="Santhia">Santhia</option><option value="Sujanagar">Sujanagar</option><option value="Others">Others</option>';
+	if(DisList == 'রংপুর') {
+		var thanaList = '<option value="">Select One</option><option value="কাউনিয়া">কাউনিয়া</option><option value="রংপুর সদর">রংপুর সদর</option><option value="গংগাচড়া">গংগাচড়া</option><option value="তারাগঞ্জ">তারাগঞ্জ</option><option value="বদরগঞ্জ">বদরগঞ্জ</option><option value="মিঠাপুকুর">মিঠাপুকুর</option><option value="পীরগঞ্জ">পীরগঞ্জ</option><option value="পীরগাছা">পীরগাছা</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Panchagarh') {
-		var thanaList = '<option value="">Select One</option><option value="Atwari">Atwari</option><option value="Boda">Boda</option><option value="Debiganj">Debiganj</option><option value="Panchagarh Sadar">Panchagarh Sadar</option><option value="Tentulia">Tentulia</option><option value="Others">Others</option>';
+	if(DisList == 'দিনাজপুর') {
+		var thanaList = '<option value="">Select One</option><option value="কাহারোল">কাহারোল</option><option value="দিনাজপুর সদর">দিনাজপুর সদর</option><option value="নবাবগঞ্জ">নবাবগঞ্জ</option><option value="বীরগঞ্জ">বীরগঞ্জ</option><option value="ঘোড়াঘাট">ঘোড়াঘাট</option><option value="বিরামপুর">বিরামপুর</option><option value="পার্বতীপুর">পার্বতীপুর</option><option value="বোচাগঞ্জ">বোচাগঞ্জ</option><option value="ফুলবাড়ী">ফুলবাড়ী</option><option value="হাকিমপুর">হাকিমপুর</option><option value="খানসামা">খানসামা</option><option value="বিরল">বিরল</option><option value="চিরিরবন্দর">চিরিরবন্দর</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Patuakhali') {
-		var thanaList = '<option value="">Select One</option><option value="Bauphal">Bauphal</option><option value="Dashmina">Dashmina</option><option value="Dumki">Dumki</option><option value="Galachipa">Galachipa</option><option value="Kala Para">Kala Para</option><option value="Mirzaganj">Mirzaganj</option><option value="Patuakhali Sadar">Patuakhali Sadar</option><option value="Rangabali">Rangabali</option><option value="Others">Others</option>';
+	if(DisList == 'পঞ্চগড়') {
+		var thanaList = '<option value="">Select One</option><option value="আটোয়ারী">আটোয়ারী</option><option value="পঞ্চগড় সদর">পঞ্চগড় সদর</option><option value="দেবীগঞ্জ">দেবীগঞ্জ</option><option value="বোদা">বোদা</option><option value="তেতুলিয়া">তেতুলিয়া</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Pirojpur') {
-		var thanaList = '<option value="">Select One</option><option value="Bhandaria">Bhandaria</option><option value="Indurkani">Indurkani</option><option value="Kawkhali">Kawkhali</option><option value="Mathbaria">Mathbaria</option><option value="Nazirpur">Nazirpur</option><option value="Nesarabad (Swarupkati)">Nesarabad (Swarupkati)</option><option value="Pirojpur Sadar">Pirojpur Sadar</option><option value="Others">Others</option>';
+	if(DisList == 'লালমনিরহাট') {
+		var thanaList = '<option value="">Select One</option><option value="কালীগঞ্জ">কালীগঞ্জ</option><option value="লালমনিরহাট সদর">লালমনিরহাট সদর</option><option value="হাতীবান্ধা">হাতীবান্ধা</option><option value="পাটগ্রাম">পাটগ্রাম</option><option value="আদিতমারী">আদিতমারী</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Rajbari') {
-		var thanaList = '<option value="">Select One</option><option value="Balia Kandi">Balia Kandi</option><option value="Goalandaghat">Goalandaghat</option><option value="Kalukhali">Kalukhali</option><option value="Pangsha">Pangsha</option><option value="Rajbari Sadar">Rajbari Sadar</option><option value="Others">Others</option>';
+	if(DisList == 'নীলফামারী') {
+		var thanaList = '<option value="">Select One</option><option value="সৈয়দপুর">সৈয়দপুর</option><option value="নীলফামারী সদর">নীলফামারী সদর</option><option value="ডোমার">ডোমার</option><option value="ডিমলা">ডিমলা</option><option value="কিশোরগঞ্জ">কিশোরগঞ্জ</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Rajshahi') {
-		var thanaList = '<option value="">Select One</option><option value="Balia Kandi">Balia Kandi</option><option value="Goalandaghat">Goalandaghat</option><option value="Kalukhali">Kalukhali</option><option value="Pangsha">Pangsha</option><option value="Rajbari Sadar">Rajbari Sadar</option><option value="Others">Others</option>';
+	if(DisList == 'গাইবান্ধা') {
+		var thanaList = '<option value="">Select One</option><option value="সাদুল্লাপুর">সাদুল্লাপুর</option><option value="গাইবান্ধা সদর">গাইবান্ধা সদর</option><option value="পলাশবাড়ী">পলাশবাড়ী</option><option value="সাঘাটা">সাঘাটা</option><option value="গোবিন্দগঞ্জ">গোবিন্দগঞ্জ</option><option value="সুন্দরগঞ্জ">সুন্দরগঞ্জ</option><option value="ফুলছড়ি">ফুলছড়ি</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Rangamati') {
-		var thanaList = '<option value="">Select One</option><option value="Bagaichhari">Bagaichhari</option><option value="Barkal">Barkal</option><option value="Belaichhari">Belaichhari</option><option value="Juraichhari">Juraichhari</option><option value="Kaptai">Kaptai</option><option value="Kawkhali (Betbunia)">Kawkhali (Betbunia)</option><option value="Langadu">Langadu</option><option value="Naniarchar">Naniarchar</option><option value="Rajasthali">Rajasthali</option><option value="Rangamati Sadar">Rangamati Sadar</option><option value="Others">Others</option>';
+	if(DisList == 'ঠাকুরগাঁও') {
+		var thanaList = '<option value="">Select One</option><option value="পীরগঞ্জ">পীরগঞ্জ</option><option value="ঠাকুরগাঁও সদর">ঠাকুরগাঁও সদর</option><option value="রাণীশংকৈল">রাণীশংকৈল</option><option value="হরিপুর">হরিপুর</option><option value="বালিয়াডাঙ্গী">বালিয়াডাঙ্গী</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Rangpur') {
-		var thanaList = '<option value="">Select One</option><option value="Badarganj">Badarganj</option><option value="Gangachara">Gangachara</option><option value="Kaunia">Kaunia</option><option value="Mitha Pukur">Mitha Pukur</option><option value="Pirgachha">Pirgachha</option><option value="Pirganj">Pirganj</option><option value="Rangpur Sadar">Rangpur Sadar</option><option value="Taraganj">Taraganj</option><option value="Others">Others</option>';
+	if(DisList == 'কুড়িগ্রাম') {
+		var thanaList = '<option value="">Select One</option><option value="ফুলবাড়ী">ফুলবাড়ী</option><option value="কুড়িগ্রাম সদর">কুড়িগ্রাম সদর</option><option value="নাগেশ্বরী">নাগেশ্বরী</option><option value="ভুরুঙ্গামারী">ভুরুঙ্গামারী</option><option value="রাজারহাট">রাজারহাট</option><option value="উলিপুর">উলিপুর</option><option value="চিলমারী">চিলমারী</option><option value="রৌমারী">রৌমারী</option><option value="চর রাজিবপুর">চর রাজিবপুর</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Satkhira') {
-		var thanaList = '<option value="">Select One</option><option value="Assasuni">Assasuni</option><option value="Debhata">Debhata</option><option value="Kalaroa">Kalaroa</option><option value="Kaliganj">Kaliganj</option><option value="Satkhira Sadar">Satkhira Sadar</option><option value="Shyamnagar">Shyamnagar</option><option value="Tala">Tala</option><option value="Others">Others</option>';
+	if(DisList == 'সিলেট') {
+		var thanaList = '<option value="">Select One</option><option value="কানাইঘাট">কানাইঘাট</option><option value="সিলেট সদর">সিলেট সদর</option><option value="জকিগঞ্জ">জকিগঞ্জ</option><option value="বালাগঞ্জ">বালাগঞ্জ</option><option value="ফেঞ্চুগঞ্জ">ফেঞ্চুগঞ্জ</option><option value="গোলাপগঞ্জ">গোলাপগঞ্জ</option><option value="কোম্পানীগঞ্জ">কোম্পানীগঞ্জ</option><option value="ওসমানী">ওসমানী</option><option value="বিশ্বনাথ">বিশ্বনাথ</option><option value="জৈন্তাপুর">জৈন্তাপুর</option><option value="গোয়াইনঘাট">গোয়াইনঘাট</option><option value="বিয়ানীবাজার">বিয়ানীবাজার</option><option value="দক্ষিণ সুরমা">দক্ষিণ সুরমা</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Shariatpur') {
-		var thanaList = '<option value="">Select One</option><option value="Bhaderganj">Bhaderganj</option><option value="Damudya">Damudya</option><option value="Gosairhat">Gosairhat</option><option value="Naria">Naria</option><option value="Palong(Sadar)">Palong(Sadar)</option><option value="Zanjira">Zanjira</option><option value="Others">Others</option>';
+	if(DisList == 'মৌলভীবাজার') {
+		var thanaList = '<option value="">Select One</option><option value="কমলগঞ্জ">কমলগঞ্জ</option><option value="মৌলভীবাজার সদর">মৌলভীবাজার সদর</option><option value="বড়লেখা">বড়লেখা</option><option value="কুলাউড়া">কুলাউড়া</option><option value="জুড়ী">জুড়ী</option><option value="রাজনগর">রাজনগর</option><option value="শ্রীমঙ্গল">শ্রীমঙ্গল</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Sherpur') {
-		var thanaList = '<option value="">Select One</option><option value="Jhenaigati">Jhenaigati</option><option value="Nakla">Nakla</option><option value="Nalitabari">Nalitabari</option><option value="Sherpur Sadar">Sherpur Sadar</option><option value="Sreebardi">Sreebardi</option><option value="Others">Others</option>';
+	if(DisList == 'হবিগঞ্জ') {
+		var thanaList = '<option value="">Select One</option><option value="আজমিরীগঞ্জ">আজমিরীগঞ্জ</option><option value="হবিগঞ্জ সদর">হবিগঞ্জ সদর</option><option value="নবীগঞ্জ">নবীগঞ্জ</option><option value="শায়েস্তাগঞ্জ">শায়েস্তাগঞ্জ</option><option value="বাহুবল">বাহুবল</option><option value="বানিয়াচং">বানিয়াচং</option><option value="লাখাই">লাখাই</option><option value="চুনারুঘাট">চুনারুঘাট</option><option value="মাধবপুর">মাধবপুর</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Sirajganj') {
-		var thanaList = '<option value="">Select One</option><option value="Belkuchi">Belkuchi</option><option value="Chauhali">Chauhali</option><option value="Kamarkhanda">Kamarkhanda</option><option value="Kazipur">Kazipur</option><option value="Royganj">Royganj</option><option value="Shahjadpur">Shahjadpur</option><option value="Sirajganj Sadar">Sirajganj Sadar</option><option value="Tarash">Tarash</option><option value="Ullah Para">Ullah Para</option><option value="Others">Others</option>';
+	if(DisList == 'সুনামগঞ্জ') {
+		var thanaList = '<option value="">Select One</option><option value="জামালগঞ্জ">জামালগঞ্জ</option><option value="সুনামগঞ্জ সদর">সুনামগঞ্জ সদর</option><option value="দক্ষিণ সুনামগঞ্জ">দক্ষিণ সুনামগঞ্জ</option><option value="বিশ্বম্ভরপুর">বিশ্বম্ভরপুর</option><option value="ছাতক">ছাতক</option><option value="জগন্নাথপুর">জগন্নাথপুর</option><option value="দোয়ারাবাজার">দোয়ারাবাজার</option><option value="তাহিরপুর">তাহিরপুর</option><option value="ধর্মপাশা">ধর্মপাশা</option><option value="শাল্লা">শাল্লা</option><option value="দিরাই">দিরাই</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Sunamganj') {
-		var thanaList = '<option value="">Select One</option><option value="Bishwambarpur">Bishwambarpur</option><option value="Chhatak">Chhatak</option><option value="Daxin Sunamganj">Daxin Sunamganj</option><option value="Derai">Derai</option><option value="Dharampasha">Dharampasha</option><option value="Dowarabazar">Dowarabazar</option><option value="Jagannatpur">Jagannatpur</option><option value="Jamalganj">Jamalganj</option><option value="Sulla">Sulla</option><option value="Sunamganj Sadar">Sunamganj Sadar</option><option value="Tahirpur">Tahirpur</option><option value="Others">Others</option>';
+	if(DisList == 'ময়মনসিংহ') {
+		var thanaList = '<option value="">Select One</option><option value="ভালুকা">ভালুকা</option><option value="ময়মনসিংহ সদর">ময়মনসিংহ সদর</option><option value="ফুলবাড়ীয়া">ফুলবাড়ীয়া</option><option value="ত্রিশাল">ত্রিশাল</option><option value="মুক্তাগাছা">মুক্তাগাছা</option><option value="ধোবাউড়া">ধোবাউড়া</option><option value="ফুলপুর">ফুলপুর</option><option value="হালুয়াঘাট">হালুয়াঘাট</option><option value="গৌরীপুর">গৌরীপুর</option><option value="গফরগাঁও">গফরগাঁও</option><option value="ঈশ্বরগঞ্জ">ঈশ্বরগঞ্জ</option><option value="নান্দাইল">নান্দাইল</option><option value="তারাকান্দা">তারাকান্দা</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Sylhet') {
-		var thanaList = '<option value="">Select One</option><option value="Balaganj">Balaganj</option><option value="Beani Bazar">Beani Bazar</option><option value="Bishwanath">Bishwanath</option><option value="Companiganj">Companiganj</option><option value="Fenchuganj">Fenchuganj</option><option value="Golabganj">Golabganj</option><option value="Gowainghat">Gowainghat</option><option value="Jaintiapur">Jaintiapur</option><option value="Kanaighat">Kanaighat</option><option value="Kowtali">Kowtali</option><option value="South Surma">South Surma</option><option value="Zakirganj">Zakirganj</option><option value="Others">Others</option>';
+	if(DisList == 'শেরপুর') {
+		var thanaList = '<option value="">Select One</option><option value="নালিতাবাড়ী">নালিতাবাড়ী</option><option value="শেরপুর সদর">শেরপুর সদর</option><option value="শ্রীবরদী">শ্রীবরদী</option><option value="নকলা">নকলা</option><option value="ঝিনাইগাতী">ঝিনাইগাতী</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Tangail') {
-		var thanaList = '<option value="">Select One</option><option value="Basail">Basail</option><option value="Bhuapur">Bhuapur</option><option value="Delduar">Delduar</option><option value="Dhonbari">Dhonbari</option><option value="Ghatail">Ghatail</option><option value="Gopalpur">Gopalpur</option><option value="Kalihati">Kalihati</option><option value="Madhupur">Madhupur</option><option value="Mirzapur">Mirzapur</option><option value="Nagarpur">Nagarpur</option><option value="Sakhipur">Sakhipur</option><option value="Tangail Sadar">Tangail Sadar</option><option value="Others">Others</option>';
+	if(DisList == 'জামালপুর') {
+		var thanaList = '<option value="">Select One</option><option value="মেলান্দহ">মেলান্দহ</option><option value="জামালপুর সদর">জামালপুর সদর</option><option value="ইসলামপুর">ইসলামপুর</option><option value="দেওয়ানগঞ্জ">দেওয়ানগঞ্জ</option><option value="সরিষাবাড়ী">সরিষাবাড়ী</option><option value="মাদারগঞ্জ">মাদারগঞ্জ</option><option value="বকশীগঞ্জ">বকশীগঞ্জ</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
-	if(DisList == 'Thakurgaon') {
-		var thanaList = '<option value="">Select One</option><option value="Baliadangi">Baliadangi</option><option value="Haripur">Haripur</option><option value="Pirganj">Pirganj</option><option value="Ranisankail">Ranisankail</option><option value="Thakurgaon Sadar">Thakurgaon Sadar</option><option value="Others">Others</option>';
+	if(DisList == 'নেত্রকোণা') {
+		var thanaList = '<option value="">Select One</option><option value="বারহাট্টা">বারহাট্টা</option><option value="নেত্রকোণা সদর">নেত্রকোণা সদর</option><option value="দুর্গাপুর">দুর্গাপুর</option><option value="কেন্দুয়া">কেন্দুয়া</option><option value="আটপাড়া">আটপাড়া</option><option value="মদন">মদন</option><option value="খালিয়াজুরী">খালিয়াজুরী</option><option value="কলমাকান্দা">কলমাকান্দা</option><option value="মোহনগঞ্জ">মোহনগঞ্জ</option><option value="পূর্বধলা">পূর্বধলা</option><option value="অন্যান্য">অন্যান্য</option>';
 	}
 	
 

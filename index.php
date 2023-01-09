@@ -82,7 +82,7 @@
                      <div class="col-lg-6 col-md-12 top-left-section lead-top m-order-0">
                         <div class="row">
                            <div class="col-12 lead-news">
-                              <a href="https://www.dhakapost.com/sports/football/159603" class="news-item news-item-lead">
+                              <a href="details-news.php" class="news-item news-item-lead">
                                  <div class="image-container">
                                     <img style="width: 620px; max-height: 350px; " src="assets/forAll/img/placeholder.png" data-src="assets/forAll/img/NewsDepend.png" alt="ইউরোপীয় দল সামনে এলেই চুপসে যাচ্ছে ব্রাজিল!" class="lazyload img-loader">
                                  </div>

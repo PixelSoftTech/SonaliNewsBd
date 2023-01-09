@@ -38,27 +38,13 @@
                         <table class="table table-bordered table-striped table-hover" id="example">
                             <thead>
                                 <tr>
-                                    <th>
-                                        SL
-                                    </th>
-                                    <th>
-                                        Category
-                                    </th>
-                                    <th>
-                                        Title Bangla
-                                    </th>
-
-                                    <th>
-                                        Detail
-                                    </th>
-
-                                    <th>
-                                        Photo
-                                    </th>
-
-                                    <th>
-                                        Option
-                                    </th>
+                                    <th>SL</th>
+                                    <th>Category</th>
+                                    <th>Title Bangla</th>
+                                    <th>Detail</th>
+                                    <th>Reporter</th>
+                                    <th>Photo</th>
+                                    <th>Action</th>
                                 </tr>
 
                             </thead>
@@ -89,10 +75,10 @@
 
                                     <tr>
                                         <td text align="center"><?php echo $total; ?></td>
-                                        <td text align="center"><?php echo $rowdata["categoryid"]; ?>
-                                        </td>
+                                        <td text align="center"><?php echo $rowdata["categoryid"]; ?></td>
                                         <td text align="center"><?php echo $rowdata["title_bn"]; ?></td>
                                         <td text align="center"><?php echo $news_text_data; ?></td>
+                                        <td text align="center"><?php echo $rowdata["ReporterName"]; ?></td>
 
 
 

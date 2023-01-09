@@ -155,12 +155,12 @@
                             <!-- division select here -->
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <label for="divisions">Select District</label>
+                                    <label for="divisions">Select Division</label>
                                     <select required class="form-control" name="Division" id="divisions" onchange="divisionsList();">
                                         <option selected value="">Select Division</option>
-                                        <option data-value="Dhaka" value="Dhaka">ঢাকা</option>
-                                        <option data-value="Barishal" value="Barishal">বরিশাল</option>
-                                        <option data-value="Sylhet" value="Sylhet">সিলেট</option>
+                                        <option data-value="Dhaka" value="ঢাকা">ঢাকা</option>
+                                        <option data-value="Barishal" value="বরিশাল">বরিশাল</option>
+                                        <option data-value="Sylhet" value="সিলেট">সিলেট</option>
                                         <option data-value="Chattogram" value="চট্টগ্রাম">চট্টগ্রাম</option>
                                         <option data-value="Rajshahi" value="রাজশাহী">রাজশাহী</option>
                                         <option data-value="Khulna" value="খুলনা">খুলনা</option>
@@ -171,7 +171,7 @@
                                     <script>
                                         $("#divisions").select2({
                                             allowClear: true,
-                                            placeholder: 'Select division'
+                                            placeholder: 'Select Division'
                                         });
                                     </script>
                                 </div>
@@ -185,7 +185,7 @@
                                     <script>
                                         $("#distr").select2({
                                             allowClear: true,
-                                            placeholder: 'Select district'
+                                            placeholder: 'Select District'
                                         });
                                     </script>
                                 </div>
@@ -199,7 +199,7 @@
                                     <script>
                                         $("#upo").select2({
                                             allowClear: true,
-                                            placeholder: 'Select upazila'
+                                            placeholder: 'Select Upazila'
                                         });
                                     </script>
                                 </div>
