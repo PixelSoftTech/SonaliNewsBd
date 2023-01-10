@@ -75,7 +75,7 @@ if(!empty($_GET['menuName'])){
 	}
 
 	
-$page_title_data=$page_title.".doel.php";
+$page_title_data=$page_title.".pixelst.php";
 
 
 if(isset($_POST["web_version_send"])){
