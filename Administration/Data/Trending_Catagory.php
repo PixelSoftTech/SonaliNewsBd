@@ -70,7 +70,9 @@
                                         <td text align="center"><?php echo $rowdata["TrendingCatNameBn"]; ?></td>
 
 
-                                        <td text align="center"><a title="View Detail" href="?menu=<?php echo $menu; ?>&page_title=<?php echo $page_title; ?>_edit&edit_id=<?php echo $rowdata["id"]; ?>&main_menu=<?php echo $main_menu; ?>&table=<?php echo $table; ?>" onClick="return confirm('Do You Want To Edit <?php echo $rowdata["name"]; ?> Information?')"><i class="fa fa-edit" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title="Delete Information" href="?del=<?php echo $rowdata["id"]; ?>&menu=<?php echo $menu; ?>&page_title=<?php echo $page_title; ?>&table=<?php echo $table; ?>&main_menu=<?php echo $main_menu; ?>" onClick="return confirm('Do You Want To Delete Information?')"><i class="fa fa-trash" style="font-size:24px"></i></a>
+                                        <td text align="center">
+                                            <a title="View Detail" href="?menu=<?php echo $menu; ?>&page_title=<?php echo $page_title; ?>_edit&edit_id=<?php echo $rowdata["Id"]; ?>&main_menu=<?php echo $main_menu; ?>&table=<?php echo $table; ?>" onClick="return confirm('Do You Want To Edit <?php echo $rowdata["TrendingCatName"]; ?> Information?')"><i class="fa fa-edit" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a title="Delete Information" href="?del=<?php echo $rowdata["id"]; ?>&menu=<?php echo $menu; ?>&page_title=<?php echo $page_title; ?>&table=<?php echo $table; ?>&main_menu=<?php echo $main_menu; ?>" onClick="return confirm('Do You Want To Delete Information?')"><i class="fa fa-trash" style="font-size:24px"></i></a>
                                         </td>
 
                                     </tr>

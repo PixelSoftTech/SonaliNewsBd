@@ -117,7 +117,7 @@
                             </div>
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <label for="sironam_left">Home Highlight<span style="color:#F00;">*</span></label>
+                                    <label for="sironam_left">Home Highlight</label>
                                     <select name="homepage_status" id="sironam_left" required class="form-control">
                                         <option value="">Select Highlight</option>
 
@@ -136,7 +136,7 @@
 
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <label for="highlight_status">Breaking News<span style="color:#F00;">*</span></label>
+                                    <label for="highlight_status">Breaking News</label>
                                     <select name="highlight_status" id="highlight_status" required class="form-control">
                                         <option value="">Select B.News</option>
 
@@ -156,7 +156,7 @@
                             <div class="col-sm-4">
                                 <div class="form-group">
                                     <label for="divisions">Select Division</label>
-                                    <select required class="form-control" name="Division" id="divisions" onchange="divisionsList();">
+                                    <select  class="form-control" name="Division" id="divisions" onchange="divisionsList();">
                                         <option selected value="">Select Division</option>
                                         <option data-value="Dhaka" value="ঢাকা">ঢাকা</option>
                                         <option data-value="Barishal" value="বরিশাল">বরিশাল</option>
@@ -244,7 +244,7 @@
                                         $select = "SELECT * FROM tbl_reporter";
                                         $result = $pdo->query($select);
                                         $result->setFetchMode(PDO::FETCH_ASSOC);
-                                        echo '<select name="ReporterName"  id="reporterName" class="form-control" >';
+                                        echo '<select name="ReporterName"  id="reporterName" required class="form-control" >';
                                         echo '<option selected value="">Select Reporter</option>';
                                         while ($row = $result->fetch()) {
                                             echo '<option value="' . $row['r_nameBn'] . '">' . $row['r_nameBn'] . '</option>';
@@ -269,7 +269,7 @@
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <label for="title">Title(Bangla)</label>
-                                    <input class="form-control" placeholder="Title Bangla Here .." name="title_bn" id="title_bn" type="text">
+                                    <input class="form-control" placeholder="Title Bangla Here .." name="title_bn" id="title_bn" type="text" required>
                                 </div>
                             </div>
 
@@ -279,7 +279,7 @@
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <label for="designation">Details (Bangla)</label>
-                                    <textarea class="form-control" placeholder="Editor Detail (Bangla)" name="detail_bn" id="area_editor1"></textarea>
+                                    <textarea class="form-control" placeholder="Detail (Bangla)" name="detail_bn" id="area_editor1"></textarea>
                                 </div>
                             </div>
 
