@@ -60,36 +60,20 @@
                   }
                   }
                </style>
-               <div class="container">
-                  <div class="trending-tag d-flex align-items-center mt-3">
-                     <span>ট্রেন্ডিং : </span>
-                     <?php
-         $informationtopnews = $pdo->query("select  * from  tbl_trendingcatagory order by Id DESC limit 0,5");
-         while ($rowdatatopnews = $informationtopnews->fetch()) {
-
-         ?>
-       
-                     <a href="?menu=Category&menuName=<?php echo $rowdatatopnews["TrendingCatNameBn"]; ?>"><?php echo $rowdatatopnews["TrendingCatNameBn"]; ?></a>
-                    
-                     <?php } ?>
-                     <a href="https://www.dhakapost.com/namaz-sehri-iftar-time" target="_blank">নামাজের সময়সূচি</a>
-                  </div>
-               </div>
+              
                <style>
                   .sports-section-contents .news-item img {
-                  height: 75px;
+                     height: 75px;
                   }
                </style>
               	<?php
-	
-   $file_check=file_exists("$page_title_data");
-      if($file_check==1){
-       include("$page_title_data");
-      }else{
-         include("Error.php");
-         }
-   
-   ?>
+                  $file_check=file_exists("$page_title_data");
+                     if($file_check==1){
+                        include("$page_title_data");
+                     }else{
+                        include("Error.php");
+                     }
+               ?>
             </div>
          </main>
 

@@ -1,3 +1,17 @@
+<div class="container">
+                  <div class="trending-tag d-flex align-items-center mt-3">
+                     <span>ট্রেন্ডিং : </span>
+                     <?php
+                        $informationtopnews = $pdo->query("select  * from  tbl_trendingcatagory order by Id DESC limit 0,5");
+                        while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     ?>
+                     <a href="?menu=Trending&menuName=<?php echo $rowdatatopnews["TrendingCatNameBn"]; ?>"><?php echo $rowdatatopnews["TrendingCatNameBn"]; ?></a>
+                    
+                     <?php } ?>
+                     <a href="https://www.dhakapost.com/namaz-sehri-iftar-time" target="_blank">নামাজের সময়সূচি</a>
+                  </div>
+               </div>
+
 <div class="container section-top mt-3">
    <div class="row">
       <div class="col-lg-6 col-md-12 top-left-section lead-top m-order-0">
@@ -19,7 +33,7 @@
                <div class="col-12 lead-news">
                   <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-lead">
                      <div class="image-container">
-                        <img style="width: 620px; max-height: 350px; " src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>" alt="<?php echo $rowdatalatestnews["title_bn"]; ?>" class="lazyload img-loader">
+                        <img style="width: 100%; max-height: 350px; " src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>" alt="<?php echo $rowdatalatestnews["title_bn"]; ?>" class="lazyload img-loader">
                      </div>
                      <h2 class="title" style="margin: 10px 0"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
                      <span class="d-none d-sm-block"><?php echo $news_text_data; ?></span>
@@ -81,7 +95,7 @@
 
 
          ?>
-            <div class="second-center scaled" style="background: #Eff5F4">
+            <div class="second-center scaled" style="background: #Eff5F4;">
                <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-list py-2 ">
                   <div class="image-container">
                      <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">

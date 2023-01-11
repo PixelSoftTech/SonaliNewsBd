@@ -18,7 +18,7 @@ if(isset($_GET["menuName"])){
                      <div class="row">
                         <div class="col-lg-8 top-left-section lead-top">
                         <?php
-         $informationtopnews = $pdo->query("select  * from  tbl_news where sironam_status='$Detail' or categoryid='$Detail' order by id DESC limit 0,1");
+         $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='$Detail' order by id DESC limit 0,1");
          while ($rowdatatopnews = $informationtopnews->fetch()) {
             $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
             $text_string_length = strlen($detail_data);
@@ -44,7 +44,7 @@ if(isset($_GET["menuName"])){
                         <div class="col-lg-4 cat-two-items">
                            <div class="row">
                            <?php
-         $informationtopnews = $pdo->query("select  * from  tbl_news where sironam_status='$Detail' or categoryid='$Detail>' order by id DESC limit 1,3");
+         $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='$Detail>' order by id DESC limit 1,3");
          while ($rowdatatopnews = $informationtopnews->fetch()) {
             $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
             $text_string_length = strlen($detail_data);
@@ -73,7 +73,7 @@ if(isset($_GET["menuName"])){
                   </div>
                   <div class="row more-contents">
                   <?php
-         $informationtopnews = $pdo->query("select  * from  tbl_news where sironam_status='$Detail' or categoryid='$Detail' order by id DESC limit 3,18");
+         $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='$Detail' order by id DESC limit 3,18");
          while ($rowdatatopnews = $informationtopnews->fetch()) {
             $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
             $text_string_length = strlen($detail_data);

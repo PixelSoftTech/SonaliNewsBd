@@ -135,11 +135,11 @@ include('DBhandelar.php');
          .genecy-floater-ad {
          z-index: 2147483647!important;
          }
-         @media  screen and (max-width: 1299px) and (min-width: 1200px) {
+         /* @media  screen and (max-width: 1299px) and (min-width: 1200px) {
          .container {
          max-width: 100%;
          }
-         }
+         } */
       </style>
    </head>
    <body>
@@ -165,6 +165,7 @@ include('DBhandelar.php');
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z" />
                      </svg>
+                     
                      <span> রোববার, ১১ ডিসেম্বর ২০২২</span>
                   </span>
                </p>
@@ -217,19 +218,19 @@ include('DBhandelar.php');
                   <div style="width: 99%">
                      <ul class="navbar-nav m-auto d-none d-lg-flex d-menu-items justify-content-center">
                         <li class="nav-item">
-                           <a title="" href="https://www.dhakapost.com" class="nav-link">প্রচ্ছদ</a>
+                           <a title="" href="index.php" class="nav-link">প্রচ্ছদ</a>
                         </li>
                         <li class="nav-item">
                            <a title="" href="Latest.php" class="nav-link">সর্বশেষ</a>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="National.php" class="nav-link">জাতীয়</a>
+                           <a title="" href="?menu=Category&menuName=জাতীয়" class="nav-link">জাতীয়</a>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="Politics.php" class="nav-link">রাজনীতি</a>
+                           <a title="" href="?menu=Category&menuName=রাজনীতি" class="nav-link">রাজনীতি</a>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="https://www.dhakapost.com/economy" class="nav-link">অর্থনীতি</a>
+                           <a title="" href="?menu=Category&menuName=অর্থনীতি" class="nav-link">অর্থনীতি</a>
                         </li>
                         <li class="nav-item dropdown dropdown-toggle" style="display: flex; color: #FFF; align-items: center;">
                            <a title="" href="https://www.dhakapost.com/country" class="nav-link">সারাদেশ</a>
@@ -238,31 +239,31 @@ include('DBhandelar.php');
                            </div>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="https://www.dhakapost.com/international" class="nav-link">আন্তর্জাতিক</a>
+                           <a title="" href="?menu=Category&menuName=আন্তর্জাতিক" class="nav-link">আন্তর্জাতিক</a>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="https://www.dhakapost.com/sports" class="nav-link">খেলা</a>
+                           <a title="" href="?menu=Category&menuName=খেলা" class="nav-link">খেলা</a>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="https://www.dhakapost.com/entertainment" class="nav-link">বিনোদন</a>
+                           <a title="" href="?menu=Category&menuName=বিনোদন" class="nav-link">বিনোদন</a>
                         </li>
                         <li class="nav-item ">
-                           <a title="" href="https://www.dhakapost.com/health" class="nav-link">স্বাস্থ্য</a>
+                           <a title="" href="?menu=Category&menuName=স্বাস্থ্য" class="nav-link">স্বাস্থ্য</a>
                         </li>
                         <li class="nav-item dropdown dropdown-toggle" style="display: flex; color: #FFF; align-items: center;">
                            <a title="" href="#" class="nav-link">ফিচার</a>
                            <div class="dropdown-menu single-dropdown s-dr-menu m-0" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="https://www.dhakapost.com/lifestyle" style="padding: 5px 0;">লাইফস্টাইল</a>
-                              <a class="dropdown-item" href="https://www.dhakapost.com/technology" style="padding: 5px 0;">তথ্যপ্রযুক্তি</a>
-                              <a class="dropdown-item" href="https://www.dhakapost.com/tourism" style="padding: 5px 0;">ট্যুরিজম</a>
-                              <a class="dropdown-item" href="https://www.dhakapost.com/study" style="padding: 5px 0;">পড়াশোনা</a>
+                              <a class="dropdown-item" href="?menu=Category&menuName=লাইফস্টাইল" style="padding: 5px 0;">লাইফস্টাইল</a>
+                              <a class="dropdown-item" href="?menu=Category&menuName=তথ্যপ্রযুক্তি" style="padding: 5px 0;">তথ্যপ্রযুক্তি</a>
+                              <a class="dropdown-item" href="?menu=Category&menuName=ট্যুরিজম" style="padding: 5px 0;">ট্যুরিজম</a>
+                              <a class="dropdown-item" href="?menu=Category&menuName=পড়াশোনা" style="padding: 5px 0;">পড়াশোনা</a>
                            </div>
                         </li>
                         <li class="nav-item hidden-item-lowerend">
-                           <a title="" href="https://www.dhakapost.com/education" class="nav-link">শিক্ষা</a>
+                           <a title="" href="?menu=Category&menuName=শিক্ষা" class="nav-link">শিক্ষা</a>
                         </li>
                         <li class="nav-item hidden-item-lowerend">
-                           <a title="" href="https://www.dhakapost.com/jobs-career" class="nav-link">জবস</a>
+                           <a title="" href="?menu=Category&menuName=জবস" class="nav-link">জবস</a>
                         </li>
                         <li class="nav-item position-static d-flex">
                            <button class="navbar-toggler collapsed nav-link d-flex align-items-center" aria-expanded="false" type="button" data-toggle="collapse" data-target="#nav-items-2">
@@ -277,49 +278,49 @@ include('DBhandelar.php');
                               <div class="container">
                                  <div class="row w-100 menu-items-others">
                                     <div class="col-sm-2 d-none">
-                                       <a href="https://www.dhakapost.com/health">স্বাস্থ্য</a>
+                                       <a href="?menu=Category&menuName=স্বাস্থ্য">স্বাস্থ্য</a>
                                     </div>
                                     <div class="col-sm-2 show-higherend">
-                                       <a href="https://www.dhakapost.com/education">শিক্ষা</a>
+                                       <a href="?menu=Category&menuName=শিক্ষা">শিক্ষা</a>
                                     </div>
                                     <div class="col-sm-2 show-higherend">
-                                       <a href="https://www.dhakapost.com/jobs-career">জবস</a>
+                                       <a href="?menu=Category&menuName=জবস">জবস</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/probash">প্রবাস</a>
+                                       <a href="?menu=Category&menuName=প্রবাস">প্রবাস</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/opinion">মতামত</a>
+                                       <a href="?menu=Category&menuName=মতামত">মতামত</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/religion">ধর্ম</a>
+                                       <a href="?menu=Category&menuName=ধর্ম">ধর্ম</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/children-post">ছোটদের পোস্ট</a>
+                                       <a href="?menu=Category&menuName=ছোটদের পোস্ট">ছোটদের পোস্ট</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/campus">ক্যাম্পাস</a>
+                                       <a href="?menu=Category&menuName=ক্যাম্পাস">ক্যাম্পাস</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/law-courts">আইন-আদালত</a>
+                                       <a href="?menu=Category&menuName=আইন-আদালত">আইন-আদালত</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/podcasts">পডকাস্ট</a>
+                                       <a href="?menu=Category&menuName=পডকাস্ট">পডকাস্ট</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/agriculture-and-nature">কৃষি ও প্রকৃতি</a>
+                                       <a href="?menu=Category&menuName=কৃষি ও প্রকৃতি">কৃষি ও প্রকৃতি</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/aviation">এভিয়েশন</a>
+                                       <a href="?menu=Category&menuName=এভিয়েশন">এভিয়েশন</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/exclusive">এক্সক্লুসিভ</a>
+                                       <a href="?menu=Category&menuName=এক্সক্লুসিভ">এক্সক্লুসিভ</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/mass-media">গণমাধ্যম</a>
+                                       <a href="?menu=Category&menuName=গণমাধ্যম">গণমাধ্যম</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="https://www.dhakapost.com/unicode-to-bijoy-converter">কনভার্টার</a>
+                                       <a href="?menu=Category&menuName=কনভার্টার">কনভার্টার</a>
                                     </div>
                                  </div>
                               </div>
