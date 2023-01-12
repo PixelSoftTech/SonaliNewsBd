@@ -5,7 +5,7 @@
             <div class="footer-top-items footer-mv d-flex align-items-center justify-content-between">
                <div class="footer-logo d-none d-lg-flex">
                   <a href="/">
-                  <img style="max-width: 200px;" src="https://cdn.dhakapost.com/media/common/dhaka-post-logo.svg" alt="Dhaka Post" />
+                  <img style="max-width: 120px;" src="assets/forAll/img/NDepend.png" alt="Dhaka Post" />
                   </a>
                </div>
                <div class="editor">
@@ -44,18 +44,13 @@
                </p>
                <p>
                   <a href="/cdn-cgi/l/email-protection#adc4c3cbc2edc9c5ccc6ccddc2ded983cec2c0" aria-label="Email" class="text-white" target="_blank" rel="nofollow noopener">
-                  <abbr title="Mail"><i class="fa fa-envelope-o"></i> </abbr>&nbsp;<span class="__cf_email__" data-cfemail="caa3a4aca58aaea2aba1abbaa5b9bee4a9a5a7">[email&#160;protected]</span><br>
+                  <abbr title="Mail"><i class="fa fa-envelope-o"></i> </abbr>&nbsp;<span class="__cf_email__" data-cfemail="caa3a4aca58aaea2aba1abbaa5b9bee4a9a5a7">info@newsdepend.com</span><br>
                   </a>
                </p>
             </div>
             <div class="footerText text-white">
-               <h1>Dhaka Post (ঢাকা পোস্ট) is one of the most popular and reliable Bangla News publishers. </h1>
-               <p>It is the fastest-growing Bangla news media that provides accurate and objective news within the
-                  shortest possible time. Dhaka Post intends to cover its reach throughout every district of the
-                  country, also global news of every segment such as politics, economics, sports, entertainment,
-                  education, information and technology, features, lifestyle, and columns. Dhaka Post is owned by
-                  Bijoy Bangla Media Limited (BBML) and sister concern of the
-                  US Bangla Group of Companies.
+               <h1>News Depend (নিউজ ডিপেন্ড) is one of the most popular and reliable Bangla News publishers. </h1>
+               <p>News Depend is owned by Sonali Entertainment.
                </p>
             </div>
          </div>
@@ -154,6 +149,7 @@
    <script async src="assets/forAll/js/loader.js"></script>
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+   <script async src="assets/forAll/js/areaSearch.js"></script>
    <script>
       let economyItems = document.querySelectorAll('.economy-item');
       let ectItems = document.querySelectorAll('.ect-items');

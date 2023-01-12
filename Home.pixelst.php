@@ -81,21 +81,22 @@
       </div>
       <div class="col-lg-3 col-md-6 top-list-1 m-order-1  " style="order: -1">
 
-         <?php
-         $informationtopnews = $pdo->query("select  * from  tbl_news where homepage_status='Yes' order by id DESC limit 0,3");
-         while ($rowdatatopnews = $informationtopnews->fetch()) {
-            $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
-            $text_string_length = strlen($detail_data);
-
-            if ($text_string_length >= 230) {
-               $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
-            } else {
-               $news_text_data = $detail_data;
-            }
-
-
-         ?>
+         
             <div class="second-center scaled" style="background: #Eff5F4;">
+            <?php
+            $informationtopnews = $pdo->query("select  * from  tbl_news where homepage_status='Yes' order by id DESC limit 0,3");
+            while ($rowdatatopnews = $informationtopnews->fetch()) {
+               $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+               $text_string_length = strlen($detail_data);
+
+               if ($text_string_length >= 230) {
+                  $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+               } else {
+                  $news_text_data = $detail_data;
+               }
+
+
+            ?>
                <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-list py-2 ">
                   <div class="image-container">
                      <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
@@ -104,21 +105,22 @@
                      <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
                   </div>
                </a>
+         <?php } ?>
                <div class="advertisement m-py-2 md-py-2">
-                  <!-- <div id='div-gpt-ad-1620283475109-0' style='max-width:100%;width: 300px; height: 250px;'>
-                                 <script>
-                                     googletag.cmd.push(function () {
-                                         googletag.display('div-gpt-ad-1620283475109-0');
-                                     });
-                                 </script>
-                                 </div> -->
+                  <div id='div-gpt-ad-1620283475109-0' style='max-width:100%;width: 300px; height: 250px; background-color: #f9d5d5ab;'>
+                     <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>300 X 250</h4>
+                     <!-- <script>
+                           googletag.cmd.push(function () {
+                              googletag.display('div-gpt-ad-1620283475109-0');
+                           });
+                     </script> -->
+                  </div>
                </div>
             </div>
-         <?php } ?>
       </div>
       <div class="col-lg-3 col-md-6">
          <div class="top-right m-pt-3">
-            <div class="d-flex align-items-center flex-column mb-3" style="border: 1px solid #911a39;">
+            <!-- <div class="d-flex align-items-center flex-column mb-3" style="border: 1px solid #911a39;">
                <style>
                   /* Title */
                   .title-box .title-box-left a {
@@ -380,7 +382,7 @@
                      </a>
                   </div>
                </div>
-            </div>
+            </div> -->
             <div class="opinion-contents">
             
                   <div class="category-header opinion-header d-flex justify-content-between align-items-center">
@@ -423,13 +425,14 @@
             </div>
 
             <div class="advertisement mt-3">
-               <!-- <div id='div-gpt-ad-1620297530803-0' style='max-width: 100%; width: 300px; height: 250px;'>
-                                 <script>
-                                     googletag.cmd.push(function () {
-                                         googletag.display('div-gpt-ad-1620297530803-0');
-                                     });
-                                 </script>
-                                 </div> -->
+               <div id='div-gpt-ad-1620283475109-0' style='max-width: 100%; width: 300px; height: 250px; background-color: #f9d5d5ab;'>
+                  <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>300 X 250</h4>
+                  <!-- <script>
+                        googletag.cmd.push(function () {
+                           googletag.display('div-gpt-ad-1620297530803-0');
+                        });
+                  </script> -->
+               </div>
             </div>
 
          </div>
@@ -814,12 +817,13 @@
             </div>
             <div class="two-right">
                <div class="advertisement">
-                  <div id='div-gpt-ad-1620297568227-0' style='max-width:100%; width: 300px; height: 250px;'>
-                     <script>
+                  <div id='div-gpt-ad-1620297568227-0' style='max-width:100%; width: 300px; height: 250px; background-color: #f9d5d5ab;'>
+                  <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>300 X 250</h4>
+                     <!-- <script>
                         googletag.cmd.push(function() {
                            googletag.display('div-gpt-ad-1620297568227-0');
                         });
-                     </script>
+                     </script> -->
                   </div>
                </div>
             </div>
@@ -827,7 +831,7 @@
       </div>
    </div>
 </div>
-<section class="worldcup-area my-3">
+<!-- <section class="worldcup-area my-3">
    <div class="container">
       <div class="worldcup">
          <div class="worldcup-title text-center mb-3">
@@ -885,16 +889,17 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <div class="container mt-3">
    <div class="advertisement">
-      <!-- <div id='div-gpt-ad-1641204562078-0' style='min-width: 300px; min-height: 250px;'>
-                        <script>
-                            googletag.cmd.push(function () {
-                                googletag.display('div-gpt-ad-1641204562078-0');
-                            });
-                        </script>
-                        </div> -->
+      <div id='div-gpt-ad-1641204562078-0' style='min-width: 300px; min-height: 250px; background-color: #f9d5d5ab;'>
+         <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>1260 X 250</h4>
+            <!-- <script>
+                  googletag.cmd.push(function () {
+                     googletag.display('div-gpt-ad-1641204562078-0');
+                  });
+            </script> -->
+         </div>
    </div>
 </div>
 <div class="container pt-3 m-pt-2">
@@ -1070,12 +1075,14 @@
 </div>
 <div class="container mt-3">
    <div class="advertisement">
-      <div id='div-gpt-ad-1654068917401-0' style='min-width: 970px; min-height:90px;'>
-         <script>
+      <!-- <div id='div-gpt-ad-1654068917401-0' style='min-width: 970px; min-height:90px;'> -->
+      <div id='div-gpt-ad-1654068917401-0' style='min-width: 100%; min-height:90px; background-color: #f9d5d5ab;'>
+         <h4 style="text-align: center; padding-top: 15px; color: #fff">For Add <br>970 X 90</h4>
+         <!-- <script>
             googletag.cmd.push(function() {
                googletag.display('div-gpt-ad-1654068917401-0');
             });
-         </script>
+         </script> -->
       </div>
    </div>
 </div>
