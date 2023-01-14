@@ -1,5 +1,5 @@
     </div>
-      <footer data-nosnippet class="d-print-none" style="background: #072b3c; padding-bottom: 90px;">
+      <footer data-nosnippet class="d-print-none" style="background: #970808; padding-bottom: 90px;">
       <div class="footer-top py-3 bg-section-two" style="border-top: 3px solid">
          <div class="container">
             <div class="footer-top-items footer-mv d-flex align-items-center justify-content-between">
@@ -14,7 +14,8 @@
             </div>
          </div>
       </div>
-      <div class="footer-bottom pt-3" style="background: #072b3c">
+      <div class="footer-bottom pt-3" >
+      <!-- style="background: #072b3c" -->
          <div class="container text-white">
             <div class="footerNewLinks text-center">
                <a href="https://www.dhakapost.com/privacy" class="text-white">গোপনীয়তার নীতি</a>

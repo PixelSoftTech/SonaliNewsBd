@@ -82,7 +82,7 @@
       <div class="col-lg-3 col-md-6 top-list-1 m-order-1  " style="order: -1">
 
          
-            <div class="second-center scaled" style="background: #Eff5F4;">
+            <div class="second-center scaled" style="background: #f6dcdc;">
             <?php
             $informationtopnews = $pdo->query("select  * from  tbl_news where homepage_status='Yes' order by id DESC limit 0,3");
             while ($rowdatatopnews = $informationtopnews->fetch()) {
@@ -107,7 +107,7 @@
                </a>
          <?php } ?>
                <div class="advertisement m-py-2 md-py-2">
-                  <div id='div-gpt-ad-1620283475109-0' style='max-width:100%;width: 300px; height: 250px; background-color: #f9d5d5ab;'>
+                  <div id='' style='max-width:100%;width: 300px; height: 250px; background-color: #adacacab;'>
                      <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>300 X 250</h4>
                      <!-- <script>
                            googletag.cmd.push(function () {
@@ -425,7 +425,7 @@
             </div>
 
             <div class="advertisement mt-3">
-               <div id='div-gpt-ad-1620283475109-0' style='max-width: 100%; width: 300px; height: 250px; background-color: #f9d5d5ab;'>
+               <div id='' style='max-width: 100%; width: 300px; height: 250px; background-color: #adacacab;'>
                   <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>300 X 250</h4>
                   <!-- <script>
                         googletag.cmd.push(function () {
@@ -751,7 +751,8 @@
          <div class="col-xl-3 col-sm-3 m-pt-3">
             <div class="recent-popular">
                <div>
-                  <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-recent-tab" data-toggle="tab" href="#nav-recent" role="tab" aria-controls="nav-recent" aria-selected="true">সর্বশেষ</a>
+                  <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                     <a class="nav-item nav-link active" id="nav-recent-tab" data-toggle="tab" href="#nav-recent" role="tab" aria-controls="nav-recent" aria-selected="true">সর্বশেষ</a>
                      <a class="nav-item nav-link" id="nav-popular-tab" data-toggle="tab" href="#nav-popular" role="tab" aria-controls="nav-popular" aria-selected="false">সর্বাধিক পঠিত</a>
                   </div>
                </div>
@@ -760,19 +761,19 @@
                   <div class="tab-pane fade show active" id="nav-recent" role="tabpanel" aria-labelledby="nav-recent-tab">
                      <div>
                      <?php
-                  $informationtopnews = $pdo->query("select  * from  tbl_news order by id DESC limit 0,10");
-                  while ($rowdatatopnews = $informationtopnews->fetch()) {
-                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
-                     $text_string_length = strlen($detail_data);
+                     $informationtopnews = $pdo->query("select  * from  tbl_news order by id DESC limit 0,10");
+                     while ($rowdatatopnews = $informationtopnews->fetch()) {
+                        $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                        $text_string_length = strlen($detail_data);
 
-                     if ($text_string_length >= 230) {
-                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
-                     } else {
-                        $news_text_data = $detail_data;
-                     }
+                        if ($text_string_length >= 230) {
+                           $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                        } else {
+                           $news_text_data = $detail_data;
+                        }
 
 
-                  ?>
+                     ?>
                         <a class="rp-item py-2 " href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
                            <div class="image-container">
                               <img class="img-loader" src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>">
@@ -785,21 +786,21 @@
                  
                   <div class="tab-pane fade" id="nav-popular" role="tabpanel" aria-labelledby="nav-popular-tab">
                      <div>
-                     <?php
-                  $informationtopnews = $pdo->query("select  * from  tbl_news  order by viewers DESC limit 0,10");
-                  
-                  while ($rowdatatopnews = $informationtopnews->fetch()) {
-                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
-                     $text_string_length = strlen($detail_data);
+                        <?php
+                        $informationtopnews = $pdo->query("select  * from  tbl_news  order by viewers DESC limit 0,10");
+                        
+                        while ($rowdatatopnews = $informationtopnews->fetch()) {
+                           $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                           $text_string_length = strlen($detail_data);
 
-                     if ($text_string_length >= 230) {
-                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
-                     } else {
-                        $news_text_data = $detail_data;
-                     }
+                           if ($text_string_length >= 230) {
+                              $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                           } else {
+                              $news_text_data = $detail_data;
+                           }
 
 
-                  ?>
+                        ?>
                         <a class="rp-item py-2 " href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
                            <div class="image-container">
                               <img class="img-loader" src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>">
@@ -817,7 +818,7 @@
             </div>
             <div class="two-right">
                <div class="advertisement">
-                  <div id='div-gpt-ad-1620297568227-0' style='max-width:100%; width: 300px; height: 250px; background-color: #f9d5d5ab;'>
+                  <div id='' style='max-width:100%; width: 300px; height: 250px; background-color: #adacacab;'>
                   <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>300 X 250</h4>
                      <!-- <script>
                         googletag.cmd.push(function() {
@@ -890,18 +891,23 @@
       </div>
    </div>
 </section> -->
-<div class="container mt-3">
+<section class="HotlineArea" style="text-align: center; background-color: #FFFFFF; padding: 20px 0px;">
+   <div class="container">
+      <img src="assets/forAll/img/hotline.jpg" alt="Govt. Hotline Numbers" style="width: 80%; Height: auto;">
+   </div>
+</section>
+<!-- <div class="container mt-3">
    <div class="advertisement">
-      <div id='div-gpt-ad-1641204562078-0' style='min-width: 300px; min-height: 250px; background-color: #f9d5d5ab;'>
+      <div id='' style='min-width: 300px; min-height: 250px; background-color: #f9d5d5ab;'>
          <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>1260 X 250</h4>
-            <!-- <script>
+            <script>
                   googletag.cmd.push(function () {
                      googletag.display('div-gpt-ad-1641204562078-0');
                   });
-            </script> -->
+            </script>
          </div>
    </div>
-</div>
+</div> -->
 <div class="container pt-3 m-pt-2">
    <div class="row">
       <div class="col-lg-9 col-md-8 national-items">
@@ -1076,7 +1082,7 @@
 <div class="container mt-3">
    <div class="advertisement">
       <!-- <div id='div-gpt-ad-1654068917401-0' style='min-width: 970px; min-height:90px;'> -->
-      <div id='div-gpt-ad-1654068917401-0' style='min-width: 100%; min-height:90px; background-color: #f9d5d5ab;'>
+      <div id='' style='min-width: 100%; min-height:90px; background-color: #adacacab;'>
          <h4 style="text-align: center; padding-top: 15px; color: #fff">For Add <br>970 X 90</h4>
          <!-- <script>
             googletag.cmd.push(function() {
@@ -1194,31 +1200,45 @@
          <div class="row mt-2" style="margin: 0">
             <div class='col-12' style="padding: 5px 0">
                <div class="form-group" style="margin: 0">
-                  <select class="form-control" name="division" id="division">
-                     <option value="">বিভাগ</option>
-                     <option data-value="barishal" value="2">বরিশাল</option>
-                     <option data-value="chattogram" value="3">চট্টগ্রাম</option>
-                     <option data-value="dhaka" value="4">ঢাকা</option>
-                     <option data-value="khulna" value="5">খুলনা</option>
-                     <option data-value="rajshahi" value="6">রাজশাহী</option>
-                     <option data-value="sylhet" value="7">সিলেট</option>
-                     <option data-value="rangpur" value="8">রংপুর</option>
-                     <option data-value="mymensingh" value="9">ময়মনসিংহ</option>
+                  <select  class="form-control" name="Division" id="divisions" onchange="divisionsList();">
+                     <option selected disabled value="">বিভাগ</option>
+                     <option data-value="Dhaka" value="ঢাকা">ঢাকা</option>
+                     <option data-value="Barishal" value="বরিশাল">বরিশাল</option>
+                     <option data-value="Sylhet" value="সিলেট">সিলেট</option>
+                     <option data-value="Chattogram" value="চট্টগ্রাম">চট্টগ্রাম</option>
+                     <option data-value="Rajshahi" value="রাজশাহী">রাজশাহী</option>
+                     <option data-value="Khulna" value="খুলনা">খুলনা</option>
+                     <option data-value="Rangpur" value="রংপুর">রংপুর</option>
+                     <option data-value="Mymensingh" value="ময়মনসিংহ">ময়মনসিংহ</option>
                   </select>
+                  <script>
+                     $("#divisions").select2({
+                           allowClear: true,
+                           placeholder: 'বিভাগ'
+                     });
+                  </script>
                </div>
             </div>
             <div class='col-12' style="padding: 5px 0">
                <div class="form-group" style="margin: 0">
-                  <select class="form-control" name="district" id="district">
-                     <option data-value="" value="">জেলা</option>
-                  </select>
+                  <select class="form-control" name="District" id="distr" onchange="thanaList();"></select>
+                  <script>
+                     $("#distr").select2({
+                           allowClear: true,
+                           placeholder: 'জেলা'
+                     });
+                  </script>
                </div>
             </div>
             <div class="col-12" style="padding: 5px 0">
                <div class="form-group" style="margin: 0">
-                  <select class="form-control" name="upazila" id="upazila">
-                     <option data-value="" value="">উপজেলা</option>
-                  </select>
+                  <select class="form-control" name="Upozila" id="upo"></select>
+                  <script>
+                     $("#upo").select2({
+                           allowClear: true,
+                           placeholder: 'উপজেলা'
+                     });
+                  </script>
                </div>
             </div>
             <div class="col-12" style="padding: 5px 0">
@@ -1229,12 +1249,13 @@
             </div>
          </div>
          <div class="advertisement mt-2">
-            <div id='div-gpt-ad-1624958658889-0' style='min-width: 300px; min-height: 250px; max-width: 300px'>
-               <script>
+            <div id='' style='min-width: 300px; min-height: 250px; max-width: 300px; background-color: #adacacab;'>
+         <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>300 X 250</h4>
+               <!-- <script>
                   googletag.cmd.push(function() {
                      googletag.display('div-gpt-ad-1624958658889-0');
                   });
-               </script>
+               </script> -->
             </div>
          </div>
       </div>
@@ -1246,14 +1267,14 @@
          <div class="col-lg-9 col-md-8">
             <div class="category-header sports-ch d-flex justify-content-between align-items-center">
                <div class="heading sports-heading">
-                  <p class="title"><a href="https://www.dhakapost.com/sports" class="sports-lc">খেলা</a></p>
+                  <p class="title"><a href="?menu=Category&menuName=খেলা" class="sports-lc">খেলা</a></p>
                </div>
-               <div class="d-none d-sm-flex align-items-center">
+               <!-- <div class="d-none d-sm-flex align-items-center">
                   <div class="sct-items" data-href="cricket">ক্রিকেট</div>
                   <div class="sct-items" data-href="football">ফুটবল</div>
                   <div class="sct-items active" data-href="sports-all">সকল</div>
-               </div>
-               <a href="https://www.dhakapost.com/sports" class="d-none d-sm-flex ">
+               </div> -->
+               <a href="?menu=Category&menuName=খেলা" class="d-none d-sm-flex ">
                   <div class="read-more d-flex justify-content-end align-items-center">
                      <p>আরও খবর</p>
                      <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>

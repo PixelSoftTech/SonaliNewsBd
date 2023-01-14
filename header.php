@@ -30,16 +30,6 @@ include('DBhandelar.php');
       <meta name="apple-mobile-web-app-capable" content="yes">
       <meta name="apple-mobile-web-app-status-bar-style" content="#124B65">
       <meta name="apple-mobile-web-app-title" content="News Depend">
-      <link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://cdn.dhakapost.com/config/icons/apple-icon-precomposed.png">
-      <link rel="apple-touch-icon" sizes="57x57" href="https://cdn.dhakapost.com/config/icons/apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.dhakapost.com/config/icons/apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.dhakapost.com/config/icons/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.dhakapost.com/config/icons/apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.dhakapost.com/config/icons/apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.dhakapost.com/config/icons/apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="https://cdn.dhakapost.com/config/icons/apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.dhakapost.com/config/icons/apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.dhakapost.com/config/icons/apple-icon-180x180.png">
       <link rel="icon" type="image/png" href="assets/forAll/img/ND.png">
       <meta name="description" content="Dhaka Post is a newly started online Bangla news portal to provide latest stories in several sections including Bangladesh, International, Sports, Entertainment, Features, Opinion, Tech & more.">
       <meta property="og:type" content="website" />
@@ -147,10 +137,10 @@ include('DBhandelar.php');
          <!-- <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMJ5N5H" height="0" width="0" style="display:none;visibility:hidden"></iframe> -->
       </noscript>
       <div class="body-items" style="background: #f9f9f9">
-         <div class="container d-none d-lg-flex py-3 navbar-root" id="section-down">
+         <div class="container d-none d-lg-flex py-2 navbar-root" id="section-down">
             <div class="d-flex justify-content-between align-items-center w-100">
-               <a class="brand-logo-top" title="Dhaka Post" href="/">
-               <img style="max-width: 300px;" src="https://cdn.dhakapost.com/media/common/dhaka-post-logo.svg" alt="Dhaka Post" />
+               <a class="brand-logo-top" title="News Depend" href="/">
+               <img style="max-width: 150px;" src="assets/forAll/img/NDepend.png" alt="News Depend" />
                </a>
                <p class="d-flex align-items-center">
                   <span class="d-flex align-items-center mr-3">
@@ -166,7 +156,10 @@ include('DBhandelar.php');
                         <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z" />
                      </svg>
                      
-                     <span> রোববার, ১১ ডিসেম্বর ২০২২</span>
+                     <span><?php 
+                      $date = date('D Y-m-d H:i:s');
+                    
+                     echo  BanglaConverter::en2bn((date("D d F Y h:i", strtotime($date)))); ?>  মিনিট</span>
                   </span>
                </p>
                <div class="d-flex align-items-center social-media-icons">
@@ -182,7 +175,7 @@ include('DBhandelar.php');
                   <a href="https://www.instagram.com/dpostonline" aria-label="Instagram" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon instagram"><i class="fa fa-instagram"></i></div>
                   </a>
-                  <a href="https://www.linkedin.com/company/dpostonline/" aria-label="Linkedin" target="_blank" class="pl-2" rel="nofollow noopener">
+                  <!-- <a href="https://www.linkedin.com/company/dpostonline/" aria-label="Linkedin" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon linkedin"><i class="fa fa-linkedin"></i></div>
                   </a>
                   <a href="https://play.google.com/store/apps/details?id=com.dhakapost" aria-label="google play" target="_blank" class="pl-2" rel="nofollow noopener">
@@ -194,7 +187,7 @@ include('DBhandelar.php');
                   </a>
                   <a href="https://pod.link/1562553969" aria-label="Dhaka Post Podcast" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon" style="background: #695296;"><i class="fa fa-podcast"></i></div>
-                  </a>
+                  </a> -->
                </div>
             </div>
          </div>
@@ -204,11 +197,11 @@ include('DBhandelar.php');
                <span class="icon-bar top-bar"></span>
                <span class="icon-bar middle-bar"></span>
                <span class="icon-bar bottom-bar"></span>
-               <span class="sr-only">DP</span>
+               <span class="sr-only">ND</span>
                </button>
                <div class="navbar-brand align-items-center d-flex d-lg-none mr-0">
-                  <a title="Dhaka Post" href="/">
-                  <img src="https://cdn.dhakapost.com/media/common/dhaka-post-logo.svg" alt="Dhaka Post" width="1345" height="192" />
+                  <a title="News Depend" href="/">
+                  <img src="assets/forAll/img/NDepend.png" alt="News Depend" width="1345" height="192" />
                   </a>
                </div>
                <button type="button" class="btn btn-link d-flex d-lg-none" data-target="slide-down-m" aria-label="Search" style="margin-right: -14px;">
@@ -221,7 +214,7 @@ include('DBhandelar.php');
                            <a title="" href="index.php" class="nav-link">প্রচ্ছদ</a>
                         </li>
                         <li class="nav-item">
-                           <a title="" href="Latest.php" class="nav-link">সর্বশেষ</a>
+                           <a title="" href="?menu=Latest" class="nav-link">সর্বশেষ</a>
                         </li>
                         <li class="nav-item">
                            <a title="" href="?menu=Category&menuName=জাতীয়" class="nav-link">জাতীয়</a>
@@ -233,7 +226,7 @@ include('DBhandelar.php');
                            <a title="" href="?menu=Category&menuName=অর্থনীতি" class="nav-link">অর্থনীতি</a>
                         </li>
                         <li class="nav-item dropdown dropdown-toggle" style="display: flex; color: #FFF; align-items: center;">
-                           <a title="" href="https://www.dhakapost.com/country" class="nav-link">সারাদেশ</a>
+                           <a title="" href="?menu=HoleCountry" class="nav-link">সারাদেশ</a>
                            <div class="dropdown-menu single-dropdown s-dr-menu m-0" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item" href="https://www.dhakapost.com/country-map" style="padding: 5px 0;">জেলার খবর</a>
                            </div>
@@ -255,15 +248,15 @@ include('DBhandelar.php');
                            <div class="dropdown-menu single-dropdown s-dr-menu m-0" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item" href="?menu=Category&menuName=লাইফস্টাইল" style="padding: 5px 0;">লাইফস্টাইল</a>
                               <a class="dropdown-item" href="?menu=Category&menuName=তথ্যপ্রযুক্তি" style="padding: 5px 0;">তথ্যপ্রযুক্তি</a>
-                              <a class="dropdown-item" href="?menu=Category&menuName=ট্যুরিজম" style="padding: 5px 0;">ট্যুরিজম</a>
-                              <a class="dropdown-item" href="?menu=Category&menuName=পড়াশোনা" style="padding: 5px 0;">পড়াশোনা</a>
+                              <a class="dropdown-item" href="?menu=Category&menuName=ভ্রমন" style="padding: 5px 0;">ভ্রমন</a>
+                              <a class="dropdown-item" href="?menu=Category&menuName=সাহিত্য ও সংস্কৃতি" style="padding: 5px 0;">সাহিত্য ও সংস্কৃতি</a>
                            </div>
                         </li>
                         <li class="nav-item hidden-item-lowerend">
                            <a title="" href="?menu=Category&menuName=শিক্ষা" class="nav-link">শিক্ষা</a>
                         </li>
                         <li class="nav-item hidden-item-lowerend">
-                           <a title="" href="?menu=Category&menuName=জবস" class="nav-link">জবস</a>
+                           <a title="" href="?menu=Category&menuName=চাকরি" class="nav-link">চাকরি</a>
                         </li>
                         <li class="nav-item position-static d-flex">
                            <button class="navbar-toggler collapsed nav-link d-flex align-items-center" aria-expanded="false" type="button" data-toggle="collapse" data-target="#nav-items-2">
@@ -277,7 +270,7 @@ include('DBhandelar.php');
                            <div class="dropdown-menu w-100 top-auto shadow border-0 rounded-0 nav-collapse collapse m-0" id="nav-items-2">
                               <div class="container">
                                  <div class="row w-100 menu-items-others">
-                                    <div class="col-sm-2 d-none">
+                                    <!-- <div class="col-sm-2 d-none">
                                        <a href="?menu=Category&menuName=স্বাস্থ্য">স্বাস্থ্য</a>
                                     </div>
                                     <div class="col-sm-2 show-higherend">
@@ -285,6 +278,8 @@ include('DBhandelar.php');
                                     </div>
                                     <div class="col-sm-2 show-higherend">
                                        <a href="?menu=Category&menuName=জবস">জবস</a>
+                                    </div> -->
+                                    <div class="col-sm-1">
                                     </div>
                                     <div class="col-sm-2">
                                        <a href="?menu=Category&menuName=প্রবাস">প্রবাস</a>
@@ -299,19 +294,18 @@ include('DBhandelar.php');
                                        <a href="?menu=Category&menuName=ছোটদের পোস্ট">ছোটদের পোস্ট</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="?menu=Category&menuName=ক্যাম্পাস">ক্যাম্পাস</a>
-                                    </div>
-                                    <div class="col-sm-2">
                                        <a href="?menu=Category&menuName=আইন-আদালত">আইন-আদালত</a>
                                     </div>
-                                    <div class="col-sm-2">
-                                       <a href="?menu=Category&menuName=পডকাস্ট">পডকাস্ট</a>
+                                    <div class="col-sm-1">
+                                    </div>
+                                    
+                                    <div class="col-sm-1">
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="?menu=Category&menuName=কৃষি ও প্রকৃতি">কৃষি ও প্রকৃতি</a>
+                                       <a href="?menu=Category&menuName=আবহাওয়া">আবহাওয়া</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="?menu=Category&menuName=এভিয়েশন">এভিয়েশন</a>
+                                       <a href="?menu=Category&menuName=ক্যাম্পাস">ক্যাম্পাস</a>
                                     </div>
                                     <div class="col-sm-2">
                                        <a href="?menu=Category&menuName=এক্সক্লুসিভ">এক্সক্লুসিভ</a>
@@ -320,7 +314,9 @@ include('DBhandelar.php');
                                        <a href="?menu=Category&menuName=গণমাধ্যম">গণমাধ্যম</a>
                                     </div>
                                     <div class="col-sm-2">
-                                       <a href="?menu=Category&menuName=কনভার্টার">কনভার্টার</a>
+                                       <a href="?menu=Category&menuName=কৃষি ও প্রকৃতি">কৃষি ও প্রকৃতি</a>
+                                    </div>
+                                    <div class="col-sm-1">
                                     </div>
                                  </div>
                               </div>

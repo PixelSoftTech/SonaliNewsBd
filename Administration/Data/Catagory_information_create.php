@@ -32,7 +32,7 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="Catagory_name_Bn">Catagory Name (Bangla)<span style="color:#F00;">*</span></label>
-                                    <input class="form-control" placeholder="Catagory Name (English)" name="CatagoryNameBn" id="Catagory_name_Bn" type="text" required>
+                                    <input class="form-control" placeholder="Catagory Name (Bangla)" name="CatagoryNameBn" id="Catagory_name_Bn" type="text" required>
                                 </div>
                             </div>
                         </div>

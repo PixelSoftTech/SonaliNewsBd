@@ -41,14 +41,14 @@ $editrowdata = $editinformation->fetch();
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="Catagory_name_Bn">Catagory Name (Bangla)<span style="color:#F00;">*</span></label>
-                                    <input class="form-control" placeholder="Catagory Name (English)" name="CatagoryNameBn" id="Catagory_name_Bn" type="text" required value="<?php echo $editrowdata["CatagoryNameBn"]; ?>">
+                                    <input class="form-control" placeholder="Catagory Name (Bangla)" name="CatagoryNameBn" id="Catagory_name_Bn" type="text" required value="<?php echo $editrowdata["CatagoryNameBn"]; ?>">
                                 </div>
                             </div>
                         </div>
 
                         <div class="box-tools pull-right">
                             <button type="button" class="btn btn-warning" onclick="history.back(-1)"><i class="fa fa-close"></i> Cancel</button>&nbsp;&nbsp;&nbsp;
-                            <button class="btn btn-primary" <?php /*?>onclick=" $('#txtEditor').val($('.Editor-editor').text());"<?php */?> type="submit" name="<?php echo $page_title; ?>"><i class="fa fa-save"></i> Save </button>
+                            <button class="btn btn-primary" <?php /*?>onclick=" $('#txtEditor').val($('.Editor-editor').text());"<?php */?> type="submit" name="edit_all"><i class="fa fa-save"></i> Save </button>
                         </div>
                     </form>
                 <!-- Form End-->
