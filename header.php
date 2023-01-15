@@ -18,29 +18,47 @@ include('DBhandelar.php');
          <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
          <link rel="dns-prefetch" href="//connect.facebook.net">
          <link rel="dns-prefetch" href="//adservice.google.com">
-         <link rel="dns-prefetch" href="https://www.newsdepend.com">
-         <link rel="dns-prefetch" href="//certify.alexametrics.com"> -->
+         <link rel="dns-prefetch" href="https://www.dhakapost.com">
+         <link rel="dns-prefetch" href="//certify.alexametrics.com">
+         <link rel="dns-prefetch" href="//cdn.dhakapost.com">
+         <link rel="dns-prefetch" href="//assets.dhakapost.com">
+         <link rel="preconnect" href="//stackpath.bootstrapcdn.com">
+         <link rel="preconnect" href="//cdn.dhakapost.com">
+         <link rel="preconnect" href="//assets.dhakapost.com"> -->
+      <link rel="manifest" href="assets/forAll/js/manifest.json" />
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="apple-mobile-web-app-capable" content="yes">
       <meta name="apple-mobile-web-app-status-bar-style" content="#124B65">
       <meta name="apple-mobile-web-app-title" content="News Depend">
-      <link rel="icon" type="image/png" href="assets/img/ND.png">
-      <meta name="description" content="News Depend is a newly started online Bangla news portal to provide latest stories in several sections including Bangladesh, International, Sports, Entertainment, Features, Opinion, Tech & more.">
+      <link rel="icon" type="image/png" href="assets/forAll/img/ND.png">
+      <meta name="description" content="Dhaka Post is a newly started online Bangla news portal to provide latest stories in several sections including Bangladesh, International, Sports, Entertainment, Features, Opinion, Tech & more.">
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.newsdepend.com" />
-      <meta property="og:title" content="News Depend: Bangla News Portal" />
-      <meta property="og:image" content="assets/img/ND_Og_Image.jpg" />
+      <!-- <meta property="og:url" content="https://www.dhakapost.com" />
+         <meta property="og:title" content="Dhaka Post: Bangla News Portal" /> -->
+      <meta property="og:image" content="https://cdn.dhakapost.com/media/common/dhakapost-og-image.jpg" />
       <meta property="og:description" content="News Depend is a newly started online Bangla news portal to provide latest stories in several sections including Bangladesh, International, Sports, Entertainment, Features, Opinion, Tech & more.">
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:site" content="@NewsDepend">
+      <meta name="twitter:site" content="@DPostOnline">
       <meta name="twitter:title" content="News Depend: Bangla News Portal">
       <meta name="twitter:description" content="News Depend is a newly started online Bangla news portal to provide latest stories in several sections including Bangladesh, International, Sports, Entertainment, Features, Opinion, Tech & more.">
-      <meta name="twitter:image" content="assets/img/ND_Og_Image.jpg">
+      <meta name="twitter:image" content="https://cdn.dhakapost.com/media/common/dhakapost-og-image.jpg">
       <!-- <meta content="300" http-equiv="refresh"> -->
       <meta name="robots" content="index,follow">
-      <link rel="canonical" href="https://www.newsdepend.com">
-      <meta name="keywords" content="Bangaldesh News, Bangla News, Bangla News Online, News Depend, Online Bangla News, Bangladeshi News, Bangladeshi News Online, Bengali News, Bengali Online News, Dhaka Bangladesh News, Breaking News, World News, BD News">
-      
+      <link rel="canonical" href="https://www.dhakapost.com">
+      <meta name="keywords" content="Bangaldesh News, Bangla News, Bangla News Online, Online Bangla News, Bangladeshi News, Bangladeshi News Online, Bengali News, Bengali Online News, Dhaka Bangladesh News, Breaking News, World News, BD News">
+      <style>
+         .worldcup-title a img {
+         width: 100%;
+         }
+         .worldcup {
+         border: 2px solid #911a39;
+         background: #ccc;
+         }
+         .worldcup-box img {
+         width: 100%;
+         border-radius: 5px;
+         }
+      </style>
       <script type="application/ld+json">
          {
          	"@context": "https://schema.org",
@@ -81,9 +99,22 @@ include('DBhandelar.php');
          
       </script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-      <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="stylesheet"  href="assets/css/custom.css">
-
+      <link rel="stylesheet" href="assets/forAll/css/style.css">
+      <link rel="stylesheet" type="text/css" href="https://cdn.dhakapost.com/assets/common/css/SolaimanLipi.css">
+      <!-- <script>(function (w, d, s, l, i) {
+         w[l] = w[l] || [];
+         w[l].push({
+             'gtm.start':
+                 new Date().getTime(), event: 'gtm.js'
+         });
+         var f = d.getElementsByTagName(s)[0],
+             j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+         j.async = true;
+         j.src =
+             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+         f.parentNode.insertBefore(j, f);
+         })(window, document, 'script', 'dataLayer', 'GTM-PMJ5N5H');</script>
+         <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> -->
       <style>
          body, .advertisement {
          background: #f9f9f9;
@@ -100,7 +131,6 @@ include('DBhandelar.php');
          }
          } */
       </style>
-
    </head>
    <body>
       <noscript>
@@ -110,7 +140,7 @@ include('DBhandelar.php');
          <div class="container d-none d-lg-flex py-2 navbar-root" id="section-down">
             <div class="d-flex justify-content-between align-items-center w-100">
                <a class="brand-logo-top" title="News Depend" href="/">
-               <img style="max-width: 150px;" src="assets/img/NDepend.png" alt="News Depend" />
+               <img style="max-width: 150px;" src="assets/forAll/img/NDepend.png" alt="News Depend" />
                </a>
                <p class="d-flex align-items-center">
                   <span class="d-flex align-items-center mr-3">
@@ -133,29 +163,29 @@ include('DBhandelar.php');
                   </span>
                </p>
                <div class="d-flex align-items-center social-media-icons">
-                  <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" class="pl-2" rel="nofollow noopener">
+                  <a href="https://www.facebook.com/DPostOnline/" aria-label="Facebook" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon facebook"><i class="fa fa-facebook"></i></div>
                   </a>
-                  <a href="https://www.youtube.com/c/" aria-label="Youtube" target="_blank" class="pl-2" rel="nofollow noopener">
+                  <a href="https://www.youtube.com/c/DhakaPostOfficial" aria-label="Youtube" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon youtube"><i class="fa fa-youtube-play"></i></div>
                   </a>
-                  <a href="https://twitter.com/" aria-label="Twitter" target="_blank" class="pl-2" rel="nofollow noopener">
+                  <a href="https://twitter.com/dpostonline" aria-label="Twitter" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon twitter"><i class="fa fa-twitter"></i></div>
                   </a>
-                  <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" class="pl-2" rel="nofollow noopener">
+                  <a href="https://www.instagram.com/dpostonline" aria-label="Instagram" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon instagram"><i class="fa fa-instagram"></i></div>
                   </a>
-                  <!-- <a href="https://www.linkedin.com/company/" aria-label="Linkedin" target="_blank" class="pl-2" rel="nofollow noopener">
+                  <!-- <a href="https://www.linkedin.com/company/dpostonline/" aria-label="Linkedin" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon linkedin"><i class="fa fa-linkedin"></i></div>
                   </a>
-                  <a href="https://play.google.com/store/apps/details?id=" aria-label="google play" target="_blank" class="pl-2" rel="nofollow noopener">
+                  <a href="https://play.google.com/store/apps/details?id=com.dhakapost" aria-label="google play" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon googleplay" style="background: #00698e;">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google-play" class="svg-inline--fa fa-google-play fa-w-16" role="img" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                            <path fill="white" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"></path>
                         </svg>
                      </div>
                   </a>
-                  <a href="https://pod.link/" aria-label="News Depend Podcast" target="_blank" class="pl-2" rel="nofollow noopener">
+                  <a href="https://pod.link/1562553969" aria-label="Dhaka Post Podcast" target="_blank" class="pl-2" rel="nofollow noopener">
                      <div class="social-icon" style="background: #695296;"><i class="fa fa-podcast"></i></div>
                   </a> -->
                </div>
@@ -171,7 +201,7 @@ include('DBhandelar.php');
                </button>
                <div class="navbar-brand align-items-center d-flex d-lg-none mr-0">
                   <a title="News Depend" href="/">
-                  <img src="assets/img/NDepend.png" alt="News Depend" width="1345" height="192" />
+                  <img src="assets/forAll/img/NDepend.png" alt="News Depend" width="1345" height="192" />
                   </a>
                </div>
                <button type="button" class="btn btn-link d-flex d-lg-none" data-target="slide-down-m" aria-label="Search" style="margin-right: -14px;">
@@ -198,7 +228,7 @@ include('DBhandelar.php');
                         <li class="nav-item dropdown dropdown-toggle" style="display: flex; color: #FFF; align-items: center;">
                            <a title="" href="?menu=HoleCountry" class="nav-link">সারাদেশ</a>
                            <div class="dropdown-menu single-dropdown s-dr-menu m-0" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="" style="padding: 5px 0;">জেলার খবর</a>
+                              <a class="dropdown-item" href="https://www.dhakapost.com/country-map" style="padding: 5px 0;">জেলার খবর</a>
                            </div>
                         </li>
                         <li class="nav-item">
@@ -240,6 +270,15 @@ include('DBhandelar.php');
                            <div class="dropdown-menu w-100 top-auto shadow border-0 rounded-0 nav-collapse collapse m-0" id="nav-items-2">
                               <div class="container">
                                  <div class="row w-100 menu-items-others">
+                                    <!-- <div class="col-sm-2 d-none">
+                                       <a href="?menu=Category&menuName=স্বাস্থ্য">স্বাস্থ্য</a>
+                                    </div>
+                                    <div class="col-sm-2 show-higherend">
+                                       <a href="?menu=Category&menuName=শিক্ষা">শিক্ষা</a>
+                                    </div>
+                                    <div class="col-sm-2 show-higherend">
+                                       <a href="?menu=Category&menuName=জবস">জবস</a>
+                                    </div> -->
                                     <div class="col-sm-1">
                                     </div>
                                     <div class="col-sm-2">
@@ -283,8 +322,8 @@ include('DBhandelar.php');
                               </div>
                            </div>
                         </li>
-                        <li class="nav-item position-static d-flex srcbtn">
-                           <button type="button" class="btn btn-link" data-target="slide-down" aria-label="Search"><i class="fa fa-search"></i>
+                        <li class="nav-item position-static d-flex">
+                           <button id="myBtn" type="button" class="btn btn-link" data-target="slide-down" aria-label="Search"><i class="fa fa-search" id="searchmenubacground" ></i>
                            </button>
                         </li>
                      </ul>
@@ -299,7 +338,7 @@ include('DBhandelar.php');
                   </div>
                </div>
             </div>
-            <form class="search-wrapper needs-validation" style="display: none;" method="post" action="?menu=NewsSearch&menuName=সংবাদ" accept-charset="UTF-8"  enctype="multipart/form-data">
+            <!-- <form class="search-wrapper needs-validation" style="display: none;" method="post" action="?menu=NewsSearch&menuName=সংবাদ" accept-charset="UTF-8"  enctype="multipart/form-data">
                <div class="container m-pl-0 m-pr-0">
                   <div class="d-flex align-items-center justify-content-between w-100">
                      <div class="input-group">
@@ -312,6 +351,41 @@ include('DBhandelar.php');
                      </div>
                   </div>
                </div>
-            </form>
+            </form> -->
          </nav>
-         
+         <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+     <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">অনুসন্ধান</h5>
+        <button type="button"  class="close" data-dismiss="modal" aria-label="Close">
+          <span style="color:#000;" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+     <div class="modal-body">
+        
+		<form method="POST" action="?menu=NewsSearch&menuName=সংবাদ" accept-charset="UTF-8" class="form" enctype="multipart/form-data">	
+		<div class="row">
+		    <div class=" col-md-2 " style="margin-bottom:10px;" ></div>
+		    <div class=" col-md-6 " style="margin-bottom:10px;" >
+		
+		 <input class="form-control" placeholder="Write Here .." name="searchdata" id="searchdata" type="text" required="required">
+		
+			
+		</div>
+		<div class=" col-md-2 "  style="margin-bottom:10px;" >
+		
+		 <input class="form-control btn btn-success"  name="Search" id="Search" type="submit" value="অনুসন্ধান" >
+		
+			
+		</div></div>
+			</form>	
+			
+      </div>
+  <div class="modal-footer">
+      
+      </div>
+  </div>
+
+</div>

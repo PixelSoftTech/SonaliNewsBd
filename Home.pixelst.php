@@ -33,7 +33,7 @@
                <div class="col-12 lead-news">
                   <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-lead">
                      <div class="image-container">
-                        <img style="width: 100%; max-height: 350px; " src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>" alt="<?php echo $rowdatalatestnews["title_bn"]; ?>" class="lazyload img-loader">
+                        <img style="width: 100%; max-height: 350px; " src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>" alt="<?php echo $rowdatalatestnews["title_bn"]; ?>" class="lazyload img-loader">
                      </div>
                      <h2 class="title" style="margin: 10px 0"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
                      <span class="d-none d-sm-block"><?php echo $news_text_data; ?></span>
@@ -59,7 +59,7 @@
                <div class="col-sm-6 scaled lead-below-item">
                   <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-list">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="রাশিয়ার হামলায় অন্ধকারাচ্ছন্ন ইউক্রেনের ওডেসা" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="রাশিয়ার হামলায় অন্ধকারাচ্ছন্ন ইউক্রেনের ওডেসা" class="lazyload img-loader">
                      </div>
                      <div class="">
                         <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -69,7 +69,7 @@
                <!-- <div class="col-sm-6 scaled ">
                               <a href="https://www.dhakapost.com/sports/football/159584" class="news-item news-item-list">
                                  <div class="image-container">
-                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/france-england-2-20221211032156.jpg?width=130&amp;height=90" alt="ইংলিশদের স্বপ্ন শেষ করে বিশ্বকাপের শেষ চারে ফ্রান্স" class="lazyload img-loader">
+                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/france-england-2-20221211032156.jpg?width=130&amp;height=90" alt="ইংলিশদের স্বপ্ন শেষ করে বিশ্বকাপের শেষ চারে ফ্রান্স" class="lazyload img-loader">
                                  </div>
                                  <div class="">
                                     <h2 class="title">ইংলিশদের স্বপ্ন শেষ করে বিশ্বকাপের শেষ চারে ফ্রান্স</h2>
@@ -99,7 +99,7 @@
             ?>
                <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-list py-2 ">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                   </div>
                   <div class="">
                      <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -414,7 +414,7 @@
                ?>
                   <div class="regular-list scaled ai-custom">
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2 d-flex">
-                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader" style="border-radius: 50%;width: 90px;height: 90px;margin-right: 8px">
+                        <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader" style="border-radius: 50%;width: 90px;height: 90px;margin-right: 8px">
                         <div class="d-flex flex-column">
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
                            <p style="margin-top: 5px;color: #696464;"><?php echo $rowdatatopnews["ReporterName"]; ?></p>
@@ -462,7 +462,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -488,7 +488,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -513,7 +513,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -538,7 +538,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -563,7 +563,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -588,7 +588,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -613,7 +613,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -638,7 +638,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -663,7 +663,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -688,7 +688,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -713,7 +713,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -738,7 +738,7 @@
                   ?>
                      <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
                         <div>
                            <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
@@ -776,7 +776,7 @@
                      ?>
                         <a class="rp-item py-2 " href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
                            <div class="image-container">
-                              <img class="img-loader" src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>">
+                              <img class="img-loader" src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>">
                            </div>
                            <h2 class="news-item-lite"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
                         </a>
@@ -803,7 +803,7 @@
                         ?>
                         <a class="rp-item py-2 " href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
                            <div class="image-container">
-                              <img class="img-loader" src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>">
+                              <img class="img-loader" src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>">
                            </div>
                            <h2 class="news-item-lite"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
                         </a>
@@ -893,7 +893,7 @@
 </section> -->
 <section class="HotlineArea" style="text-align: center; background-color: #FFFFFF; padding: 20px 0px;">
    <div class="container">
-      <img src="assets/img/hotline.jpg" alt="Govt. Hotline Numbers" style="width: 80%; Height: auto;">
+      <img src="assets/forAll/img/hotline.jpg" alt="Govt. Hotline Numbers" style="width: 80%; Height: auto;">
    </div>
 </section>
 <!-- <div class="container mt-3">
@@ -927,7 +927,7 @@
                <div class="grid-fourth pt-2 m-pt-0">
                   <a href="https://www.dhakapost.com/national/159587" class="grid-fourth-item grid-fourth-item__1 m-py-2">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/weather-20221211043156.jpg?width=330&amp;height=175" alt="কমতে পারে দিনের তাপমাত্রা" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/weather-20221211043156.jpg?width=330&amp;height=175" alt="কমতে পারে দিনের তাপমাত্রা" class="lazyload img-loader">
                      </div>
                      <h2>
                         কমতে পারে দিনের তাপমাত্রা
@@ -935,7 +935,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/national/159574" class="grid-fourth-item grid-fourth-item__2 m-py-2">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/rajuk-20221210233038.jpg?width=330&amp;height=175" alt="রোববার থেকে অভিযানে নামবে রাজউক" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/rajuk-20221210233038.jpg?width=330&amp;height=175" alt="রোববার থেকে অভিযানে নামবে রাজউক" class="lazyload img-loader">
                      </div>
                      <h2>
                         রোববার থেকে অভিযানে নামবে রাজউক
@@ -943,7 +943,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/national/159462" class="grid-fourth-item grid-fourth-item__3 m-py-2">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dhaka2-20221210133353.jpg?width=330&amp;height=175" alt="ফাঁকা সড়কে রিকশার দাপট" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dhaka2-20221210133353.jpg?width=330&amp;height=175" alt="ফাঁকা সড়কে রিকশার দাপট" class="lazyload img-loader">
                      </div>
                      <h2>
                         ফাঁকা সড়কে রিকশার দাপট
@@ -951,7 +951,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/national/159457" class="grid-fourth-item grid-fourth-item__4 m-py-2">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fsdasad-20221210131053.jpg?width=330&amp;height=175" alt="সুযোগ পেয়ে দ্বিগুণ-তিনগুণ ভাড়া হাঁকাচ্ছেন রিকশা-সিএনজি চালকরা" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fsdasad-20221210131053.jpg?width=330&amp;height=175" alt="সুযোগ পেয়ে দ্বিগুণ-তিনগুণ ভাড়া হাঁকাচ্ছেন রিকশা-সিএনজি চালকরা" class="lazyload img-loader">
                      </div>
                      <h2>
                         সুযোগ পেয়ে দ্বিগুণ-তিনগুণ ভাড়া হাঁকাচ্ছেন রিকশা-সিএনজি চালকরা
@@ -963,7 +963,7 @@
                <div class="regular-list scaled">
                   <a href="https://www.dhakapost.com/national/159454" class="news-item news-item-regular py-2">
                      <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/gabtoli-20221210130330.jpg?width=130&amp;height=90" alt="জনশূন্য গাবতলী বাস টার্মিনাল" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/gabtoli-20221210130330.jpg?width=130&amp;height=90" alt="জনশূন্য গাবতলী বাস টার্মিনাল" class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         জনশূন্য গাবতলী বাস টার্মিনাল
@@ -971,7 +971,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/national/159411" class="news-item news-item-regular py-2">
                      <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/police-20221210102429.jpg?width=130&amp;height=90" alt="সমাবেশ ঘিরে মাঠে ৩৪ হাজার পুলিশ" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/police-20221210102429.jpg?width=130&amp;height=90" alt="সমাবেশ ঘিরে মাঠে ৩৪ হাজার পুলিশ" class="lazyload img-loader">
                         <i class="fa fa-play-circle video-icon"></i>
                      </div>
                      <h2 class="title">
@@ -980,7 +980,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/national/159403" class="news-item news-item-regular py-2">
                      <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/330-20221210152527.jpg?width=130&amp;height=90" alt="ঢাকার রাস্তা থেকে হঠাৎ উধাও বাস " class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/330-20221210152527.jpg?width=130&amp;height=90" alt="ঢাকার রাস্তা থেকে হঠাৎ উধাও বাস " class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         ঢাকার রাস্তা থেকে হঠাৎ উধাও বাস
@@ -988,7 +988,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/national/159301" class="news-item news-item-regular py-2">
                      <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/tib-20221209183420.jpg?width=130&amp;height=90" alt="সদিচ্ছা শুধু কাগজে কলমে থাকলে দুর্নীতি দূর হয় না" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/tib-20221209183420.jpg?width=130&amp;height=90" alt="সদিচ্ছা শুধু কাগজে কলমে থাকলে দুর্নীতি দূর হয় না" class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         সদিচ্ছা শুধু কাগজে কলমে থাকলে দুর্নীতি দূর হয় না
@@ -996,7 +996,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/national/159277" class="news-item news-item-regular py-2">
                      <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/corona--20221209164614.jpg?width=130&amp;height=90" alt="আরও ৩০ জনের করোনা শনাক্ত" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/corona--20221209164614.jpg?width=130&amp;height=90" alt="আরও ৩০ জনের করোনা শনাক্ত" class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         আরও ৩০ জনের করোনা শনাক্ত
@@ -1004,7 +1004,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/national/159262" class="news-item news-item-regular py-2">
                      <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/402-20221209160003.jpg?width=130&amp;height=90" alt="রাজধানীর মোড়ে মোড়ে র‌্যাবের চেকপোস্ট-তল্লাশি-জিজ্ঞাসাবাদ" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/402-20221209160003.jpg?width=130&amp;height=90" alt="রাজধানীর মোড়ে মোড়ে র‌্যাবের চেকপোস্ট-তল্লাশি-জিজ্ঞাসাবাদ" class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         রাজধানীর মোড়ে মোড়ে র‌্যাবের চেকপোস্ট-তল্লাশি-জিজ্ঞাসাবাদ
@@ -1012,7 +1012,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/national/159251" class="news-item news-item-regular py-2">
                      <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/312-20221209150859.jpg?width=130&amp;height=90" alt="সর্ষের ভেতর ভূত থাকলে দুদক জনগণের আস্থা হারাবে : রাষ্ট্রপতি " class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/312-20221209150859.jpg?width=130&amp;height=90" alt="সর্ষের ভেতর ভূত থাকলে দুদক জনগণের আস্থা হারাবে : রাষ্ট্রপতি " class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         সর্ষের ভেতর ভূত থাকলে দুদক জনগণের আস্থা হারাবে : রাষ্ট্রপতি
@@ -1037,7 +1037,7 @@
          <div class="regular-list scaled ai-custom">
             <a href="https://www.dhakapost.com/politics/159533" class="news-item news-item-regular py-2">
                <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/chhatral-20221210180909.jpg?width=330&amp;height=175" alt="গণঅধিকার পরিষদের মিছিলে ছাত্রলীগের ধাওয়া" class="lazyload img-loader">
+                  <img src="https:assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/chhatral-20221210180909.jpg?width=330&amp;height=175" alt="গণঅধিকার পরিষদের মিছিলে ছাত্রলীগের ধাওয়া" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   গণঅধিকার পরিষদের মিছিলে ছাত্রলীগের ধাওয়া
@@ -1045,7 +1045,7 @@
             </a>
             <a href="https://www.dhakapost.com/politics/159507" class="news-item news-item-regular py-2 ">
                <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bnp11-20221210165433.jpg?width=130&amp;height=90" alt="গণতন্ত্র পুনঃপ্রতিষ্ঠায় বিএনপির ১০ দফা দাবি" class="lazyload img-loader">
+                  <img src="https:assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bnp11-20221210165433.jpg?width=130&amp;height=90" alt="গণতন্ত্র পুনঃপ্রতিষ্ঠায় বিএনপির ১০ দফা দাবি" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   গণতন্ত্র পুনঃপ্রতিষ্ঠায় বিএনপির ১০ দফা দাবি
@@ -1053,7 +1053,7 @@
             </a>
             <a href="https://www.dhakapost.com/politics/159474" class="news-item news-item-regular py-2 ">
                <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/puran-dhaka-20221210143223.jpg?width=130&amp;height=90" alt="পুরান ঢাকায় মোড়ে মোড়ে তল্লাশি" class="lazyload img-loader">
+                  <img src="https:assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/puran-dhaka-20221210143223.jpg?width=130&amp;height=90" alt="পুরান ঢাকায় মোড়ে মোড়ে তল্লাশি" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   পুরান ঢাকায় মোড়ে মোড়ে তল্লাশি
@@ -1061,7 +1061,7 @@
             </a>
             <a href="https://www.dhakapost.com/politics/159470" class="news-item news-item-regular py-2 ">
                <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/hasan-bg-20221210140207.jpg?width=130&amp;height=90" alt="৩০ হাজার মানুষ দিয়ে ঢাকা শহর দখল হয় না : তথ্যমন্ত্রী" class="lazyload img-loader">
+                  <img src="https:assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/hasan-bg-20221210140207.jpg?width=130&amp;height=90" alt="৩০ হাজার মানুষ দিয়ে ঢাকা শহর দখল হয় না : তথ্যমন্ত্রী" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   ৩০ হাজার মানুষ দিয়ে ঢাকা শহর দখল হয় না : তথ্যমন্ত্রী
@@ -1069,7 +1069,7 @@
             </a>
             <a href="https://www.dhakapost.com/politics/159469" class="news-item news-item-regular py-2 d-none d-sm-flex">
                <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/puran-dhaka-20221210140044.jpg?width=130&amp;height=90" alt="পুরান ঢাকায় প্রশাসনের পাশাপাশি মাঠে ছাত্রলীগ" class="lazyload img-loader">
+                  <img src="https:assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/puran-dhaka-20221210140044.jpg?width=130&amp;height=90" alt="পুরান ঢাকায় প্রশাসনের পাশাপাশি মাঠে ছাত্রলীগ" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   পুরান ঢাকায় প্রশাসনের পাশাপাশি মাঠে ছাত্রলীগ
@@ -1111,7 +1111,7 @@
                <div class="row type-sect-three-left">
                   <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
                      <a href="https://www.dhakapost.com/country/159608" class="news-item news-item-box pt-2 m-pb-2">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/patuakhali-20221211083015.jpg?width=330&amp;height=175" alt="বাউফল উপজেলা পরিষদের নবনির্মিত অডিটোরিয়াম ভবনে ফাটল" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/patuakhali-20221211083015.jpg?width=330&amp;height=175" alt="বাউফল উপজেলা পরিষদের নবনির্মিত অডিটোরিয়াম ভবনে ফাটল" class="lazyload img-loader">
                         <h2 class="title">
                            বাউফল উপজেলা পরিষদের নবনির্মিত অডিটোরিয়াম ভবনে ফাটল
                         </h2>
@@ -1119,7 +1119,7 @@
                   </div>
                   <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
                      <a href="https://www.dhakapost.com/country/159604" class="news-item news-item-box pt-2 m-pb-2">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/munsigonj-20221211080832.jpg?width=330&amp;height=175" alt="সন্ত্রাসবিরোধী মিছিল‌ থেকে ফেরার পথে হামলা, আ.লীগের ৯ কর্মী আহত" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/munsigonj-20221211080832.jpg?width=330&amp;height=175" alt="সন্ত্রাসবিরোধী মিছিল‌ থেকে ফেরার পথে হামলা, আ.লীগের ৯ কর্মী আহত" class="lazyload img-loader">
                         <h2 class="title">
                            সন্ত্রাসবিরোধী মিছিল‌ থেকে ফেরার পথে হামলা, আ.লীগের ৯ কর্মী আহত
                         </h2>
@@ -1130,31 +1130,31 @@
             <div class="col-12 col-md-6 col-xl-4">
                <div class="clk-list clk-center">
                   <a href="https://www.dhakapost.com/country/159601" class="clk-item clk-item-regular py-2 ">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/noakhali-20221211075959.jpg?width=130&amp;height=90" alt="নোয়াখালীতে অসহায়দের মাঝে পুনাকের শীতবস্ত্র বিতরণ" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/noakhali-20221211075959.jpg?width=130&amp;height=90" alt="নোয়াখালীতে অসহায়দের মাঝে পুনাকের শীতবস্ত্র বিতরণ" class="lazyload img-loader">
                      <h2 class="title">
                         নোয়াখালীতে অসহায়দের মাঝে পুনাকের শীতবস্ত্র বিতরণ
                      </h2>
                   </a>
                   <a href="https://www.dhakapost.com/country/159597" class="clk-item clk-item-regular py-2 ">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/rajshahi-20221211074831.jpg?width=130&amp;height=90" alt="‘চাকরিটা চলে গেলে পাগল হয়ে যাব’" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/rajshahi-20221211074831.jpg?width=130&amp;height=90" alt="‘চাকরিটা চলে গেলে পাগল হয়ে যাব’" class="lazyload img-loader">
                      <h2 class="title">
                         ‘চাকরিটা চলে গেলে পাগল হয়ে যাব’
                      </h2>
                   </a>
                   <a href="https://www.dhakapost.com/country/159572" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mymensing01-20221210225714.jpg?width=130&amp;height=90" alt="ময়মনসিংহে চাঁদা না পেয়ে মাছচাষির ওপর হামলা" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mymensing01-20221210225714.jpg?width=130&amp;height=90" alt="ময়মনসিংহে চাঁদা না পেয়ে মাছচাষির ওপর হামলা" class="lazyload img-loader">
                      <h2 class="title">
                         ময়মনসিংহে চাঁদা না পেয়ে মাছচাষির ওপর হামলা
                      </h2>
                   </a>
                   <a href="https://www.dhakapost.com/country/159568" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/faridpur-20221210220725.jpg?width=130&amp;height=90" alt="আর্জেন্টিনার খেলা দেখার সময় অসুস্থ, বাড়িতে গিয়ে সমর্থকের মৃত্যু" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/faridpur-20221210220725.jpg?width=130&amp;height=90" alt="আর্জেন্টিনার খেলা দেখার সময় অসুস্থ, বাড়িতে গিয়ে সমর্থকের মৃত্যু" class="lazyload img-loader">
                      <h2 class="title">
                         আর্জেন্টিনার খেলা দেখার সময় অসুস্থ, বাড়িতে গিয়ে সমর্থকের মৃত্যু
                      </h2>
                   </a>
                   <a href="https://www.dhakapost.com/country/159566" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mymensing1-20221210214758.jpg?width=130&amp;height=90" alt="৩০০ কিমি হেঁটে অসাম্প্রদায়িকতার বার্তা ছড়ালেন বীর মুক্তিযোদ্ধা" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mymensing1-20221210214758.jpg?width=130&amp;height=90" alt="৩০০ কিমি হেঁটে অসাম্প্রদায়িকতার বার্তা ছড়ালেন বীর মুক্তিযোদ্ধা" class="lazyload img-loader">
                      <h2 class="title">
                         ৩০০ কিমি হেঁটে অসাম্প্রদায়িকতার বার্তা ছড়ালেন বীর মুক্তিযোদ্ধা
                      </h2>
@@ -1164,25 +1164,25 @@
             <div class="col-12 col-md-6 col-xl-4 d-none d-sm-flex">
                <div class="clk-list clk-right">
                   <a href="https://www.dhakapost.com/country/159564" class="clk-item clk-item-regular py-2">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/chapai1-20221210212220.jpg?width=130&amp;height=90" alt="ছাগল বাঁচাতে গিয়ে ট্রেনে কাটা পড়লেন যুবক" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/chapai1-20221210212220.jpg?width=130&amp;height=90" alt="ছাগল বাঁচাতে গিয়ে ট্রেনে কাটা পড়লেন যুবক" class="lazyload img-loader">
                      <h2 class="title">
                         ছাগল বাঁচাতে গিয়ে ট্রেনে কাটা পড়লেন যুবক
                      </h2>
                   </a>
                   <a href="https://www.dhakapost.com/country/159561" class="clk-item clk-item-regular py-2">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/rangpur1-20221210205122.jpg?width=130&amp;height=90" alt="‘বাংলাদেশকে সমৃদ্ধ করতে হলে ভ্যাটের কোনো বিকল্প নেই’" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/rangpur1-20221210205122.jpg?width=130&amp;height=90" alt="‘বাংলাদেশকে সমৃদ্ধ করতে হলে ভ্যাটের কোনো বিকল্প নেই’" class="lazyload img-loader">
                      <h2 class="title">
                         ‘বাংলাদেশকে সমৃদ্ধ করতে হলে ভ্যাটের কোনো বিকল্প নেই’
                      </h2>
                   </a>
                   <a href="https://www.dhakapost.com/country/159559" class="clk-item clk-item-regular py-2">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bagerhat1-20221210203840.jpg?width=130&amp;height=90" alt="বাগেরহাটে ‘যুবলীগের চেকপোস্টে’ সাংবাদিককে মারধর" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bagerhat1-20221210203840.jpg?width=130&amp;height=90" alt="বাগেরহাটে ‘যুবলীগের চেকপোস্টে’ সাংবাদিককে মারধর" class="lazyload img-loader">
                      <h2 class="title">
                         বাগেরহাটে ‘যুবলীগের চেকপোস্টে’ সাংবাদিককে মারধর
                      </h2>
                   </a>
                   <a href="https://www.dhakapost.com/country/159555" class="clk-item clk-item-regular py-2">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/kader11-20221210201638.jpg?width=130&amp;height=90" alt="সংসদ থেকে পদত্যাগ ভুল সিদ্ধান্ত, বিএনপিকে অনুতাপ করতে হবে : কাদের" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/kader11-20221210201638.jpg?width=130&amp;height=90" alt="সংসদ থেকে পদত্যাগ ভুল সিদ্ধান্ত, বিএনপিকে অনুতাপ করতে হবে : কাদের" class="lazyload img-loader">
                      <h2 class="title">
                         সংসদ থেকে পদত্যাগ ভুল সিদ্ধান্ত, বিএনপিকে অনুতাপ করতে হবে : কাদের
                      </h2>
@@ -1197,6 +1197,7 @@
                <p class="title bangladesh-lc">আপনার এলাকার খবর</p>
             </div>
          </div>
+         <form method="POST" action="?menu=SearchResult&menuName=সংবাদ" accept-charset="UTF-8" class="form" enctype="multipart/form-data">
          <div class="row mt-2" style="margin: 0">
             <div class='col-12' style="padding: 5px 0">
                <div class="form-group" style="margin: 0">
@@ -1242,12 +1243,14 @@
                </div>
             </div>
             <div class="col-12" style="padding: 5px 0">
-               <button type="button" class="btn bg-primary dis-sea btn-block text-white" aria-label="Search">
+            <input class="btn bg-primary  btn-block text-white"  name="submit" id="submit" type="submit" value="খুঁজুন" ><i class="fa fa-search ml-2" style="color: #FFF !important; height: 100%"></i>
+               <!-- <button type="button" name="submit" class="btn bg-primary dis-sea btn-block text-white" aria-label="Search">
                   খুঁজুন
                   <i class="fa fa-search ml-2" style="color: #FFF !important; height: 100%"></i>
-               </button>
+               </button> -->
             </div>
          </div>
+         </form>
          <div class="advertisement mt-2">
             <div id='' style='min-width: 300px; min-height: 250px; max-width: 300px; background-color: #adacacab;'>
          <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>300 X 250</h4>
@@ -1287,7 +1290,7 @@
                      <div class="grid-fourth pt-2 m-pt-0">
                         <a href="https://www.dhakapost.com/sports/football/159610" class="grid-fourth-item grid-fourth-item__1 m-py-2">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/india-20221211083917.jpg?width=330&amp;height=175" alt="হোয়াইটওয়াশ এড়িয়ে খুশি ভারত অধিনায়ক" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/india-20221211083917.jpg?width=330&amp;height=175" alt="হোয়াইটওয়াশ এড়িয়ে খুশি ভারত অধিনায়ক" class="lazyload img-loader">
                            </div>
                            <h2>
                               হোয়াইটওয়াশ এড়িয়ে খুশি ভারত অধিনায়ক
@@ -1295,7 +1298,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/159603" class="grid-fourth-item grid-fourth-item__2 m-py-2">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/neymar-brazil-20221211080228.jpg?width=330&amp;height=175" alt="ইউরোপীয় দল সামনে এলেই চুপসে যাচ্ছে ব্রাজিল!" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/neymar-brazil-20221211080228.jpg?width=330&amp;height=175" alt="ইউরোপীয় দল সামনে এলেই চুপসে যাচ্ছে ব্রাজিল!" class="lazyload img-loader">
                            </div>
                            <h2>
                               ইউরোপীয় দল সামনে এলেই চুপসে যাচ্ছে ব্রাজিল!
@@ -1303,7 +1306,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/159595" class="grid-fourth-item grid-fourth-item__3 m-py-2">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fifa-world-cup-20221211073748.jpg?width=330&amp;height=175" alt="বিশ্বকাপের সেমি ফাইনালে কে কার মুখোমুখি?" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fifa-world-cup-20221211073748.jpg?width=330&amp;height=175" alt="বিশ্বকাপের সেমি ফাইনালে কে কার মুখোমুখি?" class="lazyload img-loader">
                            </div>
                            <h2>
                               বিশ্বকাপের সেমি ফাইনালে কে কার মুখোমুখি?
@@ -1311,7 +1314,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/159593" class="grid-fourth-item grid-fourth-item__4 m-py-2">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/tv-news-photo-02-20221211064919.png?width=330&amp;height=175" alt="টিভিতে আজ যেসব খেলা দেখবেন" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/tv-news-photo-02-20221211064919.png?width=330&amp;height=175" alt="টিভিতে আজ যেসব খেলা দেখবেন" class="lazyload img-loader">
                            </div>
                            <h2>
                               টিভিতে আজ যেসব খেলা দেখবেন
@@ -1323,7 +1326,7 @@
                      <div class="regular-list scaled">
                         <a href="https://www.dhakapost.com/sports/football/159586" class="news-item news-item-regular py-2">
                            <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/grant-wahl-at-giant-screen-20221211035727.jpg?width=130&amp;height=90" alt="ইংল্যান্ড-ফ্রান্সের লড়াইয়ে মনোযোগের কেন্দ্রে আমেরিকান সাংবাদিক" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/grant-wahl-at-giant-screen-20221211035727.jpg?width=130&amp;height=90" alt="ইংল্যান্ড-ফ্রান্সের লড়াইয়ে মনোযোগের কেন্দ্রে আমেরিকান সাংবাদিক" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               ইংল্যান্ড-ফ্রান্সের লড়াইয়ে মনোযোগের কেন্দ্রে আমেরিকান সাংবাদিক
@@ -1331,7 +1334,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/159584" class="news-item news-item-regular py-2">
                            <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/france-england-2-20221211032156.jpg?width=130&amp;height=90" alt="ইংলিশদের স্বপ্ন শেষ করে বিশ্বকাপের শেষ চারে ফ্রান্স" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/france-england-2-20221211032156.jpg?width=130&amp;height=90" alt="ইংলিশদের স্বপ্ন শেষ করে বিশ্বকাপের শেষ চারে ফ্রান্স" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               ইংলিশদের স্বপ্ন শেষ করে বিশ্বকাপের শেষ চারে ফ্রান্স
@@ -1339,7 +1342,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/159582" class="news-item news-item-regular py-2">
                            <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/giroud-20221211024602.jpg?width=130&amp;height=90" alt="জিরুর গোলের পর কেইনের পেনাল্টি মিস, শেষ চারের পথে ফ্রান্স" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/giroud-20221211024602.jpg?width=130&amp;height=90" alt="জিরুর গোলের পর কেইনের পেনাল্টি মিস, শেষ চারের পথে ফ্রান্স" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               জিরুর গোলের পর কেইনের পেনাল্টি মিস, শেষ চারের পথে ফ্রান্স
@@ -1347,7 +1350,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/159581" class="news-item news-item-regular py-2">
                            <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/harry-kane-20221211022131.jpg?width=130&amp;height=90" alt="ইংল্যান্ডকে সমতায় ফেরালেন কেইন" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/harry-kane-20221211022131.jpg?width=130&amp;height=90" alt="ইংল্যান্ডকে সমতায় ফেরালেন কেইন" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               ইংল্যান্ডকে সমতায় ফেরালেন কেইন
@@ -1355,7 +1358,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/159573" class="news-item news-item-regular py-2">
                            <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/morocco-beat-portugal-20221210230139.jpg?width=130&amp;height=90" alt="রোনালদোকে কান্নায় ভাসিয়ে আফ্রিকান রূপকথা লিখল মরক্কো" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/morocco-beat-portugal-20221210230139.jpg?width=130&amp;height=90" alt="রোনালদোকে কান্নায় ভাসিয়ে আফ্রিকান রূপকথা লিখল মরক্কো" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               রোনালদোকে কান্নায় ভাসিয়ে আফ্রিকান রূপকথা লিখল মরক্কো
@@ -1363,7 +1366,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/sports/football/159569" class="news-item news-item-regular py-2">
                            <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/neymar-20221210223159.jpg?width=130&amp;height=90" alt="‘মানসিকভাবে ধ্বংস’ হয়ে গেছেন নেইমার" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/neymar-20221210223159.jpg?width=130&amp;height=90" alt="‘মানসিকভাবে ধ্বংস’ হয়ে গেছেন নেইমার" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               ‘মানসিকভাবে ধ্বংস’ হয়ে গেছেন নেইমার
@@ -1391,7 +1394,7 @@
             <div class="blk-list scaled">
                <a href="https://www.dhakapost.com/education/159087" class="news-item-blk py-2 news-blk-image">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/sfdsfd-20221208172822.jpg?width=330&amp;height=175" alt="পর্যটনকে আকর্ষণীয় করতে সবাইকে একসাথে কাজ করতে হবে" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/sfdsfd-20221208172822.jpg?width=330&amp;height=175" alt="পর্যটনকে আকর্ষণীয় করতে সবাইকে একসাথে কাজ করতে হবে" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      পর্যটনকে আকর্ষণীয় করতে সবাইকে একসাথে কাজ করতে হবে
@@ -1399,7 +1402,7 @@
                </a>
                <a href="https://www.dhakapost.com/education/159067" class="news-item news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dasffads-20221208161952.jpg?width=130&amp;height=90" alt="নতুন এমপিও কোড পেল ২ হাজার ৫১ স্কুল-কলেজ" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dasffads-20221208161952.jpg?width=130&amp;height=90" alt="নতুন এমপিও কোড পেল ২ হাজার ৫১ স্কুল-কলেজ" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      নতুন এমপিও কোড পেল ২ হাজার ৫১ স্কুল-কলেজ
@@ -1407,7 +1410,7 @@
                </a>
                <a href="https://www.dhakapost.com/education/159004" class="news-item news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/122-20221208131726.jpg?width=130&amp;height=90" alt="একাদশে ভর্তির আবেদন শুরু" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/122-20221208131726.jpg?width=130&amp;height=90" alt="একাদশে ভর্তির আবেদন শুরু" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      একাদশে ভর্তির আবেদন শুরু
@@ -1453,7 +1456,7 @@
             <div class="grid-entertainment pt-2">
                <a href="https://www.dhakapost.com/entertainment/bollywood/159562" class="grid-entertainment-item grid-entertainment-item__1">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/malaika-arora-20221210210432.jpg?width=640&amp;height=335" alt="বোনকে নিয়ে চূড়ান্ত রসিকতা মালাইকার" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/malaika-arora-20221210210432.jpg?width=640&amp;height=335" alt="বোনকে নিয়ে চূড়ান্ত রসিকতা মালাইকার" class="lazyload img-loader">
                   </div>
                   <h2>
                      বোনকে নিয়ে চূড়ান্ত রসিকতা মালাইকার
@@ -1461,7 +1464,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/159553" class="grid-entertainment-item grid-entertainment-item__2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/srilekhajpg2-20221210192423.jpg?width=330&amp;height=175" alt="‘বাংলার কিংবদন্তি’ সম্মান পেলেন শ্রীলেখা" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/srilekhajpg2-20221210192423.jpg?width=330&amp;height=175" alt="‘বাংলার কিংবদন্তি’ সম্মান পেলেন শ্রীলেখা" class="lazyload img-loader">
                   </div>
                   <h2>
                      ‘বাংলার কিংবদন্তি’ সম্মান পেলেন শ্রীলেখা
@@ -1469,7 +1472,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/159541" class="grid-entertainment-item grid-entertainment-item__3">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/nobonita-das-20221210184413.jpg?width=330&amp;height=175" alt="পুলিশের সামনেই অভিনেত্রীকে ধর্ষণের হুমকি!" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/nobonita-das-20221210184413.jpg?width=330&amp;height=175" alt="পুলিশের সামনেই অভিনেত্রীকে ধর্ষণের হুমকি!" class="lazyload img-loader">
                   </div>
                   <h2>
                      পুলিশের সামনেই অভিনেত্রীকে ধর্ষণের হুমকি!
@@ -1481,7 +1484,7 @@
             <div class="alk-list">
                <a href="https://www.dhakapost.com/entertainment/159534" class="news-item-alk py-2 news-alk-image">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mithila-20221210181058.jpg?width=330&amp;height=175" alt="‘মায়া’ নিয়ে তেলেঙ্গানা চলচ্চিত্র উৎসবে মিথিলা" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mithila-20221210181058.jpg?width=330&amp;height=175" alt="‘মায়া’ নিয়ে তেলেঙ্গানা চলচ্চিত্র উৎসবে মিথিলা" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      ‘মায়া’ নিয়ে তেলেঙ্গানা চলচ্চিত্র উৎসবে মিথিলা
@@ -1489,7 +1492,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/159519" class="news-item-alk news-item-regular py-2 d-none d-sm-flex">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/suresh-kirti-cover-20221210172255.jpg?width=130&amp;height=90" alt="যৌন হয়রানি নিয়ে যা বললেন কীর্তি সুরেশ" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/suresh-kirti-cover-20221210172255.jpg?width=130&amp;height=90" alt="যৌন হয়রানি নিয়ে যা বললেন কীর্তি সুরেশ" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      যৌন হয়রানি নিয়ে যা বললেন কীর্তি সুরেশ
@@ -1497,7 +1500,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/159512" class="news-item-alk news-item-regular py-2 d-none d-sm-flex">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/veena-kapoor-20221210170443.jpg?width=130&amp;height=90" alt="ছেলের হাতে অভিনেত্রী খুন" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/veena-kapoor-20221210170443.jpg?width=130&amp;height=90" alt="ছেলের হাতে অভিনেত্রী খুন" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      ছেলের হাতে অভিনেত্রী খুন
@@ -1505,7 +1508,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/159494" class="news-item-alk news-item-regular py-2 d-none d-sm-flex">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/deb-joti-20221210155544.jpg?width=130&amp;height=90" alt="ছুটি কাটাতে মহাকাশে যাচ্ছেন এই অভিনেতা" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/deb-joti-20221210155544.jpg?width=130&amp;height=90" alt="ছুটি কাটাতে মহাকাশে যাচ্ছেন এই অভিনেতা" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      ছুটি কাটাতে মহাকাশে যাচ্ছেন এই অভিনেতা
@@ -1513,7 +1516,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/bollywood/159490" class="news-item-alk news-item-regular py-2 d-none d-sm-flex">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/salman-puja-20221210160105.jpg?width=130&amp;height=90" alt="নতুন প্রেমে মজেছেন সালমান!" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/salman-puja-20221210160105.jpg?width=130&amp;height=90" alt="নতুন প্রেমে মজেছেন সালমান!" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      নতুন প্রেমে মজেছেন সালমান!
@@ -1525,7 +1528,7 @@
             <div class="alk-list">
                <a href="https://www.dhakapost.com/entertainment/dhallywood/159486" class="news-item-alk py-2 news-alk-image">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/raz-pori-cover-20221210151444.jpg?width=330&amp;height=175" alt="উষ্ণতার ছবিতে শীতলতার আভাস!" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/raz-pori-cover-20221210151444.jpg?width=330&amp;height=175" alt="উষ্ণতার ছবিতে শীতলতার আভাস!" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      উষ্ণতার ছবিতে শীতলতার আভাস!
@@ -1533,7 +1536,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/dhallywood/159468" class="news-item-alk news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mahi-cover-20221210135921.jpg?width=130&amp;height=90" alt="বেবি বাম্প প্রকাশ্যে আনলেন মাহি" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mahi-cover-20221210135921.jpg?width=130&amp;height=90" alt="বেবি বাম্প প্রকাশ্যে আনলেন মাহি" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      বেবি বাম্প প্রকাশ্যে আনলেন মাহি
@@ -1541,7 +1544,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/bollywood/159450" class="news-item-alk news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mahira-khan-11-20221210124812.jpg?width=130&amp;height=90" alt="সৌদি গিয়ে ব্যাগ হারালেন শাহরুখের নায়িকা" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mahira-khan-11-20221210124812.jpg?width=130&amp;height=90" alt="সৌদি গিয়ে ব্যাগ হারালেন শাহরুখের নায়িকা" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      সৌদি গিয়ে ব্যাগ হারালেন শাহরুখের নায়িকা
@@ -1549,7 +1552,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/dhallywood/159430" class="news-item-alk news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/pori-cover-20221210113442.jpg?width=130&amp;height=90" alt="গোলের পর কেঁদে ফেলেছি: পরীমণি" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/pori-cover-20221210113442.jpg?width=130&amp;height=90" alt="গোলের পর কেঁদে ফেলেছি: পরীমণি" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      গোলের পর কেঁদে ফেলেছি: পরীমণি
@@ -1557,7 +1560,7 @@
                </a>
                <a href="https://www.dhakapost.com/entertainment/bollywood/159308" class="news-item-alk news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/amir-khan-20221209190102.jpg?width=130&amp;height=90" alt="পূজায় মন দিলেন আমির খান" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/amir-khan-20221209190102.jpg?width=130&amp;height=90" alt="পূজায় মন দিলেন আমির খান" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      পূজায় মন দিলেন আমির খান
@@ -1591,7 +1594,7 @@
                   <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
                      <a href="https://www.dhakapost.com/international/159545" class="news-item news-item-box pt-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fire-20221210185947.jpg?width=330&amp;height=90" alt="সাবেক প্রেমিকার হবু বরের বাসায় আগুন ধরিয়ে দিলেন প্রেমিক, পরে জেল" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fire-20221210185947.jpg?width=330&amp;height=90" alt="সাবেক প্রেমিকার হবু বরের বাসায় আগুন ধরিয়ে দিলেন প্রেমিক, পরে জেল" class="lazyload img-loader">
                         </div>
                         <h2 class="title">
                            সাবেক প্রেমিকার হবু বরের বাসায় আগুন ধরিয়ে দিলেন প্রেমিক, পরে জেল
@@ -1601,7 +1604,7 @@
                   <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
                      <a href="https://www.dhakapost.com/international/159513" class="news-item news-item-box pt-2">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bangladesh-20221210170506.jpg?width=330&amp;height=90" alt="যুক্তরাষ্ট্র-যুক্তরাজ্যের নিষেধাজ্ঞার তালিকায় নেই বাংলাদেশ" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bangladesh-20221210170506.jpg?width=330&amp;height=90" alt="যুক্তরাষ্ট্র-যুক্তরাজ্যের নিষেধাজ্ঞার তালিকায় নেই বাংলাদেশ" class="lazyload img-loader">
                         </div>
                         <h2 class="title">
                            যুক্তরাষ্ট্র-যুক্তরাজ্যের নিষেধাজ্ঞার তালিকায় নেই বাংলাদেশ
@@ -1614,7 +1617,7 @@
                <div class="clk-list clk-center">
                   <a href="https://www.dhakapost.com/international/159497" class="clk-item clk-item-regular py-2 ">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/putin-2-20221210155902.jpg?width=130&amp;height=90" alt="‘ইউক্রেনে যুদ্ধ বন্ধে প্রয়োজন একটি চুক্তি, যার ভিত্তি হবে আস্থা’" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/putin-2-20221210155902.jpg?width=130&amp;height=90" alt="‘ইউক্রেনে যুদ্ধ বন্ধে প্রয়োজন একটি চুক্তি, যার ভিত্তি হবে আস্থা’" class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         ‘ইউক্রেনে যুদ্ধ বন্ধে প্রয়োজন একটি চুক্তি, যার ভিত্তি হবে আস্থা’
@@ -1622,7 +1625,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/international/159477" class="clk-item clk-item-regular py-2 ">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/austin-20221210144046.jpg?width=130&amp;height=90" alt="পরমাণু অস্ত্রের মজুত বাড়াচ্ছে রাশিয়া, সতর্কবার্তা যুক্তরাষ্ট্রের" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/austin-20221210144046.jpg?width=130&amp;height=90" alt="পরমাণু অস্ত্রের মজুত বাড়াচ্ছে রাশিয়া, সতর্কবার্তা যুক্তরাষ্ট্রের" class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         পরমাণু অস্ত্রের মজুত বাড়াচ্ছে রাশিয়া, সতর্কবার্তা যুক্তরাষ্ট্রের
@@ -1630,7 +1633,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/international/159453" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/doller-20221210125735.jpg?width=130&amp;height=90" alt="সৌদির কাছে জরুরি ভিত্তিতে ৩০০ কোটি ডলার চাইল পাকিস্তান" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/doller-20221210125735.jpg?width=130&amp;height=90" alt="সৌদির কাছে জরুরি ভিত্তিতে ৩০০ কোটি ডলার চাইল পাকিস্তান" class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         সৌদির কাছে জরুরি ভিত্তিতে ৩০০ কোটি ডলার চাইল পাকিস্তান
@@ -1638,7 +1641,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/international/159432" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/vietnam-20221210114107.jpg?width=130&amp;height=90" alt="সাগরে ডুবতে বসা ১৫৪ রোহিঙ্গাকে বাঁচাল ভিয়েতনামের তেলবাহী জাহাজ" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/vietnam-20221210114107.jpg?width=130&amp;height=90" alt="সাগরে ডুবতে বসা ১৫৪ রোহিঙ্গাকে বাঁচাল ভিয়েতনামের তেলবাহী জাহাজ" class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         সাগরে ডুবতে বসা ১৫৪ রোহিঙ্গাকে বাঁচাল ভিয়েতনামের তেলবাহী জাহাজ
@@ -1646,7 +1649,7 @@
                   </a>
                   <a href="https://www.dhakapost.com/international/159402" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
                      <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/john-kirbi-20221210094530.jpg?width=130&amp;height=90" alt="বিএনপির সমাবেশ : যুক্তরাষ্ট্রের ‘নিবিড় পর্যবেক্ষণে’ বাংলাদেশ" class="lazyload img-loader">
+                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/john-kirbi-20221210094530.jpg?width=130&amp;height=90" alt="বিএনপির সমাবেশ : যুক্তরাষ্ট্রের ‘নিবিড় পর্যবেক্ষণে’ বাংলাদেশ" class="lazyload img-loader">
                      </div>
                      <h2 class="title">
                         বিএনপির সমাবেশ : যুক্তরাষ্ট্রের ‘নিবিড় পর্যবেক্ষণে’ বাংলাদেশ
@@ -1681,7 +1684,7 @@
                      <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
                         <a href="https://www.dhakapost.com/economy/159550" class="news-item news-item-box pt-2">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/gfhdgd-20221210191210.jpg?width=330&amp;height=90" alt="সব থেকে পছন্দের নিয়োগকারী প্রতিষ্ঠান ইউনিলিভার বাংলাদেশ" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/gfhdgd-20221210191210.jpg?width=330&amp;height=90" alt="সব থেকে পছন্দের নিয়োগকারী প্রতিষ্ঠান ইউনিলিভার বাংলাদেশ" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               সব থেকে পছন্দের নিয়োগকারী প্রতিষ্ঠান ইউনিলিভার বাংলাদেশ
@@ -1691,7 +1694,7 @@
                      <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
                         <a href="https://www.dhakapost.com/economy/159538" class="news-item news-item-box pt-2">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fdgf-20221210182849.jpg?width=330&amp;height=90" alt="দুটি বেসরকারি হাসপাতালে ফি পরিশোধ বিকাশে" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fdgf-20221210182849.jpg?width=330&amp;height=90" alt="দুটি বেসরকারি হাসপাতালে ফি পরিশোধ বিকাশে" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               দুটি বেসরকারি হাসপাতালে ফি পরিশোধ বিকাশে
@@ -1704,7 +1707,7 @@
                   <div class="clk-list clk-center">
                      <a href="https://www.dhakapost.com/economy/159527" class="clk-item clk-item-regular py-2 ">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/sdffd-20221210175248.jpg?width=130&amp;height=90" alt="দারাজ থেকে পণ্য কিনে পেমেন্ট পরিশোধ করা যাবে নগদ-এ" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/sdffd-20221210175248.jpg?width=130&amp;height=90" alt="দারাজ থেকে পণ্য কিনে পেমেন্ট পরিশোধ করা যাবে নগদ-এ" class="lazyload img-loader">
                         </div>
                         <h2 class="title">
                            দারাজ থেকে পণ্য কিনে পেমেন্ট পরিশোধ করা যাবে নগদ-এ
@@ -1712,7 +1715,7 @@
                      </a>
                      <a href="https://www.dhakapost.com/economy/159523" class="clk-item clk-item-regular py-2 ">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dzfjkn-20221210172838.jpg?width=130&amp;height=90" alt="জেসিআই ‘টয়োপ-২০২২’ পুরস্কার পেলেন ১০ তরুণ" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dzfjkn-20221210172838.jpg?width=130&amp;height=90" alt="জেসিআই ‘টয়োপ-২০২২’ পুরস্কার পেলেন ১০ তরুণ" class="lazyload img-loader">
                         </div>
                         <h2 class="title">
                            জেসিআই ‘টয়োপ-২০২২’ পুরস্কার পেলেন ১০ তরুণ
@@ -1720,7 +1723,7 @@
                      </a>
                      <a href="https://www.dhakapost.com/economy/159487" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mr-jashim-20221210152133.jpg?width=130&amp;height=90" alt="নিয়মিত ভ্যাট প্রদানকারীদের হয়রানি করা বন্ধ করুন" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mr-jashim-20221210152133.jpg?width=130&amp;height=90" alt="নিয়মিত ভ্যাট প্রদানকারীদের হয়রানি করা বন্ধ করুন" class="lazyload img-loader">
                            <i class="fa fa-play-circle video-icon"></i>
                         </div>
                         <h2 class="title">
@@ -1729,7 +1732,7 @@
                      </a>
                      <a href="https://www.dhakapost.com/economy/159425" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dsfsadf-20221210111335.jpg?width=130&amp;height=90" alt="বিনিয়োগকারীদের পুঁজি নেই হাজার কোটি টাকা" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dsfsadf-20221210111335.jpg?width=130&amp;height=90" alt="বিনিয়োগকারীদের পুঁজি নেই হাজার কোটি টাকা" class="lazyload img-loader">
                         </div>
                         <h2 class="title">
                            বিনিয়োগকারীদের পুঁজি নেই হাজার কোটি টাকা
@@ -1737,7 +1740,7 @@
                      </a>
                      <a href="https://www.dhakapost.com/economy/159395" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
                         <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/848-20221210084423.jpg?width=130&amp;height=90" alt="জাতীয় ভ্যাট দিবস আজ" class="lazyload img-loader">
+                           <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/848-20221210084423.jpg?width=130&amp;height=90" alt="জাতীয় ভ্যাট দিবস আজ" class="lazyload img-loader">
                         </div>
                         <h2 class="title">
                            জাতীয় ভ্যাট দিবস আজ
@@ -1771,7 +1774,7 @@
             <div class="blk-list scaled">
                <a href="https://www.dhakapost.com/health/159337" class="news-item-blk py-2 news-blk-image">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bsmmu-20221209214914.jpg?width=330&amp;height=175" alt="বিএসএমএমইউর রেসিডেন্সি কোর্সে ভর্তি পরীক্ষার ফল প্রকাশ" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bsmmu-20221209214914.jpg?width=330&amp;height=175" alt="বিএসএমএমইউর রেসিডেন্সি কোর্সে ভর্তি পরীক্ষার ফল প্রকাশ" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      বিএসএমএমইউর রেসিডেন্সি কোর্সে ভর্তি পরীক্ষার ফল প্রকাশ
@@ -1779,7 +1782,7 @@
                </a>
                <a href="https://www.dhakapost.com/health/158464" class="news-item news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jakkha-20221206080853.jpg?width=130&amp;height=90" alt="এখনও শনাক্তের বাইরে ১৫ শতাংশ যক্ষ্মা রোগী" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jakkha-20221206080853.jpg?width=130&amp;height=90" alt="এখনও শনাক্তের বাইরে ১৫ শতাংশ যক্ষ্মা রোগী" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      এখনও শনাক্তের বাইরে ১৫ শতাংশ যক্ষ্মা রোগী
@@ -1787,7 +1790,7 @@
                </a>
                <a href="https://www.dhakapost.com/health/158165" class="news-item news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/health-minister-20221204183348.jpg?width=130&amp;height=90" alt="শেখ হাসিনা হিমালয়ের মতো শক্ত অবস্থানে দাড়িঁয়ে : স্বাস্থ্যমন্ত্রী" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/health-minister-20221204183348.jpg?width=130&amp;height=90" alt="শেখ হাসিনা হিমালয়ের মতো শক্ত অবস্থানে দাড়িঁয়ে : স্বাস্থ্যমন্ত্রী" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      শেখ হাসিনা হিমালয়ের মতো শক্ত অবস্থানে দাড়িঁয়ে : স্বাস্থ্যমন্ত্রী
@@ -1831,7 +1834,7 @@
                      <div class="row probash-all country-item">
                         <a href="https://www.dhakapost.com/probash/159472" class="news-item news-item-regular py-2 col-md-6 ">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dsnfa-20221210142036.jpg?width=130&amp;height=90" alt="ইতালিতে ৭ বাংলাদেশির মৃত্যু" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dsnfa-20221210142036.jpg?width=130&amp;height=90" alt="ইতালিতে ৭ বাংলাদেশির মৃত্যু" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               ইতালিতে ৭ বাংলাদেশির মৃত্যু
@@ -1839,7 +1842,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/probash/159400" class="news-item news-item-regular py-2 col-md-6 ">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/926-20221210092232.jpg?width=130&amp;height=90" alt="পর্তুগালে বাংলাদেশিদের উদ্যোগে নির্মিত মসজিদের উদ্বোধন" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/926-20221210092232.jpg?width=130&amp;height=90" alt="পর্তুগালে বাংলাদেশিদের উদ্যোগে নির্মিত মসজিদের উদ্বোধন" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               পর্তুগালে বাংলাদেশিদের উদ্যোগে নির্মিত মসজিদের উদ্বোধন
@@ -1847,7 +1850,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/probash/159372" class="news-item news-item-regular py-2 col-md-6 ">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/kotha-1-20221210023918.jpg?width=130&amp;height=90" alt="কাতার প্রবাসীর প্রযোজিত চলচ্চিত্র ‌‘কথা দিলাম’ এর প্রচারণা শুরু" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/kotha-1-20221210023918.jpg?width=130&amp;height=90" alt="কাতার প্রবাসীর প্রযোজিত চলচ্চিত্র ‌‘কথা দিলাম’ এর প্রচারণা শুরু" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               কাতার প্রবাসীর প্রযোজিত চলচ্চিত্র ‌‘কথা দিলাম’ এর প্রচারণা শুরু
@@ -1855,7 +1858,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/probash/159191" class="news-item news-item-regular py-2 col-md-6 ">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/paltan-case-202212081857011-20221209093816.jpg?width=130&amp;height=90" alt="দেশের রাজনৈতিক পরিস্থিতি নিয়ে উদ্বিগ্ন দক্ষিণ আফ্রিকা প্রবাসীরা" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/paltan-case-202212081857011-20221209093816.jpg?width=130&amp;height=90" alt="দেশের রাজনৈতিক পরিস্থিতি নিয়ে উদ্বিগ্ন দক্ষিণ আফ্রিকা প্রবাসীরা" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               দেশের রাজনৈতিক পরিস্থিতি নিয়ে উদ্বিগ্ন দক্ষিণ আফ্রিকা প্রবাসীরা
@@ -1863,7 +1866,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/probash/159002" class="news-item news-item-regular py-2 col-md-6 d-none d-sm-flex">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/afdsd-20221208131108.jpg?width=130&amp;height=90" alt="মিশিগানে সড়ক দুর্ঘটনায় প্রাণ হারালেন শিক্ষাবোর্ড কর্মকর্তা  " class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/afdsd-20221208131108.jpg?width=130&amp;height=90" alt="মিশিগানে সড়ক দুর্ঘটনায় প্রাণ হারালেন শিক্ষাবোর্ড কর্মকর্তা  " class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               মিশিগানে সড়ক দুর্ঘটনায় প্রাণ হারালেন শিক্ষাবোর্ড কর্মকর্তা
@@ -1871,7 +1874,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/probash/158968" class="news-item news-item-regular py-2 col-md-6 d-none d-sm-flex">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/1110-20221208110554.jpg?width=130&amp;height=90" alt="এস এ মালেকের মৃত্যুতে কানাডায় প্রবাসী সংগঠনের শোক  " class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/1110-20221208110554.jpg?width=130&amp;height=90" alt="এস এ মালেকের মৃত্যুতে কানাডায় প্রবাসী সংগঠনের শোক  " class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               এস এ মালেকের মৃত্যুতে কানাডায় প্রবাসী সংগঠনের শোক
@@ -1879,7 +1882,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/probash/158906" class="news-item news-item-regular py-2 col-md-6 d-none d-sm-flex">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/saudi-20221207220448.jpg?width=130&amp;height=90" alt="সৌ‌দি‌তে নারী গৃহকর্মীদের কাউন্সিলিং কার্যক্রম উদ্বোধন" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/saudi-20221207220448.jpg?width=130&amp;height=90" alt="সৌ‌দি‌তে নারী গৃহকর্মীদের কাউন্সিলিং কার্যক্রম উদ্বোধন" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               সৌ‌দি‌তে নারী গৃহকর্মীদের কাউন্সিলিং কার্যক্রম উদ্বোধন
@@ -1887,7 +1890,7 @@
                         </a>
                         <a href="https://www.dhakapost.com/probash/158707" class="news-item news-item-regular py-2 col-md-6 d-none d-sm-flex">
                            <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/probash-20221207104924.jpg?width=130&amp;height=90" alt="প্রবাসীদের বাংলাদেশ বিমানে যাতায়াতের আহ্বান" class="lazyload img-loader">
+                              <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/probash-20221207104924.jpg?width=130&amp;height=90" alt="প্রবাসীদের বাংলাদেশ বিমানে যাতায়াতের আহ্বান" class="lazyload img-loader">
                            </div>
                            <h2 class="title">
                               প্রবাসীদের বাংলাদেশ বিমানে যাতায়াতের আহ্বান
@@ -1924,7 +1927,7 @@
             <div class="blk-list scaled">
                <a href="https://www.dhakapost.com/law-courts/159294" class="news-item-blk py-2 news-blk-image">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/masud-ahmed-20221209180629.jpg?width=330&amp;height=175" alt="এজাহারে ফখরুল-আব্বাসের নাম নেই : আইনজীবী" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/masud-ahmed-20221209180629.jpg?width=330&amp;height=175" alt="এজাহারে ফখরুল-আব্বাসের নাম নেই : আইনজীবী" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      এজাহারে ফখরুল-আব্বাসের নাম নেই : আইনজীবী
@@ -1932,7 +1935,7 @@
                </a>
                <a href="https://www.dhakapost.com/law-courts/159287" class="news-item news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/cmm-fakhrul-20221209173314.jpg?width=130&amp;height=90" alt="কারাগারের পথে ফখরুল-আব্বাস" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/cmm-fakhrul-20221209173314.jpg?width=130&amp;height=90" alt="কারাগারের পথে ফখরুল-আব্বাস" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      কারাগারের পথে ফখরুল-আব্বাস
@@ -1940,7 +1943,7 @@
                </a>
                <a href="https://www.dhakapost.com/law-courts/159283" class="news-item news-item-regular py-2">
                   <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/cmm-court-fakhrul-20221209173355.jpg?width=130&amp;height=90" alt="পল্টনে সংঘর্ষের মামলায় কারাগারে ফখরুল-আব্বাস" class="lazyload img-loader">
+                     <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/cmm-court-fakhrul-20221209173355.jpg?width=130&amp;height=90" alt="পল্টনে সংঘর্ষের মামলায় কারাগারে ফখরুল-আব্বাস" class="lazyload img-loader">
                   </div>
                   <h2 class="title">
                      পল্টনে সংঘর্ষের মামলায় কারাগারে ফখরুল-আব্বাস
@@ -1968,7 +1971,7 @@
          <div class="col-sm-3 m-scroll-item align-items-stretch d-flex">
             <a class="ocs card" href="https://www.dhakapost.com/exclusive/153590">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="ভ্যাট ফাঁকির ৪৮ কোটি টাকা পরিশোধে সিঙ্গারের নয়ছয়!" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022November/singer-20221113115415.jpg?width=330&amp;height=175">
+                  <img src="assets/forAll/img/placeholder.png" class="lazyload img-loader card-img-top" alt="ভ্যাট ফাঁকির ৪৮ কোটি টাকা পরিশোধে সিঙ্গারের নয়ছয়!" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022November/singer-20221113115415.jpg?width=330&amp;height=175">
                </div>
                <div class="card-body">
                   <h2 class="card-title">
@@ -1980,7 +1983,7 @@
          <div class="col-sm-3 m-scroll-item align-items-stretch d-none d-sm-flex">
             <a class="ocs card" href="https://www.dhakapost.com/exclusive/151446">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="ট্রেনের কোটি টাকার ওয়াশিং প্ল্যান্ট : যেখানে হাত-ই শেষ সম্বল" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022October/dp-rail-01-20221103091111.jpg?width=330&amp;height=175">
+                  <img src="assets/forAll/img/placeholder.png" class="lazyload img-loader card-img-top" alt="ট্রেনের কোটি টাকার ওয়াশিং প্ল্যান্ট : যেখানে হাত-ই শেষ সম্বল" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022October/dp-rail-01-20221103091111.jpg?width=330&amp;height=175">
                </div>
                <div class="card-body">
                   <h2 class="card-title">
@@ -1992,7 +1995,7 @@
          <div class="col-sm-3 m-scroll-item align-items-stretch d-none d-sm-flex">
             <a class="ocs card" href="https://www.dhakapost.com/exclusive/150382">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="প্রশস্ত রাস্তা না থাকলে আটতলার ভবন হবে চারতলা" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022October/dp-dap-01-20221029125109.jpg?width=330&amp;height=175">
+                  <img src="assets/forAll/img/placeholder.png" class="lazyload img-loader card-img-top" alt="প্রশস্ত রাস্তা না থাকলে আটতলার ভবন হবে চারতলা" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022October/dp-dap-01-20221029125109.jpg?width=330&amp;height=175">
                </div>
                <div class="card-body">
                   <h2 class="card-title">
@@ -2004,7 +2007,7 @@
          <div class="col-sm-3 m-scroll-item align-items-stretch d-none d-sm-flex">
             <a class="ocs card" href="https://www.dhakapost.com/exclusive/146666">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="ছাদ-বাগান আর নির্মাণাধীন ভবন বাড়িয়েছে ডেঙ্গু!" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022October/dengue-20221011124923.jpg?width=330&amp;height=175">
+                  <img src="assets/forAll/img/placeholder.png" class="lazyload img-loader card-img-top" alt="ছাদ-বাগান আর নির্মাণাধীন ভবন বাড়িয়েছে ডেঙ্গু!" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022October/dengue-20221011124923.jpg?width=330&amp;height=175">
                </div>
                <div class="card-body">
                   <h2 class="card-title">
@@ -2033,7 +2036,7 @@
          <div class="blk-list scaled">
             <a href="https://www.dhakapost.com/lifestyle/159420" class="news-item-blk py-2 news-blk-image">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/kof-20221210110130.jpg?width=330&amp;height=175" alt="গলায় কফ জমেছে? জেনে নিন সহজ সমাধান" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/kof-20221210110130.jpg?width=330&amp;height=175" alt="গলায় কফ জমেছে? জেনে নিন সহজ সমাধান" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   গলায় কফ জমেছে? জেনে নিন সহজ সমাধান
@@ -2041,7 +2044,7 @@
             </a>
             <a href="https://www.dhakapost.com/lifestyle/159017" class="news-item news-item-regular py-2">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mula-20221208140010.jpg?width=130&amp;height=90" alt="মুলা পছন্দ করেন না? উপকারিতা জানলে ভালো লাগবেই" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mula-20221208140010.jpg?width=130&amp;height=90" alt="মুলা পছন্দ করেন না? উপকারিতা জানলে ভালো লাগবেই" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   মুলা পছন্দ করেন না? উপকারিতা জানলে ভালো লাগবেই
@@ -2049,7 +2052,7 @@
             </a>
             <a href="https://www.dhakapost.com/lifestyle/158991" class="news-item news-item-regular py-2">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/vufri-20221208122616.jpg?width=130&amp;height=90" alt="খাওয়া কমানোর পরেও ভুঁড়ি বেড়েই চলছে যে কারণে" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/vufri-20221208122616.jpg?width=130&amp;height=90" alt="খাওয়া কমানোর পরেও ভুঁড়ি বেড়েই চলছে যে কারণে" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   খাওয়া কমানোর পরেও ভুঁড়ি বেড়েই চলছে যে কারণে
@@ -2072,7 +2075,7 @@
          <div class="blk-list scaled">
             <a href="https://www.dhakapost.com/technology/159413" class="news-item-blk py-2 news-blk-image">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/apple-20221210103826.jpg?width=330&amp;height=175" alt="উদ্ভাবনে ১০০ বিলিয়ন ডলার খরচ করেছে অ্যাপল" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/apple-20221210103826.jpg?width=330&amp;height=175" alt="উদ্ভাবনে ১০০ বিলিয়ন ডলার খরচ করেছে অ্যাপল" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   উদ্ভাবনে ১০০ বিলিয়ন ডলার খরচ করেছে অ্যাপল
@@ -2080,7 +2083,7 @@
             </a>
             <a href="https://www.dhakapost.com/technology/159051" class="news-item news-item-regular py-2">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/whatsapp-record-20221208152640.jpg?width=130&amp;height=90" alt="অ্যানড্রয়েড ফোনে হোয়াটসঅ্যাপ কল রেকর্ড করার উপায়" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/whatsapp-record-20221208152640.jpg?width=130&amp;height=90" alt="অ্যানড্রয়েড ফোনে হোয়াটসঅ্যাপ কল রেকর্ড করার উপায়" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   অ্যানড্রয়েড ফোনে হোয়াটসঅ্যাপ কল রেকর্ড করার উপায়
@@ -2088,7 +2091,7 @@
             </a>
             <a href="https://www.dhakapost.com/technology/158997" class="news-item news-item-regular py-2">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/nupur-sharma-20221208125850.jpg?width=130&amp;height=90" alt="২০২২ সালে গুগল সার্চে শীর্ষে ছিলেন যারা" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/nupur-sharma-20221208125850.jpg?width=130&amp;height=90" alt="২০২২ সালে গুগল সার্চে শীর্ষে ছিলেন যারা" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   ২০২২ সালে গুগল সার্চে শীর্ষে ছিলেন যারা
@@ -2111,7 +2114,7 @@
          <div class="blk-list scaled">
             <a href="https://www.dhakapost.com/religion/159536" class="news-item-blk py-2 news-blk-image">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/namaj-20210925114033-20221210182158.jpg?width=330&amp;height=175" alt="নামাজের সময় যেমন পোশাক পড়বেন" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/namaj-20210925114033-20221210182158.jpg?width=330&amp;height=175" alt="নামাজের সময় যেমন পোশাক পড়বেন" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   নামাজের সময় যেমন পোশাক পড়বেন
@@ -2119,7 +2122,7 @@
             </a>
             <a href="https://www.dhakapost.com/religion/159514" class="news-item news-item-regular py-2">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/food-20221210170859.jpg?width=130&amp;height=90" alt="হালাল খাবার গ্রহণে কোরআনের নির্দেশনা" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/food-20221210170859.jpg?width=130&amp;height=90" alt="হালাল খাবার গ্রহণে কোরআনের নির্দেশনা" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   হালাল খাবার গ্রহণে কোরআনের নির্দেশনা
@@ -2127,7 +2130,7 @@
             </a>
             <a href="https://www.dhakapost.com/religion/159495" class="news-item news-item-regular py-2">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/untitled-1-20221012132741-20221210155517.jpg?width=130&amp;height=90" alt="জানাজার নামাজের দোয়া ও ফজিলত" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/untitled-1-20221012132741-20221210155517.jpg?width=130&amp;height=90" alt="জানাজার নামাজের দোয়া ও ফজিলত" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   জানাজার নামাজের দোয়া ও ফজিলত
@@ -2150,7 +2153,7 @@
          <div class="blk-list scaled">
             <a href="https://www.dhakapost.com/jobs-career/159607" class="news-item-blk py-2 news-blk-image">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobss-20221201113304-20221211082235.jpg?width=330&amp;height=175" alt="সপ্তাহে দুইদিন ছুটিসহ ঢাকার বাইরে চাকরি, বেতন ২৬০০০" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobss-20221201113304-20221211082235.jpg?width=330&amp;height=175" alt="সপ্তাহে দুইদিন ছুটিসহ ঢাকার বাইরে চাকরি, বেতন ২৬০০০" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   সপ্তাহে দুইদিন ছুটিসহ ঢাকার বাইরে চাকরি, বেতন ২৬০০০
@@ -2158,7 +2161,7 @@
             </a>
             <a href="https://www.dhakapost.com/jobs-career/159596" class="news-item news-item-regular py-2">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/akij-group-jobs-20221022115945-20221024151002-20221027081358-20221101074229-20221123080745-20221129101106-20221211074059.jpg?width=130&amp;height=90" alt="ওয়ালটনে চাকরির সুযোগ, বেতন ৩০০০০" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/akij-group-jobs-20221022115945-20221024151002-20221027081358-20221101074229-20221123080745-20221129101106-20221211074059.jpg?width=130&amp;height=90" alt="ওয়ালটনে চাকরির সুযোগ, বেতন ৩০০০০" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   ওয়ালটনে চাকরির সুযোগ, বেতন ৩০০০০
@@ -2166,7 +2169,7 @@
             </a>
             <a href="https://www.dhakapost.com/jobs-career/159482" class="news-item news-item-regular py-2">
                <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobss-20221128132452-20221210145819.jpg?width=130&amp;height=90" alt="মেট্রোরেলের নিয়োগ পরীক্ষার সূচি প্রকাশ" class="lazyload img-loader">
+                  <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobss-20221128132452-20221210145819.jpg?width=130&amp;height=90" alt="মেট্রোরেলের নিয়োগ পরীক্ষার সূচি প্রকাশ" class="lazyload img-loader">
                </div>
                <h2 class="title">
                   মেট্রোরেলের নিয়োগ পরীক্ষার সূচি প্রকাশ

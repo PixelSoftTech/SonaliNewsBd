@@ -5,11 +5,11 @@
             <div class="footer-top-items footer-mv d-flex align-items-center justify-content-between">
                <div class="footer-logo d-none d-lg-flex">
                   <a href="/">
-                  <img style="max-width: 120px;" src="assets/img/NDepend.png" alt="Dhaka Post" />
+                  <img style="max-width: 120px;" src="assets/forAll/img/NDepend.png" alt="Dhaka Post" />
                   </a>
                </div>
                <div class="editor">
-                  <p>সম্পাদক: নাসের আহমেদ</p>
+                  <p>সম্পাদক: মহিউদ্দিন সরকার</p>
                </div>
             </div>
          </div>
@@ -27,7 +27,7 @@
                <a href="https://www.dhakapost.com/advertise" class="text-white">বিজ্ঞাপন</a>
             </div>
             <div class="footerNewAddress text-center py-3">
-               <p class="text-white">৮৬ সোহরাওয়ার্দী এভিনিউ, বারিধারা ডিপ্লোমেটিক জোন, ঢাকা ১২১২</p>
+               <p class="text-white">৯৫ সোহরাওয়ার্দী এভিনিউ, বারিধারা ডিপ্লোমেটিক জোন, ঢাকা ১২১২</p>
                <p>
                   <a href="tel:+8809613678678" aria-label="Telephone" class="text-white" target="_blank" rel="nofollow noopener">
                   <abbr title="Phone"><i class="fa fa-phone"></i> </abbr>&nbsp;+৮৮০ ৯৬১৩ ৬৭৮৬৭৮<br>
@@ -44,8 +44,8 @@
                   </a>
                </p>
                <p>
-                  <a href="mailto:info@newsdepend.com" aria-label="Email" class="text-white" target="" rel="nofollow noopener">
-                  <i class="fa fa-envelope-o"></i> &nbsp;info@newsdepend.com
+                  <a href="/cdn-cgi/l/email-protection#adc4c3cbc2edc9c5ccc6ccddc2ded983cec2c0" aria-label="Email" class="text-white" target="_blank" rel="nofollow noopener">
+                  <abbr title="Mail"><i class="fa fa-envelope-o"></i> </abbr>&nbsp;<span class="__cf_email__" data-cfemail="caa3a4aca58aaea2aba1abbaa5b9bee4a9a5a7">info@newsdepend.com</span><br>
                   </a>
                </p>
             </div>
@@ -76,7 +76,7 @@
       text-decoration: none;
       }
       .footerText {
-      border-top: 1px solid #f19f9f;
+      border-top: 1px solid #20353e;
       padding-top: 10px;
       margin-bottom: 15px;
       text-align: center;
@@ -147,10 +147,10 @@
    </style>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-   <script async src="assets/js/loader.js"></script>
+   <script async src="assets/forAll/js/loader.js"></script>
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-   <script async src="assets/js/areaSearch.js"></script>
+   <script async src="assets/forAll/js/areaSearch.js"></script>
    <script>
       let economyItems = document.querySelectorAll('.economy-item');
       let ectItems = document.querySelectorAll('.ect-items');
@@ -392,29 +392,153 @@
           }
       </script>
       </div> -->
-   <script>
-      const navigatorExtra = document.querySelector('.navigator-extra');
-      const slideUpBtn = document.querySelector('[data-target="slide-up"]');
-      const slideContent = document.querySelector('[data-target="slide-content"]');
-      slideUpBtn.addEventListener("click", slideUp);
+  
+<style>
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 150px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px 50px;
+  border: 1px solid #888;
+  width: 90%;
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px 20px 16px;
+  border:none;
+  color: black;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px 20px 16px;
+  border:none;
+  color: black;
+}
+
+
+
+</style>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+     <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">অনুসন্ধান</h5>
+        <button type="button"  class="close" data-dismiss="modal" aria-label="Close">
+          <span style="color:#000;" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+     <div class="modal-body">
+        
+		<form method="POST" action="?menu=NewsSearch&menuName=সংবাদ" accept-charset="UTF-8" class="form" enctype="multipart/form-data">	
+		<div class="row">
+		    <div class=" col-md-2 " style="margin-bottom:10px;" ></div>
+		    <div class=" col-md-6 " style="margin-bottom:10px;" >
+		
+		 <input class="form-control" placeholder="Write Here .." name="searchdata" id="searchdata" type="text" required="required">
+		
+			
+		</div>
+		<div class=" col-md-2 "  style="margin-bottom:10px;" >
+		
+		 <input class="form-control btn btn-success"  name="Search" id="Search" type="submit" value="অনুসন্ধান" >
+		
+			
+		</div></div>
+			</form>	
+			
+      </div>
+  <div class="modal-footer">
       
-      function slideDown(e) {
-          e.preventDefault();
-          slideContent.classList.add("d-flex");
-          slideContent.classList.remove("d-none");
-          slideContent.style.position = 'sticky';
-          navigatorExtra.children[0].style.display = "none";
-      }
-      
-      function slideUp(e) {
-          e.preventDefault();
-          slideContent.classList.add("d-none");
-          slideContent.classList.remove("d-flex");
-          slideContent.style.position = 'unset';
-          navigatorExtra.children[0].style.display = "flex";
-      }
-   </script>
-   
+      </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
    <script>
       (function () {
           "use strict";
@@ -446,6 +570,7 @@
       const slideDownBtn = document.querySelector('[data-target="slide-down"]');
       slideDownBtn.addEventListener("click", slideDown);
    </script>
+
    <script>
       let selector = document.querySelector('.dis-sea');
       let division = document.getElementById("division");

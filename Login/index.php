@@ -12,7 +12,7 @@ include('../DBhandelar.php');
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="../img/mysweetlogo.gif" />
-	<link rel="icon" type="image/png" href="../assets/img/ND.png">
+	<link rel="icon" type="image/png" href="../assets/forAll/img/ND.png">
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 	<!--===============================================================================================-->

@@ -502,7 +502,7 @@ if (isset($_GET["menuName"])) {
                             <div class="topic-content topic-border-bottom pb-3 mb-3">
                                 <div class="topic-content-img">
                                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["sironam_status"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
-                                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="মেট্রোরেলের নির্দেশিকা মেনে চলতে প্রধানমন্ত্রীর আহ্বান" width="330" height="175" class="lazyload img-loader">
+                                        <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="মেট্রোরেলের নির্দেশিকা মেনে চলতে প্রধানমন্ত্রীর আহ্বান" width="330" height="175" class="lazyload img-loader">
                                     </a>
                                 </div>
                                 <div class="topic-content-text">

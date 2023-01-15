@@ -366,7 +366,7 @@ if (isset($_GET["menuName"])) {
                                 ?>
                                     <a class="rp-item py-2 " href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
                                         <div class="image-container">
-                                            <img class="img-loader" src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>">
+                                            <img class="img-loader" src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>">
                                         </div>
                                         <h2 class="news-item-lite"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
                                     </a>
