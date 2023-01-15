@@ -260,7 +260,7 @@
                                             <div class="lead-news">
                                                 <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>"
                                                     class="news-item news-item-lead border-0">
-                                                    <img src="assets/forAll/img/placeholder.png"
+                                                    <img src="assets/img/placeholder.png"
                                                         data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=640&amp;height=360"
                                                         alt=""
                                                         width="640" height="335" class="lazyload img-loader">
@@ -446,7 +446,7 @@
                                         <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>"
                                             class="news-item news-item-regular py-2">
                                             <div class="image-container">
-                                                <img src="assets/forAll/img/placeholder.png"
+                                                <img src="assets/img/placeholder.png"
                                                     data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=160&amp;height=90"
                                                     width="130" height="90"
                                                     alt=""

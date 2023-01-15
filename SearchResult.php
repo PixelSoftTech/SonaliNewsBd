@@ -436,7 +436,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/165093">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2023January/bhola1-20230105183654.jpg?width=330&amp;height=186"
                                         alt="ভোলায় ২২ কোটি টাকার ভারতীয় মালামাল জব্দ" width="330" height="175"
                                         class="lazyload img-loader">
@@ -455,7 +455,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/158804">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022December/untitled-5-20221207163543.jpg?width=330&amp;height=186"
                                         alt="ভোলায় নুডুলস খাওয়া নিয়ে সংঘর্ষে যুবক নিহত" width="330" height="175"
                                         class="lazyload img-loader">
@@ -474,7 +474,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/156688">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022November/bhola1-20221127175022.jpg?width=330&amp;height=186"
                                         alt="নৌযান শ্রমিকদের কর্মবিরতিতে বিপাকে ভোলাবাসী" width="330" height="175"
                                         class="lazyload img-loader">
@@ -493,7 +493,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/151891">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022November/bhola-20221105113333.jpg?width=330&amp;height=186"
                                         alt="‘নানুকে শেষবারের মতো দেখতে যাব, ঘাটে এসে দেখি লঞ্চ-স্পিডবোট বন্ধ’"
                                         width="330" height="175" class="lazyload img-loader">
@@ -512,7 +512,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/151700">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022November/bhola-20221104111415.jpg?width=330&amp;height=186"
                                         alt="ভোলায় সিত্রাংয়ে ৫০০ কোটি টাকার ক্ষতি" width="330" height="175"
                                         class="lazyload img-loader">
@@ -530,7 +530,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/150518">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022October/bhola-20221030072918.jpg?width=330&amp;height=186"
                                         alt="ভোলায় ঝাঁকে ঝাঁকে ধরা পড়ছে মা ইলিশ" width="330" height="175"
                                         class="lazyload img-loader">
@@ -549,7 +549,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/150216">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022October/bhola-20221028133303.jpg?width=330&amp;height=186"
                                         alt="সিত্রাংয়ের প্রভাবে ভোলায় ইলিশের উৎপাদন বাড়বে : মৎস্য বিভাগ" width="330"
                                         height="175" class="lazyload img-loader">
@@ -568,7 +568,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/149534">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022October/bhola-20221025104827.jpg?width=330&amp;height=186"
                                         alt="ভোলায় গাছ ও ঘরচাপায় ৩ জনের মৃত্যু" width="330" height="175"
                                         class="lazyload img-loader">
@@ -589,7 +589,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/149179">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022October/bhola-20221023185740.jpg?width=330&amp;height=186"
                                         alt="ভোলায় সরকারি কর্মকর্তা-কর্মচারীদের কর্মস্থলে থাকার নির্দেশ" width="330"
                                         height="175" class="lazyload img-loader">
@@ -608,7 +608,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/148438">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022October/bhola1-20221019185750.jpg?width=330&amp;height=186"
                                         alt="নিষেধাজ্ঞার ১৩ দিনেও প্রণোদনার চাল পাননি ভোলার জেলেরা" width="330"
                                         height="175" class="lazyload img-loader">
@@ -627,7 +627,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/143460">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022September/bhola-20220924072848.jpg?width=330&amp;height=186"
                                         alt="স্ত্রীকে উত্ত্যক্তের প্রতিবাদ করায় পুলিশ সদস্যকে কুপিয়ে জখম" width="330"
                                         height="175" class="lazyload img-loader">
@@ -646,7 +646,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/141224">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022September/tofael-20220912174536.jpg?width=330&amp;height=186"
                                         alt="বাংলাদেশে নির্দলীয় সরকার আর হবে না : তোফায়েল আহমেদ" width="330"
                                         height="175" class="lazyload img-loader">
@@ -665,7 +665,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/140378">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022September/bhola1-20220908085816.jpg?width=330&amp;height=186"
                                         alt="৩ বছরেও চালু হয়নি ভোলার ২৫০ শয্যা হাসপাতালের আধুনিক ভবন" width="330"
                                         height="175" class="lazyload img-loader">
@@ -683,7 +683,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/137208">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022August/bhola-20220824075545.jpg?width=330&amp;height=186"
                                         alt="ছুটি নিয়ে বাড়ি ফেরা হলো না বিজিবি সদস্য টিপুর" width="330" height="175"
                                         class="lazyload img-loader">
@@ -702,7 +702,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/135344">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022August/bhola1-20220815155959.jpg?width=330&amp;height=186"
                                         alt="ত্রাণ তো দূরের কথা, কেউ খবরও নেয়নি" width="330" height="175"
                                         class="lazyload img-loader">
@@ -721,7 +721,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/134765">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022August/bhola2-20220812205451.jpg?width=330&amp;height=186"
                                         alt="জোয়ারে ডুবেছে ফসল, ভেসেছে পুকুর" width="330" height="175"
                                         class="lazyload img-loader">
@@ -740,7 +740,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/134581">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022August/vola-20220811194723.jpg?width=330&amp;height=186"
                                         alt="ভোলায় নিহত ছাত্রদল সভাপতির স্ত্রীর মামলা, আসামি ৩৬ পুলিশ সদস্য" width="330"
                                         height="175" class="lazyload img-loader">
@@ -759,7 +759,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/134509">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022August/bhola1-20220811154156.jpg?width=330&amp;height=186"
                                         alt="ভোলায় দুর্যোগপূর্ণ আবহাওয়া, উত্তাল নদী-সাগর" width="330" height="175"
                                         class="lazyload img-loader">
@@ -778,7 +778,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/134143">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022August/bhola1-20220809210102.jpg?width=330&amp;height=186"
                                         alt="আ.লীগকে ক্ষমতাচ্যুত করা এত সহজ নয় : তোফায়েল" width="330" height="175"
                                         class="lazyload img-loader">
@@ -797,7 +797,7 @@
                             </div>
                             <div class="topic-content-img">
                                 <a href="https://www.dhakapost.com/country/133190">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                    <img src="assets/img/placeholder.png"
                                         data-src="//assets.dhakapost.com/media/imgAll/BG/2022July/bhola1-20220805124322.jpg?width=330&amp;height=186"
                                         alt="ভোলা থানার পরিদর্শকসহ ৩৬ পুলিশ সদস্যের বিরুদ্ধে মামলা" width="330"
                                         height="175" class="lazyload img-loader">

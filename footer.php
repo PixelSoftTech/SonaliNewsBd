@@ -5,11 +5,11 @@
             <div class="footer-top-items footer-mv d-flex align-items-center justify-content-between">
                <div class="footer-logo d-none d-lg-flex">
                   <a href="/">
-                  <img style="max-width: 120px;" src="assets/forAll/img/NDepend.png" alt="Dhaka Post" />
+                  <img style="max-width: 120px;" src="assets/img/NDepend.png" alt="Dhaka Post" />
                   </a>
                </div>
                <div class="editor">
-                  <p>সম্পাদক: মহিউদ্দিন সরকার</p>
+                  <p>সম্পাদক: নাসের আহমেদ</p>
                </div>
             </div>
          </div>
@@ -27,7 +27,7 @@
                <a href="https://www.dhakapost.com/advertise" class="text-white">বিজ্ঞাপন</a>
             </div>
             <div class="footerNewAddress text-center py-3">
-               <p class="text-white">৯৫ সোহরাওয়ার্দী এভিনিউ, বারিধারা ডিপ্লোমেটিক জোন, ঢাকা ১২১২</p>
+               <p class="text-white">৮৬ সোহরাওয়ার্দী এভিনিউ, বারিধারা ডিপ্লোমেটিক জোন, ঢাকা ১২১২</p>
                <p>
                   <a href="tel:+8809613678678" aria-label="Telephone" class="text-white" target="_blank" rel="nofollow noopener">
                   <abbr title="Phone"><i class="fa fa-phone"></i> </abbr>&nbsp;+৮৮০ ৯৬১৩ ৬৭৮৬৭৮<br>
@@ -44,8 +44,8 @@
                   </a>
                </p>
                <p>
-                  <a href="/cdn-cgi/l/email-protection#adc4c3cbc2edc9c5ccc6ccddc2ded983cec2c0" aria-label="Email" class="text-white" target="_blank" rel="nofollow noopener">
-                  <abbr title="Mail"><i class="fa fa-envelope-o"></i> </abbr>&nbsp;<span class="__cf_email__" data-cfemail="caa3a4aca58aaea2aba1abbaa5b9bee4a9a5a7">info@newsdepend.com</span><br>
+                  <a href="mailto:info@newsdepend.com" aria-label="Email" class="text-white" target="" rel="nofollow noopener">
+                  <i class="fa fa-envelope-o"></i> &nbsp;info@newsdepend.com
                   </a>
                </p>
             </div>
@@ -76,7 +76,7 @@
       text-decoration: none;
       }
       .footerText {
-      border-top: 1px solid #20353e;
+      border-top: 1px solid #f19f9f;
       padding-top: 10px;
       margin-bottom: 15px;
       text-align: center;
@@ -147,10 +147,10 @@
    </style>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-   <script async src="assets/forAll/js/loader.js"></script>
+   <script async src="assets/js/loader.js"></script>
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-   <script async src="assets/forAll/js/areaSearch.js"></script>
+   <script async src="assets/js/areaSearch.js"></script>
    <script>
       let economyItems = document.querySelectorAll('.economy-item');
       let ectItems = document.querySelectorAll('.ect-items');
@@ -414,6 +414,7 @@
           navigatorExtra.children[0].style.display = "flex";
       }
    </script>
+   
    <script>
       (function () {
           "use strict";
