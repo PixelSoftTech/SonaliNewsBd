@@ -208,7 +208,7 @@ if(isset($_POST["edit_all"])){
         }
 		  	
 	if(!empty($_FILES['image']['name'])){
-	   $folder_name=$_GET["folder"];	 
+		$folder_name=$_GET["folder"];
 	  $temp = explode(".", $_FILES['image']['name']);
       $newfilename = $temp["0"].round(microtime(true)) . '.' . end($temp);
       $file_tmp= $_FILES['image']['tmp_name'];

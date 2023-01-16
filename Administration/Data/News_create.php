@@ -288,10 +288,17 @@
 
 
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="image">Upload (Photo)<span style="color:#F00;">*</span></label>
                                     <input class="form-control" name="image" type="file" required>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="video">Video Link (Youtube)</label>
+                                    <input class="form-control" name="VideoLink" type="text" >
                                 </div>
                             </div>
 

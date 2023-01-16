@@ -63,7 +63,7 @@
                             </thead>
                             <tbody aria-relevant="all" aria-live="polite" role="alert">
                                 <?php
-                                    $information = $pdo->query("SELECT n.`id`, n.`title_bn`,n.detail_bn, n.`image`, c.`CatagoryNameBn` FROM `tbl_news` n inner join tbl_newscatagory c on n.categoryid=c.Id where top_news in('Yes','Today Top') and n.deleted_at is NULL order by n.id DESC limit 0,500;");
+                                    $information = $pdo->query("SELECT * FROM `tbl_news` where top_news='Yes'or top_news='Today Top' and deleted_at is NULL order by id DESC limit 0,500;");
                                     $i = 1;
                                     while ($rowdata = $information->fetch()) {
 
@@ -85,7 +85,7 @@
 
                                     <tr>
                                         <td text align="center"><?php echo $total; ?></td>
-                                        <td text align="center"><?php echo $rowdata["CatagoryNameBn"]; ?>
+                                        <td text align="center"><?php echo $rowdata["categoryid"]; ?>
                                         </td>
                                         <td text align="center"><?php echo $rowdata["title_bn"]; ?></td>
                                         <td text align="center"><?php echo $news_text_data; ?></td>

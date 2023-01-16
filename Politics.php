@@ -427,43 +427,43 @@
                             <div class="blk-list scaled">
                                 <a href="https://www.dhakapost.com/jobs-career/164317" class="news-item news-item-regular py-2">
                                     <div class="image-container">
-                                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/jobs-20230102132810.jpg?width=160&amp;height=90" width="130" height="90" alt="২৫ হাজার বেতনে অভিজ্ঞতা ছাড়াই এনজিওতে চাকরি, নেবে ২০০ জন" class="lazyload img-loader">
+                                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/jobs-20230102132810.jpg?width=160&amp;height=90" width="130" height="90" alt="২৫ হাজার বেতনে অভিজ্ঞতা ছাড়াই এনজিওতে চাকরি, নেবে ২০০ জন" class="lazyload img-loader">
                                     </div>
                                     <h2 class="title">২৫ হাজার বেতনে অভিজ্ঞতা ছাড়াই এনজিওতে চাকরি, নেবে ২০০ জন</h2>
                                 </a>
                                 <a href="https://www.dhakapost.com/jobs-career/163867" class="news-item news-item-regular py-2">
                                     <div class="image-container">
-                                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobsss-20221220130822-20221231151920.jpg?width=160&amp;height=90" width="130" height="90" alt="২৫ হাজার মাসিক বেতনে জেলা পর্যায়ে চাকরির সুযোগ" class="lazyload img-loader">
+                                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobsss-20221220130822-20221231151920.jpg?width=160&amp;height=90" width="130" height="90" alt="২৫ হাজার মাসিক বেতনে জেলা পর্যায়ে চাকরির সুযোগ" class="lazyload img-loader">
                                     </div>
                                     <h2 class="title">২৫ হাজার মাসিক বেতনে জেলা পর্যায়ে চাকরির সুযোগ</h2>
                                 </a>
                                 <a href="https://www.dhakapost.com/jobs-career/164024" class="news-item news-item-regular py-2">
                                     <div class="image-container">
-                                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/jobsss-20230101105428.jpg?width=160&amp;height=90" width="130" height="90" alt="৩৪ হাজার বেতনে চাকরি, সঙ্গে সপ্তাহে ২ দিন ছুটি" class="lazyload img-loader">
+                                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/jobsss-20230101105428.jpg?width=160&amp;height=90" width="130" height="90" alt="৩৪ হাজার বেতনে চাকরি, সঙ্গে সপ্তাহে ২ দিন ছুটি" class="lazyload img-loader">
                                     </div>
                                     <h2 class="title">৩৪ হাজার বেতনে চাকরি, সঙ্গে সপ্তাহে ২ দিন ছুটি</h2>
                                 </a>
                                 <a href="https://www.dhakapost.com/sports/football/164539" class="news-item news-item-regular py-2">
                                     <div class="image-container">
-                                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/messi-mbappe-20230103120614.jpg?width=160&amp;height=90" width="130" height="90" alt="মেসি ফেরার আগেই পিএসজি থেকে উধাও এমবাপে" class="lazyload img-loader">
+                                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/messi-mbappe-20230103120614.jpg?width=160&amp;height=90" width="130" height="90" alt="মেসি ফেরার আগেই পিএসজি থেকে উধাও এমবাপে" class="lazyload img-loader">
                                     </div>
                                     <h2 class="title">মেসি ফেরার আগেই পিএসজি থেকে উধাও এমবাপে</h2>
                                 </a>
                                 <a href="https://www.dhakapost.com/jobs-career/164556" class="news-item news-item-regular py-2">
                                     <div class="image-container">
-                                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/brac-20221207135048-20221231111046-20230103130925.jpg?width=160&amp;height=90" width="130" height="90" alt="ব্র্যাকে পার্ট-টাইম চাকরির সুযোগ, আবেদন করুন আজই" class="lazyload img-loader">
+                                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/brac-20221207135048-20221231111046-20230103130925.jpg?width=160&amp;height=90" width="130" height="90" alt="ব্র্যাকে পার্ট-টাইম চাকরির সুযোগ, আবেদন করুন আজই" class="lazyload img-loader">
                                     </div>
                                     <h2 class="title">ব্র্যাকে পার্ট-টাইম চাকরির সুযোগ, আবেদন করুন আজই</h2>
                                 </a>
                                 <a href="https://www.dhakapost.com/entertainment/164919" class="news-item news-item-regular py-2">
                                     <div class="image-container">
-                                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/raj-pori-20230105003409.jpg?width=160&amp;height=90" width="130" height="90" alt="ভুল বোঝাবুঝির অবসান ঘটিয়ে রাজের ঘরে পরীমণি!" class="lazyload img-loader">
+                                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/raj-pori-20230105003409.jpg?width=160&amp;height=90" width="130" height="90" alt="ভুল বোঝাবুঝির অবসান ঘটিয়ে রাজের ঘরে পরীমণি!" class="lazyload img-loader">
                                     </div>
                                     <h2 class="title">ভুল বোঝাবুঝির অবসান ঘটিয়ে রাজের ঘরে পরীমণি!</h2>
                                 </a>
                                 <a href="https://www.dhakapost.com/entertainment/dhallywood/163805" class="news-item news-item-regular py-2">
                                     <div class="image-container">
-                                        <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/porimonijpg-brazil-20221214114711-20221231110635.jpg?width=160&amp;height=90" width="130" height="90" alt="সম্পর্ক ছিন্ন করে রাজের বাসা থেকে বেরিয়ে এসেছি: পরীমণি" class="lazyload img-loader">
+                                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/porimonijpg-brazil-20221214114711-20221231110635.jpg?width=160&amp;height=90" width="130" height="90" alt="সম্পর্ক ছিন্ন করে রাজের বাসা থেকে বেরিয়ে এসেছি: পরীমণি" class="lazyload img-loader">
                                     </div>
                                     <h2 class="title">সম্পর্ক ছিন্ন করে রাজের বাসা থেকে বেরিয়ে এসেছি: পরীমণি</h2>
                                 </a>

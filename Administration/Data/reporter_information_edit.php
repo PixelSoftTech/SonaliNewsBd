@@ -31,7 +31,7 @@ $editrowdata = $editinformation->fetch();
                 <div class="box-body">
 
 
-                    <form method="POST" action="?menu=<?php echo $menu; ?>&page_title=<?php echo $page_form; ?>&edit_id=<?php echo $edit_id; ?>&main_menu=<?php echo $main_menu; ?>&database_table=<?php echo $table; ?>" accept-charset="UTF-8" class="form" enctype="multipart/form-data">
+                    <form method="POST" action="?menu=<?php echo $menu; ?>&page_title=<?php echo $page_form; ?>&edit_id=<?php echo $edit_id; ?>&main_menu=<?php echo $main_menu; ?>&database_table=<?php echo $table; ?>&folder=ReporterImage" accept-charset="UTF-8" class="form" enctype="multipart/form-data">
                         
                         <div class="row">
                             <div class="col-sm-4">
@@ -80,7 +80,7 @@ $editrowdata = $editinformation->fetch();
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <label for="image">Image Upload</label>
-                                    <input class="form-control" name="image" id="image" type="file">
+                                    <input class="form-control" name="image"  type="file">
                                     <!-- <input class="form-control"  name="image_upload" id="mobile_number" type="file" > -->
                                 </div>
                             </div>

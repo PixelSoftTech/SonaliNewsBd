@@ -23,7 +23,7 @@
                                             } ?>
                         <?php echo $menu; ?></h3>
 
-                    <div class="box-tools pull-right">
+                    <div class="box-tools pull-right" style="display: none !important;">
 
 
                         <a href="?menu=<?php echo $menu; ?>&page_title=<?php echo $page_title; ?>_create&main_menu=<?php echo $main_menu; ?>" class="btn btn-warning">

@@ -97,7 +97,7 @@ $editrowdata = $editinformation->fetch();
                             <div class="col-sm-4">
                                 <div class="form-group">
                                     <label for="sironam_status">Trending</label>
-                                    <select name="sironam_status" id="sironam_status" required class="form-control">;
+                                    <select name="sironam_status" id="sironam_status" class="form-control">;
                                         <option selected><?php echo $editrowdata["sironam_status"]; ?></option>;
                                         <?php
                                         try {
@@ -259,12 +259,12 @@ $editrowdata = $editinformation->fetch();
                                     <option selected ><?php echo $editrowdata["ReporterName"]; ?></option>
                                     <?php
                                     try {
-                                        $select = "SELECT * FROM tbl_user";
+                                        $select = "SELECT * FROM tbl_reporter";
                                         $result = $pdo->query($select);
                                         $result->setFetchMode(PDO::FETCH_ASSOC);
                                         
                                         while ($row = $result->fetch()) {
-                                            echo '<option value="' . $row['name'] . '">' . $row['name'] . '</option>';
+                                            echo '<option value="' . $row['r_nameBn'] . '">' . $row['r_nameBn'] . '</option>';
                                         }
                                         echo '</select>';
                                     } catch (PDOException $e) {

@@ -63,7 +63,7 @@
        </li>
 
 
-       <li class="<?php if ($menu == 'BreakingNews') {
+       <li class="<?php if ($menu == 'Breaking News') {
                     echo "active";
                   } else {
                   } ?> treeview">
@@ -88,17 +88,7 @@
        </li>
 
 
-       <li class="<?php if ($menu == 'Advertisement') {
-                    echo "active";
-                  } else {
-                  } ?> treeview">
-         <a href="?menu=Advertisement&page_title=Advertisement">
-           <i class="fa fa-delicious"></i> <span>Advertisement</span>
-           <span class="pull-right-container">
-
-           </span>
-         </a>
-       </li>
+       
 
 
 
@@ -122,7 +112,7 @@
                   } else {
                   } ?> treeview">
          <a href="?menu=Video Gallery&page_title=video_gallery">
-           <i class="fa fa-bold"></i> <span>Video Gallery</span>
+           <i class="fa fa-Play"></i> <span>Video Gallery</span>
            <span class="pull-right-container">
 
            </span>
@@ -131,7 +121,19 @@
 
 
        <?php if ($user_type == 'Admin') { ?>
-         <li class="<?php if ($menu == 'Paper Information') {
+
+          <li class="<?php if ($menu == 'Advertisement') {
+                        echo "active";
+                      } else {
+                      } ?> treeview">
+            <a href="?menu=Advertisement&page_title=Advertisement">
+              <i class="fa fa-delicious"></i> <span>Advertisement</span>
+              <span class="pull-right-container">
+
+              </span>
+            </a>
+          </li>
+         <!-- <li class="<?php if ($menu == 'Paper Information') {
                       echo "active";
                     } else {
                     } ?> treeview">
@@ -139,9 +141,9 @@
              <i class="fa fa-codepen"></i> <span>Paper Information</span>
 
            </a>
-         </li>
+         </li> -->
 
-         <li class="<?php if ($menu == 'Menu Wise Information') {
+         <!-- <li class="<?php if ($menu == 'Menu Wise Information') {
                       echo "active";
                     } else {
                     } ?> treeview">
@@ -149,7 +151,7 @@
              <i class="fa fa-list"></i> <span>Menu Wise Information</span>
 
            </a>
-         </li>
+         </li> -->
          <li class="<?php if ($menu == 'Trending Catagory') {
                       echo "active";
                     } else {
@@ -178,7 +180,7 @@
                     } else {
                     } ?> treeview">
            <a href="?menu=User Information&page_title=user_information">
-             <i class="fa fa-arrows-alt"></i> <span>User List</span>
+             <i class="fa fa-list"></i> <span>User List</span>
              <span class="pull-right-container">
 
              </span>
@@ -190,7 +192,7 @@
                     } else {
                     } ?> treeview">
            <a href="?menu=Reporter Information&page_title=reporter_information">
-             <i class="fa fa-arrows-alt"></i> <span>Reporter List</span>
+             <i class="fa fa-list"></i> <span>Reporter List</span>
              <span class="pull-right-container">
 
              </span>

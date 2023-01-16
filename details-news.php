@@ -559,19 +559,19 @@
                                         <div class="row d-flex justify-content-center">
                                             <div class="col-sm-4 box-news">
                                                 <a href="https://www.dhakapost.com/national/165877" class="news-item news-item-box">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/f-20230109162103.jpg" alt="বিশ্ববাজারের সঙ্গে তেল-গ্যাসের দাম সমন্বয় করা হবে" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/f-20230109162103.jpg" alt="বিশ্ববাজারের সঙ্গে তেল-গ্যাসের দাম সমন্বয় করা হবে" class="img-loader">
                                                     <h2 class="title">বিশ্ববাজারের সঙ্গে তেল-গ্যাসের দাম সমন্বয় করা হবে</h2>
                                                 </a>
                                             </div>
                                             <div class="col-sm-4 box-news">
                                                 <a href="https://www.dhakapost.com/national/165872" class="news-item news-item-box">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/pl-20230109160035.jpg" alt="১০ দিনে মেট্রোরেলের আয় ৮৮ লাখ টাকা" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/pl-20230109160035.jpg" alt="১০ দিনে মেট্রোরেলের আয় ৮৮ লাখ টাকা" class="img-loader">
                                                     <h2 class="title">১০ দিনে মেট্রোরেলের আয় ৮৮ লাখ টাকা</h2>
                                                 </a>
                                             </div>
                                             <div class="col-sm-4 box-news">
                                                 <a href="https://www.dhakapost.com/national/165868" class="news-item news-item-box">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/metro-20230109155554.jpg" alt="মেট্রোরেলের সময়সূচিতে পরিবর্তন" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/metro-20230109155554.jpg" alt="মেট্রোরেলের সময়সূচিতে পরিবর্তন" class="img-loader">
                                                     <h2 class="title">মেট্রোরেলের সময়সূচিতে পরিবর্তন</h2>
                                                 </a>
                                             </div>
@@ -604,31 +604,31 @@
                                         <div class="regular-list scaled m-px-0">
                                             <a href="https://www.dhakapost.com/national/165865" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/jongi2-20230109154926.jpg?width=330&amp;height=186" alt="দেশি-বিদেশি অস্ত্রের ভান্ডার নতুন জঙ্গি সংগঠনের" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/jongi2-20230109154926.jpg?width=330&amp;height=186" alt="দেশি-বিদেশি অস্ত্রের ভান্ডার নতুন জঙ্গি সংগঠনের" class="img-loader">
                                                 </div>
                                                 <h2 class="title">দেশি-বিদেশি অস্ত্রের ভান্ডার নতুন জঙ্গি সংগঠনের</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/national/165857" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/ec-vaban-20230109152511.jpg?width=330&amp;height=186" alt="মনোনয়নপত্র অনলাইনে জমা নিতে চায় ইসি" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/ec-vaban-20230109152511.jpg?width=330&amp;height=186" alt="মনোনয়নপত্র অনলাইনে জমা নিতে চায় ইসি" class="img-loader">
                                                 </div>
                                                 <h2 class="title">মনোনয়নপত্র অনলাইনে জমা নিতে চায় ইসি</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/national/165855" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/tt-20230109152126.jpg?width=330&amp;height=186" alt="পুলিশ ও সাংবাদিক একে অপরের পরিপূরক : অতিরিক্ত আইজিপি" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/tt-20230109152126.jpg?width=330&amp;height=186" alt="পুলিশ ও সাংবাদিক একে অপরের পরিপূরক : অতিরিক্ত আইজিপি" class="img-loader">
                                                 </div>
                                                 <h2 class="title">পুলিশ ও সাংবাদিক একে অপরের পরিপূরক : অতিরিক্ত আইজিপি</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/national/165844" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/bipu-20230109143739.jpg?width=330&amp;height=186" alt="সৌর ও বায়ু থেকে ২ হাজার মেগাওয়াট বিদ্যুৎ উৎপাদনের পরিকল্পনা" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/bipu-20230109143739.jpg?width=330&amp;height=186" alt="সৌর ও বায়ু থেকে ২ হাজার মেগাওয়াট বিদ্যুৎ উৎপাদনের পরিকল্পনা" class="img-loader">
                                                 </div>
                                                 <h2 class="title">সৌর ও বায়ু থেকে ২ হাজার মেগাওয়াট বিদ্যুৎ উৎপাদনের পরিকল্পনা</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/national/165842" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/dhakapost-20230109143003.jpg?width=330&amp;height=186" alt="ব্যাংকখাত নিয়ে গুজব ছড়াচ্ছে জামায়াত" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/dhakapost-20230109143003.jpg?width=330&amp;height=186" alt="ব্যাংকখাত নিয়ে গুজব ছড়াচ্ছে জামায়াত" class="img-loader">
                                                 </div>
                                                 <h2 class="title">ব্যাংকখাত নিয়ে গুজব ছড়াচ্ছে জামায়াত</h2>
                                             </a>
@@ -654,31 +654,31 @@
                                         <div class="regular-list scaled m-px-0">
                                             <a href="https://www.dhakapost.com/national/165879" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/maldivs-20230109163542.jpg?width=330&amp;height=175" alt="মালদ্বীপে আগুনে ক্ষতিগ্রস্তদের বাসস্থান পরিদর্শন করলেন রাষ্ট্রদূত" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/maldivs-20230109163542.jpg?width=330&amp;height=175" alt="মালদ্বীপে আগুনে ক্ষতিগ্রস্তদের বাসস্থান পরিদর্শন করলেন রাষ্ট্রদূত" class="img-loader">
                                                 </div>
                                                 <h2 class="title">মালদ্বীপে আগুনে ক্ষতিগ্রস্তদের বাসস্থান পরিদর্শন করলেন রাষ্ট্রদূত</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/sports/cricket/165878" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/robin-20230109162254.jpg?width=330&amp;height=175" alt="ইংল্যান্ডের হয়েই খেলতে চান রবিন দাস" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/robin-20230109162254.jpg?width=330&amp;height=175" alt="ইংল্যান্ডের হয়েই খেলতে চান রবিন দাস" class="img-loader">
                                                 </div>
                                                 <h2 class="title">ইংল্যান্ডের হয়েই খেলতে চান রবিন দাস</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/national/165877" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/f-20230109162103.jpg?width=330&amp;height=175" alt="বিশ্ববাজারের সঙ্গে তেল-গ্যাসের দাম সমন্বয় করা হবে" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/f-20230109162103.jpg?width=330&amp;height=175" alt="বিশ্ববাজারের সঙ্গে তেল-গ্যাসের দাম সমন্বয় করা হবে" class="img-loader">
                                                 </div>
                                                 <h2 class="title">বিশ্ববাজারের সঙ্গে তেল-গ্যাসের দাম সমন্বয় করা হবে</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/lifestyle/165876" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/purnima-1-20230109162016.jpg?width=330&amp;height=175" alt="যে কাজগুলো করলে আপনাকে দেখতে অল্প বয়সী মনে হবে" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/purnima-1-20230109162016.jpg?width=330&amp;height=175" alt="যে কাজগুলো করলে আপনাকে দেখতে অল্প বয়সী মনে হবে" class="img-loader">
                                                 </div>
                                                 <h2 class="title">যে কাজগুলো করলে আপনাকে দেখতে অল্প বয়সী মনে হবে</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/country/165875" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/sirajgonj-20230109161319.jpg?width=330&amp;height=175" alt="সিরাজগঞ্জে তুচ্ছ ঘটনায় দুই পক্ষের সংঘর্ষ, গুলিবিদ্ধ ২৫" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/sirajgonj-20230109161319.jpg?width=330&amp;height=175" alt="সিরাজগঞ্জে তুচ্ছ ঘটনায় দুই পক্ষের সংঘর্ষ, গুলিবিদ্ধ ২৫" class="img-loader">
                                                 </div>
                                                 <h2 class="title">সিরাজগঞ্জে তুচ্ছ ঘটনায় দুই পক্ষের সংঘর্ষ, গুলিবিদ্ধ ২৫</h2>
                                             </a>

@@ -395,21 +395,36 @@
 
 <!---Top Section Start-->
 <?php 
-if(empty($_POST["Division"] && empty($_POST["District"])  && empty($_POST["Upozila"]))){
-        $Divis='NULL';
-        $Dist='NULL';
-        $Upo='NULL';
-   
-	#$query="Division = $Divis or District = $Dist or Upozila = $Upo" ;
-}
-if(isset($_POST["Division"]) && isset($_POST["District"]) && isset($_POST["Upozila"])){
-    $Divis=$_POST["Division"];
-    $Dist=$_POST["District"];
-    $Upo=$_POST["Upozila"]; 
-}
+     if(isset($_POST['submit'])){
+        if(!empty($_POST['Division'])) {
+            $Divis = $_POST['Division'];        
+           
+        } else {
+            $Divis="";
+        }
+        if(!empty($_POST['District'])){
+            $Dist = $_POST['District'];
+        }
+        else{
+            $Dist=""; 
+        }
+        if(!empty($_POST['Upozila'])){
+            $Upo = $_POST['Upozila'];
+        }
+        else{
+            $Upo = ""; 
+        }
+
+     if($Divis !=""){
+        $query ="Division = '$Divis'";
+     }
+     elseif($Divis !="" && $Dist !=""){
+        $query ="Division = '$Divis'  District = '$Dist'";
+     } 
+     else{
+        $query ="Division = '$Divis' or District = '$Dist' or Upozila = '$Upo'";
+     }  
 ?>
-<h6><?php echo $Upo; ?></h6>
-<h6><?php echo $Dist; ?></h6>
 <main role="main" class="pt-2 pb-2 category">
     <div class="container">
         <div class="row">
@@ -417,13 +432,13 @@ if(isset($_POST["Division"]) && isset($_POST["District"]) && isset($_POST["Upozi
                 <section class="section-bb">
                     <div class="cat-header mt-2">
                         <h2>
-                            <a href="https://www.dhakapost.com/country/bhola-news">ভোলা</a>
+                            <a href="https://www.dhakapost.com/country/bhola-news"><?php echo $Dist; ?></a>
                         </h2>
                     </div>
                     <div class="subcat-header py-2">
-                        <h1>ভোলা সদর</h1>
+                        <h1><?php echo $Upo; ?></h1>
                     </div>
-                    <div class="subcategories d-flex align-items-center">
+                    <!-- <div class="subcategories d-flex align-items-center">
                         <a href="https://www.dhakapost.com/country/bhola/borhanuddin-news"
                             class="cat-item rounded py-1 px-2"> বোরহানউদ্দিন</a>
                         <a href="https://www.dhakapost.com/country/bhola/charfesson-news"
@@ -436,35 +451,35 @@ if(isset($_POST["Division"]) && isset($_POST["District"]) && isset($_POST["Upozi
                             class="cat-item rounded py-1 px-2"> তজুমদ্দিন</a>
                         <a href="https://www.dhakapost.com/country/bhola/lalmohan-news"
                             class="cat-item rounded py-1 px-2"> লালমোহন</a>
-                    </div>
+                    </div> -->
                 </section>
                 <div class="category-body my-3">
                     <div class="article-box pt-3 more-contents">
 
                     <?php
-                                            $informationtopnews = $pdo->query("select  * from  tbl_news where Division = $Divis or District = $Dist or Upozila = $Upo order by id DESC limit 0,1");
+                                            $informationtopnews = $pdo->query("select  * from  tbl_news where $query order by id DESC limit 0,20");
                                             
                                             while ($rowdatatopnews = $informationtopnews->fetch()) {
                                             $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
                                             $text_string_length = strlen($detail_data);
 
-                                            if ($text_string_length >= 3000) {
-                                                $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 2999));
+                                            if ($text_string_length >= 750) {
+                                                $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 700));
                                             } else {
                                                 $news_text_data = $detail_data;
                                             }
                                             ?>
                         <div class="topic-content topic-border-bottom pb-3 mb-3">
                             <div class="topic-content-text">
-                                <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatop_news['categoryid']; ?>&Detail=<?php echo $rowdatatop_news['id']; ?>">
+                                <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews['categoryid']; ?>&Detail=<?php echo $rowdatatopnews['id']; ?>">
                                 <?php echo $rowdatatopnews["title_bn"]; ?>
                                 </a>
-                                <time datetime="2023-01-05 18:36:54"><?php echo  BanglaConverter::en2bn(date("d F Y h:i ", strtotime($rowdatatop_news['publish_date'] . " " . $rowdatatop_news['publish_time']))); ?> </time>
-                                <p class="d-none d-sm-block"><?php echo $rowdatatop_news["detail_bn"]; ?>...</p>
+                                <time datetime="<?php echo $rowdatatopnews['publish_date'] ?>"><?php echo  BanglaConverter::en2bn(date("d F Y h:i ", strtotime($rowdatatopnews['publish_date'] . " " . $rowdatatopnews['publish_time']))); ?> </time>
+                                <p class="d-none d-sm-block"><?php echo $news_text_data ?>...</p>
                             </div>
                             <div class="topic-content-img">
-                                <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatop_news['categoryid']; ?>&Detail=<?php echo $rowdatatop_news['id']; ?>">
-                                    <img src="assets/forAll/img/placeholder.png"
+                                <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews['categoryid']; ?>&Detail=<?php echo $rowdatatopnews['id']; ?>">
+                                    <img src="assets/img/placeholder.png"
                                         data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186"
                                         alt="<?php echo $rowdatatopnews["title_bn"]; ?>" width="330" height="175"
                                         class="lazyload img-loader">
@@ -552,3 +567,4 @@ if(isset($_POST["Division"]) && isset($_POST["District"]) && isset($_POST["Upozi
         </div>
     </div>
 </main>
+<?php } ?>

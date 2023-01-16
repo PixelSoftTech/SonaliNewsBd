@@ -8,7 +8,8 @@ if (isset($_GET["Detail"])) {
 
     $news_category = $rowdatatop_news['categoryid'];
     $newser_name = $rowdatatop_news['ReporterName'];
-
+    $img = $rowdatatop_news['image'];
+    $video = $rowdatatop_news['VideoLink'];
     $reader_count = $rowdatatop_news['viewers'] + 1;
     $pdo->query("UPDATE  tbl_news set viewers='$reader_count' where id='$Detail' ")
 ?>
@@ -705,7 +706,7 @@ if (isset($_GET["Detail"])) {
                                 <div class="details-writer d-flex align-items-center justify-content-between my-2 py-2" style="gap: 10px;">
                                     <div class="d-flex align-items-center">
                                         <div style="width: 38px;height: 38px;border-radius: 19px; overflow: hidden; border: 1px solid #970808;">
-                                            <img class="author-image" style="width: 100%;" src="assets/forAll/img/authorIcon.png" data-src="ReporterImage/<?php echo $rowdatatop_news['ReporterName']; ?>" alt="News Depend Desk">
+                                            <img class="author-image" style="width: 100%;" src="assets/img/authorIcon.png" data-src="ReporterImage/<?php echo $rowdatatop_news['ReporterName']; ?>" alt="News Depend Desk">
                                         </div>
                                         <div class="d-flex justify-content-start flex-column ml-2">
                                             <div class="d-flex align-items-center">
@@ -761,21 +762,28 @@ if (isset($_GET["Detail"])) {
                                 </div>
                                 <hr class="pb-2 fix-padding-0">
                                 <div class="news-image">
-                                    <?php 
-                                    if( $rowdatatop_news['VideoLink']=='NULL' or  $rowdatatop_news['VideoLink']==''){
-                                        $pic= $rowdatatop_news['image'];
-                                      echo'<img src="NewsImage/<?php echo $pic; ?>" alt="পোস্ট ফটো" class="lg-image" />' ; 
-                                    }
-                                    else{
-                                        $vid=$rowdatatop_news['VideoLink'];
-                                        echo' <iframe allowfullscreen="" frameborder="0" sandbox="" width="490" height="275" src="$vid"></iframe>';
-                                    }
-                                   
-                                    ?>
+                                    <?php
+                                    if ($video == 'NULL' ||  $video == '') {
+                                        $pic = $img;
+                                        echo '<img src="NewsImage/' . $pic . '" alt="পোস্ট ফটো" class="lg-image" />';
+                                    } elseif ($video != 'NULL' || $video != '') {
+                                        $vid = $video;
+                                        echo '<iframe frameborder="0" width="900" height="475" src="https://www.youtube.com/embed/' . $vid . '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+                                    } ?>
                                 </div>
                                 <div class="news-details" style="text-align: justify;">
                                     <p style="text-align: justify;"><?php echo $rowdatatop_news["detail_bn"]; ?></p>
                                 </div>
+                                <?php
+                                if ($video != 'NULL' &&  $video != '' && $img != 'NULL' &&  $img != '') {
+                                    $pic = $img;
+                                ?>
+                                    <hr class="pb-2 fix-padding-0">
+                                    <div class="news-image">
+                                        <img src="NewsImage/<?php echo $pic; ?>" alt="পোস্ট ফটো" class="lg-image" />
+                                    </div>
+                                    <hr class="pb-2 fix-padding-0">
+                                <?php } ?>
                                 <!-- <div class="tags d-flex align-items-center flex-wrap d-print-none">
                                 <div class="view-more-round" style="margin: 5px;"><a style="color: #000;" href="https://www.dhakapost.com/topic/মালদ্বীপ">মালদ্বীপ</a>
                                 </div>
@@ -823,7 +831,7 @@ if (isset($_GET["Detail"])) {
                                             ?>
                                                 <div class="col-sm-4 box-news">
                                                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatwotopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatwotopnews["id"]; ?>" class="news-item news-item-box">
-                                                        <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatwotopnews['image']; ?>" alt="" class="img-loader">
+                                                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatwotopnews['image']; ?>" alt="" class="img-loader">
                                                         <h2 class="title"><?php echo $rowdatatwotopnews["title_bn"]; ?></h2>
                                                     </a>
                                                 </div>
@@ -831,13 +839,13 @@ if (isset($_GET["Detail"])) {
                                         </div>
                                         <!-- <div class="col-sm-4 box-news">
                                             <a href="https://www.dhakapost.com/national/165872" class="news-item news-item-box">
-                                                <img src="assets/forAll/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/pl-20230109160035.jpg" alt="১০ দিনে মেট্রোরেলের আয় ৮৮ লাখ টাকা" class="img-loader">
+                                                <img src="assets/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/pl-20230109160035.jpg" alt="১০ দিনে মেট্রোরেলের আয় ৮৮ লাখ টাকা" class="img-loader">
                                                 <h2 class="title">১০ দিনে মেট্রোরেলের আয় ৮৮ লাখ টাকা</h2>
                                             </a>
                                         </div>
                                         <div class="col-sm-4 box-news">
                                             <a href="https://www.dhakapost.com/national/165868" class="news-item news-item-box">
-                                                <img src="assets/forAll/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/metro-20230109155554.jpg" alt="মেট্রোরেলের সময়সূচিতে পরিবর্তন" class="img-loader">
+                                                <img src="assets/img/placeholder.png" data-src="https://cdn.dhakapost.com/media/imgAll/BG/2023January/metro-20230109155554.jpg" alt="মেট্রোরেলের সময়সূচিতে পরিবর্তন" class="img-loader">
                                                 <h2 class="title">মেট্রোরেলের সময়সূচিতে পরিবর্তন</h2>
                                             </a>
                                         </div> -->
@@ -874,7 +882,7 @@ if (isset($_GET["Detail"])) {
                                             ?>
                                                 <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatwotopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatwotopnews["id"]; ?>" class="news-item news-item-regular py-2">
                                                     <div class="image-container">
-                                                        <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatwotopnews['image']; ?>" alt="" class="img-loader">
+                                                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatwotopnews['image']; ?>" alt="" class="img-loader">
                                                     </div>
                                                     <h2 class="title"><?php echo $rowdatatwotopnews["title_bn"]; ?></h2>
                                                 </a>
@@ -882,25 +890,25 @@ if (isset($_GET["Detail"])) {
 
                                             <!-- <a href="https://www.dhakapost.com/national/165857" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/ec-vaban-20230109152511.jpg?width=330&amp;height=186" alt="মনোনয়নপত্র অনলাইনে জমা নিতে চায় ইসি" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/ec-vaban-20230109152511.jpg?width=330&amp;height=186" alt="মনোনয়নপত্র অনলাইনে জমা নিতে চায় ইসি" class="img-loader">
                                                 </div>
                                                 <h2 class="title">মনোনয়নপত্র অনলাইনে জমা নিতে চায় ইসি</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/national/165855" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/tt-20230109152126.jpg?width=330&amp;height=186" alt="পুলিশ ও সাংবাদিক একে অপরের পরিপূরক : অতিরিক্ত আইজিপি" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/tt-20230109152126.jpg?width=330&amp;height=186" alt="পুলিশ ও সাংবাদিক একে অপরের পরিপূরক : অতিরিক্ত আইজিপি" class="img-loader">
                                                 </div>
                                                 <h2 class="title">পুলিশ ও সাংবাদিক একে অপরের পরিপূরক : অতিরিক্ত আইজিপি</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/national/165844" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/bipu-20230109143739.jpg?width=330&amp;height=186" alt="সৌর ও বায়ু থেকে ২ হাজার মেগাওয়াট বিদ্যুৎ উৎপাদনের পরিকল্পনা" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/bipu-20230109143739.jpg?width=330&amp;height=186" alt="সৌর ও বায়ু থেকে ২ হাজার মেগাওয়াট বিদ্যুৎ উৎপাদনের পরিকল্পনা" class="img-loader">
                                                 </div>
                                                 <h2 class="title">সৌর ও বায়ু থেকে ২ হাজার মেগাওয়াট বিদ্যুৎ উৎপাদনের পরিকল্পনা</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/national/165842" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/dhakapost-20230109143003.jpg?width=330&amp;height=186" alt="ব্যাংকখাত নিয়ে গুজব ছড়াচ্ছে জামায়াত" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/dhakapost-20230109143003.jpg?width=330&amp;height=186" alt="ব্যাংকখাত নিয়ে গুজব ছড়াচ্ছে জামায়াত" class="img-loader">
                                                 </div>
                                                 <h2 class="title">ব্যাংকখাত নিয়ে গুজব ছড়াচ্ছে জামায়াত</h2>
                                             </a> -->
@@ -931,7 +939,7 @@ if (isset($_GET["Detail"])) {
                                             ?>
                                                 <a href="?menu=NewsDetail&menuName=<?php echo $rowdatalatestnews["categoryid"]; ?>&Detail=<?php echo $rowdatalatestnews["id"]; ?>" class="news-item news-item-regular py-2">
                                                     <div class="image-container">
-                                                        <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatalatestnews['image']; ?>" alt="পোস্টের ছবি" class="img-loader">
+                                                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatalatestnews['image']; ?>" alt="পোস্টের ছবি" class="img-loader">
                                                     </div>
                                                     <h2 class="title"><?php echo $rowdatalatestnews["title_bn"]; ?></h2>
                                                 </a>
@@ -939,25 +947,25 @@ if (isset($_GET["Detail"])) {
 
                                             <!-- <a href="https://www.dhakapost.com/sports/cricket/165878" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/robin-20230109162254.jpg?width=330&amp;height=175" alt="ইংল্যান্ডের হয়েই খেলতে চান রবিন দাস" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/robin-20230109162254.jpg?width=330&amp;height=175" alt="ইংল্যান্ডের হয়েই খেলতে চান রবিন দাস" class="img-loader">
                                                 </div>
                                                 <h2 class="title">ইংল্যান্ডের হয়েই খেলতে চান রবিন দাস</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/national/165877" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/f-20230109162103.jpg?width=330&amp;height=175" alt="বিশ্ববাজারের সঙ্গে তেল-গ্যাসের দাম সমন্বয় করা হবে" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/f-20230109162103.jpg?width=330&amp;height=175" alt="বিশ্ববাজারের সঙ্গে তেল-গ্যাসের দাম সমন্বয় করা হবে" class="img-loader">
                                                 </div>
                                                 <h2 class="title">বিশ্ববাজারের সঙ্গে তেল-গ্যাসের দাম সমন্বয় করা হবে</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/lifestyle/165876" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/purnima-1-20230109162016.jpg?width=330&amp;height=175" alt="যে কাজগুলো করলে আপনাকে দেখতে অল্প বয়সী মনে হবে" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/purnima-1-20230109162016.jpg?width=330&amp;height=175" alt="যে কাজগুলো করলে আপনাকে দেখতে অল্প বয়সী মনে হবে" class="img-loader">
                                                 </div>
                                                 <h2 class="title">যে কাজগুলো করলে আপনাকে দেখতে অল্প বয়সী মনে হবে</h2>
                                             </a>
                                             <a href="https://www.dhakapost.com/country/165875" class="news-item news-item-regular py-2">
                                                 <div class="image-container">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/sirajgonj-20230109161319.jpg?width=330&amp;height=175" alt="সিরাজগঞ্জে তুচ্ছ ঘটনায় দুই পক্ষের সংঘর্ষ, গুলিবিদ্ধ ২৫" class="img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2023January/sirajgonj-20230109161319.jpg?width=330&amp;height=175" alt="সিরাজগঞ্জে তুচ্ছ ঘটনায় দুই পক্ষের সংঘর্ষ, গুলিবিদ্ধ ২৫" class="img-loader">
                                                 </div>
                                                 <h2 class="title">সিরাজগঞ্জে তুচ্ছ ঘটনায় দুই পক্ষের সংঘর্ষ, গুলিবিদ্ধ ২৫</h2>
                                             </a> -->

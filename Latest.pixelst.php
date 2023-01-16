@@ -327,7 +327,7 @@
                                         </div>
                                         <div class="topic-content-img">
                                             <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
-                                                <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="ওমানে বাংলাদেশের শুভসূচনা " class="lazyload img-loader">
+                                                <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="ওমানে বাংলাদেশের শুভসূচনা " class="lazyload img-loader">
                                             </a>
                                         </div>
                                     </div>
@@ -360,7 +360,7 @@
                                             </div>
                                             <div class="topic-content-img">
                                                 <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
-                                                    <img src="assets/forAll/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="নিউজ ফটো" class="lazyload img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="নিউজ ফটো" class="lazyload img-loader">
                                                 </a>
                                             </div>
                                         </div>
