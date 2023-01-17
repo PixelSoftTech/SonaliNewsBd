@@ -290,7 +290,7 @@
                                             <div class="col-12 col-sm-6 col-lg-12 box-news">
                                             <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>"
                                                     class="news-item news-item-box m-py-2 border-bottom">
-                                                    <img src="https://assets.dhakapost.com/media/common/placeholder.jpg"
+                                                    <img src="assets/img/placeholder.png"
                                                         data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186"
                                                         alt="<?php echo $rowdatatopnews["title_bn"]; ?>"
                                                         width="330" height="175" class="lazyload img-loader">
@@ -321,7 +321,7 @@
                                 <div class="col-sm-4 box-news">
                                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>"
                                         class="news-item news-item-box m-py-2">
-                                        <img src="https://assets.dhakapost.com/media/common/placeholder.jpg"
+                                        <img src="assets/img/placeholder.png"
                                             data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186"
                                             alt="<?php echo $rowdatatopnews["title_bn"]; ?>"
                                             width="330" height="175" class="lazyload img-loader">

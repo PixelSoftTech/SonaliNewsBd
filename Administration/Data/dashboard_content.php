@@ -10,7 +10,7 @@ $bangDATE = array('১','২','৩','৪','৫','৬','৭','৮','৯','০','�
 <section class="content-header">
       <h1>
       News Depend
-        <small>Decision Support System</small>
+        <small>PixelST Support System</small>
           
       </h1>
       <ol class="breadcrumb">

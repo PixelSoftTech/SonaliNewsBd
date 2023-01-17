@@ -403,6 +403,15 @@ if (isset($_GET["Detail"])) {
         }
 
         @media (max-width: 575.98px) {
+            .news-image iframe {
+                height: 195px !important;
+            }
+            .news-title {
+                font-size: 26px !important;
+            }
+            .news-details p {
+                font-size: 15px !important;
+            }
             .author-reporting-area {
                 flex-direction: column;
                 flex-flow: wrap;
@@ -432,6 +441,9 @@ if (isset($_GET["Detail"])) {
         }
 
         @media (max-width: 719px) {
+            .news-image iframe {
+                height: 220px;
+            }
             .fix-order-1 {
                 order: -1;
                 justify-content: center !important;
@@ -456,7 +468,11 @@ if (isset($_GET["Detail"])) {
             }
 
         }
-
+        @media (min-width:720px) and (max-width:991px){
+            .news-image iframe {
+                height: 320px;
+            }
+        }
         @media (min-width: 576px) {
             .sticky-container {
                 position: -webkit-sticky;
@@ -471,6 +487,10 @@ if (isset($_GET["Detail"])) {
             margin-bottom: 15px;
             line-height: 30px;
             font-weight: 600;
+        }
+        .news-details p {
+            font-size: 17px;
+            text-align: justify;
         }
 
         .news-details h3 {
@@ -768,11 +788,11 @@ if (isset($_GET["Detail"])) {
                                         echo '<img src="NewsImage/' . $pic . '" alt="পোস্ট ফটো" class="lg-image" />';
                                     } elseif ($video != 'NULL' || $video != '') {
                                         $vid = $video;
-                                        echo '<iframe frameborder="0" width="900" height="475" src="https://www.youtube.com/embed/' . $vid . '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+                                        echo '<iframe frameborder="0" width="100%" height="475" src="https://www.youtube.com/embed/' . $vid . '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
                                     } ?>
                                 </div>
-                                <div class="news-details" style="text-align: justify;">
-                                    <p style="text-align: justify;"><?php echo $rowdatatop_news["detail_bn"]; ?></p>
+                                <div class="news-details">
+                                    <p><?php echo $rowdatatop_news["detail_bn"]; ?></p>
                                 </div>
                                 <?php
                                 if ($video != 'NULL' &&  $video != '' && $img != 'NULL' &&  $img != '') {
@@ -871,7 +891,7 @@ if (isset($_GET["Detail"])) {
                                         <div class="category-header politics-ch d-flex justify-content-between align-items-center politics__home mt-2">
                                             <div class="heading politics-heading">
                                                 <p class="title">
-                                                    <a href="https://www.dhakapost.com/national" class="politics-lc"><?php echo $rowdatatop_news["categoryid"]; ?> থেকে আরও</a>
+                                                    <a href="" class="politics-lc"><?php echo $rowdatatop_news["categoryid"]; ?> থেকে আরও</a>
                                                 </p>
                                             </div>
                                         </div>

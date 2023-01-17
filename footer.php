@@ -1,5 +1,5 @@
     </div>
-    <footer data-nosnippet class="d-print-none" style="background: #970808; padding-bottom: 90px;">
+    <footer data-nosnippet class="d-print-none" style="background: #970808;">
         <div class="footer-top py-3 bg-section-two" style="border-top: 3px solid">
             <div class="container">
                 <div class="footer-top-items footer-mv d-flex align-items-center justify-content-between">
@@ -27,7 +27,7 @@
                     <a href="" class="text-white">বিজ্ঞাপন</a>
                 </div>
                 <div class="footerNewAddress text-center py-3">
-                    <p class="text-white">৮৬ সোহরাওয়ার্দী এভিনিউ, বারিধারা ডিপ্লোমেটিক জোন, ঢাকা ১২১২</p>
+                    <p class="text-white">৯৮ কাজী নজরুল ইসলাম এভিনিউ, কাওরান বাজার, ঢাকা-১২১৫</p>
                     <p>
                         <a href="tel:+8809613678678" aria-label="Telephone" class="text-white" target="_blank" rel="nofollow noopener">
                             <abbr title="Phone"><i class="fa fa-phone"></i> </abbr>&nbsp;+৮৮০ ১২১৩ ৬৭৮৬৭৮<br>
@@ -54,10 +54,32 @@
                     <p>News Depend is owned by Sonali Entertainment.
                     </p>
                 </div>
+                <div class="ownerSection">
+                    <p>© 2023 <strong><a href="index.php">News Depend</a></strong> All Right Reserved.</p>
+                    <p>Powered by: <strong><a href="https://pixelsofttech.com/">PixelST</a></strong></p>
+                </div>
             </div>
         </div>
     </footer>
     <style>
+        .ownerSection {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0px 30px 0px;
+        }
+        .ownerSection p {
+            font-size: 15px;
+            font-weight: 100 !important;
+        }
+        .ownerSection p a {
+            display: initial;
+            color: #ffef00;
+        }
+        .ownerSection p a:hover {
+            color: #ff5454;
+            transition: 0.3s all ease-in-out;
+        }
+
         .ats-overlay-bottom-wrapper-rendered,
         #av-container #av-inner #gui #close-btn,
         #av-close-btn {
@@ -84,9 +106,10 @@
 
         .footerText {
             border-top: 1px solid #f19f9f;
-            padding-top: 10px;
+            padding: 10px 0px;
             margin-bottom: 15px;
             text-align: center;
+            border-bottom: 1px solid #f19f9f;
         }
 
         .footerText h1 {
@@ -136,6 +159,13 @@
                 margin: 0 3px;
                 margin-bottom: 10px;
             }
+            .ownerSection {
+                display: inline;
+                text-align: center;
+            }
+            .ownerSection p{
+                padding-bottom: 10px;
+            }
         }
 
         /* Large Mobile :480px. */
@@ -171,7 +201,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script async src="assets/js/areaSearch.js"></script>
-    <script>
+    <!-- <script>
         let economyItems = document.querySelectorAll('.economy-item');
         let ectItems = document.querySelectorAll('.ect-items');
         ectItems.forEach(item => {
@@ -334,7 +364,7 @@
             let images = document.querySelectorAll('.country-item.' + value + ' .img-loader');
             intersect(images);
         }
-    </script>
+    </script> -->
     <div id='div-gpt-ad-1624691711930-0'>
         <script>
             googletag.cmd.push(function() {
@@ -413,6 +443,7 @@
       </script>
       </div> -->
 
+    <!-- Modal CSS and Script Start -->
     <style>
         .modal {
             display: none;
@@ -507,49 +538,28 @@
             border: none;
             color: black;
         }
+        .SrcInBox input{
+            border: 2px solid #c5c5c5;
+        }
+        .SrcInBox input:focus{
+            border: 2px solid #970808;
+            box-shadow: none;
+        }
+        .HomeSrcBtn input{
+            background-color: #970808;
+            border-color: #970808;
+        }
+        .HomeSrcBtn input:hover {
+            background-color: #b62626;
+            border-color: #b62626;
+            transition: 0.3ms all ease-in-out;
+        }
+        .HomeSrcBtn input:focus, .HomeSrcBtn input:active {
+            background-color: #b62626 !important;
+            border-color: #b62626 !important;
+            box-shadow: none !important;
+        }
     </style>
-
-
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">অনুসন্ধান</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span style="color:#000;" aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-
-                <form method="POST" action="?menu=NewsSearch&menuName=সংবাদ" accept-charset="UTF-8" class="form" enctype="multipart/form-data">
-                    <div class="row">
-                        <div class=" col-md-2 " style="margin-bottom:10px;"></div>
-                        <div class=" col-md-6 " style="margin-bottom:10px;">
-
-                            <input class="form-control" placeholder="Write Here .." name="searchdata" id="searchdata" type="text" required="required">
-
-
-                        </div>
-                        <div class=" col-md-2 " style="margin-bottom:10px;">
-
-                            <input class="form-control btn btn-success" name="Search" id="Search" type="submit" value="অনুসন্ধান">
-
-
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-            <div class="modal-footer">
-
-            </div>
-        </div>
-
-    </div>
-
     <script>
         // Get the modal
         var modal = document.getElementById("myModal");
@@ -577,8 +587,9 @@
             }
         }
     </script>
+    <!-- Modal CSS and Script End -->
 
-    <script>
+    <!-- <script>
         (function() {
             "use strict";
             window.addEventListener(
@@ -608,7 +619,7 @@
     <script>
         const slideDownBtn = document.querySelector('[data-target="slide-down"]');
         slideDownBtn.addEventListener("click", slideDown);
-    </script>
+    </script> -->
 
     <!-- <script>
         let selector = document.querySelector('.dis-sea');

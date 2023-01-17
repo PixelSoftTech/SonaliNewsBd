@@ -58,7 +58,7 @@
                         <tbody aria-relevant="all" aria-live="polite" role="alert">
                         <?php
 				
-			$information = $pdo->query("SELECT *  FROM `photo_gallery` where deleted_at is NULL order by id DESC limit 0,40");
+			$information = $pdo->query("SELECT *  FROM `tbl_photo_gallery` where deleted_at is NULL order by id DESC limit 0,40");
 	
 				$i=1;
                  while ($rowdata = $information->fetch()){

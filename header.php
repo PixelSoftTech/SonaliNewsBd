@@ -40,7 +40,7 @@ include('DBhandelar.php');
    <link rel="canonical" href="https://www.newsdepend.com">
    <meta name="keywords" content="Bangaldesh News, Bangla News, Bangla News Online, Online Bangla News, News Depend, ND, Bangladeshi News, Bangladeshi News Online, Bengali News, Bengali Online News, Dhaka Bangladesh News, Breaking News, World News, BD News">
 
-   <script type="application/ld+json">
+   <!-- <script type="application/ld+json">
       {
          "@context": "https://schema.org",
          "@type": "Organization",
@@ -74,7 +74,7 @@ include('DBhandelar.php');
             "query-input": "required name=search_term_string"
          }
       }
-   </script>
+   </script> -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="assets/css/custom.css">
@@ -314,8 +314,8 @@ include('DBhandelar.php');
                </div>
             </form> -->
       </nav>
+      
       <div id="myModal" class="modal">
-
          <!-- Modal content -->
          <div class="modal-content">
             <div class="modal-header">
@@ -329,17 +329,11 @@ include('DBhandelar.php');
                <form method="POST" action="?menu=NewsSearch&menuName=সংবাদ" accept-charset="UTF-8" class="form" enctype="multipart/form-data">
                   <div class="row">
                      <div class=" col-md-2 " style="margin-bottom:10px;"></div>
-                     <div class=" col-md-6 " style="margin-bottom:10px;">
-
-                        <input class="form-control" placeholder="Write Here .." name="searchdata" id="searchdata" type="text" required="required">
-
-
+                     <div class="SrcInBox col-md-6 " style="margin-bottom:10px;">
+                        <input class="form-control" placeholder="এখানে লিখুন..." name="searchdata" id="searchdata" type="text" required="required">
                      </div>
-                     <div class=" col-md-2 " style="margin-bottom:10px;">
-
+                     <div class="HomeSrcBtn col-md-2 " style="margin-bottom:10px;">
                         <input class="form-control btn btn-success" name="Search" id="Search" type="submit" value="অনুসন্ধান">
-
-
                      </div>
                   </div>
                </form>
@@ -349,5 +343,4 @@ include('DBhandelar.php');
 
             </div>
          </div>
-
       </div>

@@ -250,7 +250,7 @@ if (isset($_GET["menuName"])) {
                                     ?>
                                         <div class="lead-news">
                                             <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-lead border-0">
-                                                <img src="https://assets.dhakapost.com/media/common/placeholder.jpg" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=640&amp;height=360" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" width="640" height="335" class="lazyload img-loader">
+                                                <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=640&amp;height=360" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" width="640" height="335" class="lazyload img-loader">
                                                 <h2 class="title liveTitle" style="margin: 10px 0">
                                                     <?php echo $rowdatatopnews["title_bn"]; ?>
                                                 </h2>
@@ -276,7 +276,7 @@ if (isset($_GET["menuName"])) {
                                         ?>
                                             <div class="col-12 col-sm-6 col-lg-12 box-news">
                                                 <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2 border-bottom">
-                                                    <img src="https://assets.dhakapost.com/media/common/placeholder.jpg" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" width="330" height="175" class="lazyload img-loader">
+                                                    <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" width="330" height="175" class="lazyload img-loader">
                                                     <h2 class="title">
                                                         <?php echo $rowdatatopnews["title_bn"]; ?>
                                                     </h2>
@@ -305,7 +305,7 @@ if (isset($_GET["menuName"])) {
                             ?>
                                 <div class="col-sm-4 box-news">
                                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2 border-bottom">
-                                        <img src="https://assets.dhakapost.com/media/common/placeholder.jpg" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" width="330" height="175" class="lazyload img-loader">
+                                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=186" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" width="330" height="175" class="lazyload img-loader">
                                         <h2 class="title">
                                             <?php echo $rowdatatopnews["title_bn"]; ?>
                                         </h2>

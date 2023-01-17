@@ -29,7 +29,7 @@
         padding: 8px 0;
     }
 
-    .subcategories a {
+    .subcategories p {
         font-size: 17px;
         background: #eee;
         margin-right: 10px;
@@ -253,7 +253,7 @@
             margin-bottom: 0;
         }
 
-        .subcategories a {
+        .subcategories p {
             line-height: 2.1;
         }
 
@@ -286,7 +286,7 @@
             margin-bottom: 0;
         }
 
-        .subcategories a {
+        .subcategories p {
             line-height: 2.1;
         }
 
@@ -393,55 +393,53 @@
     }
 </style>
 
-<!---Top Section Start-->
-<?php 
-     if(isset($_POST['submit'])){
-        if(!empty($_POST['Division'])) {
-            $Divis = $_POST['Division'];        
-           
-        } else {
-            $Divis="";
-        }
-        if(!empty($_POST['District'])){
-            $Dist = $_POST['District'];
-        }
-        else{
-            $Dist=""; 
-        }
-        if(!empty($_POST['Upozila'])){
-            $Upo = $_POST['Upozila'];
-        }
-        else{
-            $Upo = ""; 
-        }
 
-     if($Divis !=""){
-        $query ="Division = '$Divis'";
-     }
-     elseif($Divis !="" && $Dist !=""){
-        $query ="Division = '$Divis'  District = '$Dist'";
-     } 
-     else{
-        $query ="Division = '$Divis' or District = '$Dist' or Upozila = '$Upo'";
-     }  
-?>
 <main role="main" class="pt-2 pb-2 category">
     <div class="container">
         <div class="row">
+            <!---Top Section Start-->
+            <?php 
+                if(isset($_POST['submit'])){
+                    if(!empty($_POST['Division'])) {
+                        $Divis = $_POST['Division'];        
+                    
+                    } else {
+                        $Divis="";
+                    }
+                    if(!empty($_POST['District'])){
+                        $Dist = $_POST['District'];
+                    }
+                    else{
+                        $Dist=""; 
+                    }
+                    if(!empty($_POST['Upozila'])){
+                        $Upo = $_POST['Upozila'];
+                    }
+                    else{
+                        $Upo = ""; 
+                    }
+
+                if($Divis !=""){
+                    $query ="Division = '$Divis'";
+                }
+                elseif($Divis !="" && $Dist !=""){
+                    $query ="Division = '$Divis'  District = '$Dist'";
+                } 
+                else{
+                    $query ="Division = '$Divis' or District = '$Dist' or Upozila = '$Upo'";
+                }  
+            ?>
             <div class="col-lg-9 col-md-8 border-right">
                 <section class="section-bb">
                     <div class="cat-header mt-2">
-                        <h2>
-                            <a href="https://www.dhakapost.com/country/bhola-news"><?php echo $Dist; ?></a>
-                        </h2>
+                        <h2 style="font-size: 20px;"><?php echo $Divis; ?></h2>
                     </div>
                     <div class="subcat-header py-2">
-                        <h1><?php echo $Upo; ?></h1>
+                        <h1><?php echo $Dist; ?></h1>
                     </div>
-                    <!-- <div class="subcategories d-flex align-items-center">
-                        <a href="https://www.dhakapost.com/country/bhola/borhanuddin-news"
-                            class="cat-item rounded py-1 px-2"> বোরহানউদ্দিন</a>
-                        <a href="https://www.dhakapost.com/country/bhola/charfesson-news"
+                    <div class="subcategories d-flex align-items-center">
+                        <p class="cat-item rounded py-1 px-2"><?php echo $Upo; ?></p>
+                        <!-- <a href="https://www.dhakapost.com/country/bhola/charfesson-news"
                             class="cat-item rounded py-1 px-2"> চরফ্যাশন</a>
                         <a href="https://www.dhakapost.com/country/bhola/doulatkhan-news"
                             class="cat-item rounded py-1 px-2"> দৌলতখান</a>
@@ -450,25 +448,24 @@
                         <a href="https://www.dhakapost.com/country/bhola/tazumuddin-news"
                             class="cat-item rounded py-1 px-2"> তজুমদ্দিন</a>
                         <a href="https://www.dhakapost.com/country/bhola/lalmohan-news"
-                            class="cat-item rounded py-1 px-2"> লালমোহন</a>
-                    </div> -->
+                            class="cat-item rounded py-1 px-2"> লালমোহন</a> -->
+                    </div>
                 </section>
                 <div class="category-body my-3">
                     <div class="article-box pt-3 more-contents">
+                        <?php
+                            $informationtopnews = $pdo->query("select  * from  tbl_news where $query order by id DESC limit 0,20");
+                            
+                            while ($rowdatatopnews = $informationtopnews->fetch()) {
+                            $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                            $text_string_length = strlen($detail_data);
 
-                    <?php
-                                            $informationtopnews = $pdo->query("select  * from  tbl_news where $query order by id DESC limit 0,20");
-                                            
-                                            while ($rowdatatopnews = $informationtopnews->fetch()) {
-                                            $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
-                                            $text_string_length = strlen($detail_data);
-
-                                            if ($text_string_length >= 750) {
-                                                $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 700));
-                                            } else {
-                                                $news_text_data = $detail_data;
-                                            }
-                                            ?>
+                            if ($text_string_length >= 750) {
+                                $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 700));
+                            } else {
+                                $news_text_data = $detail_data;
+                            }
+                        ?>
                         <div class="topic-content topic-border-bottom pb-3 mb-3">
                             <div class="topic-content-text">
                                 <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews['categoryid']; ?>&Detail=<?php echo $rowdatatopnews['id']; ?>">
@@ -488,12 +485,13 @@
                             
                         </div>
                         <?php } ?>
-                        
+                    </div>
                 </div>
             </div>
+            <?php } ?>
             <div class="col-lg-3 col-md-4">
                 <div class="advertisement d-flex justify-content-center">
-                    <div id='div-gpt-ad-1624960273857-0' style='min-width: 300px; min-height: 250px; max-width: 300px; background-color: #f9d5d5ab;'>
+                    <div id='' style='min-width: 300px; min-height: 250px; max-width: 300px; background-color: #f9d5d5ab;'>
                         <h4 style="text-align: center; padding-top: 100px; color: #fff">For Add <br>300 X 250</h4>
                         <!-- <script type="81b7558e552758c8b4c742ff-text/javascript">
                             googletag.cmd.push(function () {
@@ -509,62 +507,65 @@
                             <p class="title bangladesh-lc">আপনার এলাকার খবর</p>
                         </div>
                     </div>
-                    <div class="row" style="margin: 0">
-                        <div class='col-12' style="padding: 8px 0">
-                            <div class="form-group" style="margin: 0">
-                                <select  class="form-control" name="Division" id="divisions" onchange="divisionsList();">
-                                    <option selected value="">বিভাগ</option>
-                                    <option data-value="Dhaka" value="ঢাকা">ঢাকা</option>
-                                    <option data-value="Barishal" value="বরিশাল">বরিশাল</option>
-                                    <option data-value="Sylhet" value="সিলেট">সিলেট</option>
-                                    <option data-value="Chattogram" value="চট্টগ্রাম">চট্টগ্রাম</option>
-                                    <option data-value="Rajshahi" value="রাজশাহী">রাজশাহী</option>
-                                    <option data-value="Khulna" value="খুলনা">খুলনা</option>
-                                    <option data-value="Rangpur" value="রংপুর">রংপুর</option>
-                                    <option data-value="Mymensingh" value="ময়মনসিংহ">ময়মনসিংহ</option>
-                                </select>
-                                <script>
-                                    $("#divisions").select2({
-                                        allowClear: true,
-                                        placeholder: 'বিভাগ'
-                                    });
-                                </script>
+                    <form method="POST" action="?menu=SearchResult&menuName=সংবাদ" accept-charset="UTF-8" class="form" enctype="multipart/form-data">
+                        <div class="row" style="margin: 0">
+                            <div class='col-12' style="padding: 8px 0">
+                                <div class="form-group" style="margin: 0">
+                                    <select  class="form-control" name="Division" id="divisions" onchange="divisionsList();">
+                                        <option selected value="">বিভাগ</option>
+                                        <option data-value="Dhaka" value="ঢাকা">ঢাকা</option>
+                                        <option data-value="Barishal" value="বরিশাল">বরিশাল</option>
+                                        <option data-value="Sylhet" value="সিলেট">সিলেট</option>
+                                        <option data-value="Chattogram" value="চট্টগ্রাম">চট্টগ্রাম</option>
+                                        <option data-value="Rajshahi" value="রাজশাহী">রাজশাহী</option>
+                                        <option data-value="Khulna" value="খুলনা">খুলনা</option>
+                                        <option data-value="Rangpur" value="রংপুর">রংপুর</option>
+                                        <option data-value="Mymensingh" value="ময়মনসিংহ">ময়মনসিংহ</option>
+                                    </select>
+                                    <script>
+                                        $("#divisions").select2({
+                                            allowClear: true,
+                                            placeholder: 'বিভাগ'
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                            <div class='col-12' style="padding: 8px 0">
+                                <div class="form-group" style="margin: 0">
+                                    <select class="form-control" name="District" id="distr" onchange="thanaList();"></select>
+                                    <script>
+                                        $("#distr").select2({
+                                            allowClear: true,
+                                            placeholder: 'জেলা'
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="col-12" style="padding: 8px 0">
+                                <div class="form-group" style="margin: 0">
+                                    <select class="form-control" name="Upozila" id="upo"></select>
+                                    <script>
+                                        $("#upo").select2({
+                                            allowClear: true,
+                                            placeholder: 'উপজেলা'
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="col-12" style="padding: 8px 0">
+                                <input class="btn bg-primary  btn-block text-white"  name="submit" id="submit" type="submit" value="খুঁজুন" ><i class="fa fa-search ml-2" style="color: #FFF !important; height: 100%"></i>
+               
+                                <!-- <button type="button" class="btn bg-primary dis-sea btn-block text-white"
+                                    aria-label="Search">
+                                    খুঁজুন
+                                    <i class="fa fa-search ml-2" style="color: #FFF !important; height: 100%"></i>
+                                </button> -->
+                                <i class="fa fa-search" style="color: #FFF !important"></i></button>
                             </div>
                         </div>
-                        <div class='col-12' style="padding: 8px 0">
-                            <div class="form-group" style="margin: 0">
-                                <select class="form-control" name="District" id="distr" onchange="thanaList();"></select>
-                                <script>
-                                    $("#distr").select2({
-                                        allowClear: true,
-                                        placeholder: 'জেলা'
-                                    });
-                                </script>
-                            </div>
-                        </div>
-                        <div class="col-12" style="padding: 8px 0">
-                            <div class="form-group" style="margin: 0">
-                                <select class="form-control" name="Upozila" id="upo"></select>
-                                <script>
-                                    $("#upo").select2({
-                                        allowClear: true,
-                                        placeholder: 'উপজেলা'
-                                    });
-                                </script>
-                            </div>
-                        </div>
-                        <div class="col-12" style="padding: 8px 0">
-                            <button type="button" class="btn bg-primary dis-sea btn-block text-white"
-                                aria-label="Search">
-                                খুঁজুন
-                                <i class="fa fa-search ml-2" style="color: #FFF !important; height: 100%"></i>
-                            </button>
-                            <i class="fa fa-search" style="color: #FFF !important"></i></button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 </main>
-<?php } ?>
