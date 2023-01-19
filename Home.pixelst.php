@@ -457,10 +457,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -470,7 +468,6 @@
                      </a>
                   <?php } ?>
                </div>
-
                <div class="col-sm-4 box-news ">
                   <?php
                   $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='রাজনীতি' order by id DESC limit 0,1");
@@ -483,10 +480,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -508,10 +503,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -533,10 +526,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -558,10 +549,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -583,10 +572,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -608,10 +595,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -633,10 +618,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -658,10 +641,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -683,10 +664,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -708,10 +687,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -733,10 +710,8 @@
                      } else {
                         $news_text_data = $detail_data;
                      }
-
-
                   ?>
-                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>" class="news-item news-item-box m-py-2">
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box m-py-2">
                         <div class="image-container">
                            <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
                         </div>
@@ -913,9 +888,9 @@
       <div class="col-lg-9 col-md-8 national-items">
          <div class="category-header national-ch d-flex justify-content-between align-items-center national__home mt-2">
             <div class="heading national-heading">
-               <p class="title"><a href="https://www.dhakapost.com/national" class="national-lc">জাতীয়</a></p>
+               <p class="title"><a href="?menu=Category&menuName=জাতীয়" class="national-lc">জাতীয়</a></p>
             </div>
-            <a href="https://www.dhakapost.com/national" class="d-none d-sm-flex">
+            <a href="?menu=Category&menuName=জাতীয়" class="d-none d-sm-flex">
                <div class="read-more d-flex justify-content-end align-items-center">
                   <p>আরও খবর</p>
                   <p><i class="fa fa-arrow-circle-right"></i></p>
@@ -925,99 +900,105 @@
          <div class="row border-right">
             <div class="col-lg-8 col-12">
                <div class="grid-fourth pt-2 m-pt-0">
-                  <a href="https://www.dhakapost.com/national/159587" class="grid-fourth-item grid-fourth-item__1 m-py-2">
-                     <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/weather-20221211043156.jpg?width=330&amp;height=175" alt="কমতে পারে দিনের তাপমাত্রা" class="lazyload img-loader">
-                     </div>
-                     <h2>
-                        কমতে পারে দিনের তাপমাত্রা
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/national/159574" class="grid-fourth-item grid-fourth-item__2 m-py-2">
-                     <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/rajuk-20221210233038.jpg?width=330&amp;height=175" alt="রোববার থেকে অভিযানে নামবে রাজউক" class="lazyload img-loader">
-                     </div>
-                     <h2>
-                        রোববার থেকে অভিযানে নামবে রাজউক
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/national/159462" class="grid-fourth-item grid-fourth-item__3 m-py-2">
-                     <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dhaka2-20221210133353.jpg?width=330&amp;height=175" alt="ফাঁকা সড়কে রিকশার দাপট" class="lazyload img-loader">
-                     </div>
-                     <h2>
-                        ফাঁকা সড়কে রিকশার দাপট
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/national/159457" class="grid-fourth-item grid-fourth-item__4 m-py-2">
-                     <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fsdasad-20221210131053.jpg?width=330&amp;height=175" alt="সুযোগ পেয়ে দ্বিগুণ-তিনগুণ ভাড়া হাঁকাচ্ছেন রিকশা-সিএনজি চালকরা" class="lazyload img-loader">
-                     </div>
-                     <h2>
-                        সুযোগ পেয়ে দ্বিগুণ-তিনগুণ ভাড়া হাঁকাচ্ছেন রিকশা-সিএনজি চালকরা
-                     </h2>
-                  </a>
+                  <?php
+                     $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='জাতীয়' order by id DESC limit 1,1");
+                     while ($rowdatatopnews = $informationtopnews->fetch()) {
+                        $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                        $text_string_length = strlen($detail_data);
+
+                        if ($text_string_length >= 230) {
+                           $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                        } else {
+                           $news_text_data = $detail_data;
+                        }
+                     ?>
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-fourth-item grid-fourth-item__1 m-py-2">
+                        <div class="image-container">
+                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                        </div>
+                        <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                     </a>
+                  <?php } ?>
+                  <?php
+                     $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='জাতীয়' order by id DESC limit 2,1");
+                     while ($rowdatatopnews = $informationtopnews->fetch()) {
+                        $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                        $text_string_length = strlen($detail_data);
+
+                        if ($text_string_length >= 230) {
+                           $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                        } else {
+                           $news_text_data = $detail_data;
+                        }
+                     ?>
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-fourth-item grid-fourth-item__2 m-py-2">
+                        <div class="image-container">
+                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                        </div>
+                        <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                     </a>
+                  <?php } ?>
+                  <?php
+                     $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='জাতীয়' order by id DESC limit 3,1");
+                     while ($rowdatatopnews = $informationtopnews->fetch()) {
+                        $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                        $text_string_length = strlen($detail_data);
+
+                        if ($text_string_length >= 230) {
+                           $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                        } else {
+                           $news_text_data = $detail_data;
+                        }
+                     ?>
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-fourth-item grid-fourth-item__3 m-py-2">
+                        <div class="image-container">
+                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                        </div>
+                        <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                     </a>
+                  <?php } ?>
+                  <?php
+                     $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='জাতীয়' order by id DESC limit 4,1");
+                     while ($rowdatatopnews = $informationtopnews->fetch()) {
+                        $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                        $text_string_length = strlen($detail_data);
+
+                        if ($text_string_length >= 230) {
+                           $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                        } else {
+                           $news_text_data = $detail_data;
+                        }
+                     ?>
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-fourth-item grid-fourth-item__4 m-py-2">
+                        <div class="image-container">
+                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                        </div>
+                        <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                     </a>
+                  <?php } ?>
                </div>
             </div>
             <div class="col-lg-4 col-12 third-right d-none d-sm-flex">
                <div class="regular-list scaled">
-                  <a href="https://www.dhakapost.com/national/159454" class="news-item news-item-regular py-2">
-                     <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/gabtoli-20221210130330.jpg?width=130&amp;height=90" alt="জনশূন্য গাবতলী বাস টার্মিনাল" class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        জনশূন্য গাবতলী বাস টার্মিনাল
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/national/159411" class="news-item news-item-regular py-2">
-                     <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/police-20221210102429.jpg?width=130&amp;height=90" alt="সমাবেশ ঘিরে মাঠে ৩৪ হাজার পুলিশ" class="lazyload img-loader">
-                        <i class="fa fa-play-circle video-icon"></i>
-                     </div>
-                     <h2 class="title">
-                        সমাবেশ ঘিরে মাঠে ৩৪ হাজার পুলিশ
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/national/159403" class="news-item news-item-regular py-2">
-                     <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/330-20221210152527.jpg?width=130&amp;height=90" alt="ঢাকার রাস্তা থেকে হঠাৎ উধাও বাস " class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        ঢাকার রাস্তা থেকে হঠাৎ উধাও বাস
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/national/159301" class="news-item news-item-regular py-2">
-                     <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/tib-20221209183420.jpg?width=130&amp;height=90" alt="সদিচ্ছা শুধু কাগজে কলমে থাকলে দুর্নীতি দূর হয় না" class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        সদিচ্ছা শুধু কাগজে কলমে থাকলে দুর্নীতি দূর হয় না
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/national/159277" class="news-item news-item-regular py-2">
-                     <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/corona--20221209164614.jpg?width=130&amp;height=90" alt="আরও ৩০ জনের করোনা শনাক্ত" class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        আরও ৩০ জনের করোনা শনাক্ত
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/national/159262" class="news-item news-item-regular py-2">
-                     <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/402-20221209160003.jpg?width=130&amp;height=90" alt="রাজধানীর মোড়ে মোড়ে র‌্যাবের চেকপোস্ট-তল্লাশি-জিজ্ঞাসাবাদ" class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        রাজধানীর মোড়ে মোড়ে র‌্যাবের চেকপোস্ট-তল্লাশি-জিজ্ঞাসাবাদ
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/national/159251" class="news-item news-item-regular py-2">
-                     <div class="image-container d-flex d-lg-none">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/312-20221209150859.jpg?width=130&amp;height=90" alt="সর্ষের ভেতর ভূত থাকলে দুদক জনগণের আস্থা হারাবে : রাষ্ট্রপতি " class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        সর্ষের ভেতর ভূত থাকলে দুদক জনগণের আস্থা হারাবে : রাষ্ট্রপতি
-                     </h2>
-                  </a>
+                  <?php
+                     $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='জাতীয়' order by id DESC limit 5,7");
+                     while ($rowdatatopnews = $informationtopnews->fetch()) {
+                        $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                        $text_string_length = strlen($detail_data);
+
+                        if ($text_string_length >= 230) {
+                           $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                        } else {
+                           $news_text_data = $detail_data;
+                        }
+                     ?>
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                        <div class="image-container d-flex d-lg-none">
+                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                        </div>
+                        <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                     </a>
+                  <?php } ?>
                </div>
             </div>
          </div>
@@ -1025,9 +1006,9 @@
       <div class="col-lg-3 col-md-4 politics">
          <div class="category-header politics-ch d-flex justify-content-between align-items-center politics__home mt-2">
             <div class="heading politics-heading">
-               <p class="title"><a href="https://www.dhakapost.com/politics" class="politics-lc">রাজনীতি</a></p>
+               <p class="title"><a href="?menu=Category&menuName=রাজনীতি" class="politics-lc">রাজনীতি</a></p>
             </div>
-            <a href="https://www.dhakapost.com/politics" class="d-none d-sm-flex">
+            <a href="?menu=Category&menuName=রাজনীতি" class="d-none d-sm-flex">
                <div class="read-more d-flex justify-content-end align-items-center">
                   <p>আরও খবর</p>
                   <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -1035,53 +1016,31 @@
             </a>
          </div>
          <div class="regular-list scaled ai-custom">
-            <a href="https://www.dhakapost.com/politics/159533" class="news-item news-item-regular py-2">
-               <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/chhatral-20221210180909.jpg?width=330&amp;height=175" alt="গণঅধিকার পরিষদের মিছিলে ছাত্রলীগের ধাওয়া" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  গণঅধিকার পরিষদের মিছিলে ছাত্রলীগের ধাওয়া
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/politics/159507" class="news-item news-item-regular py-2 ">
-               <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bnp11-20221210165433.jpg?width=130&amp;height=90" alt="গণতন্ত্র পুনঃপ্রতিষ্ঠায় বিএনপির ১০ দফা দাবি" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  গণতন্ত্র পুনঃপ্রতিষ্ঠায় বিএনপির ১০ দফা দাবি
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/politics/159474" class="news-item news-item-regular py-2 ">
-               <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/puran-dhaka-20221210143223.jpg?width=130&amp;height=90" alt="পুরান ঢাকায় মোড়ে মোড়ে তল্লাশি" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  পুরান ঢাকায় মোড়ে মোড়ে তল্লাশি
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/politics/159470" class="news-item news-item-regular py-2 ">
-               <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/hasan-bg-20221210140207.jpg?width=130&amp;height=90" alt="৩০ হাজার মানুষ দিয়ে ঢাকা শহর দখল হয় না : তথ্যমন্ত্রী" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  ৩০ হাজার মানুষ দিয়ে ঢাকা শহর দখল হয় না : তথ্যমন্ত্রী
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/politics/159469" class="news-item news-item-regular py-2 d-none d-sm-flex">
-               <div class="image-container">
-                  <img src="https:assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/puran-dhaka-20221210140044.jpg?width=130&amp;height=90" alt="পুরান ঢাকায় প্রশাসনের পাশাপাশি মাঠে ছাত্রলীগ" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  পুরান ঢাকায় প্রশাসনের পাশাপাশি মাঠে ছাত্রলীগ
-               </h2>
-            </a>
+            <?php
+               $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='রাজনীতি' order by id DESC limit 2,6");
+               while ($rowdatatopnews = $informationtopnews->fetch()) {
+                  $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                  $text_string_length = strlen($detail_data);
+
+                  if ($text_string_length >= 230) {
+                     $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                  } else {
+                     $news_text_data = $detail_data;
+                  }
+               ?>
+               <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                  </div>
+                  <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+               </a>
+            <?php } ?>
          </div>
       </div>
    </div>
 </div>
 <div class="container mt-3">
    <div class="advertisement">
-      <!-- <div id='div-gpt-ad-1654068917401-0' style='min-width: 970px; min-height:90px;'> -->
       <div id='' style='min-width: 100%; min-height:90px; background-color: #adacacab;'>
          <h4 style="text-align: center; padding-top: 15px; color: #fff">For Add <br>970 X 90</h4>
          <!-- <script>
@@ -1097,9 +1056,9 @@
       <div class="col-lg-9 col-md-8">
          <div class="category-header country-ch d-flex justify-content-between align-items-center opinion__home mt-2">
             <div class="heading opinion-heading">
-               <p class="title"><a href="https://www.dhakapost.com/country" class="country-lc">সারাদেশ</a></p>
+               <p class="title"><a href="?menu=HoleCountry" class="country-lc">সারাদেশ</a></p>
             </div>
-            <a href="https://www.dhakapost.com/country" class="d-none d-sm-flex">
+            <a href="?menu=HoleCountry" class="d-none d-sm-flex">
                <div class="read-more d-flex justify-content-end align-items-center">
                   <p>আরও খবর</p>
                   <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -1288,90 +1247,105 @@
                <div class="row sports-all sports-item">
                   <div class="col-lg-8 col-12">
                      <div class="grid-fourth pt-2 m-pt-0">
-                        <a href="https://www.dhakapost.com/sports/football/159610" class="grid-fourth-item grid-fourth-item__1 m-py-2">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/india-20221211083917.jpg?width=330&amp;height=175" alt="হোয়াইটওয়াশ এড়িয়ে খুশি ভারত অধিনায়ক" class="lazyload img-loader">
-                           </div>
-                           <h2>
-                              হোয়াইটওয়াশ এড়িয়ে খুশি ভারত অধিনায়ক
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/sports/football/159603" class="grid-fourth-item grid-fourth-item__2 m-py-2">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/neymar-brazil-20221211080228.jpg?width=330&amp;height=175" alt="ইউরোপীয় দল সামনে এলেই চুপসে যাচ্ছে ব্রাজিল!" class="lazyload img-loader">
-                           </div>
-                           <h2>
-                              ইউরোপীয় দল সামনে এলেই চুপসে যাচ্ছে ব্রাজিল!
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/sports/football/159595" class="grid-fourth-item grid-fourth-item__3 m-py-2">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fifa-world-cup-20221211073748.jpg?width=330&amp;height=175" alt="বিশ্বকাপের সেমি ফাইনালে কে কার মুখোমুখি?" class="lazyload img-loader">
-                           </div>
-                           <h2>
-                              বিশ্বকাপের সেমি ফাইনালে কে কার মুখোমুখি?
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/sports/football/159593" class="grid-fourth-item grid-fourth-item__4 m-py-2">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/tv-news-photo-02-20221211064919.png?width=330&amp;height=175" alt="টিভিতে আজ যেসব খেলা দেখবেন" class="lazyload img-loader">
-                           </div>
-                           <h2>
-                              টিভিতে আজ যেসব খেলা দেখবেন
-                           </h2>
-                        </a>
+                        <?php
+                           $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='খেলা' order by id DESC limit 1,1");
+                           while ($rowdatatopnews = $informationtopnews->fetch()) {
+                              $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                              $text_string_length = strlen($detail_data);
+
+                              if ($text_string_length >= 230) {
+                                 $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                              } else {
+                                 $news_text_data = $detail_data;
+                              }
+                           ?>
+                           <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-fourth-item grid-fourth-item__1 m-py-2">
+                              <div class="image-container">
+                                 <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                              </div>
+                              <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                           </a>
+                        <?php } ?>
+                        <?php
+                           $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='খেলা' order by id DESC limit 2,1");
+                           while ($rowdatatopnews = $informationtopnews->fetch()) {
+                              $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                              $text_string_length = strlen($detail_data);
+
+                              if ($text_string_length >= 230) {
+                                 $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                              } else {
+                                 $news_text_data = $detail_data;
+                              }
+                           ?>
+                           <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-fourth-item grid-fourth-item__2 m-py-2">
+                              <div class="image-container">
+                                 <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                              </div>
+                              <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                           </a>
+                        <?php } ?>
+                        <?php
+                           $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='খেলা' order by id DESC limit 3,1");
+                           while ($rowdatatopnews = $informationtopnews->fetch()) {
+                              $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                              $text_string_length = strlen($detail_data);
+
+                              if ($text_string_length >= 230) {
+                                 $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                              } else {
+                                 $news_text_data = $detail_data;
+                              }
+                           ?>
+                           <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-fourth-item grid-fourth-item__3 m-py-2">
+                              <div class="image-container">
+                                 <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                              </div>
+                              <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                           </a>
+                        <?php } ?>
+                        <?php
+                           $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='খেলা' order by id DESC limit 4,1");
+                           while ($rowdatatopnews = $informationtopnews->fetch()) {
+                              $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                              $text_string_length = strlen($detail_data);
+
+                              if ($text_string_length >= 230) {
+                                 $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                              } else {
+                                 $news_text_data = $detail_data;
+                              }
+                           ?>
+                           <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-fourth-item grid-fourth-item__4 m-py-2">
+                              <div class="image-container">
+                                 <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                              </div>
+                              <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                           </a>
+                        <?php } ?>
                      </div>
                   </div>
                   <div class="col-lg-4 col-12 third-right d-none d-sm-flex">
                      <div class="regular-list scaled">
-                        <a href="https://www.dhakapost.com/sports/football/159586" class="news-item news-item-regular py-2">
-                           <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/grant-wahl-at-giant-screen-20221211035727.jpg?width=130&amp;height=90" alt="ইংল্যান্ড-ফ্রান্সের লড়াইয়ে মনোযোগের কেন্দ্রে আমেরিকান সাংবাদিক" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              ইংল্যান্ড-ফ্রান্সের লড়াইয়ে মনোযোগের কেন্দ্রে আমেরিকান সাংবাদিক
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/sports/football/159584" class="news-item news-item-regular py-2">
-                           <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/france-england-2-20221211032156.jpg?width=130&amp;height=90" alt="ইংলিশদের স্বপ্ন শেষ করে বিশ্বকাপের শেষ চারে ফ্রান্স" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              ইংলিশদের স্বপ্ন শেষ করে বিশ্বকাপের শেষ চারে ফ্রান্স
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/sports/football/159582" class="news-item news-item-regular py-2">
-                           <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/giroud-20221211024602.jpg?width=130&amp;height=90" alt="জিরুর গোলের পর কেইনের পেনাল্টি মিস, শেষ চারের পথে ফ্রান্স" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              জিরুর গোলের পর কেইনের পেনাল্টি মিস, শেষ চারের পথে ফ্রান্স
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/sports/football/159581" class="news-item news-item-regular py-2">
-                           <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/harry-kane-20221211022131.jpg?width=130&amp;height=90" alt="ইংল্যান্ডকে সমতায় ফেরালেন কেইন" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              ইংল্যান্ডকে সমতায় ফেরালেন কেইন
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/sports/football/159573" class="news-item news-item-regular py-2">
-                           <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/morocco-beat-portugal-20221210230139.jpg?width=130&amp;height=90" alt="রোনালদোকে কান্নায় ভাসিয়ে আফ্রিকান রূপকথা লিখল মরক্কো" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              রোনালদোকে কান্নায় ভাসিয়ে আফ্রিকান রূপকথা লিখল মরক্কো
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/sports/football/159569" class="news-item news-item-regular py-2">
-                           <div class="image-container d-flex d-lg-none">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/neymar-20221210223159.jpg?width=130&amp;height=90" alt="‘মানসিকভাবে ধ্বংস’ হয়ে গেছেন নেইমার" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              ‘মানসিকভাবে ধ্বংস’ হয়ে গেছেন নেইমার
-                           </h2>
-                        </a>
+                        <?php
+                           $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='খেলা' order by id DESC limit 5,7");
+                           while ($rowdatatopnews = $informationtopnews->fetch()) {
+                              $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                              $text_string_length = strlen($detail_data);
+
+                              if ($text_string_length >= 230) {
+                                 $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                              } else {
+                                 $news_text_data = $detail_data;
+                              }
+                           ?>
+                           <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                              <div class="image-container d-flex d-lg-none">
+                                 <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                              </div>
+                              <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                           </a>
+                        <?php } ?>
                      </div>
                   </div>
                </div>
@@ -1382,9 +1356,9 @@
          <div class="col-lg-3 col-md-4 m-mt-2">
             <div class="category-header education-ch d-flex justify-content-between align-items-center">
                <div class="heading custom-heading">
-                  <p class="title"><a href="https://www.dhakapost.com/education" class="education-lc">শিক্ষা</a></p>
+                  <p class="title"><a href="?menu=Category&menuName=শিক্ষা" class="education-lc">শিক্ষা</a></p>
                </div>
-               <a href="https://www.dhakapost.com/education" class="d-none d-sm-flex">
+               <a href="?menu=Category&menuName=শিক্ষা" class="d-none d-sm-flex">
                   <div class="read-more d-flex justify-content-end align-items-center">
                      <p>আরও খবর</p>
                      <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -1392,30 +1366,44 @@
                </a>
             </div>
             <div class="blk-list scaled">
-               <a href="https://www.dhakapost.com/education/159087" class="news-item-blk py-2 news-blk-image">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/sfdsfd-20221208172822.jpg?width=330&amp;height=175" alt="পর্যটনকে আকর্ষণীয় করতে সবাইকে একসাথে কাজ করতে হবে" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     পর্যটনকে আকর্ষণীয় করতে সবাইকে একসাথে কাজ করতে হবে
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/education/159067" class="news-item news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dasffads-20221208161952.jpg?width=130&amp;height=90" alt="নতুন এমপিও কোড পেল ২ হাজার ৫১ স্কুল-কলেজ" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     নতুন এমপিও কোড পেল ২ হাজার ৫১ স্কুল-কলেজ
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/education/159004" class="news-item news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/122-20221208131726.jpg?width=130&amp;height=90" alt="একাদশে ভর্তির আবেদন শুরু" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     একাদশে ভর্তির আবেদন শুরু
-                  </h2>
-               </a>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='শিক্ষা' order by id DESC limit 1,1");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-blk py-2 news-blk-image">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='শিক্ষা' order by id DESC limit 2,2");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
             </div>
          </div>
       </div>
@@ -1423,27 +1411,28 @@
 </div>
 <div class="container mt-3">
    <div class="advertisement">
-      <div id='div-gpt-ad-1666505039219-0' style='min-width: 970px; min-height: 90px;'>
-         <script>
+      <div id='' style='min-width: 100%; min-height: 120px; background-color: #adacacab;'>
+         <h4 style="text-align: center; padding-top: 25px; color: #fff">For Add <br>970 X 120</h4>
+         <!-- <script>
             googletag.cmd.push(function() {
                googletag.display('div-gpt-ad-1666505039219-0');
             });
-         </script>
+         </script> -->
       </div>
    </div>
 </div>
 <div class="container pt-3 m-pt-2 entertainment">
    <div class="category-header entertainment-ch d-flex justify-content-between align-items-center mt-2">
       <div class="heading custom-heading">
-         <p class="title"><a href="https://www.dhakapost.com/entertainment" class="entertainment-lc">বিনোদন</a></p>
+         <p class="title"><a href="?menu=Category&menuName=বিনোদন" class="entertainment-lc">বিনোদন</a></p>
       </div>
-      <div class="d-none d-sm-flex align-items-center">
+      <!-- <div class="d-none d-sm-flex align-items-center">
          <div class="et-items" data-href="bollywood">বলিউড</div>
          <div class="et-items" data-href="hollywood">হলিউড</div>
          <div class="et-items" data-href="dhallywood">ঢালিউড</div>
          <div class="et-items active" data-href="entertainment-all">সকল</div>
-      </div>
-      <a href="https://www.dhakapost.com/entertainment" class="d-none d-sm-flex">
+      </div> -->
+      <a href="?menu=Category&menuName=বিনোদন" class="d-none d-sm-flex">
          <div class="read-more d-flex justify-content-end align-items-center">
             <p>আরও খবর</p>
             <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -1454,118 +1443,147 @@
       <div class="row entertainment-all entertainment-item">
          <div class="col-lg-6 col-12 entertainment-left">
             <div class="grid-entertainment pt-2">
-               <a href="https://www.dhakapost.com/entertainment/bollywood/159562" class="grid-entertainment-item grid-entertainment-item__1">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/malaika-arora-20221210210432.jpg?width=640&amp;height=335" alt="বোনকে নিয়ে চূড়ান্ত রসিকতা মালাইকার" class="lazyload img-loader">
-                  </div>
-                  <h2>
-                     বোনকে নিয়ে চূড়ান্ত রসিকতা মালাইকার
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/159553" class="grid-entertainment-item grid-entertainment-item__2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/srilekhajpg2-20221210192423.jpg?width=330&amp;height=175" alt="‘বাংলার কিংবদন্তি’ সম্মান পেলেন শ্রীলেখা" class="lazyload img-loader">
-                  </div>
-                  <h2>
-                     ‘বাংলার কিংবদন্তি’ সম্মান পেলেন শ্রীলেখা
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/159541" class="grid-entertainment-item grid-entertainment-item__3">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/nobonita-das-20221210184413.jpg?width=330&amp;height=175" alt="পুলিশের সামনেই অভিনেত্রীকে ধর্ষণের হুমকি!" class="lazyload img-loader">
-                  </div>
-                  <h2>
-                     পুলিশের সামনেই অভিনেত্রীকে ধর্ষণের হুমকি!
-                  </h2>
-               </a>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='বিনোদন' order by id DESC limit 1,1");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-entertainment-item grid-entertainment-item__1">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=640&amp;height=335" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='বিনোদন' order by id DESC limit 2,1");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-entertainment-item grid-entertainment-item__2">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='বিনোদন' order by id DESC limit 3,1");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="grid-entertainment-item grid-entertainment-item__3">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
             </div>
          </div>
          <div class="col-lg-3 col-md-6 entertainment-center">
             <div class="alk-list">
-               <a href="https://www.dhakapost.com/entertainment/159534" class="news-item-alk py-2 news-alk-image">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mithila-20221210181058.jpg?width=330&amp;height=175" alt="‘মায়া’ নিয়ে তেলেঙ্গানা চলচ্চিত্র উৎসবে মিথিলা" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     ‘মায়া’ নিয়ে তেলেঙ্গানা চলচ্চিত্র উৎসবে মিথিলা
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/159519" class="news-item-alk news-item-regular py-2 d-none d-sm-flex">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/suresh-kirti-cover-20221210172255.jpg?width=130&amp;height=90" alt="যৌন হয়রানি নিয়ে যা বললেন কীর্তি সুরেশ" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     যৌন হয়রানি নিয়ে যা বললেন কীর্তি সুরেশ
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/159512" class="news-item-alk news-item-regular py-2 d-none d-sm-flex">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/veena-kapoor-20221210170443.jpg?width=130&amp;height=90" alt="ছেলের হাতে অভিনেত্রী খুন" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     ছেলের হাতে অভিনেত্রী খুন
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/159494" class="news-item-alk news-item-regular py-2 d-none d-sm-flex">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/deb-joti-20221210155544.jpg?width=130&amp;height=90" alt="ছুটি কাটাতে মহাকাশে যাচ্ছেন এই অভিনেতা" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     ছুটি কাটাতে মহাকাশে যাচ্ছেন এই অভিনেতা
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/bollywood/159490" class="news-item-alk news-item-regular py-2 d-none d-sm-flex">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/salman-puja-20221210160105.jpg?width=130&amp;height=90" alt="নতুন প্রেমে মজেছেন সালমান!" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     নতুন প্রেমে মজেছেন সালমান!
-                  </h2>
-               </a>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='বিনোদন' order by id DESC limit 4,1");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-alk py-2 news-alk-image">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='বিনোদন' order by id DESC limit 6,4");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-alk news-item-regular py-2 d-none d-sm-flex">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
             </div>
          </div>
          <div class="col-lg-3 col-md-6 entertainment-right d-none d-sm-flex">
             <div class="alk-list">
-               <a href="https://www.dhakapost.com/entertainment/dhallywood/159486" class="news-item-alk py-2 news-alk-image">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/raz-pori-cover-20221210151444.jpg?width=330&amp;height=175" alt="উষ্ণতার ছবিতে শীতলতার আভাস!" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     উষ্ণতার ছবিতে শীতলতার আভাস!
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/dhallywood/159468" class="news-item-alk news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mahi-cover-20221210135921.jpg?width=130&amp;height=90" alt="বেবি বাম্প প্রকাশ্যে আনলেন মাহি" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     বেবি বাম্প প্রকাশ্যে আনলেন মাহি
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/bollywood/159450" class="news-item-alk news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mahira-khan-11-20221210124812.jpg?width=130&amp;height=90" alt="সৌদি গিয়ে ব্যাগ হারালেন শাহরুখের নায়িকা" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     সৌদি গিয়ে ব্যাগ হারালেন শাহরুখের নায়িকা
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/dhallywood/159430" class="news-item-alk news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/pori-cover-20221210113442.jpg?width=130&amp;height=90" alt="গোলের পর কেঁদে ফেলেছি: পরীমণি" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     গোলের পর কেঁদে ফেলেছি: পরীমণি
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/entertainment/bollywood/159308" class="news-item-alk news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/amir-khan-20221209190102.jpg?width=130&amp;height=90" alt="পূজায় মন দিলেন আমির খান" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     পূজায় মন দিলেন আমির খান
-                  </h2>
-               </a>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='বিনোদন' order by id DESC limit 5,1");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-alk py-2 news-alk-image">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='বিনোদন' order by id DESC limit 10,4");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-alk news-item-regular py-2">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
             </div>
          </div>
       </div>
@@ -1579,9 +1597,9 @@
       <div class="col-lg-6 col-md-12">
          <div class="category-header international-ch d-flex justify-content-between align-items-center mt-2">
             <div class="heading international-heading">
-               <p class="title"><a href="https://www.dhakapost.com/international" class="international-lc">আন্তর্জাতিক</a></p>
+               <p class="title"><a href="?menu=Category&menuName=আন্তর্জাতিক" class="international-lc">আন্তর্জাতিক</a></p>
             </div>
-            <a href="https://www.dhakapost.com/international" class="d-none d-sm-flex">
+            <a href="?menu=Category&menuName=আন্তর্জাতিক" class="d-none d-sm-flex">
                <div class="read-more d-flex justify-content-end align-items-center">
                   <p>আরও খবর</p>
                   <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -1591,70 +1609,69 @@
          <div class="row border-right international-articles">
             <div class="col-12 col-md-12 col-xl-6">
                <div class="row type-sect-three-left">
-                  <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
-                     <a href="https://www.dhakapost.com/international/159545" class="news-item news-item-box pt-2">
-                        <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fire-20221210185947.jpg?width=330&amp;height=90" alt="সাবেক প্রেমিকার হবু বরের বাসায় আগুন ধরিয়ে দিলেন প্রেমিক, পরে জেল" class="lazyload img-loader">
-                        </div>
-                        <h2 class="title">
-                           সাবেক প্রেমিকার হবু বরের বাসায় আগুন ধরিয়ে দিলেন প্রেমিক, পরে জেল
-                        </h2>
-                     </a>
-                  </div>
-                  <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
-                     <a href="https://www.dhakapost.com/international/159513" class="news-item news-item-box pt-2">
-                        <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bangladesh-20221210170506.jpg?width=330&amp;height=90" alt="যুক্তরাষ্ট্র-যুক্তরাজ্যের নিষেধাজ্ঞার তালিকায় নেই বাংলাদেশ" class="lazyload img-loader">
-                        </div>
-                        <h2 class="title">
-                           যুক্তরাষ্ট্র-যুক্তরাজ্যের নিষেধাজ্ঞার তালিকায় নেই বাংলাদেশ
-                        </h2>
-                     </a>
-                  </div>
+                  <?php
+                     $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='আন্তর্জাতিক' order by id DESC limit 1,2");
+                     while ($rowdatatopnews = $informationtopnews->fetch()) {
+                        $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                        $text_string_length = strlen($detail_data);
+
+                        if ($text_string_length >= 230) {
+                           $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                        } else {
+                           $news_text_data = $detail_data;
+                        }
+                     ?>
+                     <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
+                        <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box pt-2">
+                           <div class="image-container">
+                              <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=90" alt="সাবেক প্রেমিকার হবু বরের বাসায় আগুন ধরিয়ে দিলেন প্রেমিক, পরে জেল" class="lazyload img-loader">
+                           </div>
+                           <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                        </a>
+                     </div>
+                  <?php } ?>
                </div>
             </div>
             <div class="col-12 col-md-12 col-xl-6">
                <div class="clk-list clk-center">
-                  <a href="https://www.dhakapost.com/international/159497" class="clk-item clk-item-regular py-2 ">
-                     <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/putin-2-20221210155902.jpg?width=130&amp;height=90" alt="‘ইউক্রেনে যুদ্ধ বন্ধে প্রয়োজন একটি চুক্তি, যার ভিত্তি হবে আস্থা’" class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        ‘ইউক্রেনে যুদ্ধ বন্ধে প্রয়োজন একটি চুক্তি, যার ভিত্তি হবে আস্থা’
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/international/159477" class="clk-item clk-item-regular py-2 ">
-                     <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/austin-20221210144046.jpg?width=130&amp;height=90" alt="পরমাণু অস্ত্রের মজুত বাড়াচ্ছে রাশিয়া, সতর্কবার্তা যুক্তরাষ্ট্রের" class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        পরমাণু অস্ত্রের মজুত বাড়াচ্ছে রাশিয়া, সতর্কবার্তা যুক্তরাষ্ট্রের
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/international/159453" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
-                     <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/doller-20221210125735.jpg?width=130&amp;height=90" alt="সৌদির কাছে জরুরি ভিত্তিতে ৩০০ কোটি ডলার চাইল পাকিস্তান" class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        সৌদির কাছে জরুরি ভিত্তিতে ৩০০ কোটি ডলার চাইল পাকিস্তান
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/international/159432" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
-                     <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/vietnam-20221210114107.jpg?width=130&amp;height=90" alt="সাগরে ডুবতে বসা ১৫৪ রোহিঙ্গাকে বাঁচাল ভিয়েতনামের তেলবাহী জাহাজ" class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        সাগরে ডুবতে বসা ১৫৪ রোহিঙ্গাকে বাঁচাল ভিয়েতনামের তেলবাহী জাহাজ
-                     </h2>
-                  </a>
-                  <a href="https://www.dhakapost.com/international/159402" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
-                     <div class="image-container">
-                        <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/john-kirbi-20221210094530.jpg?width=130&amp;height=90" alt="বিএনপির সমাবেশ : যুক্তরাষ্ট্রের ‘নিবিড় পর্যবেক্ষণে’ বাংলাদেশ" class="lazyload img-loader">
-                     </div>
-                     <h2 class="title">
-                        বিএনপির সমাবেশ : যুক্তরাষ্ট্রের ‘নিবিড় পর্যবেক্ষণে’ বাংলাদেশ
-                     </h2>
-                  </a>
+                  <?php
+                     $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='আন্তর্জাতিক' order by id DESC limit 3,2");
+                     while ($rowdatatopnews = $informationtopnews->fetch()) {
+                        $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                        $text_string_length = strlen($detail_data);
+
+                        if ($text_string_length >= 230) {
+                           $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                        } else {
+                           $news_text_data = $detail_data;
+                        }
+                     ?>
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="clk-item clk-item-regular py-2 ">
+                        <div class="image-container">
+                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="‘ইউক্রেনে যুদ্ধ বন্ধে প্রয়োজন একটি চুক্তি, যার ভিত্তি হবে আস্থা’" class="lazyload img-loader">
+                        </div>
+                        <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                     </a>
+                  <?php } ?>
+                  <?php
+                     $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='আন্তর্জাতিক' order by id DESC limit 5,3");
+                     while ($rowdatatopnews = $informationtopnews->fetch()) {
+                        $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                        $text_string_length = strlen($detail_data);
+
+                        if ($text_string_length >= 230) {
+                           $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                        } else {
+                           $news_text_data = $detail_data;
+                        }
+                     ?>
+                     <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
+                        <div class="image-container">
+                           <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="সৌদির কাছে জরুরি ভিত্তিতে ৩০০ কোটি ডলার চাইল পাকিস্তান" class="lazyload img-loader">
+                        </div>
+                        <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                     </a>
+                  <?php } ?>
                </div>
             </div>
          </div>
@@ -1662,15 +1679,15 @@
       <div class="col-lg-6 col-md-12">
          <div class="category-header economy-ch d-flex justify-content-between align-items-center mt-2">
             <div class="heading economy-heading">
-               <p class="title"><a href="https://www.dhakapost.com/economy" class="economy-lc">অর্থনীতি</a></p>
+               <p class="title"><a href="?menu=Category&menuName=অর্থনীতি" class="economy-lc">অর্থনীতি</a></p>
             </div>
-            <div class="d-none d-sm-flex align-items-center">
+            <!-- <div class="d-none d-sm-flex align-items-center">
                <div class="ect-items" data-href="bank">ব্যাংক</div>
                <div class="ect-items" data-href="insurance">বীমা</div>
                <div class="ect-items" data-href="stock-market">শেয়ার বাজার</div>
                <div class="ect-items active" data-href="economy-all">সকল</div>
-            </div>
-            <a href="https://www.dhakapost.com/economy" class="d-none d-sm-flex">
+            </div> -->
+            <a href="?menu=Category&menuName=অর্থনীতি" class="d-none d-sm-flex">
                <div class="read-more d-flex justify-content-end align-items-center">
                   <p>আরও খবর</p>
                   <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -1681,71 +1698,70 @@
             <div class="row economy-all economy-item">
                <div class="col-12 col-md-12 col-xl-6">
                   <div class="row type-sect-three-left">
-                     <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
-                        <a href="https://www.dhakapost.com/economy/159550" class="news-item news-item-box pt-2">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/gfhdgd-20221210191210.jpg?width=330&amp;height=90" alt="সব থেকে পছন্দের নিয়োগকারী প্রতিষ্ঠান ইউনিলিভার বাংলাদেশ" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              সব থেকে পছন্দের নিয়োগকারী প্রতিষ্ঠান ইউনিলিভার বাংলাদেশ
-                           </h2>
-                        </a>
-                     </div>
-                     <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
-                        <a href="https://www.dhakapost.com/economy/159538" class="news-item news-item-box pt-2">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/fdgf-20221210182849.jpg?width=330&amp;height=90" alt="দুটি বেসরকারি হাসপাতালে ফি পরিশোধ বিকাশে" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              দুটি বেসরকারি হাসপাতালে ফি পরিশোধ বিকাশে
-                           </h2>
-                        </a>
-                     </div>
+                     <?php
+                        $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='অর্থনীতি' order by id DESC limit 1,2");
+                        while ($rowdatatopnews = $informationtopnews->fetch()) {
+                           $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                           $text_string_length = strlen($detail_data);
+
+                           if ($text_string_length >= 230) {
+                              $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                           } else {
+                              $news_text_data = $detail_data;
+                           }
+                        ?>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-12 box-news">
+                           <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-box pt-2">
+                              <div class="image-container">
+                                 <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                              </div>
+                              <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                           </a>
+                        </div>
+                     <?php } ?>
                   </div>
                </div>
                <div class="col-12 col-md-12 col-xl-6">
                   <div class="clk-list clk-center">
-                     <a href="https://www.dhakapost.com/economy/159527" class="clk-item clk-item-regular py-2 ">
-                        <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/sdffd-20221210175248.jpg?width=130&amp;height=90" alt="দারাজ থেকে পণ্য কিনে পেমেন্ট পরিশোধ করা যাবে নগদ-এ" class="lazyload img-loader">
-                        </div>
-                        <h2 class="title">
-                           দারাজ থেকে পণ্য কিনে পেমেন্ট পরিশোধ করা যাবে নগদ-এ
-                        </h2>
-                     </a>
-                     <a href="https://www.dhakapost.com/economy/159523" class="clk-item clk-item-regular py-2 ">
-                        <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dzfjkn-20221210172838.jpg?width=130&amp;height=90" alt="জেসিআই ‘টয়োপ-২০২২’ পুরস্কার পেলেন ১০ তরুণ" class="lazyload img-loader">
-                        </div>
-                        <h2 class="title">
-                           জেসিআই ‘টয়োপ-২০২২’ পুরস্কার পেলেন ১০ তরুণ
-                        </h2>
-                     </a>
-                     <a href="https://www.dhakapost.com/economy/159487" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
-                        <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mr-jashim-20221210152133.jpg?width=130&amp;height=90" alt="নিয়মিত ভ্যাট প্রদানকারীদের হয়রানি করা বন্ধ করুন" class="lazyload img-loader">
-                           <i class="fa fa-play-circle video-icon"></i>
-                        </div>
-                        <h2 class="title">
-                           নিয়মিত ভ্যাট প্রদানকারীদের হয়রানি করা বন্ধ করুন
-                        </h2>
-                     </a>
-                     <a href="https://www.dhakapost.com/economy/159425" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
-                        <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dsfsadf-20221210111335.jpg?width=130&amp;height=90" alt="বিনিয়োগকারীদের পুঁজি নেই হাজার কোটি টাকা" class="lazyload img-loader">
-                        </div>
-                        <h2 class="title">
-                           বিনিয়োগকারীদের পুঁজি নেই হাজার কোটি টাকা
-                        </h2>
-                     </a>
-                     <a href="https://www.dhakapost.com/economy/159395" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
-                        <div class="image-container">
-                           <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/848-20221210084423.jpg?width=130&amp;height=90" alt="জাতীয় ভ্যাট দিবস আজ" class="lazyload img-loader">
-                        </div>
-                        <h2 class="title">
-                           জাতীয় ভ্যাট দিবস আজ
-                        </h2>
-                     </a>
+                     <?php
+                        $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='অর্থনীতি' order by id DESC limit 3,2");
+                        while ($rowdatatopnews = $informationtopnews->fetch()) {
+                           $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                           $text_string_length = strlen($detail_data);
+
+                           if ($text_string_length >= 230) {
+                              $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                           } else {
+                              $news_text_data = $detail_data;
+                           }
+                        ?>
+                        <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="clk-item clk-item-regular py-2 ">
+                           <div class="image-container">
+                              <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                           </div>
+                           <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                        </a>
+                     <?php } ?>
+                     <?php
+                        $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='অর্থনীতি' order by id DESC limit 5,3");
+                        while ($rowdatatopnews = $informationtopnews->fetch()) {
+                           $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                           $text_string_length = strlen($detail_data);
+
+                           if ($text_string_length >= 230) {
+                              $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                           } else {
+                              $news_text_data = $detail_data;
+                           }
+                        ?>
+                        <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="clk-item clk-item-regular py-2 d-none d-sm-flex">
+                           <div class="image-container">
+                              <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                              <i class="fa fa-play-circle video-icon"></i>
+                           </div>
+                           <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                        </a>
+                     <?php } ?>
                   </div>
                </div>
             </div>
@@ -1762,9 +1778,9 @@
          <div class="col-md-3">
             <div class="category-header law-courts-ch d-flex justify-content-between align-items-center mt-2">
                <div class="heading custom-heading">
-                  <p class="title"><a href="https://www.dhakapost.com/health" class="law-courts-lc">স্বাস্থ্য</a></p>
+                  <p class="title"><a href="?menu=Category&menuName=স্বাস্থ্য" class="law-courts-lc">স্বাস্থ্য</a></p>
                </div>
-               <a href="https://www.dhakapost.com/health" class="d-none d-sm-flex">
+               <a href="?menu=Category&menuName=স্বাস্থ্য" class="d-none d-sm-flex">
                   <div class="read-more d-flex justify-content-end align-items-center">
                      <p>আরও খবর</p>
                      <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -1772,30 +1788,44 @@
                </a>
             </div>
             <div class="blk-list scaled">
-               <a href="https://www.dhakapost.com/health/159337" class="news-item-blk py-2 news-blk-image">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/bsmmu-20221209214914.jpg?width=330&amp;height=175" alt="বিএসএমএমইউর রেসিডেন্সি কোর্সে ভর্তি পরীক্ষার ফল প্রকাশ" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     বিএসএমএমইউর রেসিডেন্সি কোর্সে ভর্তি পরীক্ষার ফল প্রকাশ
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/health/158464" class="news-item news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jakkha-20221206080853.jpg?width=130&amp;height=90" alt="এখনও শনাক্তের বাইরে ১৫ শতাংশ যক্ষ্মা রোগী" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     এখনও শনাক্তের বাইরে ১৫ শতাংশ যক্ষ্মা রোগী
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/health/158165" class="news-item news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/health-minister-20221204183348.jpg?width=130&amp;height=90" alt="শেখ হাসিনা হিমালয়ের মতো শক্ত অবস্থানে দাড়িঁয়ে : স্বাস্থ্যমন্ত্রী" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     শেখ হাসিনা হিমালয়ের মতো শক্ত অবস্থানে দাড়িঁয়ে : স্বাস্থ্যমন্ত্রী
-                  </h2>
-               </a>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='স্বাস্থ্য' order by id DESC limit 1,1");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-blk py-2 news-blk-image">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="বিএসএমএমইউর রেসিডেন্সি কোর্সে ভর্তি পরীক্ষার ফল প্রকাশ" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='স্বাস্থ্য' order by id DESC limit 2,2");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="এখনও শনাক্তের বাইরে ১৫ শতাংশ যক্ষ্মা রোগী" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
             </div>
          </div>
          <div class="col-md-6 probash">
@@ -1803,9 +1833,9 @@
                <div class="col-sm-12">
                   <div class="category-header probash-ch d-flex justify-content-between align-items-center mt-2">
                      <div class="heading custom-heading">
-                        <p class="title"><a href="https://www.dhakapost.com/probash" class="probash-lc">প্রবাস</a></p>
+                        <p class="title"><a href="?menu=Category&menuName=প্রবাস" class="probash-lc">প্রবাস</a></p>
                      </div>
-                     <div class="px-2 menu-scroll probash-menu-scroll menu-scroll-left inactive" style="font-size: 22px;"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></div>
+                     <!-- <div class="px-2 menu-scroll probash-menu-scroll menu-scroll-left inactive" style="font-size: 22px;"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></div>
                      <div class="d-none d-sm-flex align-items-center overflow-hidden probash-country-items" style="white-space: nowrap;">
                         <div class="ct-items" data-href="usa">যুক্তরাষ্ট্র</div>
                         <div class="ct-items" data-href="canada">কানাডা</div>
@@ -1820,7 +1850,7 @@
                         <div class="ct-items" data-href="kuwait">কুয়েত</div>
                         <div class="ct-items active" data-href="probash-all">সকল</div>
                      </div>
-                     <div class="px-2 menu-scroll probash-menu-scroll menu-scroll-right active" style="font-size: 22px;"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></div>
+                     <div class="px-2 menu-scroll probash-menu-scroll menu-scroll-right active" style="font-size: 22px;"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></div> -->
                      <a href="https://www.dhakapost.com/probash" class="d-none d-sm-flex" style="white-space: nowrap;">
                         <div class="read-more d-flex justify-content-end align-items-center">
                            <p>আরও খবর</p>
@@ -1832,70 +1862,25 @@
                <div class="col-sm-12 m-px-0 third-right pt-1">
                   <div class="regular-list scaled">
                      <div class="row probash-all country-item">
-                        <a href="https://www.dhakapost.com/probash/159472" class="news-item news-item-regular py-2 col-md-6 ">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/dsnfa-20221210142036.jpg?width=130&amp;height=90" alt="ইতালিতে ৭ বাংলাদেশির মৃত্যু" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              ইতালিতে ৭ বাংলাদেশির মৃত্যু
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/probash/159400" class="news-item news-item-regular py-2 col-md-6 ">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/926-20221210092232.jpg?width=130&amp;height=90" alt="পর্তুগালে বাংলাদেশিদের উদ্যোগে নির্মিত মসজিদের উদ্বোধন" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              পর্তুগালে বাংলাদেশিদের উদ্যোগে নির্মিত মসজিদের উদ্বোধন
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/probash/159372" class="news-item news-item-regular py-2 col-md-6 ">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/kotha-1-20221210023918.jpg?width=130&amp;height=90" alt="কাতার প্রবাসীর প্রযোজিত চলচ্চিত্র ‌‘কথা দিলাম’ এর প্রচারণা শুরু" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              কাতার প্রবাসীর প্রযোজিত চলচ্চিত্র ‌‘কথা দিলাম’ এর প্রচারণা শুরু
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/probash/159191" class="news-item news-item-regular py-2 col-md-6 ">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/paltan-case-202212081857011-20221209093816.jpg?width=130&amp;height=90" alt="দেশের রাজনৈতিক পরিস্থিতি নিয়ে উদ্বিগ্ন দক্ষিণ আফ্রিকা প্রবাসীরা" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              দেশের রাজনৈতিক পরিস্থিতি নিয়ে উদ্বিগ্ন দক্ষিণ আফ্রিকা প্রবাসীরা
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/probash/159002" class="news-item news-item-regular py-2 col-md-6 d-none d-sm-flex">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/afdsd-20221208131108.jpg?width=130&amp;height=90" alt="মিশিগানে সড়ক দুর্ঘটনায় প্রাণ হারালেন শিক্ষাবোর্ড কর্মকর্তা  " class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              মিশিগানে সড়ক দুর্ঘটনায় প্রাণ হারালেন শিক্ষাবোর্ড কর্মকর্তা
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/probash/158968" class="news-item news-item-regular py-2 col-md-6 d-none d-sm-flex">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/1110-20221208110554.jpg?width=130&amp;height=90" alt="এস এ মালেকের মৃত্যুতে কানাডায় প্রবাসী সংগঠনের শোক  " class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              এস এ মালেকের মৃত্যুতে কানাডায় প্রবাসী সংগঠনের শোক
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/probash/158906" class="news-item news-item-regular py-2 col-md-6 d-none d-sm-flex">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/saudi-20221207220448.jpg?width=130&amp;height=90" alt="সৌ‌দি‌তে নারী গৃহকর্মীদের কাউন্সিলিং কার্যক্রম উদ্বোধন" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              সৌ‌দি‌তে নারী গৃহকর্মীদের কাউন্সিলিং কার্যক্রম উদ্বোধন
-                           </h2>
-                        </a>
-                        <a href="https://www.dhakapost.com/probash/158707" class="news-item news-item-regular py-2 col-md-6 d-none d-sm-flex">
-                           <div class="image-container">
-                              <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/probash-20221207104924.jpg?width=130&amp;height=90" alt="প্রবাসীদের বাংলাদেশ বিমানে যাতায়াতের আহ্বান" class="lazyload img-loader">
-                           </div>
-                           <h2 class="title">
-                              প্রবাসীদের বাংলাদেশ বিমানে যাতায়াতের আহ্বান
-                           </h2>
-                        </a>
+                        <?php
+                           $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='প্রবাস' order by id DESC limit 0,8");
+                           while ($rowdatatopnews = $informationtopnews->fetch()) {
+                              $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                              $text_string_length = strlen($detail_data);
+
+                              if ($text_string_length >= 230) {
+                                 $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                              } else {
+                                 $news_text_data = $detail_data;
+                              }
+                           ?>
+                           <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2 col-md-6 ">
+                              <div class="image-container">
+                                 <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                              </div>
+                              <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                           </a>
+                        <?php } ?>
                      </div>
                      <div class="row usa country-item" style="display: none"></div>
                      <div class="row canada country-item" style="display: none"></div>
@@ -1915,9 +1900,9 @@
          <div class="col-md-3">
             <div class="category-header law-courts-ch d-flex justify-content-between align-items-center mt-2">
                <div class="heading custom-heading">
-                  <p class="title"><a href="https://www.dhakapost.com/law-courts" class="law-courts-lc">আইন-আদালত</a></p>
+                  <p class="title"><a href="?menu=Category&menuName=আইন-আদালত" class="law-courts-lc">আইন-আদালত</a></p>
                </div>
-               <a href="https://www.dhakapost.com/law-courts" class="d-none d-sm-flex">
+               <a href="?menu=Category&menuName=আইন-আদালত" class="d-none d-sm-flex">
                   <div class="read-more d-flex justify-content-end align-items-center">
                      <p>আরও খবর</p>
                      <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -1925,30 +1910,44 @@
                </a>
             </div>
             <div class="blk-list scaled">
-               <a href="https://www.dhakapost.com/law-courts/159294" class="news-item-blk py-2 news-blk-image">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/masud-ahmed-20221209180629.jpg?width=330&amp;height=175" alt="এজাহারে ফখরুল-আব্বাসের নাম নেই : আইনজীবী" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     এজাহারে ফখরুল-আব্বাসের নাম নেই : আইনজীবী
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/law-courts/159287" class="news-item news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/cmm-fakhrul-20221209173314.jpg?width=130&amp;height=90" alt="কারাগারের পথে ফখরুল-আব্বাস" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     কারাগারের পথে ফখরুল-আব্বাস
-                  </h2>
-               </a>
-               <a href="https://www.dhakapost.com/law-courts/159283" class="news-item news-item-regular py-2">
-                  <div class="image-container">
-                     <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/cmm-court-fakhrul-20221209173355.jpg?width=130&amp;height=90" alt="পল্টনে সংঘর্ষের মামলায় কারাগারে ফখরুল-আব্বাস" class="lazyload img-loader">
-                  </div>
-                  <h2 class="title">
-                     পল্টনে সংঘর্ষের মামলায় কারাগারে ফখরুল-আব্বাস
-                  </h2>
-               </a>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='আইন-আদালত' order by id DESC limit 1,1");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-blk py-2 news-blk-image">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
+               <?php
+                  $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='আইন-আদালত' order by id DESC limit 2,2");
+                  while ($rowdatatopnews = $informationtopnews->fetch()) {
+                     $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                     $text_string_length = strlen($detail_data);
+
+                     if ($text_string_length >= 230) {
+                        $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                     } else {
+                        $news_text_data = $detail_data;
+                     }
+                  ?>
+                  <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                     <div class="image-container">
+                        <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                     </div>
+                     <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </a>
+               <?php } ?>
             </div>
          </div>
       </div>
@@ -1958,9 +1957,9 @@
    <div class="container pt-3 m-pt-2">
       <div class="category-header lifestyle-ch d-flex justify-content-between align-items-center mt-2">
          <div class="heading lifestyle-heading">
-            <p class="title"><a href="https://www.dhakapost.com/exclusive" class="lifestyle-lc">এক্সক্লুসিভ</a></p>
+            <p class="title"><a href="?menu=Category&menuName=এক্সক্লুসিভ" class="lifestyle-lc">এক্সক্লুসিভ</a></p>
          </div>
-         <a href="https://www.dhakapost.com/exclusive">
+         <a href="?menu=Category&menuName=এক্সক্লুসিভ">
             <div class="read-more d-flex justify-content-end align-items-center">
                <p>আরও খবর</p>
                <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -1968,54 +1967,52 @@
          </a>
       </div>
       <div class="row ocs-items mt-2">
-         <div class="col-sm-3 m-scroll-item align-items-stretch d-flex">
-            <a class="ocs card" href="https://www.dhakapost.com/exclusive/153590">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="ভ্যাট ফাঁকির ৪৮ কোটি টাকা পরিশোধে সিঙ্গারের নয়ছয়!" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022November/singer-20221113115415.jpg?width=330&amp;height=175">
-               </div>
-               <div class="card-body">
-                  <h2 class="card-title">
-                     ভ্যাট ফাঁকির ৪৮ কোটি টাকা পরিশোধে সিঙ্গারের নয়ছয়!
-                  </h2>
-               </div>
-            </a>
-         </div>
-         <div class="col-sm-3 m-scroll-item align-items-stretch d-none d-sm-flex">
-            <a class="ocs card" href="https://www.dhakapost.com/exclusive/151446">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="ট্রেনের কোটি টাকার ওয়াশিং প্ল্যান্ট : যেখানে হাত-ই শেষ সম্বল" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022October/dp-rail-01-20221103091111.jpg?width=330&amp;height=175">
-               </div>
-               <div class="card-body">
-                  <h2 class="card-title">
-                     ট্রেনের কোটি টাকার ওয়াশিং প্ল্যান্ট : যেখানে হাত-ই শেষ সম্বল
-                  </h2>
-               </div>
-            </a>
-         </div>
-         <div class="col-sm-3 m-scroll-item align-items-stretch d-none d-sm-flex">
-            <a class="ocs card" href="https://www.dhakapost.com/exclusive/150382">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="প্রশস্ত রাস্তা না থাকলে আটতলার ভবন হবে চারতলা" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022October/dp-dap-01-20221029125109.jpg?width=330&amp;height=175">
-               </div>
-               <div class="card-body">
-                  <h2 class="card-title">
-                     প্রশস্ত রাস্তা না থাকলে আটতলার ভবন হবে চারতলা
-                  </h2>
-               </div>
-            </a>
-         </div>
-         <div class="col-sm-3 m-scroll-item align-items-stretch d-none d-sm-flex">
-            <a class="ocs card" href="https://www.dhakapost.com/exclusive/146666">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="ছাদ-বাগান আর নির্মাণাধীন ভবন বাড়িয়েছে ডেঙ্গু!" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022October/dengue-20221011124923.jpg?width=330&amp;height=175">
-               </div>
-               <div class="card-body">
-                  <h2 class="card-title">
-                     ছাদ-বাগান আর নির্মাণাধীন ভবন বাড়িয়েছে ডেঙ্গু!
-                  </h2>
-               </div>
-            </a>
-         </div>
+         <?php
+            $informationtopnews = $pdo->query("select  * from  tbl_news order by id DESC limit 0,1");
+            while ($rowdatatopnews = $informationtopnews->fetch()) {
+               $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+               $text_string_length = strlen($detail_data);
+
+               if ($text_string_length >= 230) {
+                  $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+               } else {
+                  $news_text_data = $detail_data;
+               }
+            ?>
+            <div class="col-sm-3 m-scroll-item align-items-stretch d-flex">
+               <a class="ocs card" href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175">
+                  </div>
+                  <div class="card-body">
+                     <h2 class="card-title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </div>
+               </a>
+            </div>
+         <?php } ?>
+         <?php
+            $informationtopnews = $pdo->query("select  * from  tbl_news order by id DESC limit 1,3");
+            while ($rowdatatopnews = $informationtopnews->fetch()) {
+               $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+               $text_string_length = strlen($detail_data);
+
+               if ($text_string_length >= 230) {
+                  $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+               } else {
+                  $news_text_data = $detail_data;
+               }
+            ?>
+            <div class="col-sm-3 m-scroll-item align-items-stretch d-none d-sm-flex">
+               <a class="ocs card" href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" class="lazyload img-loader card-img-top" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175">
+                  </div>
+                  <div class="card-body">
+                     <h2 class="card-title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+                  </div>
+               </a>
+            </div>
+         <?php } ?>
       </div>
    </div>
 </div>
@@ -2024,9 +2021,9 @@
       <div class="col-lg-3 col-md-6">
          <div class="category-header lifestyle-ch d-flex justify-content-between align-items-center mt-2">
             <div class="heading lifestyle-heading">
-               <p class="title"><a href="https://www.dhakapost.com/lifestyle" class="lifestyle-lc">লাইফস্টাইল</a></p>
+               <p class="title"><a href="?menu=Category&menuName=লাইফস্টাইল" class="lifestyle-lc">লাইফস্টাইল</a></p>
             </div>
-            <a href="https://www.dhakapost.com/lifestyle" class="d-none d-sm-flex">
+            <a href="?menu=Category&menuName=লাইফস্টাইল" class="d-none d-sm-flex">
                <div class="read-more d-flex justify-content-end align-items-center">
                   <p>আরও খবর</p>
                   <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -2034,38 +2031,52 @@
             </a>
          </div>
          <div class="blk-list scaled">
-            <a href="https://www.dhakapost.com/lifestyle/159420" class="news-item-blk py-2 news-blk-image">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/kof-20221210110130.jpg?width=330&amp;height=175" alt="গলায় কফ জমেছে? জেনে নিন সহজ সমাধান" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  গলায় কফ জমেছে? জেনে নিন সহজ সমাধান
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/lifestyle/159017" class="news-item news-item-regular py-2">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/mula-20221208140010.jpg?width=130&amp;height=90" alt="মুলা পছন্দ করেন না? উপকারিতা জানলে ভালো লাগবেই" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  মুলা পছন্দ করেন না? উপকারিতা জানলে ভালো লাগবেই
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/lifestyle/158991" class="news-item news-item-regular py-2">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/vufri-20221208122616.jpg?width=130&amp;height=90" alt="খাওয়া কমানোর পরেও ভুঁড়ি বেড়েই চলছে যে কারণে" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  খাওয়া কমানোর পরেও ভুঁড়ি বেড়েই চলছে যে কারণে
-               </h2>
-            </a>
+            <?php
+               $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='লাইফস্টাইল' order by id DESC limit 0,1");
+               while ($rowdatatopnews = $informationtopnews->fetch()) {
+                  $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                  $text_string_length = strlen($detail_data);
+
+                  if ($text_string_length >= 230) {
+                     $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                  } else {
+                     $news_text_data = $detail_data;
+                  }
+               ?>
+               <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-blk py-2 news-blk-image">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                  </div>
+                  <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+               </a>
+            <?php } ?>
+            <?php
+               $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='লাইফস্টাইল' order by id DESC limit 1,2");
+               while ($rowdatatopnews = $informationtopnews->fetch()) {
+                  $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                  $text_string_length = strlen($detail_data);
+
+                  if ($text_string_length >= 230) {
+                     $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                  } else {
+                     $news_text_data = $detail_data;
+                  }
+               ?>
+               <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                  </div>
+                  <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+               </a>
+            <?php } ?>
          </div>
       </div>
       <div class="col-lg-3 col-md-6">
          <div class="category-header technology-ch d-flex justify-content-between align-items-center mt-2">
             <div class="heading custom-heading">
-               <p class="title"><a href="https://www.dhakapost.com/technology" class="technology-lc">তথ্যপ্রযুক্তি</a></p>
+               <p class="title"><a href="?menu=Category&menuName=তথ্যপ্রযুক্তি" class="technology-lc">তথ্যপ্রযুক্তি</a></p>
             </div>
-            <a href="https://www.dhakapost.com/technology" class="d-none d-sm-flex">
+            <a href="?menu=Category&menuName=তথ্যপ্রযুক্তি" class="d-none d-sm-flex">
                <div class="read-more d-flex justify-content-end align-items-center">
                   <p>আরও খবর</p>
                   <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -2073,38 +2084,52 @@
             </a>
          </div>
          <div class="blk-list scaled">
-            <a href="https://www.dhakapost.com/technology/159413" class="news-item-blk py-2 news-blk-image">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/apple-20221210103826.jpg?width=330&amp;height=175" alt="উদ্ভাবনে ১০০ বিলিয়ন ডলার খরচ করেছে অ্যাপল" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  উদ্ভাবনে ১০০ বিলিয়ন ডলার খরচ করেছে অ্যাপল
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/technology/159051" class="news-item news-item-regular py-2">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/whatsapp-record-20221208152640.jpg?width=130&amp;height=90" alt="অ্যানড্রয়েড ফোনে হোয়াটসঅ্যাপ কল রেকর্ড করার উপায়" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  অ্যানড্রয়েড ফোনে হোয়াটসঅ্যাপ কল রেকর্ড করার উপায়
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/technology/158997" class="news-item news-item-regular py-2">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/nupur-sharma-20221208125850.jpg?width=130&amp;height=90" alt="২০২২ সালে গুগল সার্চে শীর্ষে ছিলেন যারা" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  ২০২২ সালে গুগল সার্চে শীর্ষে ছিলেন যারা
-               </h2>
-            </a>
+            <?php
+               $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='তথ্যপ্রযুক্তি' order by id DESC limit 0,1");
+               while ($rowdatatopnews = $informationtopnews->fetch()) {
+                  $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                  $text_string_length = strlen($detail_data);
+
+                  if ($text_string_length >= 230) {
+                     $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                  } else {
+                     $news_text_data = $detail_data;
+                  }
+               ?>
+               <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-blk py-2 news-blk-image">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                  </div>
+                  <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+               </a>
+            <?php } ?>
+            <?php
+               $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='তথ্যপ্রযুক্তি' order by id DESC limit 0,1");
+               while ($rowdatatopnews = $informationtopnews->fetch()) {
+                  $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                  $text_string_length = strlen($detail_data);
+
+                  if ($text_string_length >= 230) {
+                     $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                  } else {
+                     $news_text_data = $detail_data;
+                  }
+               ?>
+               <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                  </div>
+                  <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+               </a>
+            <?php } ?>
          </div>
       </div>
       <div class="col-lg-3 col-md-6">
          <div class="category-header religion-ch d-flex justify-content-between align-items-center mt-2">
             <div class="heading islam-heading">
-               <p class="title"><a href="https://www.dhakapost.com/religion" class="religion-lc">ধর্ম</a></p>
+               <p class="title"><a href="?menu=Category&menuName=ধর্ম" class="religion-lc">ধর্ম</a></p>
             </div>
-            <a href="https://www.dhakapost.com/religion" class="d-none d-sm-flex">
+            <a href="?menu=Category&menuName=ধর্ম" class="d-none d-sm-flex">
                <div class="read-more d-flex justify-content-end align-items-center">
                   <p>আরও খবর</p>
                   <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -2112,38 +2137,52 @@
             </a>
          </div>
          <div class="blk-list scaled">
-            <a href="https://www.dhakapost.com/religion/159536" class="news-item-blk py-2 news-blk-image">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/namaj-20210925114033-20221210182158.jpg?width=330&amp;height=175" alt="নামাজের সময় যেমন পোশাক পড়বেন" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  নামাজের সময় যেমন পোশাক পড়বেন
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/religion/159514" class="news-item news-item-regular py-2">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/food-20221210170859.jpg?width=130&amp;height=90" alt="হালাল খাবার গ্রহণে কোরআনের নির্দেশনা" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  হালাল খাবার গ্রহণে কোরআনের নির্দেশনা
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/religion/159495" class="news-item news-item-regular py-2">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/untitled-1-20221012132741-20221210155517.jpg?width=130&amp;height=90" alt="জানাজার নামাজের দোয়া ও ফজিলত" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  জানাজার নামাজের দোয়া ও ফজিলত
-               </h2>
-            </a>
+            <?php
+               $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='ধর্ম' order by id DESC limit 1,1");
+               while ($rowdatatopnews = $informationtopnews->fetch()) {
+                  $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                  $text_string_length = strlen($detail_data);
+
+                  if ($text_string_length >= 230) {
+                     $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                  } else {
+                     $news_text_data = $detail_data;
+                  }
+               ?>
+               <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-blk py-2 news-blk-image">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                  </div>
+                  <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+               </a>
+            <?php } ?>
+            <?php
+               $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='ধর্ম' order by id DESC limit 2,2");
+               while ($rowdatatopnews = $informationtopnews->fetch()) {
+                  $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                  $text_string_length = strlen($detail_data);
+
+                  if ($text_string_length >= 230) {
+                     $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                  } else {
+                     $news_text_data = $detail_data;
+                  }
+               ?>
+               <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                  </div>
+                  <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+               </a>
+            <?php } ?>
          </div>
       </div>
       <div class="col-lg-3 col-md-6">
          <div class="category-header tourism-ch d-flex justify-content-between align-items-center mt-2">
             <div class="heading custom-heading">
-               <p class="title"><a href="https://www.dhakapost.com/jobs-career" class="tourism-lc">জবস</a></p>
+               <p class="title"><a href="?menu=Category&menuName=চাকরি" class="tourism-lc">চাকরি</a></p>
             </div>
-            <a href="https://www.dhakapost.com/jobs-career" class="d-none d-sm-flex">
+            <a href="?menu=Category&menuName=চাকরি" class="d-none d-sm-flex">
                <div class="read-more d-flex justify-content-end align-items-center">
                   <p>আরও খবর</p>
                   <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
@@ -2151,30 +2190,44 @@
             </a>
          </div>
          <div class="blk-list scaled">
-            <a href="https://www.dhakapost.com/jobs-career/159607" class="news-item-blk py-2 news-blk-image">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobss-20221201113304-20221211082235.jpg?width=330&amp;height=175" alt="সপ্তাহে দুইদিন ছুটিসহ ঢাকার বাইরে চাকরি, বেতন ২৬০০০" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  সপ্তাহে দুইদিন ছুটিসহ ঢাকার বাইরে চাকরি, বেতন ২৬০০০
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/jobs-career/159596" class="news-item news-item-regular py-2">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/akij-group-jobs-20221022115945-20221024151002-20221027081358-20221101074229-20221123080745-20221129101106-20221211074059.jpg?width=130&amp;height=90" alt="ওয়ালটনে চাকরির সুযোগ, বেতন ৩০০০০" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  ওয়ালটনে চাকরির সুযোগ, বেতন ৩০০০০
-               </h2>
-            </a>
-            <a href="https://www.dhakapost.com/jobs-career/159482" class="news-item news-item-regular py-2">
-               <div class="image-container">
-                  <img src="assets/img/placeholder.png" data-src="https://assets.dhakapost.com/media/imgAll/BG/2022December/jobss-20221128132452-20221210145819.jpg?width=130&amp;height=90" alt="মেট্রোরেলের নিয়োগ পরীক্ষার সূচি প্রকাশ" class="lazyload img-loader">
-               </div>
-               <h2 class="title">
-                  মেট্রোরেলের নিয়োগ পরীক্ষার সূচি প্রকাশ
-               </h2>
-            </a>
+            <?php
+               $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='চাকরি' order by id DESC limit 0,1");
+               while ($rowdatatopnews = $informationtopnews->fetch()) {
+                  $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                  $text_string_length = strlen($detail_data);
+
+                  if ($text_string_length >= 230) {
+                     $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                  } else {
+                     $news_text_data = $detail_data;
+                  }
+               ?>
+               <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item-blk py-2 news-blk-image">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=330&amp;height=175" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                  </div>
+                  <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+               </a>
+            <?php } ?>
+            <?php
+               $informationtopnews = $pdo->query("select  * from  tbl_news where categoryid='চাকরি' order by id DESC limit 1,2");
+               while ($rowdatatopnews = $informationtopnews->fetch()) {
+                  $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
+                  $text_string_length = strlen($detail_data);
+
+                  if ($text_string_length >= 230) {
+                     $news_text_data = substr($detail_data, 0, strpos($detail_data, ' ', 220));
+                  } else {
+                     $news_text_data = $detail_data;
+                  }
+               ?>
+               <a href="?menu=NewsDetail&menuName=<?php echo $rowdatatopnews["categoryid"]; ?>&Detail=<?php echo $rowdatatopnews["id"]; ?>" class="news-item news-item-regular py-2">
+                  <div class="image-container">
+                     <img src="assets/img/placeholder.png" data-src="NewsImage/<?php echo $rowdatatopnews['image']; ?>?width=130&amp;height=90" alt="<?php echo $rowdatatopnews["title_bn"]; ?>" class="lazyload img-loader">
+                  </div>
+                  <h2 class="title"><?php echo $rowdatatopnews["title_bn"]; ?></h2>
+               </a>
+            <?php } ?>
          </div>
       </div>
    </div>

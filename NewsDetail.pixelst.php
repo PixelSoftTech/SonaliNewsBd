@@ -846,7 +846,7 @@ if (isset($_GET["Detail"])) {
                                     <div class="more-items pt-2">
                                         <div class="row d-flex justify-content-center">
                                             <?php
-                                            $informationtwotopnews = $pdo->query("select  * from  tbl_news where news_live_time<='$news_publish_time' and categoryid='$news_category' order by id DESC limit 0,6");
+                                            $informationtwotopnews = $pdo->query("select  * from  tbl_news where news_live_time<='$news_publish_time' and categoryid='$news_category' order by id DESC limit 1,6");
                                             while ($rowdatatwotopnews = $informationtwotopnews->fetch()) {
                                             ?>
                                                 <div class="col-sm-4 box-news">

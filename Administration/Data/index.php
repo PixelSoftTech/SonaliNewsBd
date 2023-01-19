@@ -26,7 +26,7 @@ include('delete.php');
   
 
   <!----------Print --------------> 
-        <link rel="icon" type="image/png" href="../../img/ND.png"/>
+  <link rel="icon" type="image/png" href="../../assets/img/ND.png"/>
    
 
 <!--Print New-->
