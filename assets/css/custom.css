@@ -1,1 +1,161 @@
-@font-face{font-family:SolaimanLipi;font-style:normal;font-weight:400;src:url(../fonts/SolaimanLipi.eot) format("embedded-opentype"),url(../fonts/SolaimanLipi.woff) format("woff"),url(../fonts/SolaimanLipi.ttf) format("truetype"),url(../fonts/SolaimanLipi.svg) format("svg");font-display:swap}
+@font-face {
+    font-family: SolaimanLipi;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/SolaimanLipi.eot) format("embedded-opentype"), url(../fonts/SolaimanLipi.woff) format("woff"), url(../fonts/SolaimanLipi.ttf) format("truetype"), url(../fonts/SolaimanLipi.svg) format("svg");
+    font-display: swap
+}
+
+/* From index.php page  */
+
+.category-header .read-more {
+    background: none;
+}
+
+.sct-items.active {
+    background: #dfdfdf;
+}
+
+.et-items.active {
+    background: #dfdfdf;
+}
+
+.ect-items.active {
+    background: #dfdfdf;
+}
+
+.trending-tag {
+    display: flex;
+}
+
+.trending-tag span {
+    color: #124B65;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.trending-tag a {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 7px;
+    padding: 3px 10px;
+    background: #136254;
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .trending-tag {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .trending-tag {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+    .trending-tag {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+
+.sports-section-contents .news-item img {
+    height: 75px;
+}
+
+
+
+/* From Country map page  */
+/*svg {
+    width: 100%;
+    height: 100%;
+}*/
+.svg a:hover {
+    opacity: 0.7;
+}
+.subcat-header {
+    border-bottom: 1px solid #d8d8d8;
+}
+.subcat-header h1 {
+    font-size: 38px;
+}
+
+.btn_barisal {
+    background-color: #b3b60e;
+    color: #ffffff;
+}
+.btn_barisal:hover {
+    background-color: #D3D620;
+    transition: 0.3ms all ease-in-out;
+}
+.btn_dhaka {
+    background-color: #14ca84;
+    color: #ffffff;
+}
+.btn_dhaka:hover {
+    background-color: #22E69B;
+    transition: 0.3ms all ease-in-out;
+}
+.btn_shyleth {
+    background-color: #82c03f;
+    color: #ffffff;
+}
+.btn_shyleth:hover {
+    background-color: #9fd664;
+    transition: 0.3ms all ease-in-out;
+}
+.btn_rongpur {
+    background-color: #99a3f1;
+    color: #ffffff;
+}
+.btn_rongpur:hover {
+    background-color: #BEC5F6;
+    transition: 0.3ms all ease-in-out;
+}
+.btn_rajshahi {
+    background-color: #e4a93d;
+    color: #ffffff;
+}
+.btn_rajshahi:hover {
+    background-color: #eebc5e;
+    transition: 0.3ms all ease-in-out;
+}
+.btn_khulna {
+    background-color: #71d35e;
+    color: #ffffff;
+}
+.btn_khulna:hover {
+    background-color: #95e784;
+    transition: 0.3ms all ease-in-out;
+}
+.btn_mymenshingh {
+    background-color: #f34e4e;
+    color: #ffffff;
+}
+.btn_mymenshingh:hover {
+    background-color: #fc6363;
+    transition: 0.3ms all ease-in-out;
+}
+.btn_chottogram {
+    background-color: #a893ee;
+    color: #ffffff;
+}
+.btn_chottogram:hover {
+    background-color: #bdacf3;
+    transition: 0.3ms all ease-in-out;
+}

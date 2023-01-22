@@ -179,6 +179,7 @@ include('DBhandelar.php');
             </button>
             <div class="navbar-collapse collapse" id="main-nav-1">
                <div style="width: 99%">
+               <!-- Large Screen Menu Start  -->
                   <ul class="navbar-nav m-auto d-none d-lg-flex d-menu-items justify-content-center">
                      <li class="nav-item">
                         <a title="" href="index.php" class="nav-link">প্রচ্ছদ</a>
@@ -198,7 +199,7 @@ include('DBhandelar.php');
                      <li class="nav-item dropdown dropdown-toggle" style="display: flex; color: #FFF; align-items: center;">
                         <a title="" href="?menu=HoleCountry" class="nav-link">সারাদেশ</a>
                         <div class="dropdown-menu single-dropdown s-dr-menu m-0" aria-labelledby="navbarDropdown">
-                           <a class="dropdown-item" href="" style="padding: 5px 0;">জেলার খবর</a>
+                           <a class="dropdown-item" href="?menu=DistNews" style="padding: 5px 0;">জেলার খবর</a>
                         </div>
                      </li>
                      <li class="nav-item">
@@ -269,7 +270,7 @@ include('DBhandelar.php');
                                     <a href="?menu=Category&menuName=ক্যাম্পাস">ক্যাম্পাস</a>
                                  </div>
                                  <div class="col-sm-2">
-                                    <a href="?menu=Category&menuName=এক্সক্লুসিভ">এক্সক্লুসিভ</a>
+                                    <a href="?menu=Latest">এক্সক্লুসিভ</a>
                                  </div>
                                  <div class="col-sm-2">
                                     <a href="?menu=Category&menuName=গণমাধ্যম">গণমাধ্যম</a>
@@ -288,6 +289,7 @@ include('DBhandelar.php');
                         </button>
                      </li>
                   </ul>
+               <!-- Large Screen Menu End  -->
                </div>
                <div class="d-flex d-lg-none" style="position: fixed; padding: 1rem; background: #f5f5f5; width: 100%; color: #FFF; justify-content:space-between">
                   <button class="navbar-toggler m-margin-reducer-left-14 text-white" type="button" data-toggle="collapse" data-target="#main-nav-1" aria-controls="main-nav-1" aria-expanded="true" aria-label="Toggle navigation">
@@ -297,6 +299,91 @@ include('DBhandelar.php');
                      <span class="sr-only">DP</span>
                   </button>
                </div>
+               <!-- This is Mobile Menu Section Start -->
+               <ul class="navbar-nav d-flex d-lg-none mobile-menu" style="justify-content: space-between;flex-flow: wrap;padding: 3.8rem 0;">
+                  <li class="nav-item">
+                     <a title="" href="index.php" class="nav-link">প্রচ্ছদ</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Latest" class="nav-link">সর্বশেষ</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=জাতীয়" class="nav-link">জাতীয়</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=রাজনীতি" class="nav-link">রাজনীতি</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=অর্থনীতি" class="nav-link">অর্থনীতি</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=HoleCountry" class="nav-link">সারাদেশ</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=আন্তর্জাতিক" class="nav-link">আন্তর্জাতিক</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=খেলা" class="nav-link">খেলা</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=বিনোদন" class="nav-link">বিনোদন</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=স্বাস্থ্য" class="nav-link">স্বাস্থ্য</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=শিক্ষা" class="nav-link">শিক্ষা</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=DistNews" class="nav-link">জেলার খবর</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=লাইফস্টাইল" class="nav-link">লাইফস্টাইল</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=গণমাধ্যম" class="nav-link">গণমাধ্যম</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=আইন-আদালত" class="nav-link">আইন-আদালত</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=কৃষি ও প্রকৃতি" class="nav-link">কৃষি ও প্রকৃতি</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=তথ্যপ্রযুক্তি" class="nav-link">তথ্যপ্রযুক্তি</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=আবহাওয়া" class="nav-link">আবহাওয়া</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=ভ্রমন" class="nav-link">ভ্রমন</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=ধর্ম" class="nav-link">ধর্ম</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=চাকরি" class="nav-link">চাকরি</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=মতামত" class="nav-link">মতামত</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Latest" class="nav-link">এক্সক্লুসিভ</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=প্রবাস" class="nav-link">প্রবাস</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=ছোটদের পোস্ট" class="nav-link">ছোটদের পোস্ট</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=সাহিত্য ও সংস্কৃতি" class="nav-link">সাহিত্য ও সংস্কৃতি</a>
+                  </li>
+                  <li class="nav-item">
+                     <a title="" href="?menu=Category&menuName=ক্যাম্পাস" class="nav-link">ক্যাম্পাস</a>
+                  </li>
+               </ul>
+               <!-- This is Mobile Menu Section End  -->
             </div>
          </div>
          <!-- <form class="search-wrapper needs-validation" style="display: none;" method="post" action="?menu=NewsSearch&menuName=সংবাদ" accept-charset="UTF-8"  enctype="multipart/form-data">

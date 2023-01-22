@@ -27,20 +27,20 @@
                     <a href="" class="text-white">বিজ্ঞাপন</a>
                 </div>
                 <div class="footerNewAddress text-center py-3">
-                    <p class="text-white">৯৮ কাজী নজরুল ইসলাম এভিনিউ, কাওরান বাজার, ঢাকা-১২১৫</p>
+                    <p>৯৮ কাজী নজরুল ইসলাম এভিনিউ, কাওরান বাজার, ঢাকা-১২১৫</p>
                     <p>
-                        <a href="tel:+8809613678678" aria-label="Telephone" class="text-white" target="_blank" rel="nofollow noopener">
-                            <abbr title="Phone"><i class="fa fa-phone"></i> </abbr>&nbsp;+৮৮০ ১২১৩ ৬৭৮৬৭৮<br>
+                        <a href="tel:+8809611111111" aria-label="Telephone" class="text-white" target="_blank" rel="nofollow noopener">
+                            <abbr title="Phone"><i class="fa fa-phone"></i> </abbr>&nbsp;+৮৮০ ১২১৩ ৬৬৬৬৬৬<br>
                         </a>
                     </p>
                     <p>
-                        <a href="tel:+8801313767742" aria-label="Mobile" class="text-white" target="_blank" rel="nofollow noopener">
-                            <abbr title="Mobile"><i class="fa fa-mobile"></i> </abbr>&nbsp;+৮৮০ ৫১৫১ ৭৬৭৭৪২<br>
+                        <a href="tel:+8801313777777" aria-label="Mobile" class="text-white" target="_blank" rel="nofollow noopener">
+                            <abbr title="Mobile"><i class="fa fa-mobile"></i> </abbr>&nbsp;+৮৮০ ৫১৫১ ৭৭৭৭৭৭<br>
                         </a>
                     </p>
                     <p>
                         <a href="https://wa.me/8801777707600" aria-label="Whatsapp" class="text-white" target="_blank" rel="nofollow noopener">
-                            <abbr title="WhatsApp"><i class="fa fa-whatsapp"></i> </abbr>&nbsp;+৮৮০ ১৬৬৬ ৭০৭৬০০<br>
+                            <abbr title="WhatsApp"><i class="fa fa-whatsapp"></i> </abbr>&nbsp;+৮৮০ ১৬৬৬ ৮৮৮৮৮৮<br>
                         </a>
                     </p>
                     <p>
@@ -50,8 +50,7 @@
                     </p>
                 </div>
                 <div class="footerText text-white">
-                    <h1>News Depend (নিউজ ডিপেন্ড) is one of the most popular and reliable Bangla News publishers. </h1>
-                    <p>News Depend is owned by Sonali Entertainment.
+                    <p>News Depend (নিউজ ডিপেন্ড) is one of the most popular and reliable Bangla News publishers. News Depend is owned by Sonali Entertainment.
                     </p>
                 </div>
                 <div class="ownerSection">
@@ -112,13 +111,6 @@
             border-bottom: 1px solid #f19f9f;
         }
 
-        .footerText h1 {
-            display: inline;
-            font-size: 15px;
-            line-height: 1.3;
-            font-weight: normal;
-        }
-
         .footerText p {
             display: inline;
             font-size: 15px;
@@ -165,6 +157,10 @@
             }
             .ownerSection p{
                 padding-bottom: 10px;
+                font-size: 14px;
+            }
+            .footerText p {
+                font-size: 13px;
             }
         }
 
@@ -198,9 +194,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script async src="assets/js/loader.js"></script>
+    <script async src="assets/js/prayertime.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script async src="assets/js/areaSearch.js"></script>
+   
     <!-- <script>
         let economyItems = document.querySelectorAll('.economy-item');
         let ectItems = document.querySelectorAll('.ect-items');

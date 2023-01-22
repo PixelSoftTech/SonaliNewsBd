@@ -2,7 +2,7 @@
 
          <main role="main">
             <div data-nosnippet>
-               <style>
+               <!-- <style>
                   .category-header .read-more {
                   background: none;
                   }
@@ -65,7 +65,7 @@
                   .sports-section-contents .news-item img {
                      height: 75px;
                   }
-               </style>
+               </style> -->
               	<?php
                   $file_check=file_exists("$page_title_data");
                      if($file_check==1){

@@ -419,14 +419,14 @@
                         $Upo = ""; 
                     }
 
-                if($Divis !=""){
-                    $query ="Division = '$Divis'";
+                if($Divis !="" && $Dist !="" && $Upo !=""){
+                    $query ="Division = '$Divis' and District = '$Dist' and Upozila = '$Upo'";
                 }
                 elseif($Divis !="" && $Dist !=""){
-                    $query ="Division = '$Divis'  District = '$Dist'";
+                    $query ="Division = '$Divis' and  District = '$Dist'";
                 } 
                 else{
-                    $query ="Division = '$Divis' or District = '$Dist' or Upozila = '$Upo'";
+                    $query ="Division = '$Divis'";
                 }  
             ?>
             <div class="col-lg-9 col-md-8 border-right">
@@ -553,14 +553,11 @@
                                 </div>
                             </div>
                             <div class="col-12" style="padding: 8px 0">
-                                <input class="btn bg-primary  btn-block text-white"  name="submit" id="submit" type="submit" value="খুঁজুন" ><i class="fa fa-search ml-2" style="color: #FFF !important; height: 100%"></i>
-               
-                                <!-- <button type="button" class="btn bg-primary dis-sea btn-block text-white"
-                                    aria-label="Search">
-                                    খুঁজুন
-                                    <i class="fa fa-search ml-2" style="color: #FFF !important; height: 100%"></i>
-                                </button> -->
-                                <i class="fa fa-search" style="color: #FFF !important"></i></button>
+                                <!-- <input class="btn bg-primary  btn-block text-white"  name="submit" id="submit" type="submit" value="খুঁজুন" ><i class="fa fa-search ml-2" style="color: #FFF !important; height: 100%"></i>
+                                <i class="fa fa-search" style="color: #FFF !important"></i></button> -->
+                                <button name="submit" id="submit" type="submit" class="btn dis-sea btn-block bg-primary" aria-label="Search" style="padding: 4.5px 0px;">
+                                <p style="color:#FFF; font-size:18px;">খুঁজুন <i class="fa fa-search" style="padding-left: 5px; color: #FFF !important; font-size:16px;"></i></p>
+                            </button>
                             </div>
                         </div>
                     </form>

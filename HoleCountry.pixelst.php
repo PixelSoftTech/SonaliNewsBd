@@ -244,7 +244,7 @@
                                 <div class="row">
                                     <div class="col-lg-8 top-left-section lead-top">
                                         <?php
-                                            $informationtopnews = $pdo->query("select * from tbl_news where categoryid <> 'আন্তর্জাতিক' order by id DESC limit 0,1");
+                                            $informationtopnews = $pdo->query("select * from tbl_news where categoryid <> 'আন্তর্জাতিক' and categoryid <> 'বিনোদন' and categoryid <> 'খেলা' order by id DESC limit 0,1");
                                             
                                             while ($rowdatatopnews = $informationtopnews->fetch()) {
                                             $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
@@ -275,7 +275,7 @@
                                     <div class="col-lg-4 cat-two-items">
                                         <div class="row">
                                         <?php
-                                            $informationtopnews = $pdo->query("select * from tbl_news where categoryid <> 'আন্তর্জাতিক' order by id DESC limit 1,2");
+                                            $informationtopnews = $pdo->query("select * from tbl_news where categoryid <> 'আন্তর্জাতিক' and categoryid <> 'বিনোদন' and categoryid <> 'খেলা' order by id DESC limit 1,2");
                                             
                                             while ($rowdatatopnews = $informationtopnews->fetch()) {
                                             $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
@@ -306,7 +306,7 @@
                             </div>
                             <div class="row more-contents">
                             <?php
-                                            $informationtopnews = $pdo->query("select * from tbl_news where categoryid <> 'আন্তর্জাতিক' order by id DESC limit 3,18");
+                                            $informationtopnews = $pdo->query("select * from tbl_news where categoryid <> 'আন্তর্জাতিক' and categoryid <> 'বিনোদন' and categoryid <> 'খেলা' order by id DESC limit 3,18");
                                             
                                             while ($rowdatatopnews = $informationtopnews->fetch()) {
                                             $detail_data = strip_tags($rowdatatopnews["detail_bn"]);
@@ -368,59 +368,57 @@
                                         <p class="title bangladesh-lc">আপনার এলাকার খবর</p>
                                     </div>
                                 </div>
-                                <div class="row" style="margin: 0">
-                                    <div class='col-12' style="padding: 8px 0">
-                                        <div class="form-group" style="margin: 0">
-                                            <select  class="form-control" name="Division" id="divisions" onchange="divisionsList();">
-                                                <option selected disabled value="">বিভাগ</option>
-                                                <option data-value="Dhaka" value="ঢাকা">ঢাকা</option>
-                                                <option data-value="Barishal" value="বরিশাল">বরিশাল</option>
-                                                <option data-value="Sylhet" value="সিলেট">সিলেট</option>
-                                                <option data-value="Chattogram" value="চট্টগ্রাম">চট্টগ্রাম</option>
-                                                <option data-value="Rajshahi" value="রাজশাহী">রাজশাহী</option>
-                                                <option data-value="Khulna" value="খুলনা">খুলনা</option>
-                                                <option data-value="Rangpur" value="রংপুর">রংপুর</option>
-                                                <option data-value="Mymensingh" value="ময়মনসিংহ">ময়মনসিংহ</option>
-                                            </select>
-                                            <script>
-                                                $("#divisions").select2({
-                                                    allowClear: true,
-                                                    placeholder: 'বিভাগ'
-                                                });
-                                            </script>
+                                <form method="POST" action="?menu=SearchResult&menuName=সংবাদ" accept-charset="UTF-8" class="form" enctype="multipart/form-data">
+                                    <div class="row" style="margin: 0">
+                                        <div class='col-12' style="padding: 8px 0">
+                                            <div class="form-group" style="margin: 0">
+                                                <select  class="form-control" name="Division" id="divisions" onchange="divisionsList();">
+                                                    <option selected disabled value="">বিভাগ</option>
+                                                    <option data-value="Dhaka" value="ঢাকা">ঢাকা</option>
+                                                    <option data-value="Barishal" value="বরিশাল">বরিশাল</option>
+                                                    <option data-value="Sylhet" value="সিলেট">সিলেট</option>
+                                                    <option data-value="Chattogram" value="চট্টগ্রাম">চট্টগ্রাম</option>
+                                                    <option data-value="Rajshahi" value="রাজশাহী">রাজশাহী</option>
+                                                    <option data-value="Khulna" value="খুলনা">খুলনা</option>
+                                                    <option data-value="Rangpur" value="রংপুর">রংপুর</option>
+                                                    <option data-value="Mymensingh" value="ময়মনসিংহ">ময়মনসিংহ</option>
+                                                </select>
+                                                <script>
+                                                    $("#divisions").select2({
+                                                        allowClear: true,
+                                                        placeholder: 'বিভাগ'
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                        <div class='col-12' style="padding: 8px 0">
+                                            <div class="form-group" style="margin: 0">
+                                                <select class="form-control" name="District" id="distr" onchange="thanaList();"></select>
+                                                <script>
+                                                    $("#distr").select2({
+                                                        allowClear: true,
+                                                        placeholder: 'জেলা'
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                        <div class="col-12" style="padding: 8px 0">
+                                            <div class="form-group" style="margin: 0">
+                                                <select class="form-control" name="Upozila" id="upo"></select>
+                                                <script>
+                                                    $("#upo").select2({
+                                                        allowClear: true,
+                                                        placeholder: 'উপজেলা'
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                        <div class="col-12" style="padding: 8px 0">
+                                            <button name="submit" id="submit" type="submit" class="btn dis-sea btn-block bg-primary" aria-label="Search" style="padding: 4.5px 0px;">
+                                            <p style="color:#FFF; font-size:18px;">খুঁজুন <i class="fa fa-search" style="padding-left: 5px; color: #FFF !important; font-size:16px;"></i></p>
                                         </div>
                                     </div>
-                                    <div class='col-12' style="padding: 8px 0">
-                                        <div class="form-group" style="margin: 0">
-                                            <select class="form-control" name="District" id="distr" onchange="thanaList();"></select>
-                                            <script>
-                                                $("#distr").select2({
-                                                    allowClear: true,
-                                                    placeholder: 'জেলা'
-                                                });
-                                            </script>
-                                        </div>
-                                    </div>
-                                    <div class="col-12" style="padding: 8px 0">
-                                        <div class="form-group" style="margin: 0">
-                                            <select class="form-control" name="Upozila" id="upo"></select>
-                                            <script>
-                                                $("#upo").select2({
-                                                    allowClear: true,
-                                                    placeholder: 'উপজেলা'
-                                                });
-                                            </script>
-                                        </div>
-                                    </div>
-                                    <div class="col-12" style="padding: 8px 0">
-                                        <button type="button" class="btn bg-primary dis-sea btn-block text-white"
-                                            aria-label="Search">
-                                            খুঁজুন
-                                            <i class="fa fa-search ml-2"
-                                                style="color: #FFF !important; height: 100%"></i>
-                                        </button>
-                                    </div>
-                                </div>
+                                </form>
                             </div>
                             <div class="category-right-section-top">
                                 <div class="category-header d-flex justify-content-between align-items-center mt-2">
